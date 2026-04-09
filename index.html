@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>손해보험 모의고사</title>
+<meta name="theme-color" content="#3182f6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="보험모의고사">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <span class="header-title">손해보험 모의고사</span>
+  </div>
+</header>
+
+<div class="container">
+  <div class="page-top">
+    <div class="page-title">시험을 선택하세요</div>
+    <div class="page-sub">손해보험 자격시험 대비</div>
+  </div>
+
+  <div id="examGrid" class="exam-grid"></div>
+
+  <div class="card" style="margin-top:20px">
+    <div class="label">Gemini API 키</div>
+    <input type="password" id="apiKeyInput" class="input" placeholder="AIza..." autocomplete="off">
+    <div style="font-size:12px;color:var(--gray-500);margin-top:6px">
+      키는 이 기기에만 저장되며 외부로 전송되지 않습니다.
+    </div>
+  </div>
+
+  <div id="historySection" style="margin-top:8px"></div>
+
+  <!-- 사용 설명서 -->
+  <div style="margin-top:24px">
+    <button class="btn btn-secondary btn-full" onclick="toggleGuide()" id="guideToggleBtn">
+      사용 설명서
+    </button>
+    <div id="guideSection" style="display:none;margin-top:8px">
+
+      <div class="card" style="padding:20px;font-size:13px;line-height:1.8;color:var(--gray-700)">
+
+        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">시험 구조</div>
+        <div style="margin-bottom:16px">
+          <div style="font-weight:600;margin-bottom:4px">실전 모의고사 (50문항 / 60분)</div>
+          <div style="padding-left:12px">
+            1~17번: 손해보험 (17문항)<br>
+            18~33번: 공통 (16문항)<br>
+            34~50번: 제3보험 (17문항)<br>
+            실제 손해보험 자격시험과 동일한 구조로 랜덤 출제됩니다.
+          </div>
+          <div style="font-weight:600;margin-top:8px;margin-bottom:4px">과목별 연습 (20문항 / 25분)</div>
+          <div style="padding-left:12px">선택한 과목의 문제 풀에서 20문항을 랜덤 출제합니다.</div>
+          <div style="font-weight:600;margin-top:8px;margin-bottom:4px">오답 재시험</div>
+          <div style="padding-left:12px">직전 시험에서 틀린 문항만 다시 풀 수 있습니다.</div>
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
+
+        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">채점 방식</div>
+        <div style="margin-bottom:16px">
+          <div style="font-weight:600;margin-bottom:4px">실전 모의고사 — 과목별 채점</div>
+          <div style="padding-left:12px">
+            손해보험 점수 = (손해 1~17번 + 공통 18~33번) 정답 / 33 x 100<br>
+            제3보험 점수 = (공통 18~33번 + 제3보험 34~50번) 정답 / 33 x 100<br>
+            합격 기준: 각 과목 60점 이상
+          </div>
+          <div style="font-weight:600;margin-top:8px;margin-bottom:4px">과목별 연습 — 단순 정답률</div>
+          <div style="padding-left:12px">전체 정답 수 / 전체 문항 수 x 100</div>
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
+
+        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">문제 데이터</div>
+        <div style="margin-bottom:16px;padding-left:12px">
+          총 241문항 (손해보험 92 / 공통 86 / 제3보험 63)<br>
+          출처: 25년 모의고사 #1~#3 + 26년 예상문제 전체범위<br>
+          중복 9문항 제거, 과목별 분류 완료
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
+
+        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">Gemini 해설</div>
+        <div style="margin-bottom:16px;padding-left:12px">
+          오답 문제에 대해 AI 해설을 제공합니다.<br>
+          Google AI Studio에서 API 키를 발급받아 위 입력란에 입력하세요.<br>
+          키는 이 기기의 브라우저에만 저장되며 외부로 전송되지 않습니다.<br>
+          문제와 관련된 참고자료만 추출해서 보내는 RAG 방식으로 동작합니다.
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
+
+        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">데이터 저장</div>
+        <div style="padding-left:12px">
+          모든 데이터는 브라우저 localStorage에 저장됩니다.<br>
+          시험 기록은 최대 30개까지 보관됩니다.<br>
+          "전체 삭제" 버튼으로 기록을 초기화할 수 있습니다.<br>
+          다른 기기나 브라우저와 동기화되지 않습니다.
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div style="padding-bottom: 100px"></div>
+</div>
+
+<div class="float-bar">
+  <div class="float-bar-inner">
+    <button id="startBtn" class="btn btn-primary" disabled onclick="startExam()">
+      시험 시작
+    </button>
+  </div>
+</div>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+<script src="data/questions.js"></script>
+<script src="js/app.js"></script>
+<script>
+let selectedExamId = null;
+
+// 오답 재시험 가능 여부 확인
+const wrongIds = LS.get('wrong_answers', []);
+const hasWrong = wrongIds.length > 0;
+
+// 과목별 문항 수 계산
+const catCounts = {};
+for (const q of QUESTIONS) {
+  catCounts[q.category] = (catCounts[q.category] || 0) + 1;
+}
+
+function renderExamGrid() {
+  const grid = document.getElementById('examGrid');
+  let html = '';
+
+  // 오답 재시험 카드 (오답이 있을 때만)
+  if (hasWrong) {
+    html += `
+      <div class="exam-card" id="retry-card" onclick="selectExam('retry', this)">
+        <span class="exam-icon">🔁</span>
+        <div>
+          <div class="exam-name">오답 재시험</div>
+          <div class="exam-meta">지난 시험 오답 ${wrongIds.length}문항</div>
+        </div>
+      </div>`;
+  }
+
+  // 실전 모의고사
+  html += `
+    <div class="exam-card" onclick="selectExam('real', this)">
+      <span class="exam-icon">📋</span>
+      <div>
+        <div class="exam-name">실전 모의고사</div>
+        <div class="exam-meta">50문항 · 60분 · 실제 시험과 동일</div>
+      </div>
+    </div>`;
+
+  // 과목별 연습
+  const subjects = [
+    { id: '손해보험', icon: '🔥', label: '손해보험' },
+    { id: '공통', icon: '📖', label: '공통' },
+    { id: '제3보험', icon: '🏥', label: '제3보험' },
+  ];
+
+  html += `<div style="margin-top:16px;margin-bottom:8px;font-size:13px;font-weight:600;color:var(--gray-500)">과목별 연습</div>`;
+  for (const s of subjects) {
+    const count = catCounts[s.id] || 0;
+    html += `
+      <div class="exam-card" onclick="selectExam('${s.id}', this)">
+        <span class="exam-icon">${s.icon}</span>
+        <div>
+          <div class="exam-name">${s.label}</div>
+          <div class="exam-meta">${count}문항 중 20문항 랜덤</div>
+        </div>
+      </div>`;
+  }
+
+  grid.innerHTML = html;
+}
+
+function selectExam(examId, el) {
+  document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  selectedExamId = examId;
+  updateStartBtn();
+}
+
+function updateStartBtn() {
+  const btn = document.getElementById('startBtn');
+  btn.disabled = !selectedExamId;
+}
+
+function startExam() {
+  if (!selectedExamId) return;
+  const key = document.getElementById('apiKeyInput').value.trim();
+  if (key) LS.set('gemini_api_key', key);
+
+  let questionIds;
+  let totalTime = 60; // 기본 60분
+
+  if (selectedExamId === 'retry') {
+    questionIds = wrongIds;
+    totalTime = Math.max(30, Math.ceil(wrongIds.length * 1.2)); // 문항 수에 비례
+  } else if (selectedExamId === 'real') {
+    // 실전 모의고사: 손해17 + 공통16 + 제3보험17 = 50문항
+    const 손해 = shuffle(QUESTIONS.filter(q => q.category === '손해보험').map(q => q.id)).slice(0, 17);
+    const 공통 = shuffle(QUESTIONS.filter(q => q.category === '공통').map(q => q.id)).slice(0, 16);
+    const 제3 = shuffle(QUESTIONS.filter(q => q.category === '제3보험').map(q => q.id)).slice(0, 17);
+    questionIds = [...손해, ...공통, ...제3];
+    totalTime = 60;
+  } else {
+    // 과목별 연습: 해당 과목에서 20문항
+    const pool = QUESTIONS.filter(q => q.category === selectedExamId).map(q => q.id);
+    questionIds = shuffle(pool).slice(0, 20);
+    totalTime = 25;
+  }
+
+  const session = {
+    examId: selectedExamId,
+    questionIds,
+    answers: {},
+    startedAt: new Date().toISOString(),
+    totalTime,
+  };
+  LS.set('exam_session', session);
+  window.location.href = 'exam.html';
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function renderHistory() {
+  const history = LS.get('exam_history', []);
+  const el = document.getElementById('historySection');
+
+  const header = `
+    <div style="display:flex;align-items:center;justify-content:space-between;margin:24px 0 8px">
+      <div class="section-title" style="margin:0">지난 기록</div>
+      <button onclick="clearHistory()" style="font-size:12px;color:var(--gray-500);background:none;border:none;cursor:pointer">전체 삭제</button>
+    </div>`;
+
+  if (!history.length) {
+    el.innerHTML = header + `<div class="card card-sm" style="text-align:center;color:var(--gray-500);padding:20px">아직 완료한 시험이 없습니다</div>`;
+    return;
+  }
+
+  const rows = history.map((h, i) => {
+    const score = Math.round((h.correct / h.total) * 100);
+    const date = new Date(h.finishedAt).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    const examName = getExamName(h.examId);
+    const mins = Math.floor(h.elapsed / 60);
+    const secs = h.elapsed % 60;
+    const color = score >= 80 ? 'var(--green)' : score >= 60 ? 'var(--blue)' : 'var(--red)';
+    const hasDetail = !!h.results;
+    return `
+      <div onclick="${hasDetail ? `viewHistory(${i})` : ''}"
+           style="display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--gray-200);${hasDetail ? 'cursor:pointer' : ''}">
+        <div style="font-size:22px;font-weight:800;color:${color};min-width:44px;text-align:center">${score}<span style="font-size:12px;font-weight:600">점</span></div>
+        <div style="flex:1;min-width:0">
+          <div style="font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${examName}</div>
+          <div style="font-size:12px;color:var(--gray-500)">${date} · ${h.correct}/${h.total}정답 · ${mins}분${secs}초</div>
+        </div>
+        ${hasDetail ? '<div style="color:var(--gray-500);font-size:18px">›</div>' : ''}
+      </div>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div style="display:flex;align-items:center;justify-content:space-between;margin:24px 0 8px">
+      <div class="section-title" style="margin:0">지난 기록</div>
+      <button onclick="clearHistory()" style="font-size:12px;color:var(--gray-500);background:none;border:none;cursor:pointer">전체 삭제</button>
+    </div>
+    <div class="card card-sm" style="padding:0 16px">${rows}</div>`;
+}
+
+function viewHistory(idx) {
+  const history = LS.get('exam_history', []);
+  const h = history[idx];
+  if (!h || !h.results) return;
+  LS.set('last_result', {
+    finishedAt: h.finishedAt,
+    examId: h.examId,
+    results: h.results,
+    elapsed: h.elapsed,
+    fromHistory: true,
+  });
+  window.location.href = 'result.html';
+}
+
+function toggleGuide() {
+  const el = document.getElementById('guideSection');
+  const btn = document.getElementById('guideToggleBtn');
+  if (el.style.display === 'none') {
+    el.style.display = 'block';
+    btn.textContent = '사용 설명서 접기';
+  } else {
+    el.style.display = 'none';
+    btn.textContent = '사용 설명서';
+  }
+}
+
+function clearHistory() {
+  if (!confirm('기록을 모두 삭제할까요?')) return;
+  LS.remove('exam_history');
+  LS.remove('last_result');
+  LS.remove('wrong_answers');
+  renderHistory();
+}
+
+// last_result로 history 씨드 및 results 백필
+(function seedHistory() {
+  const last = LS.get('last_result');
+  if (!last || !last.results) return;
+  let history = LS.get('exam_history', []);
+
+  // 기록이 없으면 씨드
+  if (!history.length) {
+    history.push({
+      finishedAt: last.finishedAt || new Date().toISOString(),
+      examId: last.examId,
+      total: last.results.length,
+      correct: last.results.filter(r => r.correct).length,
+      elapsed: last.elapsed,
+      results: last.results,
+    });
+    LS.set('exam_history', history);
+    return;
+  }
+
+  // results 없는 항목에 last_result로 백필 (finishedAt 일치 또는 첫 번째 항목)
+  let changed = false;
+  for (const h of history) {
+    if (!h.results) {
+      if (h.finishedAt === last.finishedAt ||
+          (h.examId === last.examId && h.total === last.results.length)) {
+        h.results = last.results;
+        changed = true;
+      }
+    }
+  }
+  if (changed) LS.set('exam_history', history);
+})();
+
+// 초기화
+renderExamGrid();
+renderHistory();
+const savedKey = LS.get('gemini_api_key', '');
+if (savedKey) document.getElementById('apiKeyInput').value = savedKey;
+document.getElementById('apiKeyInput').addEventListener('input', updateStartBtn);
+</script>
+</body>
+</html>

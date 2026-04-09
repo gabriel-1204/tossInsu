@@ -1,0 +1,10 @@
+API.txt
+손해보험/
+.claude/
+.gstack/
+node_modules/
+.vercel/
+.DS_Store
+Thumbs.db
+*.py
+__pycache__/
