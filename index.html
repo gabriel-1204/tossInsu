@@ -362,7 +362,11 @@ renderExamGrid();
 renderHistory();
 const savedKey = LS.get('gemini_api_key', '');
 if (savedKey) document.getElementById('apiKeyInput').value = savedKey;
-document.getElementById('apiKeyInput').addEventListener('input', updateStartBtn);
+document.getElementById('apiKeyInput').addEventListener('input', () => {
+  const key = document.getElementById('apiKeyInput').value.trim();
+  if (key) LS.set('gemini_api_key', key);
+  updateStartBtn();
+});
 </script>
 </body>
 </html>
