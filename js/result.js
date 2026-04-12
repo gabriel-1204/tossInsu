@@ -207,12 +207,17 @@ async function explainWithGemini(questionId, btn) {
 
   const relevantCtx = extractRelevantContext(r);
   const optionLines = r.options.map((o, i) => `${i + 1}. ${o}`).join('\n');
-  const prompt = `문제: ${r.question}
-${optionLines}
-정답: ${r.answer}번 / 내 답: ${r.userAnswer || '미응답'}번
+  const userAns = r.userAnswer || '미응답';
+  const prompt = `보험 시험 문제의 오답 해설을 해줘.
 
-${r.answer}번이 정답인 이유를 2~3문장으로 설명하고, ${r.userAnswer || '미응답'}번이 틀린 이유를 1문장으로 설명해.
-마크다운 서식 사용 금지. 5줄 이내.`;
+문제: ${r.question}
+${optionLines}
+정답: ${r.answer}번 / 내가 고른 답: ${userAns}번
+
+규칙:
+1. 정답(${r.answer}번)이 왜 정답인지 2~3문장으로 핵심만 설명
+2. 내가 고른 답(${userAns}번)은 사실은 맞는/틀린 설명이라서 이 문제의 정답이 될 수 없는 이유를 1문장으로 설명. 보기의 사실관계를 임의로 뒤집지 마.
+3. 마크다운 서식 금지. 5줄 이내.`;
 
   try {
     const text = await callGeminiProxy(prompt, relevantCtx);
