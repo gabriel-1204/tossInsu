@@ -23,6 +23,15 @@ function formatTime(seconds) {
   return `${m}:${s}`;
 }
 
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/\n/g, '<br>');
+}
+
 // 시험 모드 이름
 function getExamName(examId) {
   const map = {

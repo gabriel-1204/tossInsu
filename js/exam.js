@@ -1,5 +1,8 @@
 // 시험 진행 로직
 
+// 인증 초기화 (비동기, 시험 진행은 차단하지 않음)
+initAuth({ requiredRole: 'agent' });
+
 const session = LS.get('exam_session');
 if (!session || !session.questionIds || session.questionIds.length === 0) {
   window.location.href = 'index.html';
@@ -88,15 +91,6 @@ function renderQuestions() {
   updateProgress();
 }
 
-function escapeHtml(s) {
-  return String(s)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/\n/g, '<br>');
-}
-
 function selectAnswer(qId, optNum) {
   answers[qId] = optNum;
   // 해당 문제 카드 옵션 UI 갱신
@@ -157,6 +151,11 @@ function finishExam() {
     finishedAt: new Date().toISOString(),
   });
   LS.remove('exam_session');
+
+  // 서버 저장 (fire-and-forget)
+  const lastResult = LS.get('last_result');
+  if (lastResult) saveExamResultToServer(lastResult);
+
   window.location.href = 'result.html';
 }
 

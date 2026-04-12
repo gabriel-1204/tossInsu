@@ -1,4 +1,4 @@
-const CACHE_NAME = 'toss-insu-v3';
+const CACHE_NAME = 'toss-insu-v4';
 
 self.addEventListener('install', () => self.skipWaiting());
 
@@ -14,6 +14,7 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   if (e.request.url.includes('generativelanguage.googleapis.com')) return;
+  if (e.request.url.includes('supabase.co')) return;
   if (e.request.mode === 'navigate') return;
 
   e.respondWith(

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>관리자 - 손해보험 모의고사</title>
+<meta name="theme-color" content="#3182f6">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <span class="header-title">설계사 학습 현황</span>
+    <button onclick="signOut()" class="btn btn-secondary" style="padding:6px 14px;font-size:12px">로그아웃</button>
+  </div>
+</header>
+
+<div class="container" style="padding-top:16px;padding-bottom:40px">
+
+  <!-- 요약 통계 -->
+  <div class="stats-grid" id="statsGrid">
+    <div class="card card-sm stat-card">
+      <div class="stat-label">총 설계사</div>
+      <div class="stat-value" id="statTotal">-</div>
+    </div>
+    <div class="card card-sm stat-card">
+      <div class="stat-label">이번 주 응시</div>
+      <div class="stat-value stat-blue" id="statWeekly">-</div>
+    </div>
+    <div class="card card-sm stat-card">
+      <div class="stat-label">평균 점수</div>
+      <div class="stat-value stat-green" id="statAvg">-</div>
+    </div>
+    <div class="card card-sm stat-card">
+      <div class="stat-label">60점 미만</div>
+      <div class="stat-value stat-red" id="statFail">-</div>
+    </div>
+  </div>
+
+  <!-- 기간 필터 -->
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="setFilter('week', this)">1주</button>
+    <button class="filter-btn" onclick="setFilter('month', this)">1개월</button>
+    <button class="filter-btn" onclick="setFilter('all', this)">전체</button>
+  </div>
+
+  <!-- 초대 링크 -->
+  <div style="margin-bottom:16px">
+    <button class="btn btn-outline btn-full" onclick="copyInviteLink()">초대 링크 복사</button>
+  </div>
+
+  <!-- 설계사 테이블 -->
+  <div class="card" style="padding:0;overflow:hidden">
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>이름</th>
+            <th>최근 점수</th>
+            <th>응시</th>
+            <th>상태</th>
+            <th>활성</th>
+          </tr>
+        </thead>
+        <tbody id="agentTableBody">
+          <tr><td colspan="5" style="text-align:center;color:var(--gray-500);padding:40px 20px">불러오는 중...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/app.js"></script>
+<script src="js/auth.js"></script>
+<script>
+let allProfiles = [];
+let allResults = [];
+let currentFilter = 'week';
+
+(async () => {
+  const profile = await initAuth({ requiredRole: 'admin' });
+  if (!profile) return;
+  await loadDashboard(profile.organization_id);
+})();
+
+async function loadDashboard(orgId) {
+  // 조직 내 설계사 조회
+  const { data: profiles } = await _supabase
+    .from('profiles')
+    .select('*')
+    .eq('organization_id', orgId)
+    .eq('role', 'agent')
+    .order('created_at', { ascending: true });
+
+  allProfiles = profiles || [];
+
+  // 전체 시험 결과 한 번에 조회 (N+1 방지)
+  const agentIds = allProfiles.map(p => p.id);
+  if (agentIds.length > 0) {
+    const { data: results } = await _supabase
+      .from('exam_results')
+      .select('*')
+      .in('user_id', agentIds)
+      .order('created_at', { ascending: false });
+    allResults = results || [];
+  } else {
+    allResults = [];
+  }
+
+  renderDashboard();
+}
+
+function getFilterDate() {
+  const now = new Date();
+  if (currentFilter === 'week') {
+    return new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString();
+  } else if (currentFilter === 'month') {
+    return new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000).toISOString();
+  }
+  return null; // 전체
+}
+
+function renderDashboard() {
+  const filterDate = getFilterDate();
+  const filteredResults = filterDate
+    ? allResults.filter(r => r.created_at >= filterDate)
+    : allResults;
+
+  // 설계사별 그룹핑
+  const byAgent = {};
+  for (const p of allProfiles) {
+    byAgent[p.id] = { profile: p, results: [] };
+  }
+  for (const r of filteredResults) {
+    if (byAgent[r.user_id]) byAgent[r.user_id].results.push(r);
+  }
+
+  // 통계 계산
+  const agentsWithResults = Object.values(byAgent).filter(a => a.results.length > 0);
+  const allScores = agentsWithResults.map(a => a.results[0].score);
+  const avgScore = allScores.length > 0 ? Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length) : 0;
+  const failCount = allScores.filter(s => s < 60).length;
+
+  // 이번 주 응시자 (필터와 무관)
+  const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+  const weeklyAgents = new Set(allResults.filter(r => r.created_at >= weekAgo).map(r => r.user_id));
+
+  document.getElementById('statTotal').textContent = allProfiles.length + '명';
+  document.getElementById('statWeekly').textContent = weeklyAgents.size + '명';
+  document.getElementById('statAvg').textContent = allScores.length > 0 ? avgScore + '점' : '-';
+  document.getElementById('statFail').textContent = failCount + '명';
+
+  // 테이블 렌더링
+  const tbody = document.getElementById('agentTableBody');
+
+  if (allProfiles.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--gray-500);padding:40px 20px">아직 가입한 설계사가 없습니다.<br>초대 링크를 보내보세요</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = Object.values(byAgent).map(({ profile: p, results: rs }) => {
+    const latest = rs[0];
+    const score = latest ? latest.score : '-';
+    const count = rs.length;
+    const scoreCls = latest ? (latest.score >= 60 ? 'stat-green' : 'stat-red') : '';
+    const badge = !latest
+      ? '<span class="badge badge-none">미응시</span>'
+      : latest.score >= 60
+        ? '<span class="badge badge-pass">합격권</span>'
+        : '<span class="badge badge-fail">미달</span>';
+    const toggleCls = p.is_active ? 'toggle-active' : 'toggle-inactive';
+    const toggleLabel = p.is_active ? '활성' : '비활성';
+    return `<tr>
+      <td class="td-name">${escapeHtml(p.name)}</td>
+      <td class="${scoreCls}" style="font-weight:700">${score}${latest ? '점' : ''}</td>
+      <td>${count}회</td>
+      <td>${badge}</td>
+      <td><button class="toggle-btn ${toggleCls}" onclick="toggleActive('${p.id}', ${!p.is_active})">${toggleLabel}</button></td>
+    </tr>`;
+  }).join('');
+}
+
+function setFilter(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderDashboard();
+}
+
+async function toggleActive(profileId, newActive) {
+  const { error } = await _supabase
+    .from('profiles')
+    .update({ is_active: newActive })
+    .eq('id', profileId);
+
+  if (error) {
+    showToast('변경 실패');
+    return;
+  }
+
+  // 로컬 데이터 업데이트
+  const p = allProfiles.find(p => p.id === profileId);
+  if (p) p.is_active = newActive;
+  renderDashboard();
+  showToast(newActive ? '활성화되었습니다' : '비활성화되었습니다');
+}
+
+function copyInviteLink() {
+  const profile = getCurrentUser();
+  if (!profile) return;
+  const url = `${window.location.origin}/login.html?invite=${profile.organization_id}`;
+  navigator.clipboard.writeText(url).then(() => {
+    showToast('초대 링크가 복사되었습니다!');
+  }).catch(() => {
+    showToast('복사 실패');
+  });
+}
+</script>
+</body>
+</html>

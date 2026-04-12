@@ -1,5 +1,8 @@
 // 채점 결과 + Gemini 해설
 
+// 인증 초기화
+initAuth({ requiredRole: 'agent' });
+
 const lastResult = LS.get('last_result');
 if (!lastResult) {
   window.location.href = 'index.html';
@@ -133,15 +136,6 @@ function renderResultCard(r, showBadge) {
     </div>`;
 }
 
-function escapeHtml(s) {
-  return String(s)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/\n/g, '<br>');
-}
-
 // 오답 목록 렌더링
 document.getElementById('wrongList').innerHTML =
   wrong.length > 0
@@ -198,16 +192,10 @@ function extractRelevantContext(r) {
   return result.trim();
 }
 
-// Gemini 해설
+// Gemini 해설 (Edge Function 프록시 경유)
 async function explainWithGemini(questionId, btn) {
   const r = results.find(x => x.id === questionId);
   if (!r) return;
-
-  const apiKey = LS.get('gemini_api_key', '');
-  if (!apiKey) {
-    showToast('Gemini API 키를 홈 화면에서 입력해주세요.');
-    return;
-  }
 
   const expEl = document.getElementById('exp-' + questionId);
   btn.disabled = true;
@@ -216,7 +204,6 @@ async function explainWithGemini(questionId, btn) {
   expEl.className = 'explanation explanation-loading';
   expEl.textContent = 'Gemini가 해설을 작성하고 있습니다...';
 
-  // 간단한 RAG: 문제 키워드와 매칭되는 문장만 추출
   const relevantCtx = extractRelevantContext(r);
   const prompt = `손해보험 시험 문제 해설을 부탁합니다.
 
@@ -231,31 +218,12 @@ async function explainWithGemini(questionId, btn) {
 - 정답인 이유를 2~3문장으로 핵심만 설명
 - 내가 고른 보기가 왜 틀린지 1문장
 - 마크다운 서식(**, ##, * 등) 절대 사용하지 말 것
-- 총 10줄 이내로 작성
-${relevantCtx ? '\n[참고자료]:\n' + relevantCtx : ''}`;
+- 총 10줄 이내로 작성`;
 
   try {
-    const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key=${apiKey}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.3, maxOutputTokens: 512 },
-        }),
-      }
-    );
-
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      throw new Error(err?.error?.message || `HTTP ${res.status}`);
-    }
-
-    const data = await res.json();
-    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || '해설을 받지 못했습니다.';
+    const text = await callGeminiProxy(prompt, relevantCtx);
     expEl.className = 'explanation';
-    expEl.textContent = text;
+    expEl.textContent = text || '해설을 받지 못했습니다.';
     btn.style.display = 'none';
   } catch (e) {
     expEl.className = 'explanation';

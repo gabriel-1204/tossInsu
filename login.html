@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>로그인 - 손해보험 모의고사</title>
+<meta name="theme-color" content="#3182f6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="login-wrap">
+  <div class="login-container">
+    <div class="login-header">
+      <div class="login-logo">손해보험 모의고사</div>
+      <div class="login-desc">241문항 실전 연습 + AI 해설로 자격시험 합격률을 높이세요</div>
+    </div>
+
+    <div class="card" style="padding:28px">
+      <div class="tab-row" id="tabRow">
+        <button class="tab active" onclick="switchTab('login')">로그인</button>
+        <button class="tab" onclick="switchTab('signup')" id="signupTab" style="display:none">가입하기</button>
+      </div>
+
+      <form id="loginForm" onsubmit="handleLogin(event)">
+        <div style="margin-bottom:12px">
+          <label class="label" for="email">이메일</label>
+          <input type="email" id="email" class="input" placeholder="example@email.com" required autocomplete="email">
+        </div>
+        <div style="margin-bottom:12px">
+          <label class="label" for="password">비밀번호</label>
+          <input type="password" id="password" class="input" placeholder="비밀번호" required autocomplete="current-password" minlength="6">
+        </div>
+        <div id="nameField" style="display:none;margin-bottom:12px">
+          <label class="label" for="name">이름</label>
+          <input type="text" id="name" class="input" placeholder="홍길동" autocomplete="name">
+        </div>
+        <div id="errorMsg" style="display:none;color:var(--red);font-size:13px;margin-bottom:12px;padding:8px 12px;background:#fff1f2;border-radius:8px"></div>
+        <button type="submit" class="btn btn-primary" id="submitBtn">로그인</button>
+      </form>
+    </div>
+
+    <div style="text-align:center;margin-top:16px;font-size:12px;color:var(--gray-500)">
+      데이터는 안전하게 암호화되어 저장됩니다
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/app.js"></script>
+<script src="js/auth.js"></script>
+<script>
+let mode = 'login';
+const inviteOrgId = new URLSearchParams(window.location.search).get('invite');
+
+// 초대 링크로 왔으면 가입 탭 표시
+if (inviteOrgId) {
+  document.getElementById('signupTab').style.display = '';
+  switchTab('signup');
+}
+
+// 이미 로그인되어 있으면 리디렉트
+(async () => {
+  const { data: { session } } = await _supabase.auth.getSession();
+  if (session) {
+    const { data: profile } = await _supabase.from('profiles').select('role').eq('id', session.user.id).single();
+    if (profile) {
+      window.location.href = profile.role === 'admin' ? 'admin.html' : 'index.html';
+    }
+  }
+})();
+
+function switchTab(tab) {
+  mode = tab;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  if (tab === 'login') {
+    document.querySelectorAll('.tab')[0].classList.add('active');
+    document.getElementById('nameField').style.display = 'none';
+    document.getElementById('submitBtn').textContent = '로그인';
+    document.getElementById('password').autocomplete = 'current-password';
+  } else {
+    document.querySelectorAll('.tab')[1].classList.add('active');
+    document.getElementById('nameField').style.display = '';
+    document.getElementById('submitBtn').textContent = '가입하기';
+    document.getElementById('password').autocomplete = 'new-password';
+  }
+  document.getElementById('errorMsg').style.display = 'none';
+}
+
+async function handleLogin(e) {
+  e.preventDefault();
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value;
+  const btn = document.getElementById('submitBtn');
+  const errEl = document.getElementById('errorMsg');
+
+  btn.disabled = true;
+  btn.textContent = mode === 'login' ? '로그인 중...' : '가입 중...';
+  errEl.style.display = 'none';
+
+  try {
+    if (mode === 'signup') {
+      if (!inviteOrgId) {
+        throw new Error('초대 링크를 통해서만 가입할 수 있습니다.');
+      }
+      const name = document.getElementById('name').value.trim() || email.split('@')[0];
+      const { error } = await _supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: { name, role: 'agent', organization_id: inviteOrgId },
+        },
+      });
+      if (error) throw error;
+      // 가입 성공 → 자동 로그인됨
+      window.location.href = 'index.html';
+    } else {
+      const { data, error } = await _supabase.auth.signInWithPassword({ email, password });
+      if (error) throw error;
+
+      // 역할별 리디렉트
+      const { data: profile } = await _supabase.from('profiles').select('role, is_active').eq('id', data.user.id).single();
+      if (profile && !profile.is_active) {
+        await _supabase.auth.signOut();
+        throw new Error('합격을 축하합니다! 계정이 비활성화되었습니다.');
+      }
+      window.location.href = profile?.role === 'admin' ? 'admin.html' : 'index.html';
+    }
+  } catch (err) {
+    errEl.textContent = err.message === 'Invalid login credentials'
+      ? '이메일 또는 비밀번호가 올바르지 않습니다.'
+      : err.message;
+    errEl.style.display = '';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = mode === 'login' ? '로그인' : '가입하기';
+  }
+}
+</script>
+</body>
+</html>

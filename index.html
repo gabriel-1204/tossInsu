@@ -17,6 +17,7 @@
 <header class="header">
   <div class="header-inner">
     <span class="header-title">손해보험 모의고사</span>
+    <button onclick="signOut()" class="btn btn-secondary" style="padding:6px 14px;font-size:12px">로그아웃</button>
   </div>
 </header>
 
@@ -28,15 +29,7 @@
 
   <div id="examGrid" class="exam-grid"></div>
 
-  <div class="card" style="margin-top:20px">
-    <div class="label">Gemini API 키</div>
-    <input type="password" id="apiKeyInput" class="input" placeholder="AIza..." autocomplete="off">
-    <div style="font-size:12px;color:var(--gray-500);margin-top:6px">
-      키는 이 기기에만 저장되며 외부로 전송되지 않습니다.
-    </div>
-  </div>
-
-  <div id="historySection" style="margin-top:8px"></div>
+  <div id="historySection" style="margin-top:20px"></div>
 
   <!-- 사용 설명서 -->
   <div style="margin-top:24px">
@@ -125,8 +118,10 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js');
 }
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="data/questions.js"></script>
 <script src="js/app.js"></script>
+<script src="js/auth.js"></script>
 <script>
 let selectedExamId = null;
 
@@ -203,8 +198,6 @@ function updateStartBtn() {
 
 function startExam() {
   if (!selectedExamId) return;
-  const key = document.getElementById('apiKeyInput').value.trim();
-  if (key) LS.set('gemini_api_key', key);
 
   let questionIds;
   let totalTime = 60; // 기본 60분
@@ -358,15 +351,12 @@ function clearHistory() {
 })();
 
 // 초기화
-renderExamGrid();
-renderHistory();
-const savedKey = LS.get('gemini_api_key', '');
-if (savedKey) document.getElementById('apiKeyInput').value = savedKey;
-document.getElementById('apiKeyInput').addEventListener('input', () => {
-  const key = document.getElementById('apiKeyInput').value.trim();
-  if (key) LS.set('gemini_api_key', key);
-  updateStartBtn();
-});
+(async () => {
+  await initAuth({ requiredRole: 'agent' });
+  await syncPendingResults();
+  renderExamGrid();
+  renderHistory();
+})();
 </script>
 </body>
 </html>
