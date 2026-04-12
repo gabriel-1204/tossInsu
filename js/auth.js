@@ -5,6 +5,12 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 
 const _supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+// 아이디 → 내부 이메일 변환
+function toAuthEmail(username) {
+  if (username.includes('@')) return username;
+  return username + '@app.local';
+}
+
 let _currentProfile = null;
 
 async function initAuth({ requireAuth = true, requiredRole = null } = {}) {

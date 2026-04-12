@@ -47,9 +47,16 @@
     <button class="filter-btn" onclick="setFilter('all', this)">전체</button>
   </div>
 
-  <!-- 초대 링크 -->
-  <div style="margin-bottom:16px">
-    <button class="btn btn-outline btn-full" onclick="copyInviteLink()">초대 링크 복사</button>
+  <!-- 설계사 추가 -->
+  <div class="card" style="margin-bottom:16px">
+    <div style="font-size:14px;font-weight:700;margin-bottom:12px">설계사 추가</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <input type="text" id="newUsername" class="input" placeholder="아이디" style="flex:1;min-width:80px">
+      <input type="password" id="newPassword" class="input" placeholder="비밀번호" style="flex:1;min-width:80px">
+      <input type="text" id="newName" class="input" placeholder="이름" style="flex:1;min-width:60px">
+      <button class="btn btn-primary" onclick="createAgent()" id="createBtn" style="flex-shrink:0;padding:12px 20px">추가</button>
+    </div>
+    <div id="createMsg" style="display:none;font-size:13px;margin-top:8px;padding:8px 12px;border-radius:8px"></div>
   </div>
 
   <!-- 설계사 테이블 -->
@@ -221,15 +228,59 @@ function toggleEmail(td, email) {
   }
 }
 
-function copyInviteLink() {
-  const profile = getCurrentUser();
-  if (!profile) return;
-  const url = `${window.location.origin}/login.html?invite=${profile.organization_id}`;
-  navigator.clipboard.writeText(url).then(() => {
-    showToast('초대 링크가 복사되었습니다!');
-  }).catch(() => {
-    showToast('복사 실패');
-  });
+async function createAgent() {
+  const username = document.getElementById('newUsername').value.trim();
+  const password = document.getElementById('newPassword').value;
+  const name = document.getElementById('newName').value.trim();
+  const btn = document.getElementById('createBtn');
+  const msgEl = document.getElementById('createMsg');
+
+  if (!username || !password || !name) {
+    msgEl.textContent = '아이디, 비밀번호, 이름을 모두 입력해주세요.';
+    msgEl.style.display = '';
+    msgEl.style.background = '#fff1f2';
+    msgEl.style.color = 'var(--red)';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = '추가 중...';
+
+  try {
+    const { data: { session } } = await _supabase.auth.getSession();
+    const res = await fetch(`${SUPABASE_URL}/functions/v1/create-agent`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${session.access_token}`,
+      },
+      body: JSON.stringify({ username, password, name }),
+    });
+
+    const result = await res.json();
+    if (!res.ok) throw new Error(result.error);
+
+    msgEl.textContent = `${name} (${username}) 추가 완료`;
+    msgEl.style.display = '';
+    msgEl.style.background = '#e8f7ef';
+    msgEl.style.color = '#00875a';
+
+    document.getElementById('newUsername').value = '';
+    document.getElementById('newPassword').value = '';
+    document.getElementById('newName').value = '';
+
+    // 대시보드 새로고침
+    const profile = getCurrentUser();
+    await loadDashboard(profile.organization_id);
+  } catch (err) {
+    msgEl.textContent = err.message;
+    msgEl.style.display = '';
+    msgEl.style.background = '#fff1f2';
+    msgEl.style.color = 'var(--red)';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '추가';
+  }
 }
 </script>
 </body>
