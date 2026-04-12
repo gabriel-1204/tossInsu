@@ -228,7 +228,7 @@ ${r.answer}번이 정답인 이유를 교재 내용을 인용하여 2~3문장으
 - 총 8줄 이내`;
 
   try {
-    const text = await callGeminiProxy(prompt, relevantCtx);
+    const text = await callGeminiProxy(prompt);
     expEl.className = 'explanation';
     expEl.textContent = text || '해설을 받지 못했습니다.';
     btn.style.display = 'none';
