@@ -1,4 +1,4 @@
-// 자동 생성 — parse_docx.py로 재생성
+// 자동 생성 — parse_pdf.py로 재생성 (중복 제거됨)
 const QUESTIONS = [
   {
     "question": "다음 중 주택화재보험에서 보상받을 수 있는 손해가 아닌 것은?",
@@ -10,7 +10,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 1,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 화재보험에 관한 설명 중 틀린 것은?",
@@ -22,7 +23,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 2,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 재난 및 안전관리 기본법에서 규정한 재난배상책임보험 의무가입 대상이 아닌 것은?",
@@ -34,7 +36,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 3,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 해상보험에서 보험회사의 협의의 면책사항에 해당하는 것은?",
@@ -46,7 +49,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 4,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 영업배상책임보험의 특약형태로 운영되는 배상책임의 종류가 아닌 것은?",
@@ -58,7 +62,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 5,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 여행보험에 대한 설명으로 올바른 것은?",
@@ -70,7 +75,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 6,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험에 대한 설명으로 옳지 않은 것은?",
@@ -82,7 +88,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 7,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약 대출제도에 대한 설명으로 틀린 것은?",
@@ -94,7 +101,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 8,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험의 보험료 구성과 그에 대한 설명으로 옳은 것은?",
@@ -106,7 +114,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 9,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "세제개편에 따라 2023년부터 연금저축세제혜택이 확대되었는데, 이에 대한 설명으로 틀린 것은?",
@@ -118,7 +127,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 10,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 연금저축보험에 대한 설명으로 틀린 것은?",
@@ -130,7 +140,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 11,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "퇴직연금보험에서 연금규약작성에 대한 설명으로 가장 올바른 것은?",
@@ -142,7 +153,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 12,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "자동차 사고에 따른 권리와 의무에 대하여 바르게 설명한 것은?",
@@ -154,7 +166,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 13,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "자동차보험의 의무보험에 대한 설명 중 틀린 것만 짝지어진 것은?\n가. 사업용 자동차와 비사업용 자동차가 가입해야 하는 금액은 동일하다.\n나. 대물배상은 3천만원 이상 가입해야 한다.\n다. 보험회사는 특별한 사유가 있어도 계약을 거절 하지 못한다.\n라. 자동차손해보장법은 운전자에게 의무보험 가입을 강제하고 있다.",
@@ -166,7 +179,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 14,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "자동차보험 가입경력 인정에 대한 설명 중 틀린 것은?",
@@ -178,7 +192,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 15,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "자동차보험 대물배상 보험금 지급 기준에 대한 설명으로 틀린 것은?",
@@ -190,7 +205,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 16,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음의 자동차 사고발생 후 도로교통법에서 정한 조치의무 위반시 대인배상과 대물배상의 자기부담금은? (\"22.7.28 이후 의무보험)\n- 40대 남성A씨, 주취 상태로 운전 중 차량 1대와 충돌- 피해자 1명이 골절 (부상1급) 등 수술 시행 (손해액 2500만원)- 차량 전손 (손해액 1,500만원)하였다.",
@@ -202,7 +218,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 17,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "보험설계사의 등록과 말소절차 설명 중 틀린 것은?",
@@ -214,7 +231,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 18,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 (   ) 안에 들어갈 용어로 가장 알맞은 것은?\n금소법상 보험설계사는 (          ) 의  (          ) 이다.",
@@ -226,7 +244,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 19,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "손해보험 우수인증 설계사에 관하여 바르게 설명한 것은?",
@@ -238,7 +257,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 20,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험가입 대상 위험의 특성으로 올바른 것만 짝지어 놓은 것은?\na. 다수의 이질적 위험\nb. 보험회사가 감당할 정도의 위험\nc. 경제적 부담이 가능한 보험료\nd. 손실발생의 시간과 장소가 어느정도 명확한 위험\ne. 과거의 경험통계가 없어 발생이 우연한 위험",
@@ -250,7 +270,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 21,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 보기는 보험의 기본원칙 중 무엇에 대한 설명인가?\n보험회사가 특정 사고의 발생확률을 측정하여 보험료를 산정한 후 보험계약자로부터 받는 보험료는 보험회사가 보험금을 지급하는데 있어서 과·부족이 없어야 한다.",
@@ -262,7 +283,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 22,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험사기에 대한 설명 중 틀린 것은?",
@@ -274,7 +296,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 23,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험범죄에 교통사고를 많이 이용하는 이유가 아닌 것은?",
@@ -286,7 +309,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 24,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "음주운전 처벌기준 중 맞는 것은?",
@@ -298,7 +322,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 25,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 도로교통법 내용 가운데 잘못된 것은?",
@@ -310,7 +335,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 26,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "손해보험에서 사고발생시 피보험이익의 주체로서 보험금청구권을 갖는 자는?",
@@ -322,7 +348,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 27,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "피보험이익과 관련한 설명으로 틀린 것은?",
@@ -334,7 +361,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 28,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "초과보험에 대한 설명으로 틀린 것은?",
@@ -346,7 +374,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 29,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험자 대위에 관한 설명으로 틀린 것은?",
@@ -358,7 +387,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 30,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 3대 기본지키기에 대한 설명으로 맞는 것은?",
@@ -370,7 +400,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 31,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험계약 단계별 설명의무에 대한 설명 중 맞는 것은?",
@@ -382,7 +413,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 32,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 손해보험협회에서 운영하는 장애인·장기기증자 보험가입 차별 신고센터에 신고할 수 있는 내용에 해당하는 것은?",
@@ -394,7 +426,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 33,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험에 대한 설명으로 틀린 것은?",
@@ -406,7 +439,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 34,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험의 정의를 규정하고 있는 법률은?",
@@ -418,7 +452,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 35,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 손해보험회사의 질병사망 담보에 대한 설명으로 틀린 것은?",
@@ -430,7 +465,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 36,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험 상품개발기준에 대한 설명으로 맞는 것은?",
@@ -442,7 +478,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 37,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험 상품개발기준에 대한 설명으로 틀린 것은?",
@@ -454,7 +491,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 38,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험의 보험료산출에 대한 설명으로 옳은 것은?",
@@ -466,7 +504,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 39,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험에서 보상하는 손해에 해당하는 것은 무엇인가?",
@@ -478,7 +517,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 40,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험에서 사망보험금에 대해 바르게 설명한 것은?",
@@ -490,7 +530,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 41,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 단체상해보험에 대한 설명으로 틀린 것은?",
@@ -502,7 +543,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 42,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험의 '3대비급여' 특약에서 보상하는 손해가 아닌 것은?",
@@ -514,7 +556,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 43,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험 가입 후 상해로 상급종합병원에 통원하여 비급여 진료비가 발생한 경우 공제금액으로 가장 적절한 것은?",
@@ -526,7 +569,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 44,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험의 기본형에 대한 설명중 (   ) 안의 들어갈 내용은?\n피보험자가 통원치료 중 보험계약이 종료되더라도 그 계속중인 통원에 대해서는 보험계약 종료일 다음날로부터 ( A ) 이내의 통원을 보상하며, 최대한 ( B )한도 내에서 보상한다",
@@ -538,7 +582,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 45,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험에 대한 설명으로 맞는 것은?",
@@ -550,7 +595,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 46,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험의 비급여 보험료 차등적용 제도에서 제외되는 대상은?",
@@ -562,7 +608,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 47,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 노후실손의료보험의 상품구조로 맞는 것은?",
@@ -574,7 +621,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 48,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 질병보험의 특성과 가장 거리가 먼 것은?",
@@ -586,7 +634,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 49,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기간병보험에서 지급하는 보험금의 종류에 해당하는 것은?",
@@ -598,7 +647,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 50,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "화재보험에서 보상하는 손해가 아닌 것은?",
@@ -610,7 +660,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 51,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "아래 예시의 경우 잔존물 제거비용 보험금은?\n보험가액 1억원, 가입금액 4,000만원인 주택화재보험 가입.화재로 1,000만원 재산손해와 400만원의 잔존물 제거비용 발생.",
@@ -622,7 +673,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 52,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "화재보험에 대한 설명으로 틀린 것은?",
@@ -634,7 +686,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 53,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 체육시설의 중 배상책임보험 의무가입 대상이 아닌 것은?",
@@ -646,7 +699,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 54,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "레저종합보험에서 보상하는 손해에 해당하지 않는 것은?",
@@ -658,7 +712,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 55,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험의 만기환급금 및 해약환급금에 대한 설명으로 틀린 것은?",
@@ -670,7 +725,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 56,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "장기손해보험 계약의 철회의 기간은?",
@@ -682,7 +738,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 57,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "장기손해보험 계약의 청약철회와 계약의 취소에 대한 설명으로 옳은 것은?",
@@ -694,7 +751,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 58,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "장기주택화재보험에서 보상하는 손해에 해당하는 것은?",
@@ -706,7 +764,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 59,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 ( ) 안에 들어갈 내용을 순서대로 나열한 것은?\n연금저축의 세제적격 요건최소 납입기간 (   )년 이상, 가입일로부터 (   )년 이후 연금수령.",
@@ -718,7 +777,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 60,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "연금저축 가입자가 만 75세에 연금수령시 적용되는 연금 소득세율은? (지방소득세 제외)",
@@ -730,7 +790,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 61,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "퇴직연금제도 설정자 또는 가입자가 퇴직연금 사업자와 체결하는 계약 형태로 가능한 것은?",
@@ -742,7 +803,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 62,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "교통사고처리특례법상 형사처벌 대상에 해당하지 않는 것은?",
@@ -754,7 +816,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 63,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "개인용자동차보험 '다른 자동차 운전담보 특약'에 대한 설명으로 틀린 것은?",
@@ -766,7 +829,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 64,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "자동차보험 우량할인 및 불량할증에 대한 설명 중 맞는 것은?",
@@ -778,7 +842,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 65,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 대인사고시 부상 1급 사고에 대한 건당 점수는?",
@@ -790,7 +855,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 66,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "「자동차사고 과실비율분쟁 심의위원회」에 대한 설명 중 틀린 것은?",
@@ -802,7 +868,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 67,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "모집자실명제 및 상품설명제에 대한 설명으로 옳지 않은 것은?",
@@ -814,7 +881,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 68,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "통신수단을 이용한 보험모집에 대한 설명 중 틀린 것은?",
@@ -826,7 +894,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 69,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음에서 설명하는 것은 무엇인가?\n기존 보험계약과 내용이 유사한 새로운 보험계약을 청약하게 함으로써 기존 계약을 부당하게 소멸시키거나 그 밖에 부당하게 청약하도록 권유하는 행위",
@@ -838,7 +907,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 70,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "모집종사자가 보험업법에 따른 보험계약의 체결 또는 모집에 관한 금지행위를 위반한 경우 보험업법상 처벌은?",
@@ -850,7 +920,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 71,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 모집종사자에 대한 설명으로 틀린 것은?",
@@ -862,7 +933,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 72,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험의 모집과 관련된 설명 중 틀린 것은?",
@@ -874,7 +946,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 73,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "금융기관보험대리점의 보험모집시 금지행위에 해당하지 않는 것은?",
@@ -886,7 +959,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 74,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "가망고객 발굴기법 중 소개의 장점으로 적절하지 않은 것은?",
@@ -898,7 +972,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 75,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험의 기본원칙에 대한 설명으로 틀린 것은?",
@@ -910,7 +985,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 76,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음의 설명 중 옳은 것은?",
@@ -922,7 +998,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 77,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 도로교통법 내용 중 틀린 것은?",
@@ -934,7 +1011,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 78,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험사고 요건에 대한 설명으로 틀린 것은?",
@@ -946,7 +1024,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 79,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험사고의 요건이 아닌 것은?",
@@ -958,7 +1037,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 80,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험계약의 무효와 취소에 관한 설명 중 옳은 것은?",
@@ -970,7 +1050,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 81,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "타인을 위한 보험계약에 대한 설명 중 옳은 것은?",
@@ -982,7 +1063,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 82,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "손해보험회사가 판매하는 제3보험의 운영근거가 되는 법률 및 규정과 관계가 없는 것은?",
@@ -994,7 +1076,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 83,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "손해보험회사의 제3보험 상품설계기준에 대한 내용으로 틀린 것은?",
@@ -1006,7 +1089,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 84,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "손해보험회사의 질병사망 담보에 대한 설명으로 틀린 것은?",
@@ -1018,7 +1102,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 85,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "손해보험회사의 질병사망에 대한 설명 중 맞는 것은?",
@@ -1030,7 +1115,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 86,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "제3보험에 대한 설명으로 틀린 것은?",
@@ -1042,7 +1128,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 87,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "상해보험의 특징에 해당하지 않는 것은?",
@@ -1054,7 +1141,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 88,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "상해보험의 보험료 산출 시 고려사항에 해당하지 않는 것은?",
@@ -1066,7 +1154,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 89,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "수해 발생 후 피보험자가 실종선고를 받은 경우 사망으로 간주하는 시기로 올바른 것은?",
@@ -1078,7 +1167,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 90,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "상해보험에서 보상하는 손해에 해당하는 것은?",
@@ -1090,7 +1180,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 91,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "현재 판매되는 실손의료보험의 보장종목 구성으로 올바른 것은?",
@@ -1102,7 +1193,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 92,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험에서 보상하는 손해에 해당하는 것은?",
@@ -1114,7 +1206,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 93,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "대중교통 이용 중 상해보험에서 대중교통 수단에 해당되지 않는 것은?",
@@ -1126,7 +1219,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 94,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "대중교통 이용 중 상해보험에서 대중교통 수단에 포함되지 않는 것은?",
@@ -1138,7 +1232,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 95,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "질병보험에서 보험연령에 대한 설명으로 올바른 것은?",
@@ -1150,7 +1245,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 96,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "4세대 실손의료보험에 대한 설명으로 옳은 것은?",
@@ -1162,7 +1258,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 97,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "중대한 암, 뇌졸중 등 치명적 질병을 보장하는 보험에 해당하는 것은?",
@@ -1174,7 +1271,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 98,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "간병보험에 가입할 경우 보상받을 수 있는 것은?",
@@ -1186,7 +1284,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 99,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 주택화재보험 보통약관에서 보상받을 수 없는 손해는?",
@@ -1198,7 +1297,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 100,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "공장기숙사 건물에 화재가 발생하여 아래와 같이 손해가 발생한 경우 보상하는 보험금은?\n- 보험가입금액 1억원, 보험가액 2억원- 손해액 5,000만원, 잔존물 제거비용 2,000만원",
@@ -1210,7 +1310,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 101,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험회사의 화재보험 계약 해지 권한이 발생할 수 있는 경우가 아닌 것은?",
@@ -1222,7 +1323,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 102,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 도난보험에 대한 설명 중 틀린 것은?",
@@ -1234,7 +1336,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 103,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 유아교육기관과 관련된 위험을 보장하기 위한 유아교육기관종합보험에서 보상하는 손해가 아닌 것은?",
@@ -1246,7 +1349,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 104,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험에 대한 설명 중 틀린 것은?",
@@ -1258,7 +1362,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 105,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험의 특징으로 맞는 것은?",
@@ -1270,7 +1375,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 106,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험의 보험료 구성과 그에 대한 설명으로 틀린 것은?",
@@ -1282,7 +1388,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 107,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "보험료 계산의 주요 요소 중 '위험률차손익'에 대한 설명으로 맞는 것은?",
@@ -1294,7 +1401,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 108,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 연금저축보험의 세제적격 요건 중 맞는 것은?",
@@ -1306,7 +1414,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 109,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 연금저축 가입 후 연금수령 시 연금소득세율 중 옳지 않은 것은?",
@@ -1318,7 +1427,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 110,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 퇴직연금제도에 관한 설명 중 잘못된 것은?",
@@ -1330,7 +1440,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 111,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험계약의 성립요건 중 맞는 것은?",
@@ -1342,7 +1453,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 112,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험료에 대한 설명 중 옳은 것은?",
@@ -1354,7 +1466,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 113,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "자동차보험의 차종구분 중 승용자동차에 대한 설명으로 맞는 것은?",
@@ -1366,7 +1479,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 114,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "과실상계, 손익상계, 기왕증에 대한 설명으로 틀린 것은?",
@@ -1378,7 +1492,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 115,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차손해배상보장법에 대한 설명 중 틀린 것은?",
@@ -1390,7 +1505,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 116,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약 단계별 설명의무에 대한 내용으로 틀린 것은?",
@@ -1402,7 +1518,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 117,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험업법 위반행위와 벌칙이 맞게 연결된 것은?",
@@ -1414,7 +1531,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 118,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약 경유처리에 대한 설명이 아닌 것은?",
@@ -1426,7 +1544,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 119,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "보험업법상 자기계약의 금지에 대한 설명이다. ( ) 안에 들어갈 숫자로 적절한 것은?\n보험대리점 또는 중개사가 모집한 자기 또는 자기를 고용하고 있는 자를 계약자·피보험자로 하는 보험의 보험료 누계액이 보험료의 100분의 (    )을 초과하게 될 경우 이를 자기 또는 자기를 고용하고 있는 자를 계약자 또는 피보험자로 하는 보험을 모집하는 것을 주된 목적으로 한 것으로 본다",
@@ -1438,7 +1557,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 120,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험설계사 자격을 취득하여 보험설계사로 등록할 수 있는 사람은?",
@@ -1450,7 +1570,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 121,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험설계사 말소에 관하여 바르게 설명한 것은?",
@@ -1462,7 +1583,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 122,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험대리점에 관한 설명 중 잘못된 것은?",
@@ -1474,7 +1596,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 123,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 손해보험 우수인증설계사 인증기준에 대한 설명으로 옳은 것은?",
@@ -1486,7 +1609,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 124,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 피보험이익과 관련한 설명으로 맞는 것은?",
@@ -1498,7 +1622,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 125,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험의 분류 중 보험기간에 따른 분류에 해당하지 않는 것은?",
@@ -1510,7 +1635,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 126,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "의료기관이 교통사고 입원환자의 외출·외박 사항에 대한 기록 및 관리를 위반했을 시 부과되는 과태료 기준은?",
@@ -1522,7 +1648,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 127,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 음주운전 처벌기준 중 틀린 것은?",
@@ -1534,7 +1661,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 128,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약에 관한 설명 중 틀린 것은?",
@@ -1546,7 +1674,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 129,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음의 설명 중 옳지 않은 것은?",
@@ -1558,7 +1687,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 130,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약에 대한 설명으로 올바른 것은?",
@@ -1570,7 +1700,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 131,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 소액단기전문 보험회사가 취급할 수 없는 종목은?",
@@ -1582,7 +1713,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 132,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "제3보험 상품설계 기준상 손해보험회사가 저축성보험으로 개발이 가능한 경우에 해당하는 것은?",
@@ -1594,7 +1726,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 133,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험의 보상방법에 대한 설명으로 틀린 것은?",
@@ -1606,7 +1739,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 134,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음의 계약 중 계약의 무효에 해당하지 않는 경우는?",
@@ -1618,7 +1752,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 135,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험 계약 중 계약의 무효에 해당하지 않는 경우는?",
@@ -1630,7 +1765,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 136,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험의 후유장해보험금 지급시 고려사항에 해당하는 것은?",
@@ -1642,7 +1778,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 137,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 개인 실손의료보험에서 보상하지 않는 것은?",
@@ -1654,7 +1791,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 138,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험의 후유장해보험금에 대한 설명으로 올바른 것은?",
@@ -1666,7 +1804,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 139,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 개인 실손의료비(4세대)에 대한 설명으로 틀린 것은?",
@@ -1678,7 +1817,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 140,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험 약관상 (    ) 안에 들어갈 날짜로 적절한 것은?\n보험회사는 손해발생 통지 및 보험금 청구서류를 접수한 때에는 접수증을 드리고, 그 서류를 접수한 날부터 신체손해에 관한 보험금은 (    ) 이내에 지급하여 드립니다.",
@@ -1690,7 +1830,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 141,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "단체상해보험에서 비영리법인단체나 변호사회·의사회 등 동업자단체로서 5인 이상 구성원이 있는 단체의 종류로 올바른 것은?",
@@ -1702,7 +1843,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 142,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 질병보험의 보험금 지급에 대한 설명으로 틀린 것은?",
@@ -1714,7 +1856,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 143,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기간병보험으로 보상받을 수 있는 경우는?",
@@ -1726,7 +1869,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 144,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 화재보험의 보험목적에 해당하지 않는 것은?",
@@ -1738,7 +1882,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 145,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 주택화재보험 건물의 평가방법으로 맞는 것은?",
@@ -1750,7 +1895,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 146,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 주택화재보험의 보상범위에 해당하지 않는 것은?",
@@ -1762,7 +1908,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 147,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 일반화재보험과 주택화재보험의 차이점으로 맞는 것은?",
@@ -1774,7 +1921,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 148,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 해상보험에서 보상하는 손해가 아닌 것은?",
@@ -1786,7 +1934,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 149,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 해상보험의 단독해손에 대한 설명으로 맞는 것은?",
@@ -1798,7 +1947,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 150,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 적하보험의 보상범위에 해당하지 않는 것은?",
@@ -1810,7 +1960,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 151,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 해상보험의 보험가액 산정 기준으로 맞는 것은?",
@@ -1822,7 +1973,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 152,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 배상책임보험의 특징으로 틀린 것은?",
@@ -1834,7 +1986,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 153,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음의 순보험료의 구성으로 맞는 것은?\nㄱ. 부가보험료    ㄴ. 위험보험료ㄷ. 저축보험료    ㄹ. 영업보험료",
@@ -1846,7 +1999,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 154,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험의 보험료 구성에 대한 내용으로 틀린 것은?",
@@ -1858,7 +2012,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 155,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기손해보험의 계산시 사용되는 요소로 맞게 짝지어진 것은?",
@@ -1870,7 +2025,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 156,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 연금저축보험의 세제에 관한 설명 중 맞는 것은?",
@@ -1882,7 +2038,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 157,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 연금저축보험의 세액공제에 대한 설명으로 틀린 것은?",
@@ -1894,7 +2051,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 158,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음의 표에서 설명하는 내용으로 맞는 것은?\n연금저축보험의 가입자가 만 70세 이상 80세 미만의 기간에연금으로 수령하는 경우 적용되는 세율은 몇 % 인가? (지방소득세 제외)",
@@ -1906,7 +2064,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 159,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 노후보장을 위한 3층 보장제도에 해당되지 않는 것은?",
@@ -1918,7 +2077,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 160,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 개인의 노후소득 보장을 위한 보험으로 알맞은 것은?",
@@ -1930,7 +2090,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 161,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 퇴직연금사업자로 등록할 수 없는 금융기관은 어디인가?",
@@ -1942,7 +2103,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 162,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 퇴직연금제도의 도입취지에 해당하지 않는 것은?",
@@ -1954,7 +2116,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 163,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 퇴직연금제도의 퇴직급여 수령에 대한 설명으로 틀린 것은?",
@@ -1966,7 +2129,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 164,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험에서 무면허 운전에 대한 설명으로 틀린 것은?",
@@ -1978,7 +2142,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 165,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차손해배상보장법상 책임관계에 대한 설명 중 틀린 것은?",
@@ -1990,7 +2155,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 166,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차 사고의 책임관계에 대한 설명으로 틀린 것은?",
@@ -2002,7 +2168,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 167,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 의무가입건설기계에 해당하지 않는 것은?",
@@ -2014,7 +2181,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 168,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차 양도시 책임보험의 자동승계 인정가능 기간은 언제인가?",
@@ -2026,7 +2194,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 169,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 보험요율 산정에 대한 설명으로 틀린 것은?",
@@ -2038,7 +2207,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 170,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험 대인배상 I 에서 사망보험금의 최고 보상한도는?",
@@ -2050,7 +2220,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 171,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 가족운전자 한정특약에서 가족의 범위에 해당하지 않는 것은?",
@@ -2062,7 +2233,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 172,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 무보험자동차에 의한 상해담보에 대한 설명으로 맞는 것은?",
@@ -2074,7 +2246,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 173,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험 우량할인 · 불량할증의 사고 점수로 맞는 것은?",
@@ -2086,7 +2259,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 174,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 차종구분 중 화물자동차에 해당하지 않는 것은?",
@@ -2098,7 +2272,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 175,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 대인배상 II 에서 보상하는 보험금 지급사유가 아닌 것은?",
@@ -2110,7 +2285,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 176,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 과실상계 · 손익상계, 기왕증에 대한 설명으로 틀린 것은?",
@@ -2122,7 +2298,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 177,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험 보험금 지급기준에 대한 설명 중 맞는 것은?",
@@ -2134,7 +2311,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 178,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차손해배상보장사업에 대한 설명으로 맞는 것은?",
@@ -2146,7 +2324,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 179,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 담보 및 가입의무에 대한 설명으로 틀린 것은?",
@@ -2158,7 +2337,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 180,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 단체할인 · 할증에 대한 내용으로 틀린 것은?",
@@ -2170,7 +2350,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 181,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 대인배상 보험금 지급기준으로 옮은 것은?",
@@ -2182,7 +2363,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 182,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 부상보험금 중 간병비에 대한 설명으로 맞는 것은?",
@@ -2194,7 +2376,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 183,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 자동차보험의 과실비율 적용에 대한 설명으로 틀린 것은?",
@@ -2206,7 +2389,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 184,
-    "category": "손해보험"
+    "category": "손해보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 모집자실명제 및 상품설명제에 대한 설명으로 맞는 것은?",
@@ -2218,7 +2402,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 185,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 특별이익 제공 금지 행위에 해당하지 않는 것은?",
@@ -2230,7 +2415,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 186,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 완전판매를 위한 3대 기본지키기에 해당하지 않는 것은?",
@@ -2242,7 +2428,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 187,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 청약서 등 자필서명에 대한 설명으로 맞는 것은?",
@@ -2254,7 +2441,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 188,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 최초계약시 중요사항을 설명하면 이후 계약의 체결시에도 설명의무를 이행한 것으로 보는 계약은?",
@@ -2266,7 +2454,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 189,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험모집과 관련한 설명의무에 대한 설명으로 맞는 것은?",
@@ -2278,7 +2467,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 190,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 자기계약에 대한 설명으로 알맞지 않은 것은?",
@@ -2290,7 +2480,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 191,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약정보를 제3자에게 제공할 수 있는 경우로 맞는 것은?",
@@ -2302,7 +2493,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 192,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "실손의료보험 가입시 (   ) 안에 들어갈 순서를 바르게 나열한 것은?\n(       ) → (       ) → 비례보상 설명 → (       )",
@@ -2314,7 +2506,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 193,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음의 표에서 설명하는 행위는 어떤 위반행위에 해당하는가?\n보험대리점 소속 보험설계사인 홍길동은 보험계약자에게 월 보험료 5만원 상당의운전자보험을 체결 후 감사의 표시로 5만원 상당의 골프공을 선물하였다.",
@@ -2326,7 +2519,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 194,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 「보험업법」상 모집종사자의 정의를 바르게 설명한 것은?",
@@ -2338,7 +2532,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 195,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험설계사의 등록에 대한 설명으로 틀린 것은?",
@@ -2350,7 +2545,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 196,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험대리점 또는 보험중개사의 신고사항에 해당하지 않는 것은?",
@@ -2362,7 +2558,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 197,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험설계사의 분류상 성격이 다른 하나는?",
@@ -2374,7 +2571,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 198,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험대리점에 대한 설명으로 틀린 것은?",
@@ -2386,7 +2584,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 199,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 교차모집설계사로 등록할 수 있는 경우는?",
@@ -2398,7 +2597,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 200,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험모집 프로세스 단계 중 인생의 5대 필요자금이 아닌 것은?",
@@ -2410,7 +2610,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 201,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 가망고객 발굴기법 중 소개의 장점으로 적절하지 않은 것은?",
@@ -2422,7 +2623,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 202,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 우수인증설계사의 인증효력이 상실되는 경우가 아닌 것은?",
@@ -2434,7 +2636,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 203,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 모집종사자에 대한 설명으로 맞는 것은?",
@@ -2446,7 +2649,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 204,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험가입이 가능한 위험이 아닌 것은?",
@@ -2458,7 +2662,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 205,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 위험에 대한 설명으로 틀린 것은?",
@@ -2470,7 +2675,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 206,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 위험과 관련된 설명으로 잘못된 것은?",
@@ -2482,7 +2688,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 207,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 법률상으로 보험에 관해 잘못 설명된 것은?",
@@ -2494,7 +2701,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 208,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험의 성립요건에 대한 설명으로 틀린 것은?",
@@ -2506,7 +2714,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 209,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 기간보험과 구간보험 중 기간보험에 해당하는 것은?",
@@ -2518,7 +2727,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 210,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험가입금액에 따른 분류에 대한 설명으로 맞는 것은?",
@@ -2530,7 +2740,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 211,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 초과보험에 대한 설명으로 틀린 것은?",
@@ -2542,7 +2753,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 212,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험범죄의 사회적 피해에 대한 설명으로 틀린 것은?",
@@ -2554,7 +2766,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 213,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "의료기관이 교통사고 입원환자의 외출 · 외박시 기록사항이 아닌 것은?",
@@ -2566,7 +2779,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 214,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험사기에 대한 처벌내용 중 맞지 않는 것은?",
@@ -2578,7 +2792,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 215,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 교통사고 예방을 위한 도로교통법의 내용 중 틀린 것은?",
@@ -2590,7 +2805,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 216,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약에 대한 설명으로 맞는 것은?",
@@ -2602,7 +2818,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 217,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 교통사고처리특례법상 중과실 사유에 해당하지 않는 것은?",
@@ -2614,7 +2831,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 218,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약의 무효사유로 맞는 것은?",
@@ -2626,7 +2844,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 219,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험계약과 관련한 설명 중 맞는 것은?",
@@ -2638,7 +2857,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 220,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험목적의 양도에 대한 설명으로 틀린 것은?",
@@ -2650,7 +2870,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 221,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험의 특정한 경제주체가 갖는 경제적 이해관계를 말하는것은?",
@@ -2662,7 +2883,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 222,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 타인을 위한 보험계약에 대한 설명으로 옮지 않은 것은?",
@@ -2674,7 +2896,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 223,
-    "category": "공통"
+    "category": "공통",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험의 특징으로 바르게 짝지어진 것은?\n가. Gray Zone 이라고도 한다.\n나. 전부 실손보험이다.\n다. 만 18세 미만자의 사망을 보험사고로 하는 보험계약은 무효이다.\n라. 주계약이 상해보험인 경우 저축성보험은 보험기간 15년 이하로 개발이 가능하다.",
@@ -2686,7 +2909,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 224,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 손해보험회사에서 저축성보험으로 개발이 가능한 것은 무엇인가?",
@@ -2698,7 +2922,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 225,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 손해보험회사의 질병사망보험 영위조건으로 맞는 것은?",
@@ -2710,7 +2935,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 226,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험의 상품개발원칙으로 맞는 것은?",
@@ -2722,7 +2948,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 227,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험의 상해보험에 가입 후 약관상 보장하지 않는 원인으로 사망시 지급되는 금액은?",
@@ -2734,7 +2961,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 228,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 제3보험을 보장성보험으로 설계하는 기준으로 맞는 것은?",
@@ -2746,7 +2974,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 229,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험의 특징에 대한 설명으로 올바르지 않은 것은?",
@@ -2758,7 +2987,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 230,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 상해보험의 특징에 대한 설명으로 옮은 것은?",
@@ -2770,7 +3000,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 231,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 보험료가 가장 낮은 직업은 무엇인가?",
@@ -2782,7 +3013,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 232,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험(상해입원 및 통원)에서 보상하는 경우는?",
@@ -2794,7 +3026,8 @@ const QUESTIONS = [
     ],
     "answer": 4,
     "id": 233,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 표에서 설명하는 용어로 알맞은 것은?\n상해보험의 경우 당사자 간에 다른 약정이 있는 때에는 피보험자의 권리를 해치지 않는범위 내에서 보험자는 그 권리를 대신하여 행사할 수 있다.",
@@ -2806,7 +3039,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 234,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 표에서 (   ) 안에 들어갈 알맞은 것은?\n상해보험에서 보험료 산출은 직업 및 직무의 위험도를 감안하여 (       ) 개 등급으로구분하여 보험료를 책정한다.",
@@ -2818,7 +3052,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 235,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 실손의료보험의 3대 비급여 보상에 해당하지 않는 것은?",
@@ -2830,7 +3065,8 @@ const QUESTIONS = [
     ],
     "answer": 1,
     "id": 236,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 실손의료보험에 대한 설명 중 (   ) 안에 들어갈 알맞은 것은?\n피보험자가 통원하여 치료를 받던 중 보험계약이 종료되더라도 그 계속 중인 통원에대해서는 보험계약 종료일 다음날부터 (       ) 이내의 통원을 보상하며최대 (       ) 한도 내에서 보상한다.",
@@ -2842,7 +3078,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 237,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 대중교통이용 중 교통상해에서 대중교통에 해당하지 않는 것은?",
@@ -2854,7 +3091,8 @@ const QUESTIONS = [
     ],
     "answer": 2,
     "id": 238,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 갱신주기와 재가입주기에 대한 설명으로 맞는 것은?",
@@ -2866,7 +3104,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 239,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 중대한 암, 뇌졸중 등 치명적 질병을 보장하는 보험은 무엇인가?",
@@ -2878,7 +3117,8 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 240,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
   },
   {
     "question": "다음 중 장기간병보험으로 보상받을 수 있는 경우는 무엇인가?",
@@ -2890,6 +3130,13207 @@ const QUESTIONS = [
     ],
     "answer": 3,
     "id": 241,
-    "category": "제3보험"
+    "category": "제3보험",
+    "source": "docx"
+  },
+  {
+    "question": "주택화재보험을 예시와 같이 가입한 후 손해가 발생한 경우 지급보험금은?\n· 보험가입금액 1억원 · 보험가액 9,000만원\n· 손해액 3,000만원",
+    "options": [
+      "1,000만원",
+      "2,000만원",
+      "3,000만원",
+      "4,000만원"
+    ],
+    "answer": 3,
+    "id": 242,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "화재보험에서 손해액이 보험가입금액을 초과하더라도 지급하는 비용손해가\n아닌 것은?",
+    "options": [
+      "잔존물보전비용",
+      "잔존물제거비용",
+      "손해방지비용",
+      "대위권보전비용"
+    ],
+    "answer": 2,
+    "id": 243,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "특수건물의 신체손해배상특약부 화재보험에 의무적으로 가입해야 하는 자는?",
+    "options": [
+      "특수건물에 임차 영업 중인 다중이용업주",
+      "특수건물의 소유주",
+      "특수건물의 소유주와 특수 관계에 있는 자",
+      "특수건물의 소유주와 주거를 같이 하는 직계 가족"
+    ],
+    "answer": 2,
+    "id": 244,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "도난보험에서 보상하지 않는 손해에 해당하는 것은?",
+    "options": [
+      "보관장소 내에 있던 중 발생한 사고로 인한 손해",
+      "보험기간 중에 발생한 사고로 입은 손해",
+      "절도로 생긴 훼손 또는 망가진 손해",
+      "보관장소를 72시간 동안 비워 둔 사이에 발생한 도난손해"
+    ],
+    "answer": 4,
+    "id": 245,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "스포츠 경기 결과, 기상조건 등 특정 조건이 이루어졌을 때 해당 고객 등에게\n시상금을 주는 보험에 해당하는 것은?",
+    "options": [
+      "기업휴지보험",
+      "기업배상책임보험",
+      "배상책임보험",
+      "컨틴전시보험"
+    ],
+    "answer": 4,
+    "id": 246,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "장기손해보험에 대한 설명 중 틀린 것은?",
+    "options": [
+      "금리연동형의 경우 만기환급금은 계약시 예상금액보다 많거나 적어질 수 있다",
+      "장기손해보험의 부가보험료는 특별계정에 의해 운용된다",
+      "일반보험과는 달리 자동복원 및 보험계약 대출제도가 있다",
+      "보험료 납입방법 및 납입주기가 다양하다"
+    ],
+    "answer": 2,
+    "id": 247,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "해지된 계약의 부활에 관한 설명으로 틀린 것은?",
+    "options": [
+      "해지일로부터 3년 이내에만 부활이 가능하다",
+      "계약부활시에는 해지된 기간에 해당하는 연체보험료를 납입하면 부활한다",
+      "부활시에도 계약체결시의 계약 전 알릴 의무가 동일하게 적용된다",
+      "부활 후 회사의 책임은 약관에서 정한 시기부터 시작한다"
+    ],
+    "answer": 2,
+    "id": 248,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "장기손해보험의 계약취소 사유에 해당하지 않는 것은?",
+    "options": [
+      "보험약관을 계약자에게 전달하지 않은 경우",
+      "보험약관의 중요한 내용을 설명하지 않은 경우",
+      "계약자가 청약서에 자필서명을 하지 않은 경우",
+      "타인의 사망을 보장하는 계약에서 피보험자의 서면동의를 받지 않은 경우"
+    ],
+    "answer": 4,
+    "id": 249,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "계약자적립액에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보험회사가 보험계약에 대한 책임이행을 위해 의무적으로 적립하는 법정적립금",
+      "지진, 홍수 등 거대위험에 대비한 준비금",
+      "계약 만기시 만기환급금 지급을 위해 약관에서 정한 이율로 계산한 이자준비금",
+      "계약자배당을 위해 매년 당기순이익의 일부분을 적립한 금액"
+    ],
+    "answer": 1,
+    "id": 250,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "연금저축의 세제적격 요건에 대한 설명이다. ( )에 들어갈 것으로 각각\n적절한 것은?\n연금저축은 ( ) 이상 불입하고 ( ) 이후부터 연금으로 지급받는 저축일 것",
+    "options": [
+      "3년, 만 50세",
+      "5년, 만 55세",
+      "10년, 만 60세",
+      "15년, 만 65세"
+    ],
+    "answer": 2,
+    "id": 251,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "연금소득의 종합소득 합산과세 기준은?",
+    "options": [
+      "연금계좌에서 인출하는 금액이 공적연금과 합산하여 연간 1,200만원을 초과하는 경우",
+      "연금계좌에서 인출하는 연간 연금수령 금액이 1,200만원을 초과하는 경우",
+      "연금계좌에서 인출하는 금액이 소득공제를 받지 못하는 금액을 포함하여 1,200만원을 초과하는 경우",
+      "연금계좌에서 인출하는 연간 연금 외 수령 금액이 1,200만원을 초과하는 경우"
+    ],
+    "answer": 2,
+    "id": 252,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "퇴직연금 계좌에서 일부 금액이 인출되는 경우 인출 순서로 맞는 것은?",
+    "options": [
+      "과세제외 금액 → 이연 퇴직소득 → 그밖에 퇴직연금계좌에 있는 금액",
+      "이연 퇴직소득 → 그 밖에 퇴직연금계좌에 있는 금액 → 과세제외 금액",
+      "이연 퇴직소득 → 과세제외 금액 → 그 밖에 퇴직연금계좌에 있는 금액",
+      "과세제외 금액 → 그 밖에 퇴직연금계좌에 있는 금액 → 이연 퇴직소득"
+    ],
+    "answer": 1,
+    "id": 253,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 12대 중과실 사고가 아닌 것은?",
+    "options": [
+      "중앙선을 침범하여 유턴하다 생긴 사고",
+      "제한속도를 시속 10km 초과 사고",
+      "혈중 알코올농도 0.03% 이상 운전 중 사고",
+      "어린이 보호구역 안전운전의무 위반 사고 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 2,
+    "id": 254,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "자동차사고로 인한 행정상의 책임이 아닌 것은?",
+    "options": [
+      "범칙금 부과",
+      "면허 취소",
+      "사용자 배상책임",
+      "면허정지"
+    ],
+    "answer": 3,
+    "id": 255,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "자동차손해배상보장법에 의하여 의무보험에 반드시 가입해야 하는 자동차에\n해당하는 것은?",
+    "options": [
+      "도로(도로교통법 제2조 제1항)가 아닌 장소에 한하여 운행하는 자동차",
+      "건설기계관리법에 의한 9종 건설기계(콘크리트믹서트럭, 기중기, 아스팔트살포기 등)",
+      "대한민국에 주류하는 국제연합군대가 보유하는 자동차",
+      "국토교통부장관이 지정한 외국인 소유의 자동차"
+    ],
+    "answer": 2,
+    "id": 256,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 운전자연령 한정운전특약 위반시에도 보상되는 담보를 모두 고른 것은?\n가. 대인배상Ⅰ 나. 대인배상 Ⅱ\n다. 대물배상(가입금액 2천만원) 라. 자기신체사고\n마. 자기차량손해",
+    "options": [
+      "가",
+      "가, 나",
+      "가, 다",
+      "가, 다, 마"
+    ],
+    "answer": 1,
+    "id": 257,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음과 같은 사례에서 자동차손해배상보장 사업의 보상관계에 대한 설명으로\n맞는 것은?\n사례 : 기명피보험자 갑이 운전하는 A차량(자동차 종합보험가입)에 갑의 친구 을, 병이\n함께 타고 가던 중 책임보험(대인배상Ⅰ)에 가입하지 않은 B차량의 중앙선 침범\n사고로 갑, 을, 병이 모두 사망하고 A차량이 파손된 사고",
+    "options": [
+      "갑은 자동차손해배상보장사업에 의한 보상을 받을 수 있다",
+      "을은 자동차손해배상보장사업에 의한 보상을 받을 수 있다",
+      "병은 자동차손해배상보장사업에 의한 보상을 받을 수 있다",
+      "갑의 차량(A) 파손에 대한 수리비 등도 자동차손해배상보장사업에 의해 보상받을 수 있다"
+    ],
+    "answer": 1,
+    "id": 258,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험상품 완전판매를 위한 3대 기본지키기에 해당하지 않는 것은? [4점]",
+    "options": [
+      "청약서 등 자필서명",
+      "청약서 부본 전달",
+      "약관 전달 및 중요내용 설명",
+      "모집자실명제 준수"
+    ],
+    "answer": 4,
+    "id": 259,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험계약 단계별 설명의무에 대한 설명으로 맞는 것은?",
+    "options": [
+      "단계별 설명의무를 위반한 경우에는 1천만원 이하의 과태료를 부과할 수 있다",
+      "일반보험계약자가 설명을 거부하는 경우에는 계약체결 단계를 설명하지 않아도 된다",
+      "보험계약 체결단계에서 주계약 보험료, 보험계약의 승낙절차 등을 설명하여야 한다",
+      "계약체결 권유단계에서 설명내용 확인 방법은 서명날인만 허용된다"
+    ],
+    "answer": 2,
+    "id": 260,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험계약 체결 권유단계에서 가입설계서를 제공하지 않아도 되는 보험계약은?",
+    "options": [
+      "자동차보험",
+      "실손의료보험",
+      "상해보험",
+      "단체보험계약"
+    ],
+    "answer": 4,
+    "id": 261,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "손해보험협회에서 운영하는 장애인 및 장기기증자에 대한 보험가입 차별 금지센터에\n신고할 수 없는 자는?",
+    "options": [
+      "장애인",
+      "장기기증자",
+      "장애인 및 장기기증자의 대리인",
+      "보험회사 직원"
+    ],
+    "answer": 4,
+    "id": 262,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험업법상 모집할 수 있는 자의 범위에 해당하지 않는 것은?",
+    "options": [
+      "보험설계사",
+      "보험대리점",
+      "보험중개사",
+      "보험회사의 대표이사"
+    ],
+    "answer": 4,
+    "id": 263,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "손해보험설계사 시험을 응시하지 않고 교육을 이수한 것만으로 손해보험설계사로\n등록할 수 있는 사람은?",
+    "options": [
+      "A는 3년 전 1년 이상 법인보험대리점의 대표로 근무한 적이 있다",
+      "B는 2년 전에 손해보험중개사로 1년 이상 영업한 적이 있다",
+      "C는 최근 2년 동안 생명보험회사의 직원으로 근무하였다",
+      "D는 1년 전에 제3보험설계사 시험에 합격하였다"
+    ],
+    "answer": 2,
+    "id": 264,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험업법상 보험설계사의 등록에 대한 내용으로 옳지 않은 것은?",
+    "options": [
+      "보험회사 및 보험대리점은 소속 보험설계사가 되려는 자를 금융위원회에 등록 하여야 한다",
+      "등록이 취소된 후 2년이 경과되지 아니한 자는 등록이 제한된다",
+      "미성년자는 보험설계사로 등록할 수 없다",
+      "파산선고를 받은 자로서 복권되지 아니한 자는 등록이 제한된다"
+    ],
+    "answer": 3,
+    "id": 265,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 보험판매 프로세스에 대한 설명으로 올바른 것은?",
+    "options": [
+      "정보수집: 고객의 니즈 및 재무정보를 토대로 한 최적의 위험보장설계 단계",
+      "가입권유: 정확한 보험가입에 대한 최종 확인 및 완전판매의 실현단계",
+      "계약체결: 보험영업의 최종 목표이자 새로운 고객서비스의 시작단계",
+      "증권전달: 고객에 대한 상세하고 체계적인 정보 수집단계"
+    ],
+    "answer": 3,
+    "id": 266,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "위험의 개념에 대한 설명 중 틀린 것은?",
+    "options": [
+      "사고는 손해의 직접적인 원인이다",
+      "고의방화는 물리적 위태이다",
+      "졸음운전은 정신적 위태라고 볼 수 있다",
+      "일반적으로 손해는 손실, 손상, 훼손, 일실 등 여러 가지 의미로 사용된다"
+    ],
+    "answer": 2,
+    "id": 267,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험의 분류에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험료 납입주체에 따라 가계성보험과 기업성보험으로 나눌 수 있다",
+      "조립보험, 여행자보험, 건설공사보험은 혼합보험의 한 종류이다",
+      "보험의 운영형태에 따라 공영보험과 민영보험으로 나눌 수 있다",
+      "상법상 손해보험은 화재보험, 자동차보험, 해상보험, 책임보험, 운송보험 등 5개 종목으로 분류된다"
+    ],
+    "answer": 3,
+    "id": 268,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험사기 처벌에 관한 설명 중 틀린 것은?",
+    "options": [
+      "보험사기방지특별법상 보험사기행위라 함은 보험사고의 발생, 원인 또는 내용에 관하여 보험자를 기망하여 보험금을 청구하는 행위를 말한다",
+      "보험사기로 인한 이득액이 5억원 이상으로 보험사기방지특별법에 의해 가중 처벌될 경우 이득액 상당액에 대한 벌금부과는 제외된다",
+      "보험사기로 인한 이득액이 5억원 이상 50억원 미만인 때 3년 이상 유기징역에 처해진다",
+      "보험사기로 인한 이득액이 50억원 이상인 경우 무기징역 또는 5년 이상의 징역에 처해진다"
+    ],
+    "answer": 2,
+    "id": 269,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 보험사기근절 관련 법령에 대한 설명으로 틀린 것은?",
+    "options": [
+      "과거 보험사기는 형법상 사기죄에 따라 처벌하였으나 이제는 보험사기방지특별법에 따라 처벌한다",
+      "보험사기방지특별법상 보험사기 이득액이 5억원 이상인 경우 가중처벌한다",
+      "자동차손해배상보장법에 따라 의료기관이 입원환자의 외출·외박 기록의무를 위반했을 때에는 입원환자와 의료기관이 동일하게 처벌받는다",
+      "자동차관리법상 정비업체는 정비의뢰자에게 사전견적서를 교부해야 한다"
+    ],
+    "answer": 3,
+    "id": 270,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험계약자의 의무가 아닌 것은?",
+    "options": [
+      "보험사고 발생 통지의무",
+      "손해방지의무",
+      "보험료 납입의무",
+      "보험료 반환의무"
+    ],
+    "answer": 4,
+    "id": 271,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 보험사고에 대한 설명으로 옳은 것은?",
+    "options": [
+      "보험사고는 일정한 목적에 대해 기간 제한없이 발생한 사고여야 한다",
+      "보험사고의 불확정성은 객관적으로 인정되는 것만을 의미한다",
+      "보험사고 중 우연이란 사고발생의 여부 등이 불확정한 것을 말한다",
+      "보험사고는 고의에 의한 사고도 포함된다"
+    ],
+    "answer": 3,
+    "id": 272,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 보험회사에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "보험회사의 허가를 받은 외국보험회사의 국내지점은 보험업법상 보험회사로 본다",
+      "보험회사가 보험사업의 허가를 신청할 때 필요한 서류로는 정관, 사업계획서, 기초서류 등이 있다",
+      "보험회사가 영업 정지기간 중 영업행위를 하여 금융위원회가 허가를 취소하고자 할 경우 반드시 청문을 실시하여야 한다",
+      "생명보험업 또는 손해보험업에 해당하는 보험종목의 업무에 관하여 허가를 받은 자는 제3보험업의 허가를 함께 받은 것이다"
+    ],
+    "answer": 1,
+    "id": 273,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "보험업 허가에 대한 설명으로 틀린 것은?",
+    "options": [
+      "운송보험은 100억원 이상의 자본금 또는 기금 납입하여야 보험업을 개시할 수 있다",
+      "통신판매전문보험회사는 보험업법 규정에 의한 자본금의 3분의 2 이상을 납입 하여야 보험업을 개시할 수 있다",
+      "외국보험회사의 영업기금은 30억원 이상으로 한다",
+      "보험종목별 자본금 합계액이 300억원 이상인 경우에 300억원으로 한다"
+    ],
+    "answer": 1,
+    "id": 274,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "다음 중 제3보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "화재로 인한 상해뿐만 아니라 배상책임 손해를 보장하는 제3보험 상품이 있다",
+      "제3보험 중 대표적으로 비례보상을 적용하는 것에 사망·후유장해 담보가 있다",
+      "제3보험 상품은 실손보상방식과 정액보상방식으로 만들 수 있다",
+      "손해보험과 생명보험의 성격을 모두 갖지 못하여 ʻGray Zoneʼ 이라고도 한다"
+    ],
+    "answer": 3,
+    "id": 275,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "제3보험 상품설계 기준에 대한 내용으로 틀린 것은?",
+    "options": [
+      "손해보험회사는 주계약이 상해보험인 저축성보험을 개발할 수 있다",
+      "손해보험회사는 실제 발생한 손해 및 정액 보상하는 상품개발이 가능하다",
+      "생명보험회사는 제3보험을 종신보험의 특약으로만 상품개발이 가능하다",
+      "생명보험회사는 보장성보험으로만 상품개발이 가능하다"
+    ],
+    "answer": 3,
+    "id": 276,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "상법상 사망사고 담보의 가입제한이 되는 대상은?",
+    "options": [
+      "만 15세 미만자",
+      "만 18세 미만자",
+      "만 20세 미만자",
+      "만 22세 미만자"
+    ],
+    "answer": 1,
+    "id": 277,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "손해보험회사에서 저축성보험으로 상품개발이 가능한 경우에 해당하는 것은?",
+    "options": [
+      "보험기간이 25년 이하인 질병보험",
+      "보험기간이 15년 이하인 상해보험",
+      "보험기간이 100세 만기인 실손의료보험",
+      "보험기간이 종신인 간병보험"
+    ],
+    "answer": 2,
+    "id": 278,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "제3보험에서 손해보험회사가 기본계약으로 영위할 수 없는 담보는?",
+    "options": [
+      "90세 만기 상해보험",
+      "15년 만기 상해보험",
+      "80세 만기 질병사망",
+      "90세 만기 질병치료비보험"
+    ],
+    "answer": 3,
+    "id": 279,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "상해보험에서 보험료산출을 위한 상해급수의 적용 예로 적절한 것은?",
+    "options": [
+      "1급 : 항공기정비공",
+      "2급 : 사무직 근로자",
+      "3급 : 영업용 자동차 운전자",
+      "4급 : 가정주부"
+    ],
+    "answer": 3,
+    "id": 280,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "상해보험 피보험자가 탑승한 항공기가 행방불명시 사망으로 간주하는 시기로\n올바른 것은?",
+    "options": [
+      "조난일로부터 1년 경과 시점",
+      "조난일로부터 2년 경과 시점",
+      "가족관계등록부에 사망으로 기재된 사망연월일",
+      "보험기간 만기일"
+    ],
+    "answer": 3,
+    "id": 281,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "장기상해보험의 후유장해보험금 지급에 대하여 틀린 설명은?",
+    "options": [
+      "장해분류표에서 정한 지급률을 보험가입금액에 곱하여 산출한 금액을 지급한다",
+      "장해분류표의 각 장해분류별 최저 지급률 장해정도에 이르지 않는 후유장해는 보험금을 지급하지 않는다",
+      "장해지급률이 상해 발생 후 2년 이내에 미확정된 경우 상해 발생 후 2년이 되는 날의 의사진단에 기초하여 고정될 것으로 인정되는 상태를 장해지급률로 한다",
+      "장해분류표에 해당하지 않는 경우 직업, 연령, 신분, 또는 성별 등에 관계없이 신체의 장해정도에 따라 장해분류표의 구분에 준하여 지급한다"
+    ],
+    "answer": 3,
+    "id": 282,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료비(4세대)의 보장종목 구성으로 올바른 것은?",
+    "options": [
+      "(기본형) 상해급여, 질병급여 / (특약) 상해비급여, 질병비급여, 3대비급여",
+      "(기본형) 상해입원, 질병입원 / (특약) 상해통원, 질병통원, 3대비급여",
+      "(기본형) 상해급여, 상해비급여 / (특약) 질병급여, 질병비급여, 3대비급여",
+      "(기본형) 상해급여, 질병급여, 3대급여 / (특약) 상해비급여, 질병비급여, 3대 비급여"
+    ],
+    "answer": 1,
+    "id": 283,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 보상한도 중 잘못된 것은?",
+    "options": [
+      "상해급여는 입원과 통원의 보상금액을 합산하여 5천만원 이내",
+      "질병급여는 입원과 통원의 보상금액을 합산하여 5천만원 이내",
+      "상해급여 통원은 1회당 20만원 이내",
+      "질병급여 통원의 연간 치료횟수는 100회 한도"
+    ],
+    "answer": 4,
+    "id": 284,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "대중교통 이용 중 교통상해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "대중교통수단에 피보험자가 탑승목적으로 승차하던 중 발생한 사고는 보상한다",
+      "피보험자가 대중교통수단의 이용을 위해 승강장 내 대기 중 발생한 사고는 보상 하지 않는다",
+      "운행 중인 대중교통수단에 피보험자가 탑승 중에 발생한 사고는 보상한다",
+      "렌트카 탑승 중 사고는 보상하지 않는다"
+    ],
+    "answer": 2,
+    "id": 285,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "단체상해보험에서 비영리법인단체나 변호사회, 의사회 등 동업자단체로서 5인\n이상의 구성원이 있는 단체의 종류로 올바른 것은?",
+    "options": [
+      "1종 단체",
+      "2종 단체",
+      "3종 단체",
+      "4종 단체"
+    ],
+    "answer": 2,
+    "id": 286,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "손해보험사의 질병사망 보장에 대한 설명으로 맞는 것은?",
+    "options": [
+      "보험금액의 한도는 상품당 2억원 이내이다",
+      "보통약관(주계약)으로 운영 가능하다",
+      "보험만기는 100세 이하로 운영할 수 있다",
+      "보장성보험으로만 운용할 수 있다"
+    ],
+    "answer": 4,
+    "id": 287,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "피보험자의 생년월일이 1971. 6. 1이고, 보험계약일이 2011. 10. 1인 경우 보험가입\n연령은?",
+    "options": [
+      "38세",
+      "39세",
+      "40세",
+      "41세"
+    ],
+    "answer": 3,
+    "id": 288,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 ʻ질병급여ʼ에서 보상하지 않는\n사항에 대한 설명 중 틀린 것은?",
+    "options": [
+      "피보험자가 임신, 출산, 산후기로 입원 또는 통원한 경우(O00~O99)",
+      "피보험자가 보험가입당시 태아인 경우에도 선천성뇌질환(Q00~Q04)은 보상하지 않는다",
+      "피보험자가 정당한 이유없이 통원기간 중 의사의 지시를 따르지 않아 발생한 통원의료비",
+      "성장호르몬제 투여에 소요된 비용으로 부담한 전액본인부담금"
+    ],
+    "answer": 2,
+    "id": 289,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "치매간병비 지급기준으로 가장 올바르게 설명한 것은?",
+    "options": [
+      "치매로 진단된 경우",
+      "치매로 진단되고 일정기간 이상 계속된 경우",
+      "치매로 인지기능의 장애가 발생한 경우",
+      "치매로 인지기능의 장애가 발생하고 일정기간 이상 계속된 경우"
+    ],
+    "answer": 4,
+    "id": 290,
+    "source": "2024_01_1"
+  },
+  {
+    "question": "주택화재보험과 일반화재보험 보통약관에서 공통으로 보장하는 위험이 아닌 것은?",
+    "options": [
+      "벼락으로 인한 화재 사고, 벼락으로 인한 간접적인 전자기기의 손해",
+      "화재에 따른 소방손해",
+      "폭발 및 파열에 따른 손해",
+      "피난처에서 발생한 소방손해"
+    ],
+    "answer": 3,
+    "id": 291,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "화재보험 일반물건에 해당하지 않는 것은?",
+    "options": [
+      "병용주택",
+      "숙박시설",
+      "공장 내의 기숙사",
+      "오피스텔"
+    ],
+    "answer": 3,
+    "id": 292,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 중 ( ) 안에 들어갈 내용으로 알맞은 것은?\n보험가입금액이 보험가액의 ( )이상인 경우 보험사고시 비례보상을 하지 않고\n보험가입금액 한도 내에서 손해액 전액을 보험금으로 지급한다",
+    "options": [
+      "80%",
+      "90%",
+      "70%",
+      "85%"
+    ],
+    "answer": 1,
+    "id": 293,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "영업배상책임보험의 특약형태로 운영되는 배상책임의 종류가 아닌 것은?",
+    "options": [
+      "도급업자 배상책임",
+      "생산물 배상책임",
+      "경비업자 배상책임",
+      "차량정비업자 배상책임"
+    ],
+    "answer": 2,
+    "id": 294,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "레저종합보험의 성격에 대한 설명으로 틀린 것은?",
+    "options": [
+      "수렵보험은 기간보험 성격이다",
+      "낚시보험은 기간보험 성격이다",
+      "골프보험은 기간보험 성격이다",
+      "스키보험은 구간보험 성격이다"
+    ],
+    "answer": 2,
+    "id": 295,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "장기손해보험의 특징에 해당하지 않는 것은?",
+    "options": [
+      "해약환급금 범위 내에서 보험계약대출 가능",
+      "보장과 저축기능을 겸비",
+      "보험료 납입방법 및 납입주기가 다양",
+      "보험기간은 1년이지만 매년 자동갱신되어 장기적으로 유지 가능"
+    ],
+    "answer": 4,
+    "id": 296,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 표에서 설명하는 것으로 올바른 것은?\n보험회사가 보험계약에 대한 책임이행을 위해 의무적으로 적립하는 법정적립금",
+    "options": [
+      "기납입보험료",
+      "계약자적립액",
+      "특별계정 손실보전준비금",
+      "해약환급금"
+    ],
+    "answer": 2,
+    "id": 297,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "장기손해보험의 자동복원제도가 적용되는 경우를 가장 바르게 설명한 것은?",
+    "options": [
+      "보험가액의 90% 미만 사고발생시",
+      "보험가액의 80% 미만 사고발생시",
+      "보험가입금액의 90% 미만 사고발생시",
+      "보험가입금액의 80% 미만 사고발생시"
+    ],
+    "answer": 4,
+    "id": 298,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "세제적격 요건을 갖추기 위한 연금저축 납입기간으로 올바른 것은?",
+    "options": [
+      "5년 이상",
+      "7년 이상",
+      "3년 이상",
+      "10년 이상"
+    ],
+    "answer": 1,
+    "id": 299,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 중 연금저축 해지시 종합과세 대상이 되는 경우는?",
+    "options": [
+      "생활비 이용 목적의 해지시",
+      "계약자의 사망 또는 해외이주로 인한 해지시",
+      "천재지변으로 인한 해지시",
+      "계약자의 파산선고 또는 개인회생절차 개시로 인한 해지시"
+    ],
+    "answer": 1,
+    "id": 300,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "퇴직연금제도의 도입취지에 해당하지 않는 것은?",
+    "options": [
+      "근로자의 퇴직금 수급권 보호 강화",
+      "근로자의 노후생활 소득재원 마련",
+      "퇴직일시금의 생활자금화 방지",
+      "국민연금 지급금액 축소 및 지급연령 강화"
+    ],
+    "answer": 4,
+    "id": 301,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "자동차보험의 임의보험에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보험가입 여부를 가입자 및 보험회사가 임의로 선택할 수 있다",
+      "대인배상Ⅱ는 책임보험(대인배상Ⅰ)의 초과 손해분을 보상한다",
+      "종합보험에 가입하면 교통사고처리특례법상 특례를 적용받을 수 있다",
+      "자기차량손해 시 전손사고로 인한 보상금액이 보험가입금액의 전액 이상인 경우에도 보험계약의 효력은 유지된다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 4,
+    "id": 302,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음은 사고내용별 점수이다. 대인사고시 사망사고에 대한 건당 점수는?",
+    "options": [
+      "5점",
+      "4점",
+      "3점",
+      "2점"
+    ],
+    "answer": 2,
+    "id": 303,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "자동차손해배상보장사업에 대한 청구방법 등에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보상금의 청구는 일정서류를 구비하여 국토교통부에 청구하여야 한다",
+      "경찰관서에서 발급한 교통사고 사실 확인서를 구비서류로 제출해야 한다",
+      "보상금은 보장사업자(10개 손해보험사 등)가 자동차보험 대인배상Ⅰ 약관지급 기준에 따라 지급한다",
+      "현행 자동차손해배상보장법상 보상금의 지급을 청구할 수 있는 기간은 3년이다"
+    ],
+    "answer": 1,
+    "id": 304,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "모집자실명제 및 상품설명제에 대한 설명으로 틀린 것은? [4점]",
+    "options": [
+      "보험계약의 중요한 사항을 일반보험계약자에게 설명하여야 한다",
+      "모집종사자는 보험계약자에게 제공하는 설명서에 소속, 성명 등을 기재하여야 한다",
+      "모집자실명제를 위반하면 1천만원 이하의 벌금을 부과받을 수 있다",
+      "최초 계약시 설명의무를 이행한 갱신계약(기존 보험계약과 동일조건)은 설명의무를 이행한 것으로 본다"
+    ],
+    "answer": 3,
+    "id": 305,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "특별이익 제공금지행위에 해당하는 것은?",
+    "options": [
+      "화재보험 갱신계약 시 기초서류에서 정한 할인율을 적용하여 계약체결",
+      "기초서류에서 정한 사유에 근거한 수수료의 지급",
+      "최초 연간 납입보험료의 10%와 3만원 중 적은 금액의 지급",
+      "기초서류에서 정한 보험금액보다 많은 보험금액의 지급 약속"
+    ],
+    "answer": 4,
+    "id": 306,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험계약의 체결 또는 모집에 관한 금지행위에 대한 설명으로 틀린 것은?",
+    "options": [
+      "부득이하게 다른 지점의 모집 종사자 명의를 이용하여 보험계약을 모집",
+      "보험계약의 대가로 보험계약자에게 보험료의 100분의 10과 3만원 중 적은 금액을 제공",
+      "보험계약의 체결 또는 모집에 관한 금지행위를 위반한 자에게는 1천만원 이하의 과태료를 부과",
+      "실제 명의인이 아닌 자의 보험계약을 모집하거나 실제 명의인의 동의가 없는 보험계약 모집"
+    ],
+    "answer": 2,
+    "id": 307,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험모집질서 확립을 위한 손해보험 공정경쟁질서유지에 관한 상호협정에 따라\n다른 회사 보험계약의 부당인수에 대한 제재금 부과기준과 최고한도로 알맞게\n연결된 것은?",
+    "options": [
+      "위반 계약 건수 1건당 100만원 - 모집행위자 1인당 최고 5천만원",
+      "위반 계약 건수 1건당 100만원 - 모집행위자 1인당 최고 3천만원",
+      "위반 계약 건수 1건당 50만원 - 모집행위자 1인당 최고 3천만원",
+      "위반 계약 건수 1건당 10만원 - 모집행위자 1인당 최고 1천만원"
+    ],
+    "answer": 2,
+    "id": 308,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 모집종사자에 대한 설명 중 옳은 것은?",
+    "options": [
+      "보험대리점은 계약체결권이 없다",
+      "보험설계사는 고지의무수령권이 있다",
+      "보험중개사는 보험료수령권이 없다",
+      "보험설계사는 금융감독원에 등록하여야 한다"
+    ],
+    "answer": 3,
+    "id": 309,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험업법상 보험설계사로 등록할 수 없는 사람은?",
+    "options": [
+      "등록취소된 이후 2년이 경과한 자",
+      "벌금형을 선고받고 그 집행이 종료된 후 1년이 경과한 자",
+      "파산자로서 복권되어 1년이 경과한 자",
+      "보험료를 다른 용도로 유용한 후 3년이 경과한 자"
+    ],
+    "answer": 2,
+    "id": 310,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험설계전문가로서의 직업윤리에 대한 설명으로 올바르지 않은 것은?",
+    "options": [
+      "책임의식과 전문의식을 가지고 보험판매 프로세스를 준수한다",
+      "고객정보를 소중하게 생각하고 철저하게 보호한다",
+      "완전판매보다는 계약실적의 향상을 최고의 목표로 삼는다",
+      "전문금융인으로서 끊임없이 자기계발에 힘쓴다"
+    ],
+    "answer": 3,
+    "id": 311,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험설계사 말소에 관하여 알맞게 설명한 것은?",
+    "options": [
+      "타 보험사로 이직을 할 경우 반드시 말소를 하여야 한다",
+      "보험회사와 위촉계약이 종료(해촉)되는 즉시 타 보험회사로 이직 가능하다",
+      "본인에 의한 직접말소의 경우 설계사 등록증 원본을 지참하여 보험협회를 방문하여 말소 신청한다",
+      "보험회사가 보험설계사와 위촉계약을 종료하는 것을 말소라 한다"
+    ],
+    "answer": 1,
+    "id": 312,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험의 기본원칙 중 손해보험 고유의 원칙에 해당하는 것은?",
+    "options": [
+      "이득금지의 원칙",
+      "급부·반대급부 균등의 원칙",
+      "수지상등의 원칙",
+      "대수의 법칙"
+    ],
+    "answer": 1,
+    "id": 313,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험계약법상 손해보험의 초과보험, 중복보험과 가장 밀접한 관계가 있는 보험의\n기본원칙에 관한 설명으로 틀린 것은?",
+    "options": [
+      "이득금지의 원칙에 따라 도입된 것이다",
+      "수지상등의 원칙을 설명한 것이다",
+      "손해보험 고유의 원칙에 해당한다",
+      "인보험에는 원칙적으로 적용되지 않는 원칙이다"
+    ],
+    "answer": 2,
+    "id": 314,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험사기특별법상 보험회사가 대통령령에서 정한 사유없이 보험금의 지급을 지체\n또는 거절하거나 삭감하여 지급한 경우 과태료 부과기준은?",
+    "options": [
+      "500만원 이하",
+      "1천만원 이하",
+      "1,500만원 이하",
+      "2천만원 이하"
+    ],
+    "answer": 2,
+    "id": 315,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 어린이 교통안전에 관한 도로교통법 및 특정범죄 가중처벌 등에 관한 법률의\n내용에 대해 기술한 내용 중 잘못된 것은?",
+    "options": [
+      "어린이 보호구역에 교통안전시설 및 무인단속장비 설치 의무화",
+      "스쿨존 내 어린이 사망사고 가해자에게 무기 또는 3년 이상 징역형 부과",
+      "스쿨존 내 어린이 상해사고 가해자에게 1년 이상 15년 이하 징역 또는 5백만원 이상 3천만원 이하 벌금형 부과",
+      "어린이 보호구역에서 제한속도 시속 80km이다"
+    ],
+    "answer": 4,
+    "id": 316,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험계약과 관련된 당사자에 대한 설명으로 틀린 것은?",
+    "options": [
+      "피보험자는 손해보험에서 피보험이익의 주체로서 보험금청구권을 갖는 자이다",
+      "보험수익자는 인보험에서 보험사고 발생시 보험금청구권을 갖는 자이다",
+      "피보험자는 인보험에서 생명 또는 신체에 관하여 보험에 붙여진 자이다",
+      "15세 미만자 및 심신박약자는 모든 경우에 대해 사망보험의 피보험자가 될 수 없다"
+    ],
+    "answer": 4,
+    "id": 317,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 사례에서 B보험회사가 지급해야 할 보험금액은 얼마인가?\n시가 30억원(보험가액)의 공장을 화재보험에 가입하면서, 보험가입금액을 A보험회사에\n15억원, B보험회사에 20억원, C보험회사에 25억원으로 하여 각각 가입한 경우, 실제\n화재가 발생하여 빌딩이 전손",
+    "options": [
+      "20억원",
+      "15억원",
+      "10억원",
+      "25억원"
+    ],
+    "answer": 3,
+    "id": 318,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험계약의 특성에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험계약은 보험계약자의 청약과 보험회사의 승낙 절차를 갖추어 성립한다",
+      "보험계약은 보험료와 보험금의 불일치성에 의한 사행계약이다",
+      "보험계약은 보험계약자와 보험회사의 사적인 계약으로 상법상 상행위에 해당하지 않는다",
+      "보험계약은 사행계약의 특성으로 당사자간의 최대 선의를 필요로 한다"
+    ],
+    "answer": 3,
+    "id": 319,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "보험자 대위에 대한 설명으로 틀린 것은?",
+    "options": [
+      "상해보험의 경우 보험자대위권이 제한적으로 인정된다",
+      "보험의 목적이 전부 멸실된 경우에 보험금액의 전부를 지급한 보험회사는 그 보험 목적에 대한 피보험자의 권리를 취득한다",
+      "보험회사는 이득금지의 원칙에 의하여 보험약관에 따라 대위권을 행사할 수 있다",
+      "제3자의 행위로 인한 손해발생시 보험금 전부를 지급하여야 대위권을 행사할 수 있다"
+    ],
+    "answer": 4,
+    "id": 320,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "제3보험과 관련이 없는 것은?",
+    "options": [
+      "일상생활 중 실수로 제3자를 다치게하여 이에 따른 배상책임을 보상하는 보험",
+      "상해사고로 인한 치료비를 보상하는 보험",
+      "암에 걸려 입원했을 때의 입원비를 지급하는 보험",
+      "중증치매로 인한 간병비를 지급하는 보험"
+    ],
+    "answer": 1,
+    "id": 321,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "제3보험 겸영에 대한 설명으로 올바른 것은?",
+    "options": [
+      "제3보험의 보험종목에 부가하는 보험은 겸영할 수 없다",
+      "제3보험의 재보험은 겸영할 수 없다",
+      "생명보험의 재보험은 겸영할 수 있다",
+      "보험업 겸영의 제한은 상법에 규정되어 있다"
+    ],
+    "answer": 3,
+    "id": 322,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "제3보험에서 보상의 성질이 다른 것은?",
+    "options": [
+      "질병으로 안한 진단보험금",
+      "상해사고로 인한 후유장해보험금",
+      "상해로 인한 통원의료비",
+      "질병으로 인한 사망보험금"
+    ],
+    "answer": 3,
+    "id": 323,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "제3보험 중 상해보험에 가입하여 약관에서 보장하지 않는 원인으로 사망할 경우\n지급되는 금액은?",
+    "options": [
+      "사망보험금",
+      "계약자적립액",
+      "기납입보험료",
+      "해약환급금"
+    ],
+    "answer": 2,
+    "id": 324,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "상해보험의 보험금 지급에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험금 청구서류를 접수한 때에는 접수증을 교부하고, 접수한 날로부터 보험금은 5영업일 이내에 지급",
+      "보험금 지급기일 초과가 명백히 예상되는 경우 구체적 사유 및 보험금 지급 예정일을 피보험자 또는 수익자에게 즉시 통지",
+      "보험금 지급을 위한 조사가 필요한 경우 피보험자 또는 보험수익자의 청구에 따라 추정보험금의 50% 상당액을 가지급보험금으로 지급",
+      "보험금 지급기일 내에 보험금을 지급하지 않은 경우에는 소정의 이자를 보험금에 더하여 지급"
+    ],
+    "answer": 1,
+    "id": 325,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "손해보험회사의 상해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "상해보험은 사람의 신체가 보험목적이므로 보험가액과 보험가입금액을 설정할 수 있다",
+      "사망보험금은 보험수익자에게 지급한다",
+      "법률상 제한적으로 보험자의 대위권을 허용하고 있다",
+      "의료비 다수보험 계약시 각 의료비 보험계약의 보상한도액을 한도로 비례 보상 한다"
+    ],
+    "answer": 1,
+    "id": 326,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "상해보험에서 보험회사가 면책할 수 없는 경우는?",
+    "options": [
+      "사망담보 보험계약에서 피보험자의 중과실",
+      "보험수익자의 고의",
+      "보험계약자의 고의",
+      "피보험자의 자해, 자살"
+    ],
+    "answer": 1,
+    "id": 327,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "상해보험 약관에서 상해 사망보험금 지급조건으로 올바른 것은?",
+    "options": [
+      "보험기간 중 발생한 상해사고의 직접결과로써 사망한 경우",
+      "보험기간 개시 전 상해사고의 직접결과로써 사망한 경우",
+      "보험기간 중 발생한 상해사고로 인한 직접 및 간접결과로써 사망한 경우",
+      "보험기간 개시전 발생한 상해사고의 직접 및 간접결과로써 사망한 경우"
+    ],
+    "answer": 1,
+    "id": 328,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 중 ( ) 안에 들어갈 내용이 바르게 짝지어진 것은?\n상해보험에서 후유장해보험금 중 영구히 고정된 증상은 아니지만 치료 종결 후 한시적으로\n나타나는 장해에 대하여는 그 기간이 ( ) 이상인 때에는 해당 장해지급률의 ( )를\n장해지급률로 한다",
+    "options": [
+      "3년, 10%",
+      "5년, 20%",
+      "7년, 30%",
+      "5년, 50%"
+    ],
+    "answer": 2,
+    "id": 329,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "상해보험의 후유장해보험금 지급에 대한 설명으로 올바른 것은?",
+    "options": [
+      "동일한 질병 또는 상해로 두가지 이상의 후유장해가 발생한 경우 합산하지 않고 그 중 높은 지급률을 적용한다",
+      "동일 신체부위에 2가지 이상의 장해가 발생한 경우 합산하지 않고 그 중 높은 지급률을 적용한다",
+      "후유장해보험금은 피보험자의 직업, 소득을 고려하여 초과이득이 발생하지 않도록 결정한다",
+      "한시적인 후유장해보험금은 영구 후유장해보험금 지급률의 30%를 지급한다"
+    ],
+    "answer": 2,
+    "id": 330,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 ʻ기본형 실손의료보험ʼ에 대한\n설명으로 맞는 것은?",
+    "options": [
+      "비급여 자기공명영상진단(MRI/MRA) 비용을 보상한다",
+      "비급여 주사료를 모두 보상한다",
+      "비급여 도수치료 비용을 보상한다",
+      "통원의 보상한도는 회당 최대 20만원이다"
+    ],
+    "answer": 4,
+    "id": 331,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "대중교통 이용 중 상해보험에서 보상하지 않는 사고는?",
+    "options": [
+      "지하철 탑승 중 발생한 사고",
+      "고속버스 탑승 중 발생한 사고",
+      "마을버스 탑승 중 발생한 사고",
+      "렌트카 탑승 중 발생한 사고"
+    ],
+    "answer": 4,
+    "id": 332,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "단체상해보험에서 단체의 종류가 바르게 연결된 것은?",
+    "options": [
+      "1종 단체 - 급여관계단체",
+      "2종 단체 - 규약단체",
+      "3종 단체 - 비영리법인단체",
+      "4종 단체 - 동업자단체"
+    ],
+    "answer": 1,
+    "id": 333,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음은 2021년 7월 출시한 개인 실손의료보험(4세대)의 ʻ질병비급여ʼ 보상금액에\n대한 설명으로, 빈칸에 해당하는 것으로 맞는 것은?\n상급병실료의 경우 비급여 병실료의 ( ) 보상, 다만, 1일 평균금액 ( )을 한도로 하며,\n1일 평균금액은 입원기간 동안 비급여 병실료 전체를 총 입원일수로 나누어 산출합니다",
+    "options": [
+      "10% - 10만원",
+      "20% - 20만원",
+      "30% - 20만원",
+      "50% - 10만원"
+    ],
+    "answer": 4,
+    "id": 334,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "다음 중 어린이보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "자녀의 성장과정 중 발생할 수 있는 질병·상해로 인한 의료비와 자녀의 일상생활 중 발생하는 배상책임 등을 보장하는 보험상품이다",
+      "어린이보험에 특약을 더해 출산시 위험까지 보장하는 상품을 실무적으로 ʻ태아보험ʼ으로 통칭한다",
+      "고령 임산부 증가를 고려하여 장애, 기형 등 선천질환을 가진 신생아가 보험 혜택을 받을 수 있도록 태아(임신 중)도 보험에 가입할 수 있다",
+      "출생 전 태아는 법인격이 없으나 피보험자는 가능하므로 태아의 출생을 조건으로 태아를 피보험자로 하여 보험 계약을 체결한다"
+    ],
+    "answer": 4,
+    "id": 335,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "장기간병보험에서 지급하는 보험금의 종류에 해당하는 것은?",
+    "options": [
+      "장기요양급여금, 치매간병비",
+      "질병입원급여금, 장기요양급여금",
+      "치매간병비, 질병수술급여금",
+      "상해수술급여금, 장기요양급여금"
+    ],
+    "answer": 1,
+    "id": 336,
+    "source": "2024_01_2"
+  },
+  {
+    "question": "화재보험에서 보상하는 비용손해가 아닌 것은?",
+    "options": [
+      "손해방지비용",
+      "임시생활비용",
+      "대위권보전비용",
+      "잔존물 제거비용"
+    ],
+    "answer": 2,
+    "id": 337,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "주택화재 보험을 예시와 같이 가입한 후 화재가 발생한 경우 지급보험금의 합계액은?\n보험가입금액 1억원(전부보험), 재산손해액 8,000만원, 잔존물 제거비용 2,500만원,\n잔존물 보전비용 600만원",
+    "options": [
+      "9,300만원",
+      "9,400만원",
+      "9,500만원",
+      "1억원"
+    ],
+    "answer": 2,
+    "id": 338,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "특수건물화재보험의 가입대상 물건인 것은?",
+    "options": [
+      "층수가 10층인 건물",
+      "바닥면적의 합계가 1,000㎡ 인 학원",
+      "연면적의 합계가 3,000㎡ 인 병원",
+      "15층 아파트 및 부속건물"
+    ],
+    "answer": 3,
+    "id": 339,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 중 가스사고배상책임보험의 대인배상 보험금에 해당하는 것을 모두 고르시오.\n㉠ 사망보험금 ㉡ 후유장해보험금 ㉢ 의료비 보험금 ㉣ 휴업보험금",
+    "options": [
+      "㉠, ㉡, ㉢",
+      "㉠, ㉡, ㉣",
+      "㉠, ㉢, ㉣",
+      "㉠, ㉡, ㉢, ㉣"
+    ],
+    "answer": 1,
+    "id": 340,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "국내여행보험에서의 휴대품손해에 대한 설명으로 틀린 것은?",
+    "options": [
+      "휴대품은 여행 중 휴대하는 피보험자의 소유, 사용, 관리하의 물품을 말한다",
+      "피보험자가 여행도중의 우연한 사고로 인한 휴대품의 파손 및 분실손해를 보상 한다",
+      "휴대품손해는 국내여행보험 보통약관에서는 보장되지 않으며, 별도 특별약관을 가입하여야 한다",
+      "개당, 조당, 쌍당 회사별로 정해진 한도로 보상한다"
+    ],
+    "answer": 2,
+    "id": 341,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "장기손해보험의 특징으로 맞는 것은?",
+    "options": [
+      "보험계약의 부활시에는 계약체결시와 달리 보험계약자에게 고지의무가 적용되지 않는다",
+      "보험계약자가 제2회 이후의 보험료를 납입하지 않은 경우 보험회사는 30일 이상의 기간을 납입최고기간으로 정하여 연체보험료를 납입할 것을 안내해야 한다",
+      "만기환급금은 보험기간 만료시 지급하지만 만기 전 계약이 소멸되는 경우 지급 하지 않는다",
+      "보험료 납입연체(미납)으로 계약이 해지된 경우 해지일로 부터 2년 이내에 부활이 가능하다"
+    ],
+    "answer": 3,
+    "id": 342,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "위험률차손익에 대한 설명으로 맞는 것은?",
+    "options": [
+      "예정위험률과 실제손해율간의 차이",
+      "예정사업비와 실제사업비간의 차이",
+      "예정이율과 투자수익률간의 차이",
+      "예정해약률과 실제해약률간의 차이"
+    ],
+    "answer": 1,
+    "id": 343,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "장기화재보험에서 인수대상 물건에 대한 설명에 대해 틀린 것은?",
+    "options": [
+      "주택물건 중 연립(다세대)주택, 아파트로서 각 호(실)가 모두 주택으로 쓰이는 것은 인수대상 물건이다",
+      "주택물건 중 주택의 부속건물로서 가재만을 수용하는데 쓰이는 것은 인수대상 물건이다",
+      "무게나 부피가 휴대할 수 있으며 점당 300만원 이상인 귀중품은 보험증권에 기재하지 않아도 인수대상 물건이 된다",
+      "작업장(광업소, 발전소, 변전소, 개폐소 포함)의 구내에 있는 건물에 수용된 동산도 인수대상 물건이다"
+    ],
+    "answer": 3,
+    "id": 344,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "장기종합보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "화재에 따른 소방손해도 보상한다",
+      "특별약관으로 상해손해 및 배상책임손해를 보상한다",
+      "전용주택의 경우 폭발, 파열로 인한 화재손해는 별도 특약없이 보상한다",
+      "도난손해(특약 가입시)의 경우 건물을 계속하여 96시간 이내 비워둔 동안에 생긴 도난은 보상한다"
+    ],
+    "answer": 4,
+    "id": 345,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "연금저축보험의 세제적격 요건에 해당하는 가입대상으로 올바른 것은?",
+    "options": [
+      "만 25세 이상 국내거주자",
+      "만 18세 이상 국내거주자",
+      "가입대상 제한 없음",
+      "만 15세 이상 국내거주자"
+    ],
+    "answer": 3,
+    "id": 346,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "연금저축에서 부득이한 사유로 연금 외 수령시 3%~5%의 세율을 적용(일반적인\n경우 15% 적용)하는 경우로 틀린 것은?",
+    "options": [
+      "연금계좌 가입자가 질병 · 부상에 따라 2개월 이상의 요양이 필요한 경우",
+      "연금계좌를 취급하는 금융회사 등의 영업 정지, 영업 인허가 취소, 해산결의 또는 파산선고하는 경우",
+      "가입자의 사망 또는 해외 이주하는 경우",
+      "천재지변시"
+    ],
+    "answer": 1,
+    "id": 347,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "확정기여형 퇴직연금보험의 부담금 사외적립 비율로 올바른 것은?",
+    "options": [
+      "100%",
+      "60% 이상",
+      "50% 이상",
+      "40% 이상 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 1,
+    "id": 348,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "자동차보험의 보험기간에 대한 설명 중 맞는 것은?",
+    "options": [
+      "일반적으로 보험기간의 첫날 24시부터 마지막 날 24시까지이다",
+      "의무보험은 보험기간의 첫날 오후 4시부터 시작한다",
+      "의무보험의 경우 보험기간 이전에 보험료를 받은 경우에는 보험료를 받은 시점 부터 보험기간이 시작한다",
+      "자동차보험에 처음으로 가입하는 자동차의 보험기간은 보험료를 받은 시점부터 마지막날 오후 4시까지이다"
+    ],
+    "answer": 1,
+    "id": 349,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "자동차보험 대인배상Ⅰ의 보상한도에 관한 설명 중 틀린 것은?",
+    "options": [
+      "사망사고시 보상한도는 최저 2,000만원, 최고 1억 5,000만원이다",
+      "부상사고시 보상한도는 14급 50만원, 1급 3,000만원이다",
+      "후유장애시 1인당 최고한도는 1억 5,000만원이다",
+      "피해자 1인에 대한 보상한도가 무한이며, 1사고당 한도도 없다"
+    ],
+    "answer": 4,
+    "id": 350,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "자동차보험의 임의보험에 대한 설명 중 맞는 것은?",
+    "options": [
+      "보험가입자의 보험가입 의사에 대해서 보험회사가 거절할 수 없다",
+      "대인배상Ⅱ는 책임보험(대인배상Ⅰ)의 초과 손해분을 보상한다",
+      "종합보험에 가입하면 무조건 교통사고처리특례법상 특례를 적용받을 수 있다",
+      "가족운전자 한정특약 위반시에도 손해에 대해서는 보상한다"
+    ],
+    "answer": 2,
+    "id": 351,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 보기 중 사고내용별 점수가 건당 1점에 해당하는 사고끼리 짝지어진 것은?\n가. 사망사고\n나. 8급~12급에 해당하는 부상사고\n다. 13급~14급에 해당하는 부상사고\n라. 자기신체사고\n마. 물적사고 할증기준금액 초과 사고 & 자기차량손해사고 손해액 1억원 이하\n바. 물적사고 할증기준금액 이하 사고",
+    "options": [
+      "가, 나, 다, 라, 마",
+      "나, 다, 라, 마",
+      "다, 라, 마",
+      "라, 마, 바"
+    ],
+    "answer": 3,
+    "id": 352,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "자동차손해배상보장사업에 대한 설명으로 틀린 것은?",
+    "options": [
+      "뺑소니차 또는 무보험차에 의한 사고로 사망하거나 부상당한 피해자를 보상대상 으로 하며, 22년 1월 28일부터는 차량 낙하물 사고 피해자도 보상된다",
+      "가해자가 가입한 자동차보험에서 보상받을 수 있는 경우에는 보상받을 수 없다",
+      "관련 주무 정부부처는 금융위원회이다",
+      "자동차 사고 피해가족에 대한 지원금 제도가 있다"
+    ],
+    "answer": 3,
+    "id": 353,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 중 3대 기본지키기에 대한 설명으로 맞는 것은? [4점]",
+    "options": [
+      "3대 기본지키기는 청약서 등 자필서명, 모집자실명제 준수, 상품설명서 제공 의무를 말한다",
+      "보험계약자가 동의하는 경우 청약서, 보험약관 등을 전자우편으로 교부할 수 있다",
+      "3대 기본지키기를 준수하지 않을 경우 보험계약자는 계약체결일로부터 6개월 이내에 계약을 취소할 수있다",
+      "청약서 자필서명을 모집종사자가 대신하는 경우 1천만원 이하의 과태료가 부과 되고 해당계약은 무효처리된다"
+    ],
+    "answer": 2,
+    "id": 354,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "보험계약 체결시 각 단계별로 제공하여야 하는 보험안내자료에 대한 내용이 틀린\n것은?",
+    "options": [
+      "보험계약 체결 단계 - 보험증권",
+      "보험계약 체결 권유 단계 - 상품설명서",
+      "보험계약 체결 단계 - 계약자 보관용 청약서",
+      "보험계약 체결 권유 단계 - 보험약관"
+    ],
+    "answer": 4,
+    "id": 355,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 ( ) 안에 들어갈 내용으로 올바른 것은?\n금소법에서는 금융상품판매대리 · 중개업자의 금지행위를 위반한 자에게는 ( ) 이하의\n과태료를 부과하도록 되어 있다",
+    "options": [
+      "1억원",
+      "5천만원",
+      "3천만원",
+      "1천만원"
+    ],
+    "answer": 1,
+    "id": 356,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 대한 상호협정상 보험설계사가 다른 보험대리점에게\n경유처리를 한 경우 제재금 한도가 올바른 것은?",
+    "options": [
+      "최저 2백만원 ~ 최고 5천만원",
+      "최저 1십만원 ~ 최고 1천만원",
+      "최저 1백만원 ~ 최고 3천만원",
+      "최저 1십만원 ~ 최고 3천만원"
+    ],
+    "answer": 2,
+    "id": 357,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 중 보험설계사에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험설계사는 계약체결권이 없다",
+      "보험설계사는 보험회사를 대리하여 보험계약을 체결하는 행위를 한다",
+      "보험설계사도 보험중개사를 위하여 보험계약의 체결을 중개할 수 있다",
+      "보험설계사는 보험업법에 따라 금융위원회에 등록하여야 한다"
+    ],
+    "answer": 2,
+    "id": 358,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "보험대리점의 분류가 바르게 연결된 것은?",
+    "options": [
+      "유형별 : 전속대리점/비전속대리점",
+      "영위업종별 : 개인대리점/법인대리점",
+      "영위종목별 : 전업대리점/겸업대리점",
+      "운영주체별 : 생명보험대리점/손해보험대리점/제3보험대리점"
+    ],
+    "answer": 1,
+    "id": 359,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 중 금융기관보험대리점의 보험모집시 금지행위에 해당하지 않는 것은?",
+    "options": [
+      "동의없이 보험료를 대출에 포함시키는 행위",
+      "해당 금융기관의 점포 외의 장소에서 모집하는 행위",
+      "금융거래를 통해 취득한 개인정보를 동의없이 모집에 활용하는 행위",
+      "보험설계사가 모집하게 하는 행위"
+    ],
+    "answer": 4,
+    "id": 360,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음은 보험판매 프로세스의 어느 단계를 설명한 것인가?\n가망고객 발굴 후 고객과의 첫 만남의 단계로 상품판매시 보다 유리한 환경과 여건을\n조성하는 과정",
+    "options": [
+      "가망고객발굴",
+      "접근",
+      "정보수집",
+      "가입권유"
+    ],
+    "answer": 2,
+    "id": 361,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "손해에 대한 설명으로 맞는 것은?",
+    "options": [
+      "우연한 사고발생의 불확실성 또는 가능성",
+      "특정한 사고로부터 발생될 수 있는 손해의 가능성을 새로이 만들어 내거나 증가 시키는 상태",
+      "구체화되고 명확한 자료를 근거로 하지 않고 자신의 직감을 통한 위험",
+      "우연한 사고로 인하여 발생하는 예기치 않은 경제적 · 재산적 가치의 상실이나 감소"
+    ],
+    "answer": 4,
+    "id": 362,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "이득금지의 원칙과 관계있는 것으로 짝지어진 것은?",
+    "options": [
+      "초과보험, 중복보험",
+      "전부보험, 초과보험",
+      "일부보험, 전부보험",
+      "전부보험, 중복보험"
+    ],
+    "answer": 1,
+    "id": 363,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "나이롱환자 근절을 위한 자동차손해배상 보장법의 내용 중 맞는 것은?",
+    "options": [
+      "교통사고로 입원한 환자는 외출 ․ 외박시 의료기관과 보험사의 허락을 받아야 한다",
+      "의료기관에서 외출 ․ 외박기록에 대한 보험회사의 열람청구에 불응시 300만원 이하의 과태료에 처해진다",
+      "외출 ․ 외박 기록에는 환자의 서명 ․ 날인은 필요하지만, 의료인의 서명 ․ 날인은 불필요하다",
+      "외출 ․ 외박 기록은 개인의 진료정보이므로 환자의 동의없이는 보험회사에서 열람할 수 없다"
+    ],
+    "answer": 2,
+    "id": 364,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "음주운전으로 사망사고 발생시 특정범죄가중처벌법상 받게 되는 처벌은 무엇인가?",
+    "options": [
+      "무기 또는 3년 이상의 징역에 처해진다",
+      "10년 이하의 징역 또는 5백만원~3천만원의 벌금이 부과된다",
+      "6개월 이하의 징역 또는 3백만원 이하 벌금이 부과된다",
+      "3년 이상 5년 이하의 유기징역에 처해진다"
+    ],
+    "answer": 1,
+    "id": 365,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "고지의무에 대한 설명으로 바른 것은?",
+    "options": [
+      "고지의무는 반드시 서면으로 하여야 한다",
+      "고지의 시기는 보험계약 성립 전후를 불문하고 언제든지 가능하다",
+      "고지의무를 위반한 경우 보험회사는 계약을 해지할 수 있다",
+      "고지의무를 위반한 경우라도 보험회사는 보험금을 지급할 책임을 면할 수 없다"
+    ],
+    "answer": 3,
+    "id": 366,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "피보험이익에 대한 설명으로 틀린 것은?",
+    "options": [
+      "명확하게 이익의 존재가 확인되어야 피보험이익이 될 수 있다",
+      "피보험이익은 보험회사의 책임범위를 정하는 기준이다",
+      "피보험이익을 통해 보험의 도박화 및 인위적 위험을 방지할 수 있다",
+      "동일한 보험목적에는 동일한 하나의 피보험이익만이 존재한다"
+    ],
+    "answer": 4,
+    "id": 367,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "보험계약에 대한 설명으로 옳은 것은?",
+    "options": [
+      "보험계약성립 후 6개월이 지난 때까지 보험료를 미납한 경우 그 계약의 효력은 상실된다",
+      "보험회사의 책임은 보험회사의 승낙이 있은 때부터 개시한다",
+      "보험계약자의 최초보험료 납부는 보험계약의 성립과는 무관하다",
+      "보험계약자는 보험증권을 소지하고 있지 않으면 권리를 주장할 수 없다"
+    ],
+    "answer": 3,
+    "id": 368,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "금융위원회에 대한 보험회사의 인가, 신고, 보고 사항에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보험회사 상호간 협정의 체결, 변경, 폐지할 경우에는 인가를 받아야 한다",
+      "보험회사가 상호 또는 명칭을 변경할 경우 보고하여야 한다",
+      "보험회사가 기초서류를 변경할 경우에는 보고하여야 한다",
+      "보험회사가 본점의 영업을 중지하거나 재개할 때에 보고하여야 한다"
+    ],
+    "answer": 3,
+    "id": 369,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "제3보험에 대한 설명으로 바르지 않은 것은?",
+    "options": [
+      "손해보험, 생명보험 및 보증보험의 세 가지 성격을 모두 갖추고 있는 보험이다",
+      "피보험자가 질병이나 상해가 원인이 되어 간병이 필요한 상태의 손해를 보상한다",
+      "상해 및 질병으로 인한 의료비 등을 보상하는 보험이다",
+      "피보험자가 상해 또는 질병으로 신체손해를 입은 경우 보상하는 보험이다"
+    ],
+    "answer": 1,
+    "id": 370,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "제3보험의 보험금 지급방식 중 실손보상 방식에 대한 설명으로 맞는 것은?",
+    "options": [
+      "보험사고 발생시 사전에 약정한 금액을 지급",
+      "사망 · 후유장해 담보가 대표적인 실손급부형 담보임",
+      "실손보상을 적용하는 실손의료비 담보를 여러 건 체결시에는 중복보상을 받을 수 있음",
+      "보험사고 발생시 실제 손해액만을 보상함"
+    ],
+    "answer": 4,
+    "id": 371,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "제3보험 상품개발기준에 대한 설명으로 맞는 것은?",
+    "options": [
+      "생명보험사는 저축성보험으로만 개발이 가능하다",
+      "손해보험사의 경우 상해사망을 주계약으로 하여 저축성보험으로 개발이 가능하다",
+      "손해보험사의 경우 질병사망을 주계약으로 한 저축성보험을 보험기간 15년 이내로 개발 가능하다",
+      "손해보험사의 경우 저축성보험으로 개발시 보험기간은 30년 이내로 개발 가능하다"
+    ],
+    "answer": 2,
+    "id": 372,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "손해보험회사의 사망담보 운영에 대한 설명으로 올바른 것은?",
+    "options": [
+      "상해사망 담보 : 주계약 및 특약 모두 가능, 질병사망 담보 : 주계약 및 특약 모두 가능",
+      "상해사망 담보 : 주계약 및 특약 모두 가능, 질병사망 담보 : 주계약으로만 가능",
+      "상해사망 담보 : 주계약 및 특약 모두 가능, 질병사망 담보 : 특약으로만 가능",
+      "상해사망 담보 : 특약으로만 가능, 질병사망 담보 : 특약으로만 가능"
+    ],
+    "answer": 3,
+    "id": 373,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "손해보험회사의 질병사망 담보에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보험기간과 보험가입금액에 대한 제한이 있다",
+      "겸영이 가능하기 때문에 손해보험회사와 생명보험회사가 동일한 조건으로 운영 할 수 있다",
+      "기본계약은 물론 특약으로도 운영할 수 있다",
+      "만기환급금은 납입보험료 합계액을 초과하여 설계할 수 있다"
+    ],
+    "answer": 1,
+    "id": 374,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "상해보험에 대한 설명으로 올바른 것은?",
+    "options": [
+      "사망보험금은 피보험자의 실제 소득을 감안하여 보험금을 지급한다",
+      "후유장해보험금은 장래소득 상실분을 감안하여 지급한다",
+      "보험가입금액은 있으나, 보험가액은 존재하지 않는다",
+      "단체상해보험에서 타인의 사망보험계약은 반드시 그 타인의 동의를 받아야 한다"
+    ],
+    "answer": 3,
+    "id": 375,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "상해보험에서 보험료 산출과 관련이 없는 것은?",
+    "options": [
+      "직업 및 직무의 위험도를 감안하여 3개 등급으로 구분하여 보험료를 책정한다",
+      "위험도를 판단하기 어려운 경우 최근 치료내역 등을 감안하여 보험료를 책정한다",
+      "단체상해보험은 등급을 나누지 않고 보험료를 단일하게 산출하는 단일률을 적용 할 수 있다",
+      "일반적으로 위험도의 크기와 보험료의 크기는 상해 1급 < 2급 < 3급이다"
+    ],
+    "answer": 2,
+    "id": 376,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "상해보험의 후유장해보험금 지급시 고려사항에 해당하는 것은?",
+    "options": [
+      "피보험자의 직업",
+      "피보험자의 성별",
+      "피보험자의 연령",
+      "피보험자의 신체장해정도"
+    ],
+    "answer": 4,
+    "id": 377,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "2021년 7월에 출시한 개인 실손의료보험(4세대)의 상해비급여 ʻ통원ʼ 1년간 방문\n한도로 가장 적절한 것은?",
+    "options": [
+      "매년 계약해당일로부터 40회",
+      "매년 계약해당일로부터 80회",
+      "매년 계약해당일로부터 100회",
+      "매년 계약해당일로부터 120회"
+    ],
+    "answer": 3,
+    "id": 378,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "국민건강보험법 또는 의료급여법을 적용받지 못하는 실손의료보험 피보험자의\n상해비급여 입원의료비 보상한도는?",
+    "options": [
+      "본인이 실제 부담한 금액의 30%",
+      "본인이 실제 부담한 금액의 40%",
+      "본인이 실제 부담한 금액의 50%",
+      "본인이 실제 부담한 금액의 60%"
+    ],
+    "answer": 2,
+    "id": 379,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 재가입주기에 해당하는 것은?",
+    "options": [
+      "3년",
+      "5년",
+      "10년",
+      "15년"
+    ],
+    "answer": 2,
+    "id": 380,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "상해보험에서 보험회사가 보험금지급 기일 내에 보험금을 지급하지 못하는 경우\n보험금 가산금액의 계산기준이 되는 이율은?",
+    "options": [
+      "1년만기 정기예금이율",
+      "공시이율",
+      "보험계약대출이율",
+      "보험약관에서 정한 예정이율"
+    ],
+    "answer": 3,
+    "id": 381,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "단체상해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "피보험자를 증가, 감소, 교체할 수 있다",
+      "비영리법인단체는 1종 단체에 해당한다",
+      "타인의 사망보험계약에서는 피보험자의 서면에 의한 동의를 생략할 수 있다",
+      "단체의 종류는 1종 단체, 2종 단체, 3종 단체로 구분한다"
+    ],
+    "answer": 2,
+    "id": 382,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 보기는 어떤 보험을 설명하고 있는가?\n가. 암, 뇌졸중, 심근경색 등 중대 질병 발생시 치료비, 생활비, 간병비 등 지급\n나. 일정기간의 잔여수명만 남았을 경우 사망보험금의 일부를 피보험자에게 선지급할 수 있음",
+    "options": [
+      "건강보험",
+      "의료보장보험",
+      "CI보험",
+      "암보험"
+    ],
+    "answer": 3,
+    "id": 383,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "태아보험 관련 특약이 아닌 것은?",
+    "options": [
+      "일상생활배상책임보험",
+      "출생전후기 질환 보장특약",
+      "선천성 질환 수술특약",
+      "미숙아 유아비용보장특약"
+    ],
+    "answer": 1,
+    "id": 384,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "다음 중 장기간병보험에 관한 설명으로 맞는 것은?",
+    "options": [
+      "치매상태로 진단이 확정된 경우 간병비용은 연금의 형태로만 받을 수 있다",
+      "전쟁, 외국의 무력행사, 혁명 등으로 발생한 간병비용은 보상한다",
+      "치매간병비는 중증치매상태로 진단확정된 경우 보상한다",
+      "청약 이전에 진단 확정되고 가입 후 4년 경과 시점에서 발생한 간병상태를 보상 한다"
+    ],
+    "answer": 3,
+    "id": 385,
+    "source": "2024_02_1"
+  },
+  {
+    "question": "주택화재보험 보통약관에서 보상받을 수 없는 손해는?",
+    "options": [
+      "벼락으로 인해 보험의 목적인 냉장고가 파손됨",
+      "옆집의 가스폭발로 보험에 가입한 주택건물이 파손됨",
+      "계약자에게 원한이 있는 자가 보험계약자의 주택에 방화하여 전소됨",
+      "화재 때문에 마당에 내다 놓은 TV를 도난당함"
+    ],
+    "answer": 4,
+    "id": 386,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "주택화재보험을 예시와 같이 가입한 후 손해가 발생한 경우 지급보험금은?\n보험가입금액 8,000만원, 보험가액 1억원, 재물손해액 7,000만원, 손해방지비용 1,200만원",
+    "options": [
+      "7,000만원",
+      "8,000만원",
+      "8,200만원",
+      "8,700만원"
+    ],
+    "answer": 3,
+    "id": 387,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "화재보험의 보험금 지급절차에 관한 설명 중 옳은 것은?",
+    "options": [
+      "보험금 청구서류를 접수받은 날로부터 3일 이내에 보험금 지급",
+      "보험금 청구서류를 접수받은 날로부터 3영업일 이내에 보험금 지급",
+      "보험금 청구서류를 접수받은 날로부터 10영업일 이내에 보험금 지급",
+      "보험금 청구서류를 접수받은 후 지체없이 지급보험금을 결정하고, 결정된 날로부터 7일 이내에 지급"
+    ],
+    "answer": 4,
+    "id": 388,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "특종보험에 해당하지 않는 것은?",
+    "options": [
+      "여행자보험",
+      "적하보험",
+      "동산종합보험",
+      "레저종합보험"
+    ],
+    "answer": 2,
+    "id": 389,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "여행보험에서 특별비용의 범위에 포함되지 않는 것은?",
+    "options": [
+      "수색구조비용",
+      "이송비용",
+      "휴대품 구입비용",
+      "구원자 숙박비"
+    ],
+    "answer": 3,
+    "id": 390,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "장기손해보험에 대한 특징으로 틀린 것은?",
+    "options": [
+      "보험기간이 통상 1년 이내인 것을 일반손해보험이라 하고, 보험기간이 3년 이상인 것을 장기손해보험이라 한다",
+      "장기손해보험은 매년 재가입해야 하는 불편이 없으며, 보험기간 중 보험사고로 손해를 입었을 경우 보험금을 지급받는다",
+      "장기손해보험의 보장성보험은 만기시 만기환급금이 없는 보험이다",
+      "장기손해보험의 저축성보험은 보험기간이 15년을 초과하지 않는다"
+    ],
+    "answer": 3,
+    "id": 391,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험계약 대출제도에 대한 설명으로 틀린 것은?",
+    "options": [
+      "일반손해보험에는 없다",
+      "대출기간은 보험기간 만료시점까지이다",
+      "상품에 따라 대출제도가 제한될 수 있다",
+      "만기환급금 범위 내에서 대출이 가능하다"
+    ],
+    "answer": 4,
+    "id": 392,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "장기손해보험의 보험료에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보험료는 순보험료와 부가보험료로 구성된다",
+      "위험보험료는 보험업법에 의해 특별계정으로 운영된다",
+      "위험보험료는 사고발생시 보험금 지급의 재원이 되는 보험료이다",
+      "저축보험료는 만기환급금, 해약환급금의 재원으로 쓰인다"
+    ],
+    "answer": 2,
+    "id": 393,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "세제적격 연금저축보험의 연간 납입한도로 맞는 것은?",
+    "options": [
+      "600만원",
+      "1,200만원",
+      "1,800만원",
+      "2,400만원"
+    ],
+    "answer": 3,
+    "id": 394,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "연금저축보험 계약자가 질병에 걸려 3개월 이상 요양이 필요한 경우 계약해지시\n부담하는 세제조건으로 올바른 것은?",
+    "options": [
+      "연금소득세(3~5%, 지방소득세 제외) 납입하게 되고 종합과세 대상에는 미포함",
+      "연금소득세(3~5%, 지방소득세 제외) 납입 및 종합과세 대상에도 포함",
+      "연금소득세(13~15%, 지방소득세 제외) 납입하게 되고 종합과세 대상에는 미포함",
+      "연금소득세(13~15%, 지방소득세 제외) 납입 및 종합과세 대상에도 포함"
+    ],
+    "answer": 1,
+    "id": 395,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "민법과 자동차손해배상보장법과의 관계에 대한 설명 중 맞는 것은?",
+    "options": [
+      "자동차손해배상보장법은 형법의 특별법으로 형법보다 우선하여 적용된다",
+      "자동차손해배상보장법에서 법률상 책임관계의 입증책임은 피해자가 부담한다",
+      "민법과 자동차손해배상보장법은 대인사고에만 적용된다",
+      "자동차손해배상보장법은 조건부 무과실책임주의가 적용된다"
+    ],
+    "answer": 4,
+    "id": 396,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "다음 중 자동차손해배상보장법상의 자동차에 해당하는 것은?",
+    "options": [
+      "건설기계관리법상의 9종 건설기계",
+      "군수품관리법에 의한 차량",
+      "도로교통법에 의한 원동기장치 자전거",
+      "농업기계화촉진법에 의한 농업기계 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 1,
+    "id": 397,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "자동차보험 가족운전자 한정운전특약에서 가족의 범위에 해당하지 않는 사람은?",
+    "options": [
+      "기명피보험자의 부모",
+      "기명피보험자의 형제",
+      "기명피보험자의 사실혼 관계에 있는 배우자",
+      "기명피보험자의 배우자의 부모"
+    ],
+    "answer": 2,
+    "id": 398,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "자동차보험 보험금 지급기준에 대한 설명 중 맞는 것은?",
+    "options": [
+      "대물배상 담보에서는 자동차 수리비용이 자동차의 사고 직전 가액을 초과할 경우에는 보상하지 않는다",
+      "대물배상 담보에서는 자동차를 수리하는 기간 동안 다른 자동차를 대신 사용 하는데 소요되는 비용도 보상한다",
+      "자기차량손해 담보에서는 자동차 시세하락 손해도 보상한다",
+      "자기차량손해 담보에서는 자동차 수리기간 동안 발생한 영업손해도 보상한다"
+    ],
+    "answer": 2,
+    "id": 399,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "완전판매와 관련된 설명 중 맞는 것은? [4점]",
+    "options": [
+      "단계별 설명의무에서 보험계약체결 권유단계에서는 보험계약 승낙거절시 거절 사유를 설명하여야 한다",
+      "모집자실명제를 위반할 경우에는 1천만원 이하의 벌금이 부과된다",
+      "기업성보험의 경우 보험회사는 보험계약의 체결시부터 보험금 지급시까지의 주요과정 설명을 생략한다.",
+      "3대 기본지키기는 청약서 등 자필서명, 청약서 부본 전달, 약관의 전달 및 중요 내용 설명이다"
+    ],
+    "answer": 4,
+    "id": 400,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험업법상 금지되는 특별이익제공 행위에 해당하지 않는 것은?",
+    "options": [
+      "보험계약자가 보험회사로부터 받은 대출금 일부 상환",
+      "기초서류에서 정한 사유에 근거하지 아니한 수수료의 지급",
+      "보험계약자를 위한 보험료의 대납",
+      "보험료로 받은 수표에 대한 이자 상당액의 대납"
+    ],
+    "answer": 1,
+    "id": 401,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정에서 모집종사자가 특별이익을 제공한\n경우 제재금 부과 한도는?",
+    "options": [
+      "5백만원",
+      "1천만원",
+      "5천만원",
+      "3천만원"
+    ],
+    "answer": 4,
+    "id": 402,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "모집질서 관련 준수사항으로 알맞지 않은 것은?",
+    "options": [
+      "보험대리점은 소속설계사와 위탁계약서를 체결해야한다",
+      "보험대리점의 지점이 폐쇄된 경우 보험협회에 신고해야 한다",
+      "모집종사자가 신고의무를 위반한 경우 1천만원 이하의 벌금을 부과한다",
+      "보험대리점 또는 보험중개사는 자기계약이 금지된다"
+    ],
+    "answer": 3,
+    "id": 403,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험업법상 모집종사자의 정의를 바르게 설명한 것은?",
+    "options": [
+      "보험중개사 : 독립적으로 보험계약의 체결을 대리하는 자",
+      "보험설계사 : 독립적으로 보험계약의 체결을 대리하는 자",
+      "보험대리점 : 보험회사를 위하여 보험계약의 체결을 대리하는 자",
+      "보험설계사 : 보험회사를 위하여 보험계약의 체결을 대리하는 자"
+    ],
+    "answer": 3,
+    "id": 404,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험대리점을 영위업종별로 분류할 때 맞는 것은?",
+    "options": [
+      "개인대리점, 법인대리점",
+      "생명보험대리점, 손해보험대리점, 제3보험대리점",
+      "전업대리점, 겸업대리점",
+      "전속대리점, 비전속대리점"
+    ],
+    "answer": 3,
+    "id": 405,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험판매 프로세스 중 고객의 니즈 및 재무정보를 토대로 최적의 위험보장설계를\n제시하는 단계는?",
+    "options": [
+      "가입권유",
+      "정보수집",
+      "계약체결",
+      "소개확보"
+    ],
+    "answer": 1,
+    "id": 406,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "동일한 위험에 노출된 다수가 하나의 위험집단을 구성하여 보험료를 갹출하고\n이 보험료를 통해 구성원 일부가 입은 손해를 보상하는 보험의 기본원칙은?",
+    "options": [
+      "위험의 분담원칙",
+      "대수의 법칙",
+      "수지상등의 원칙",
+      "이득금지의 원칙"
+    ],
+    "answer": 1,
+    "id": 407,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "다음 중 공영보험에 관한 설명으로 틀린 것은?",
+    "options": [
+      "건강보험과 마찬가지로 무역보험도 공영보험에 속한다",
+      "국가와 자치단체에 의해 영위되는 보험사업이 공영보험에 해당한다",
+      "국민의 복지증진을 위해 국가가 공영보험을 영위하기도 한다",
+      "공익을 위한 의무보험인 자동차보험은 공영보험으로 분류된다"
+    ],
+    "answer": 4,
+    "id": 408,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "음주운전 처벌기준 중 틀린 것은?",
+    "options": [
+      "혈중알코올농도가 0.08% 이상인 경우, 사고발생여부를 불문하고 면허가 취소된다",
+      "음주측정에 불응한 경우 사고발생여부를 불문하고 면허취소된다",
+      "혈중알코올농도가 0.05% 미만인 경우에는 단속이 되더라도 처벌없이 훈방된다",
+      "혈중알코올농도가 0.2% 이상인 경우 2~5년의 징역 또는 1천만원~2천만원 이하의 벌금이 처해진다"
+    ],
+    "answer": 3,
+    "id": 409,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "피보험이익과 관련한 설명으로 맞는 것은?",
+    "options": [
+      "탈세이익도 피보험이익에 포함된다",
+      "금전으로 산정할 수 없는 이익도 피보험이익에 포함된다",
+      "상법은 피보험이익을 보험계약의 목적으로 표현한다",
+      "피보험이익은 현존하는 이익에 한하며, 장래의 이익은 피보험이익이 될 수 없다"
+    ],
+    "answer": 3,
+    "id": 410,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "부가보험료를 구성하는 요소로만 짝지어진 것은?\n㉠ 신계약비 ㉡ 위험보험료 ㉢ 수금비 ㉣ 저축보험료",
+    "options": [
+      "㉠, ㉡",
+      "㉠, ㉢",
+      "㉠, ㉣",
+      "㉡, ㉣"
+    ],
+    "answer": 2,
+    "id": 411,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "다음의 설명 중 틀린 것은?",
+    "options": [
+      "보험계약은 계약자의 청약과 보험회사의 승낙으로 성립한다",
+      "보험료 중 보험사고 발생시 계약자에게 지급되는 보험금의 재원을 위험보험료라 한다",
+      "보험계약 성립 후 2개월이 지난 때까지 보험료의 전부 또는 1회 보험료를 미납한 경우 그 계약은 소멸한다",
+      "보험회사는 명시적인 방법으로 승낙해야 한다"
+    ],
+    "answer": 4,
+    "id": 412,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험업 허가시 기초서류에 해당하는 것을 모두 고른 것은?\n가. 사업계획서 나. 사업방법서 다. 보험약관 라. 정관",
+    "options": [
+      "가, 다",
+      "나, 다",
+      "가, 라",
+      "다, 라"
+    ],
+    "answer": 2,
+    "id": 413,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "보험업법상 손해보험회사의 제3보험에 대한 설명으로 올바른 것은?",
+    "options": [
+      "상해보험의 보험만기는 80세 이하이다",
+      "상해보험의 보험금액은 개인당 2억원 이내이다",
+      "제3보험은 저축성보험으로 설계할 수 있다",
+      "주계약이 상해보험인 경우 15년을 초과하지 않는 저축성보험으로 설계할 수 있다"
+    ],
+    "answer": 4,
+    "id": 414,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "상해보험의 보험료산출에 대해 옳은 것은?",
+    "options": [
+      "일반적으로 보험료의 크기는 상해 1급 < 2급 < 3급이다",
+      "사무직 근로자는 상해 3급 보험료를 적용한다",
+      "영업용 자동차 운전자는 상해 2급 보험료를 적용한다",
+      "단체상해보험은 상해등급을 3등급보다 세분화할 수 있다"
+    ],
+    "answer": 1,
+    "id": 415,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "상해보험에서 피보험자의 직업, 직무 또는 동호회 활동 목적으로 생긴 손해는\n보험사에서 면책하나, 예외적으로 보상하는 손해에 해당되는 경우는?",
+    "options": [
+      "글라이더 조종, 스쿠버다이빙을 하는 동안 발생한 상해",
+      "자동차 또는 오토바이 경기 중 발생한 상해",
+      "공용도로상에서 자동차 시운전을 하는 동안 발생한 손해",
+      "선박승무원의 직무상 선박에 탑승 중 발생한 상해"
+    ],
+    "answer": 3,
+    "id": 416,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "한시적인 후유장해보험금 지급조건 및 지급률에 대한 설명으로 올바른 것은?",
+    "options": [
+      "3년 이상의 장해시 해당 장해지급률의 80%",
+      "3년 이상의 장해시 해당 장해지급률의 20%",
+      "5년 이상의 장해시 해당 장해지급률의 80%",
+      "5년 이상의 장해시 해당 장해지급률의 20%"
+    ],
+    "answer": 4,
+    "id": 417,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "상해보험의 사망보험금 지급내용으로 틀린 것은?",
+    "options": [
+      "사망보험금은 1인당 2억원 한도 내에서 보상한다",
+      "사망보험금은 질병으로 인한 사망에 대해서는 지급하지 않는다",
+      "사망보험금은 보험수익자에게 지급한다",
+      "사망보험금 지급 후 피보험자의 생존 확인시 보험금을 회수한다"
+    ],
+    "answer": 1,
+    "id": 418,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "질병보험에서 대기기간(Waiting Period)을 설정하는 목적으로 올바른 것은?",
+    "options": [
+      "이득금지의 원칙",
+      "소액사고 면책",
+      "역선택 방지",
+      "보험료할인 혜택 부여"
+    ],
+    "answer": 3,
+    "id": 419,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "다음 중 치아보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "치아보험은 충치, 잇몸질환 등의 질병(또는 상해)으로 치아에 보철치료나 보존치료 등을 받을 경우 보험금을 지급받을 수 있는 보험상품이다",
+      "질병으로 인한 치료에 대하여는 면책기간이나 감액기간을 운영하고 있다",
+      "감액기간은 보험가입 전에 이미 치아질환을 보유한 사람이 보험금을 받을 목적으로 보험에 가입하는 것을 방지하기 위한 장치이다",
+      "치아보험은 갱신할 때마다 보험료가 조정되는 갱신형이 있는데 보험료 갱신은 전체 보험기간 중 3회를 초과할 수 없다"
+    ],
+    "answer": 4,
+    "id": 420,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)에 대한 설명으로 맞는 것은?",
+    "options": [
+      "기본형 실손의료보험(급여)에 가입하지 않고 특별약관(비급여)만 가입할 수도 있다",
+      "기본형 실손의료보험(급여)은 상해비급여, 질병비급여로 구성되어있다",
+      "비급여 지급보험금에 따라 비급여특약의 보험료가 할인 또는 할증되는 구조로 설계되어 있다",
+      "4세대 실손으로 계약전환 후 4년 이내 보험금 수령이 없는 경우에만 계약전환을 철회할 수 있다"
+    ],
+    "answer": 3,
+    "id": 421,
+    "source": "2024_02_2"
+  },
+  {
+    "question": "주택화재보험에 가입할 수 없는 물건은?",
+    "options": [
+      "연립주택",
+      "주택병용 피아노교습소",
+      "기숙사",
+      "아파트"
+    ],
+    "answer": 3,
+    "id": 422,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "주택화재보험을 예시와 같이 가입한 후 손해가 발생한 경우 지급보험금은?\n보험가입금액 8,000만원, 보험가액 1억원, 재물손해액 7,000만원,\n잔존물제거비용 500만원, 잔존물보전비용 1,200만원",
+    "options": [
+      "7,000만원",
+      "8,000만원",
+      "8,200만원",
+      "8,700만원"
+    ],
+    "answer": 4,
+    "id": 423,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "다음 중 의무배상책임보험에 해당하지 않는 것은?",
+    "options": [
+      "가스사고배상책임보험",
+      "의사(병원)배상책임보험",
+      "승강기 사고배상책임보험",
+      "체육시설업자배상책임보험"
+    ],
+    "answer": 2,
+    "id": 424,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "동산종합보험에서 잡위험에 해당하는 것은?",
+    "options": [
+      "화재",
+      "도난",
+      "파손",
+      "건물붕괴"
+    ],
+    "answer": 4,
+    "id": 425,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "장기손해보험에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "3개월 이상 보험료 선납시에는 보험료를 할인하는 제도를 운영하고 있다",
+      "보험료 미납으로 계약이 해지된 경우 계약을 부활(효력회복)할 수 있다",
+      "해약환급금이 없는 순수 보장성상품으로 개발할 수 없다",
+      "보험가입금액 80% 미만 사고시 자동복원제도가 적용된다"
+    ],
+    "answer": 3,
+    "id": 426,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "자동차보험의 특성에 대한 설명으로 틀린 것은?",
+    "options": [
+      "조성된 보험료를 투자재원으로 활용할 수 있어 산업자금 조성에 기여",
+      "모든 교통사고에 대한 형사책임 면제를 통한 개인생활의 안정도모",
+      "자동차사고시 피보험자를 경제적 파탄에서 구제",
+      "할인할증제도 운영을 통한 사고예방기능"
+    ],
+    "answer": 2,
+    "id": 427,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "자동차보험 의무보험 가입의무에 관한 설명 중 틀린 것은?",
+    "options": [
+      "본인이 면허정지된 시점 이후부터의 기간에 대해서도 의무보험 가입의무가 있다",
+      "본인이 외국에 장기간 체류 중인 경우에는 출입국 기록만 제출하면 의무보험 가입의무가 면제된다",
+      "공휴일 기간 중 만료된 계약이라 할지라도 미가입에 따른 과태료 부과대상이 되므로 공휴일 이전에 보험을 갱신하여야 한다",
+      "법원의 상속포기 판결을 받은 가족은 피상속인의 자동차에 대하여 의무보험 가입의무가 없다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 2,
+    "id": 428,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "자동차보험 보험요율과 관련하여 틀린 것은?",
+    "options": [
+      "군대에서 운전병으로 근무한 경력은 보험가입 경력으로 인정되지만 외국에서의 보험가입 경력은 인정되지 않는다",
+      "가입자특성요율은 보험가입기간이나 법규위반경력에 따라 적용되는 요율이다",
+      "특약요율은 운전자의 연령범위를 제한하는 특약, 가족으로 운전자를 한정하는 특약 등 가입 시에 적용하는 요율이다",
+      "우량할인·불량할증요율은 사고발생 실적에 따라 적용하는 요율이다"
+    ],
+    "answer": 1,
+    "id": 429,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "자동차 사고발생에 따른 피보험자의 대인배상과 대물배상의 사고부담금은?\n(ʼ22.7.28 이후)\n30대 남성 A씨, 마약으로 인한 환각상태에서 보행자 1명을 충돌하여 뇌출혈로 인해\n대학병원 중환자실에서 개두술을 시행(부상1급)하였으나 끝내 사망함(손해액 4억원)",
+    "options": [
+      "1.5억",
+      "1.1억",
+      "1억",
+      "2.8억"
+    ],
+    "answer": 4,
+    "id": 430,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "자동차손해배상보장사업에 대한 설명 중 틀린 것은?",
+    "options": [
+      "자동차손해배상보장사업의 보상금액은 대인배상Ⅰ 약관지급기준이 적용된다",
+      "차량이 파손된 경우에도 보장사업 청구가 가능하다",
+      "자동차사고 피해가족에 대한 지원금제도가 있다",
+      "보장사업을 청구할 수 있는 기간은 통상 사고일로부터 3년이다"
+    ],
+    "answer": 2,
+    "id": 431,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "보험계약의 단계별 설명의무에서 보험계약 체결 권유단계에 대한 설명으로 틀린\n것은? [4점]",
+    "options": [
+      "계약의 해지, 해제에 관한 사항을 설명해야 한다",
+      "해약환급금 산출근거에 관한 사항을 설명해야 한다",
+      "일본보험계약자가 이해하였음을 서명, 기명날인, 녹취 등의 방법으로 확인받아야 한다.",
+      "저축성상품의 적용이율에 관한 사항을 설명해야 한다"
+    ],
+    "answer": 4,
+    "id": 432,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "보험산업의 특성에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험료의 안전한 관리 및 보험금 지급보장을 위해 감독과 규제가 필요하다",
+      "경제, 사회에 미치는 영향이 매우 커서 공공성과 건전성을 확보해야 한다",
+      "국가 기간산업 등 중요산업에 투자해서는 안된다",
+      "보장기능과 금융기능을 모두 갖고 있다"
+    ],
+    "answer": 3,
+    "id": 433,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "돌풍보험대리점 소속 보험설계사 홍길동은 보험계약자에게 월 2만원 상당의 운전자\n보험을 체결 후 감사의 표시로 보험료 2개월분을 보험계약자 대신 납부하였다.\n어떤 위반행위에 해당하는가?",
+    "options": [
+      "특별이익 제공금지 위반",
+      "무자격 모집행위 위반",
+      "경유계약 위반",
+      "자기계약 금지 위반"
+    ],
+    "answer": 1,
+    "id": 434,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "개인정보 파기에 관한 설명 중 올바르지 않은 것은?",
+    "options": [
+      "개인정보 보유기간이 경과한 경우 지체없이 개인정보를 파기하여야 한다",
+      "개인정보가 전자적 파일형태인 경우 복원이 불가능한 방법으로 영구삭제하여야 한다",
+      "인쇄물, 서면의 경우 파쇄 또는 소각하여야 한다",
+      "개인정보의 처리 목적이 달성된 경우 암호화하여 별도로 저장·관리하여야 한다"
+    ],
+    "answer": 4,
+    "id": 435,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "보험대리점에 관한 설명 중 잘못된 것은?",
+    "options": [
+      "개인대리점도 소속 보험설계사를 둘 수 있다",
+      "대리점계약을 체결할 수 있는 보험회사 수는 제한이 없다",
+      "간단손해보험대리점은 상해보험을 취급할 수 있다",
+      "간단손해보험대리점은 자격시험을 통과해야 한다"
+    ],
+    "answer": 4,
+    "id": 436,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "연고를 이용한 가망고객 발굴기법의 장점으로 틀린 것은?",
+    "options": [
+      "증권과 약관 전달을 생략할 수 있다",
+      "쉽게 접근할 수 있다",
+      "가망고객 사전 선별이 용이하다",
+      "단기간 내 많은 가망고객을 확보할 수 있다"
+    ],
+    "answer": 1,
+    "id": 437,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "보험의 정의에 대한 설명으로 틀린 것은?",
+    "options": [
+      "서로 다른 위험에 놓여있는 다수 경제주체의 결합",
+      "우연한 사고에 대한 대비",
+      "일정률의 금액을 출연하여 공동 준비재산을 마련",
+      "경제생활상의 불안 제거 또는 경감"
+    ],
+    "answer": 1,
+    "id": 438,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "다음 보험의 분류에 관한 설명 중 올바른 것은?",
+    "options": [
+      "국가나 자치단체가 영리추구를 목적으로 보험사업을 영위하는 것을 민영보험이라 한다",
+      "보험회사가 보험계약자로부터 직접 보험을 인수할 경우 이때의 보험회사를 원보험 회사라 한다",
+      "동일 목적물에 대해 2개 이상의 보험가입금액이 보험가액을 초과하는 경우에만 중복보험이 성립한다",
+      "운송보험이나 선박보험은 출발장소로부터 도착한 곳까지의 구간을 기준으로 하는 구간보험이다"
+    ],
+    "answer": 2,
+    "id": 439,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "정비업체 불법행위 근절을 위한 자동차관리법의 내용 중 틀린 것은?",
+    "options": [
+      "정비업체에서는 정비의뢰자의 동의없이 임의로 차량을 정비하여서는 안된다",
+      "정비업체는 정비하기 전에 정비의뢰자에게 사전견적서를 교부하여야 한다",
+      "정비업체는 정비가 끝난 후에는 정비의뢰자에게 정비내역서를 교부하여야 한다",
+      "견적서 교부의무 등을 위반한 경우 정비업체는 300만원 이하의 과태료에 처해진다"
+    ],
+    "answer": 4,
+    "id": 440,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "다음 도로교통법 내용 가운데 틀린 것은?",
+    "options": [
+      "어린이보호구역 내 주정차는 법으로 금지하고 있다",
+      "2022년부터 보도와 차도 구분이 없는 도로에서 보행자가 도로의 전 부분으로 통행이 가능하다",
+      "난폭운전시 구속될 수 있다",
+      "뒷좌석 안전띠는 일반도로에서는 착용하지 않아도 문제없다"
+    ],
+    "answer": 4,
+    "id": 441,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "보험가입금액과 보험가액에 대한 설명 중 옳은 것은?",
+    "options": [
+      "보험가액, 보험가입금액은 손해보험 및 인보험에 모두 존재하는 개념이다",
+      "보험가입금액이 보험가액보다 작은 경우, 보험회사는 보험가액의 비율에 따라 비례보상한다",
+      "공동보험은 보험가입금액을 한도로 보험회사가 보험가입금액 비율에 따라 비례 또는 실손보상한다",
+      "초과보험이 보험계약자의 사기로 인한 경우 보험회사는 계약을 해지할 수 있다"
+    ],
+    "answer": 3,
+    "id": 442,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "다음 중 보험계약의 취소사유에 해당하지 않는 것은?",
+    "options": [
+      "약관교부 또는 약관내용 설명을 이행하지 않았을 경우",
+      "자필서명을 하지 않은 계약",
+      "청약서 부본이 전달되지 않은 계약",
+      "보험계약 당시에 보험사고가 이미 발생한 계약"
+    ],
+    "answer": 4,
+    "id": 443,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "손해보험사가 질병을 원인으로 하는 사망을 담보하는 보험을 겸영하기 위한\n요건에 해당하지 않는 것은?",
+    "options": [
+      "손해보험업 보험종목 전부를 영위하는 손해보험사일 것",
+      "질병을 원인으로 하는 사망을 제3보험의 특약의 형식으로 담보하는 보험일 것",
+      "보험만기는 100세 이하일 것",
+      "만기시에 지급하는 환급금이 납입보험료 합계액의 범위 내일 것"
+    ],
+    "answer": 3,
+    "id": 444,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "제3보험 상품설계 일반기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "실손해를 보장하는 보험의 경우에는 다른 회사 가입내역을 계약 전 알릴 의무로 할 수 있다",
+      "다른 회사 가입내역에 대한 계약 전 알릴 의무 위반시에는 계약을 해지할 수 있다",
+      "다른 회사 가입내역에 대한 계약 전 알릴 의무에는 생명보험회사 가입사항이 포함된다",
+      "실손해를 보장하는 보험에서 중복계약시에는 비례보상할 수 있다"
+    ],
+    "answer": 2,
+    "id": 445,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "사무직 근로자가 상해보험에 가입할 때 적용되는 상해급수에 해당하는 것은?",
+    "options": [
+      "1급",
+      "2급",
+      "3급",
+      "4급"
+    ],
+    "answer": 1,
+    "id": 446,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "장기상해보험에서 치료종결 후 한시적인 장해가 5년 이상인 때 후유장해 지급률은?",
+    "options": [
+      "해당 장해지급률의 10%",
+      "해당 장해지급률의 20%",
+      "해당 장해지급률의 30%",
+      "해당 장해지급률의 40%"
+    ],
+    "answer": 2,
+    "id": 447,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 ʻ3대 비급여ʼ 보상에 대한 설명 중\n틀린 것은?",
+    "options": [
+      "도수치료는 증상의 개선, 병변호전 등이 확인된 경우에 한하여 20회 단위로 연간 100회까지 보상한다",
+      "주사료는 1년 단위로 각 상해·질병 치료행위를 합산하여 250만원 이내에서 50회 까지 보상한다",
+      "자기공명영상진단은 1년 단위로 각 상해·질병 치료행위를 합산하여 300만원 이내에서 보상한다",
+      "공제금액은 1회당 3만원과 보장대상의료비의 30% 중 큰 금액으로 한다"
+    ],
+    "answer": 1,
+    "id": 448,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)에 대한 설명으로 ( ) 안에 들어갈\n적절한 것은?\n피보험자가 입원하여 치료를 받던 중 보험계약이 종료되더라도 그 계속 중인 입원에\n대하여는 보험계약 종료일 다음날부터 ( )일까지 보상합니다",
+    "options": [
+      "90일",
+      "100일",
+      "150일",
+      "180일"
+    ],
+    "answer": 4,
+    "id": 449,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "단체상해보험에서 동일한 회사나 사업장, 국영기업체 등 5인 이상의 근로자를\n고용하고 있는 단체의 종류에 해당하는 것은?",
+    "options": [
+      "1종 단체 – 급여단체",
+      "2종 단체 – 규약단체",
+      "3종 단체 – 비영리법인단체",
+      "4종 단체 – 동업자단체"
+    ],
+    "answer": 1,
+    "id": 450,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "질병보험계약에서 80% 이상 후유장해 발생 시 지급보험금에 해당하는 것은?",
+    "options": [
+      "보험가입금액의 70%",
+      "보험가입금액의 80%",
+      "보험가입금액의 90%",
+      "사망보험금"
+    ],
+    "answer": 4,
+    "id": 451,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "CI보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "치명적 질병보험이라고도 한다",
+      "중대한 화상이 발생한 경우는 보상하지 않는다",
+      "사망보험금 선지급제도가 있다",
+      "보험료납입 면제제도가 있다"
+    ],
+    "answer": 2,
+    "id": 452,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "어린이보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "어린이보험은 자녀의 성장과정 중 발생할 수 있는 질병, 상해로 인한 의료비와 자녀 일상생활 중 배상책임을 보장하는 보험이다",
+      "어린이보험 가입연령은 0세~18세이다",
+      "장애, 기형 등 선천질환을 가진 신생아가 보험혜택을 받을 수 있도록 태아도 보험에 가입할 수 있다",
+      "출생 전 태아는 법인격이 없어 피보험자가 불가능하나 태아 출생을 조건으로 하는 태아가입 특별약관을 통해 보험계약을 체결한다"
+    ],
+    "answer": 2,
+    "id": 453,
+    "source": "2024_04_1"
+  },
+  {
+    "question": "보험회사가 화재보험 계약을 해지할 수 없는 경우는?",
+    "options": [
+      "보험계약자가 고의로 손해방지의무를 게을리 함",
+      "보험계약자가 고의로 보험에 가입한 건물 내 영위작업을 실제와 다르게 알림",
+      "보험계약자가 보험의 목적을 타인에게 양도 후 보험회사에 알리지 않음",
+      "보험계약자나 피보험자가 고지의무를 위반한 경우"
+    ],
+    "answer": 1,
+    "id": 454,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "가스사고배상책임보험의 의무가입 대상이 아닌 사업자는?",
+    "options": [
+      "가스제조업자",
+      "가스용기제조업자",
+      "가스판매업자",
+      "가스용기운송업자"
+    ],
+    "answer": 4,
+    "id": 455,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "장기손해보험에서 보험료 납입최고에 대한 설명으로 틀린 것은?",
+    "options": [
+      "납입최고기간 내에 발생한 보험사고는 보상을 받을 수 있지만 납입최고기간 이후에 발생한 보험사고는 보상받을 수 없다",
+      "상법 제650조에서는 보험료 연체를 이유로 보험회사가 보험계약을 해지하기에 앞서 최고할 것을 규정하고 있다",
+      "최고(催告)는 타인에게 일정한 행위를 할 것을 요구하는 통지를 말한다",
+      "보험회사는 납입최고를 하지 않고 보험료 연체를 이유로 계약을 해지할 수는 없으나 일부 보장을 제한하는 것은 가능하다"
+    ],
+    "answer": 4,
+    "id": 456,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "청구권 소멸시효가 다른 하나는?",
+    "options": [
+      "보험료반환청구권",
+      "보험료청구권",
+      "보험금청구권",
+      "환급금반환청구권"
+    ],
+    "answer": 2,
+    "id": 457,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "장기화재보험에 가입한 일반사무실에서 화재사고시 보상하지 않는 경우는?",
+    "options": [
+      "화재에 따른 직접손해",
+      "화재에 따른 소방손해",
+      "화재에 따른 피난손해",
+      "가스폭발로 인한 직접손해"
+    ],
+    "answer": 4,
+    "id": 458,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "퇴직연금제도의 근거 법률은?",
+    "options": [
+      "조세특례제한법",
+      "보험업법",
+      "근로자퇴직급여보장법",
+      "소득세법"
+    ],
+    "answer": 3,
+    "id": 459,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "자동차보험 차종구분의 화물자동차에 해당되지 않는 것은?",
+    "options": [
+      "벌크트럭",
+      "탱크로리",
+      "덤프트럭",
+      "살수자동차"
+    ],
+    "answer": 3,
+    "id": 460,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "자동차보험 대인배상에서 부상보험금 보상내용에 해당하지 않는 것은?",
+    "options": [
+      "휴업손해, 기타 손해배상금",
+      "상실수익액, 가정간호비",
+      "간병비, 구조수색비",
+      "입원료, 응급치료비"
+    ],
+    "answer": 2,
+    "id": 461,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "｢자동차사고 과실비율분쟁 심의위원회｣에 대한 설명 중 틀린 것은?",
+    "options": [
+      "위원회는 재판에 불복하는 과실분쟁건을 심의·조정한다",
+      "위원회는 보험사간 협정과 금융위 인가에 의거 설립되었다",
+      "위원회의 심의결과는 재판상 화해의 효과가 있다",
+      "위원회의 심의위원은 변호사 자격보유자로 구성된다"
+    ],
+    "answer": 1,
+    "id": 462,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험료 영수제도와 관련하여 맞는 설명은?",
+    "options": [
+      "보험회사는 원칙적으로 보험기간이 시작되기 전에 보험료를 수납하여야 한다",
+      "손해보험의 가계성보험계약은 계약자가 발행한 선일자수표로 수납이 가능하다",
+      "보험료로 받은 은행도어음은 2개월이 경과하면 부도처리하여야 하며 이자수취 기간은 결제일까지로 한다",
+      "보험료로 받은 선일자수표는 취득일로부터 2개월 내에 결제되는 것이어야 한다"
+    ],
+    "answer": 1,
+    "id": 463,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "실제 명의인이 아닌 자의 보험계약을 모집하거나 실제 명의인의 동의가 없는\n보험계약을 모집하는 행위에 대한 벌칙으로 맞는 것은?",
+    "options": [
+      "2천만원 이하의 과태료 부과",
+      "4천만원 이하의 과태료 부과",
+      "3천만원 이하의 과태료 부과",
+      "1천만원 이하의 과태료 부과"
+    ],
+    "answer": 4,
+    "id": 464,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험계약자의 자필서명이 필요한 경우 자필서명을 받지 않고 서명을 대신하거나\n다른 사람으로 하여금 서명하게 하는 행위를 처벌하는 조항으로 적절한 것은?",
+    "options": [
+      "1천만원 벌금",
+      "1년 이하의 징역",
+      "1천만원 이하 과태료",
+      "5백만원 이하 제재금"
+    ],
+    "answer": 3,
+    "id": 465,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "교차모집설계사로 등록할 수 있는 경우는?",
+    "options": [
+      "A보험대리점 소속 손해보험설계사가 A보험대리점 생명보험설계사로 겸하고자 하는 경우",
+      "A보험대리점 소속 손해보험설계사가 Z보험대리점 생명보험설계사로 겸하고자 하는 경우",
+      "A손해보험사 설계사가 Z손해보험사 설계사로 등록하고자 하는 경우",
+      "Z생명보험사 설계사가 A손해보험사 설계사로 등록하고자 하는 경우"
+    ],
+    "answer": 4,
+    "id": 466,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "손해보험대리점 업무폐지 절차로 맞는 것은?",
+    "options": [
+      "개인대리점의 경우 보험회사를 통해서만 업무폐지가 가능하다",
+      "보험회사와 계약해지가 안된 경우라도 보험협회에 업무폐지를 신청할 경우 자동으로 계약이 해지된다",
+      "직접 업무폐지의 경우 계약체결 보험회사 전부의 업무폐지 동의서가 반드시 필요하다",
+      "보험협회로 업무폐지 신청절차 없이 타 보험회사로 이직이 가능하다"
+    ],
+    "answer": 3,
+    "id": 467,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험판매 프로세스 중 정보수집에 관하여 가장 잘못된 설명은?",
+    "options": [
+      "고객에 대한 체계적인 정보수집 단계이다",
+      "가족사항 등 일반정보뿐만 아니라 보유자산에 대한 정보도 수집 내용에 포함된다",
+      "보험에 대한 니즈 외에도 관심사나 인생목표 등도 수집한다",
+      "상품에 대한 설명과 가입을 권유한 후에 정보수집을 하는 것이 효과적이다"
+    ],
+    "answer": 4,
+    "id": 468,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "실손보상의 원칙을 바르게 설명한 것은?",
+    "options": [
+      "보험회사가 납부받은 보험료로 보험금을 지급하는데 과부족이 없어야 한다는 원칙",
+      "보험회사의 순보험료 총액은 지급보험금의 총액과 일치하여야 한다는 원칙",
+      "보험사고시 보험가입금액의 한도 내에서 실제 발생한 손해액을 보상한다는 원칙",
+      "보험가액에 대한 보험가입금액의 비율로 보상한다는 원칙"
+    ],
+    "answer": 3,
+    "id": 469,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험의 분류 중 보험기간과 구간에 대한 설명으로 맞는 것은?",
+    "options": [
+      "장기보험은 통상 5년 이상 20년 이하의 장기간을 보장한다",
+      "적하보험은 기간보험이나 운송보험은 구간보험이다",
+      "건설공사보험은 기간과 구간이 혼합되어 있는 보험이다",
+      "단기보험은 1년 이하 보험으로 만기시 환급금을 지급하는 것이 특징이다"
+    ],
+    "answer": 3,
+    "id": 470,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "다음 보험사기에 대한 설명 중 맞는 것은?",
+    "options": [
+      "보험사기방지 특별법은 2016년 시행 되었다",
+      "보험금 지급요건이 되는 사고 등을 고의로 조작하여 보험금을 편취하는 보험사기를 ʻ연성사기ʼ라고 한다",
+      "보험사고 발생시 보험금 청구액을 부당하게 과장·확대하는 보험사기를 ʻ경성사기ʼ라고 한다",
+      "보험사기로 인한 이득액이 3억원 이상이 되면 특정경제범죄가중처벌법에 의해 가중 처벌된다"
+    ],
+    "answer": 1,
+    "id": 471,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "손해보험계약의 주요 요소에 관한 설명 중 틀린 것은?",
+    "options": [
+      "보험계약자는 보험계약의 당사자로서 보험료 납입의무가 발생한다",
+      "고지의 시기는 보험계약이 성립하기 전까지이다",
+      "고지의무를 이행해야 하는 자는 보험계약자, 피보험자, 보험수익자이다",
+      "고지의무 위반이 있는 경우에 보험회사는 계약을 해지할 수 있다"
+    ],
+    "answer": 3,
+    "id": 472,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험사고의 요건에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험사고는 우연한 것이어야 한다",
+      "보험사고는 발생 가능한 것이어야 한다",
+      "보험사고는 일정한 목적에 대하여 일정한 기간 내에 발생한 사고이다",
+      "보험사고에는 불법에 의한 사고도 포함된다"
+    ],
+    "answer": 4,
+    "id": 473,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험계약에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험회사의 책임이 시작되어 끝날 때까지의 기간을 보험기간이라 한다",
+      "보험료를 납입한 시점에서 보험료 납입기간이 종료되는 기간을 보험료기간이라 한다",
+      "보험계약이 유효하게 성립되어 소멸할 때까지의 기간을 보험계약기간이라 한다",
+      "보험계약기간이 보험기간보다 일찍 시작하는 보험을 예정보험이라 한다"
+    ],
+    "answer": 2,
+    "id": 474,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "보험목적의 양도에 대한 설명으로 틀린 것은?",
+    "options": [
+      "선박과 자동차보험은 보험회사의 동의가 있어야 보험계약상 권리·의무가 승계된다",
+      "보험목적이 양도된 때에는 보험계약상의 권리․의무가 양수인에게 승계되는 것으로 추정한다",
+      "보험목적의 양도는 물권적 양도이어야 한다",
+      "보험목적은 동산, 부동산 등의 물건이며, 이밖에 유체 및 무체재산은 포함되지 않는다"
+    ],
+    "answer": 4,
+    "id": 475,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "제3보험에 속하는 보험종목에 해당하는 것은?",
+    "options": [
+      "일상생활중 과실로 인해 제3자의 재물손해를 배상하는 보험",
+      "은행대출시 대출금 상환을 보증하는 신용보증보험",
+      "질병으로 입원하여 치료 중 입원의료비를 보상하는 보험",
+      "화재로 인한 타인의 주택 내 재물손해를 보상하는 보험"
+    ],
+    "answer": 3,
+    "id": 476,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "손해보험회사의 제3보험 상품개발 기준에 대한 설명으로 올바른 것은?",
+    "options": [
+      "질병보험 : 저축성보험 및 보장성보험으로 개발 가능",
+      "질병사망보험 : 저축성보험 및 보장성보험으로 개발 가능",
+      "간병보험 : 저축성보험 및 보장성보험으로 개발 가능",
+      "상해보험 : 저축성보험 및 보장성보험으로 개발 가능"
+    ],
+    "answer": 4,
+    "id": 477,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "제3보험에서 실손보상으로 지급하는 것은?",
+    "options": [
+      "자동차 사고로 인한 사망보험금",
+      "암수술로 인한 질병입원의료비",
+      "화재사고로 인한 후유장해보험금",
+      "상해사고로 인한 입원일당"
+    ],
+    "answer": 2,
+    "id": 478,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "상해보험의 보험사고 성립요건에 해당하지 않는 것은?",
+    "options": [
+      "급격성",
+      "우연성",
+      "내재성",
+      "외래성"
+    ],
+    "answer": 3,
+    "id": 479,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "상해보험의 후유장해보험금에 대한 설명으로 올바른 것은?",
+    "options": [
+      "한시적인 후유장해시에는 보험금을 지급하지 않는다",
+      "후유장해보험금은 연령에 따라 차등적으로 지급한다",
+      "신체의 기능이 영구히 상실된 경우 보험금을 지급한다",
+      "한시장해기간이 5년 이상인 경우에는 장해지급률의 50%를 보험가입금액에 곱한 금액을 지급한다"
+    ],
+    "answer": 3,
+    "id": 480,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 특별약관상 보장범위가 아닌 것은?",
+    "options": [
+      "상해비급여",
+      "치과 급여",
+      "질병비급여",
+      "3대비급여"
+    ],
+    "answer": 2,
+    "id": 481,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 특약 구성으로 올바른 것은?",
+    "options": [
+      "상해비급여, 질병비급여, 5대 비급여",
+      "상해입원, 질병통원, 3대 비급여",
+      "상해급여, 질병급여, 5대 비급여",
+      "상해비급여, 질병비급여, 3대 비급여"
+    ],
+    "answer": 4,
+    "id": 482,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "다음 중 노후 실손의료보험과 유병력자 실손의료보험의 설명으로 맞는 것은?",
+    "options": [
+      "노후 실손의료보험과 유병력자 실손의료보험은 15년 후 재가입하는 구조이다",
+      "노후 실손의료보험과 유병력자 실손의료보험은 상해입원의료비, 상해통원의료비, 질병입원의료비, 질병통원의료비로 나누어 보상한다",
+      "노후 실손의료보험과 유병력자 실손의료보험의 보험료는 1년마다 갱신된다",
+      "노후 실손의료보험과 유병력자 실손의료보험은 통원의료비에서 외래·처방조제도 보장한다"
+    ],
+    "answer": 3,
+    "id": 483,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 특별약관(비급여 실손의료비)\n보험료 차등구간 중 잘못된 것은?",
+    "options": [
+      "3단계 : 할증(100만원 이상 150만원 미만), 할증률 100%",
+      "2단계 : 유지(0원 초과 100만원 미만)",
+      "1단계 : 할인",
+      "4단계 : 할증(150만원 이상 300만원 미만), 할증률 500%"
+    ],
+    "answer": 4,
+    "id": 484,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "중증치매상태로 인하여 항상 보호자가 필요한 경우에 소요되는 비용을 보상하는\n보험에 해당하는 것은?",
+    "options": [
+      "암보험",
+      "소득보상보험",
+      "실손의료보험",
+      "장기간병보험"
+    ],
+    "answer": 4,
+    "id": 485,
+    "source": "2024_04_2"
+  },
+  {
+    "question": "주택화재보험 가입시 보험증권에 기재하여야 담보되는 물건에 해당되는 것은?",
+    "options": [
+      "피보험자 소유인 야적의 동산",
+      "피보험자 소유의 건물에 부착된 선전탑",
+      "피보험자 소유의 건물에 부속된 안테나",
+      "피보험자와 같은 세대에 속하는 사람의 소유물인 가재도구"
+    ],
+    "answer": 1,
+    "id": 486,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "화재보험 계약 체결시 고지의무 사항이 아닌 것은?",
+    "options": [
+      "저장품의 종류 및 성질",
+      "피보험자와 계약자가 다른 경우 그 이유",
+      "피보험자의 나이",
+      "보험의 목적, 수용 건물 구조 및 용도"
+    ],
+    "answer": 3,
+    "id": 487,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "다음 재난배상책임보험에 관한 설명 중 틀린 것은?",
+    "options": [
+      "재난배상책임보험은 화재, 폭발, 붕괴로 인한 타인의 신체 또는 재산피해를 보상 한다",
+      "재난배상책임보험 가입대상은 주택법령에 따른 15층 이하 임대아파트, 도서관, 주유소 등 20종 시설이다",
+      "보험가입 대상시설의 소유자·점유자가 동일한 경우 보험가입 의무자는 소유자이며, 다른 경우에는 점유자가 보험가입의무자이다",
+      "인명피해 발생시 사망 1인당 1억원 한도, 재산피해 발생시 1사고당 10억원 한도 내에서 보상한다"
+    ],
+    "answer": 4,
+    "id": 488,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "동산종합보험 기본계약에서 보상하지 않는 손해는?",
+    "options": [
+      "차량의 충돌",
+      "화재",
+      "도난",
+      "파손"
+    ],
+    "answer": 1,
+    "id": 489,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "다음 중 ( ) 안에 들어갈 내용으로 맞는 것은?\n해외여행자보험 질병사망보험금 특별약관에서 피보험자가 보험기간 중에 질병으로 사망\n하거나 여행도중 발생한 질병을 직접적인 원인으로 하여 보험기간 마지막 날로부터\n( ) 이내에 사망하였을 때 사망보험가입금액 전액을 질병사망보험금으로 지급한다",
+    "options": [
+      "15일",
+      "30일",
+      "60일",
+      "90일"
+    ],
+    "answer": 2,
+    "id": 490,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "아래 예시의 경우 잔존물 제거비용 보험금은?\n보험가액이 1억원인 주택에 대해 보험가입금액을 4,000만원으로 하는 주택화재보험에\n가입한 경우, 화재가 발생하여 3,000만원의 손해가 발생하고 200만원의 잔존물 제거\n비용이 발생함",
+    "options": [
+      "80만원",
+      "100만원",
+      "150만원",
+      "200만원"
+    ],
+    "answer": 2,
+    "id": 491,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "장기손해보험의 환급금 지급에 대한 설명으로 틀린 것은?",
+    "options": [
+      "계약자 등의 청구시 청구일로부터 3영업일 이내에 지급한다",
+      "해약환급금 지급사유 발생일 다음 날부터 지급청구일까지의 기간이 1년 이내인 경우에는 예정이율의 50%로 계산한 이자를 더하여 지급한다",
+      "회사는 만기환급금의 지급시기 7일 이전에 사유와 지급할 금액을 계약자 또는 수익자에게 알려야 한다",
+      "만기환급금 지급사유 발생일 다음날부터 지급청구일까지의 기간이 1년을 초과하는 기간은 평균공시이율의 40%를 적용한다"
+    ],
+    "answer": 2,
+    "id": 492,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "장기손해보험의 가지급보험금에 대한 설명으로 맞는 것은?",
+    "options": [
+      "상해·질병 등 신체손해보험은 일정한 조건에서 회사는 추정 보험금의 100%를 가지급보험금으로 지급한다",
+      "상해·질병 등 신체손해보험에서 회사가 가지급보험금을 미리 지급하는 때는 보험금 지급을 위한 회사의 추가적인 조사 및 확인으로 인해 지급기일이 초과되는 경우, 피보험자 또는 보험수익자의 청구가 있을 때이다",
+      "배상책임 및 재산종합보험에서 일정한 조건에서 회사는 추정 보험금의 75% 상당액을 가지급보험금으로 미리 지급한다",
+      "상해·질병 등 신체손해보험은 가지급보험금을 미리 지급하지 않고 보험사고 조사가 완료되고 보험금액이 확정된 후에만 보험금을 지급한다"
+    ],
+    "answer": 2,
+    "id": 493,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "장기화재보험의 인수제한 물건에 해당하는 것은?",
+    "options": [
+      "법률에서 정한 특수건물",
+      "주택의 가재수용용 부속건물",
+      "실외에 쌓아둔 동산",
+      "공장 구내의 기숙사"
+    ],
+    "answer": 1,
+    "id": 494,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "퇴직연금 중도인출에 관한 내용 중 틀린 것은?",
+    "options": [
+      "확정급여형은 중도인출이 불가능하다",
+      "확정기여형은 무주택자가 본인명의로 주택을 구입하는 경우 중도인출이 가능하다",
+      "확정기여형은 가입자의 배우자 또는 부양가족이 질병 또는 부상으로 2개월 이상 요양을 하는 경우 중도인출이 가능하다",
+      "확정기여형은 중도인출을 신청한 날부터 역산하여 5년 이내 가입자가 파산선고를 받은 경우 중도인출이 가능하다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 3,
+    "id": 495,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "자동차보험에서 무면허운전에 해당하는 경우가 아닌 것은?",
+    "options": [
+      "운전면허 정지기간이나 취소 중에 운전하는 것",
+      "외국에서 운전면허를 취득하고 국내면허나 국제면허로 변경해서 운전하는 것",
+      "운전면허를 취득하지 않은 상태에서 운전하는 것",
+      "면허에서 허가된 차종 이외의 차량을 운행하는 것"
+    ],
+    "answer": 2,
+    "id": 496,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "자동차보험료 산정요소에 대한 설명으로 틀린 것은?",
+    "options": [
+      "사고건수별 특성요율은 직전 3년간 사고유무 및 사고건수에 따라 적용하는 요율 이다",
+      "특약요율은 운전자의 연령범위와 가족으로 운전자를 한정하는 특약 등 가입시에 적용하는 요율이다",
+      "기본보험료는 차량의 종류 및 배기량, 용도만을 고려하여 미리 정해놓은 기본적인 보험료이다",
+      "가입자특성요율은 보험가입기간이나 법규위반경력에 따라 적용되는 요율이다"
+    ],
+    "answer": 3,
+    "id": 497,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "다음 중 자동차보험 사망피해자에게 지급하는 보험금에 대하여 틀린 것은?",
+    "options": [
+      "사망당시 피해자 나이가 75세 이상인 경우 사망보험금은 최대 2,000만원이다",
+      "사망당시 피해자 나이가 65세 미만인 경우의 위자료는 8,000만원이다",
+      "사망당시 피해자 나이가 65세 이상인 경우의 위자료는 5,000만원이다",
+      "청구권자의 범위 및 청구권자별 지급기준은 민법상 상속규정에 따른다"
+    ],
+    "answer": 1,
+    "id": 498,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "다음 중 청약서 등 자필서명에 대한 설명으로 맞는 것은? [4점]",
+    "options": [
+      "보험계약자 또는 피보험자로부터 직접 서명을 받는 것을 원칙으로 한다",
+      "피보험자가 미성년자인 자녀의 경우 친권자가 대신 자필서명을 할 수 없다",
+      "보험계약자의 배우자나 가족에 한해 대신 자필서명이 가능하다",
+      "보험계약자와 피보험자가 다를 경우 보험계약자가 피보험자를 대리하여 서명할 수 있다"
+    ],
+    "answer": 1,
+    "id": 499,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험업법 제97조에서 규정하고 있는 보험계약 체결 또는 모집에 관한 금지행위에\n해당하지 않는 것은?",
+    "options": [
+      "실제 명의인의 동의가 없는 보험계약을 모집하는 행위",
+      "보험계약자 또는 피보험자에게 보험계약 내용의 중요한 사항을 알리지 않는 행위",
+      "만기된 보험상품을 가진 보험계약자에게 타 보험회사의 보험상품 가입을 권유하는 행위",
+      "이미 성립된 보험계약을 부당하게 소멸시키고 새로운 보험계약을 청약하게 하는 행위"
+    ],
+    "answer": 3,
+    "id": 500,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험계약자 또는 피보험자로 하여금 이미 성립된 보험계약을 부당하게 소멸시킴으로\n인하여 기존 보험계약의 내용과 보장내용이 비슷한 새로운 보험계약을 청약하게\n함으로써 기존 보험계약을 부당하게 소멸시키거나 그밖에 부당하게 보험계약을\n청약하게 하거나 이러한 것을 권유하는 행위는?",
+    "options": [
+      "작성계약",
+      "부당계약",
+      "승환계약",
+      "유효계약"
+    ],
+    "answer": 3,
+    "id": 501,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정상 보험설계사가 다른 보험대리점에게\n경유처리를 한 경우 제재금 한도가 올바른 것은?",
+    "options": [
+      "최저 2백만원 ~ 최고 5천만원",
+      "최저 1십만원 ~ 최고 1천만원",
+      "최저 1백만원 ~ 최고 3천만원",
+      "최저 1십만원 ~ 최고 3천만원"
+    ],
+    "answer": 2,
+    "id": 502,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "모집종사자의 권한이 바르게 짝지어진 것은?",
+    "options": [
+      "보험설계사 – 계약체결권이 없다",
+      "보험대리점 – 고지의무수령권이 없다",
+      "보험중개사 – 보험료수령권이 있다",
+      "보험설계사 – 고지의무수령권이 있다"
+    ],
+    "answer": 1,
+    "id": 503,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험대리점 등록취소 사유에 해당하지 않는 것은?",
+    "options": [
+      "등록 후 피한정후견인 선고를 받은 자",
+      "등록 후 다단계판매업자로 등록한 자",
+      "등록 후 중고차판매업자로 등록한 자",
+      "등록 후 파산선고를 받은 자"
+    ],
+    "answer": 3,
+    "id": 504,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "손해보험 우수인증설계사에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "인증자에 대해서는 우수인증 로고에 대한 사용권한이 부여된다",
+      "보험설계사는 보수교육 등 일부 법정의무가 면제된다",
+      "계약실적 및 소득수준이 협회에서 정한 요건을 충족해야 한다",
+      "소속 보험회사에서 이직하는 경우 기존 우수인증설계사 자격은 효력이 상실된다"
+    ],
+    "answer": 2,
+    "id": 505,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "위험을 순수위험과 투기위험으로 구분할 때 차이점을 잘못 설명한 것은?",
+    "options": [
+      "순수위험은 위험이 현실화되면 언제나 손해이지만 투기위험은 경우에 따라 이익이 될 수도 있다",
+      "순수위험은 일반적으로 대수의 법칙이 적용되는데 투기위험은 대수의 법칙이 적용되는 경우가 드물다",
+      "순수위험은 범위의 한정이 가능하고 제어가 쉬우나 투기위험은 일정 금액으로 제한할 수 없다",
+      "순수위험은 우발적이기 때문에 통제하기 어려우나 투기위험은 위험부담 주체의 주관적 의사에 의하여 결정된다"
+    ],
+    "answer": 3,
+    "id": 506,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험업법상 제3보험에 해당하는 보험을 고른 것으로 맞는 것은?\nㄱ. 상해보험 ㄴ. 질병보험 ㄷ. 간병보험 ㄹ. 연금보험\nㅁ. 화재보험 ㅂ. 해상보험 ㅅ. 재보험",
+    "options": [
+      "ㄱ, ㄴ, ㄷ",
+      "ㄴ, ㄹ, ㅂ",
+      "ㄱ, ㄷ, ㄹ",
+      "ㄷ, ㅁ, ㅅ"
+    ],
+    "answer": 1,
+    "id": 507,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "교통사고 특정범죄가중처벌법에 대한 설명으로 틀린 것은?",
+    "options": [
+      "종합보험에 가입되어 있더라도 중상해 사고 발생시에는 형사처벌의 대상이 된다",
+      "음주운전으로 타인에게 상해를 입힌 경우 1년 이상 15년 이하의 징역 또는 1천만원 이하의 벌금에 처해진다",
+      "음주 교통사고의 감소를 위하여 음주운전을 위험운전치사상죄로 규정하고 있다",
+      "음주운전으로 사망사고 발생시 무기 또는 3년 이상의 징역에 처해진다"
+    ],
+    "answer": 2,
+    "id": 508,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험계약에 관한 설명 중 옳은 것은?",
+    "options": [
+      "보험계약자가 보험료 반환청구권을 행사하지 아니하여 소멸시효가 완성되면 그 권리를 행사할 수 없다",
+      "보험계약자가 임의로 해지했을 경우 보험회사의 승낙이 필요하다",
+      "보험기간이 경과하더라도 보험사고가 발생했을 경우 보험사는 보험금 지급의무를 진다",
+      "보험증권을 받지 못하고 3개월이 경과했을 경우 보험계약의 효력은 상실된다"
+    ],
+    "answer": 1,
+    "id": 509,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험계약 체결 이후 보험계약자 등에게 위험사정이 변경되어 보험회사에 알릴\n사항으로 틀린 것은?",
+    "options": [
+      "피보험자의 직업 또는 직무의 변경",
+      "피보험자의 연령 및 건강상태",
+      "피보험자의 변경",
+      "보험 목적물의 양도"
+    ],
+    "answer": 2,
+    "id": 510,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험회사가 계약을 해지할 수 있는 사유가 아닌 것은?",
+    "options": [
+      "보험계약자의 고지의무 위반",
+      "보험계약자의 위험 변경, 증가 사실에 대한 통지 의무 위반",
+      "보험회사의 파산",
+      "보험계약자가 계속보험료를 지급하지 않은 경우"
+    ],
+    "answer": 3,
+    "id": 511,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "타인을 위한 보험계약에 대한 설명으로 틀린 것은?",
+    "options": [
+      "피보험자는 계약자가 보험료 납입을 지체한 때에는 그 계약상의 권리를 포기하지 않은 한 보험료납입 의무도 진다",
+      "피보험자는 보험사고발생통지의무 및 손해방지 의무를 부담한다",
+      "제3자인 타인이 수익의 의사표시를 하지 않을 경우, 이익을 받을 수 없다",
+      "보험계약자는 피보험자의 동의를 얻지 않거나 보험증권을 소지하지 않으면 계약을 해지하지 못한다"
+    ],
+    "answer": 3,
+    "id": 512,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "제3보험의 법률상 근거에 해당하는 것은?",
+    "options": [
+      "산업재해보상보험법",
+      "보험업법",
+      "의료급여법",
+      "국민건강보험법"
+    ],
+    "answer": 2,
+    "id": 513,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "손해보험회사의 질병사망 영위에 대한 설명 중 올바른 것은?",
+    "options": [
+      "기본계약으로 운영이 가능하다",
+      "보험금액의 한도는 개인당 1억원 이내로 제한되어 있다",
+      "보험만기는 80세 이하로 제한되어 있다",
+      "생명보험회사와 동일한 조건으로 운영할 수 있다"
+    ],
+    "answer": 3,
+    "id": 514,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "보험계약의 무효사유에 해당하지 않는 것은?",
+    "options": [
+      "보험계약시 이미 보험사고가 발생한 경우",
+      "질병사망을 담보하는 계약의 피보험자가 15세 미만자인 경우",
+      "타인의 사망을 보험사고로 하는 계약에서 피보험자의 서면동의가 없는 경우",
+      "질병치료비를 담보하는 계약의 피보험자가 청각장애인인 경우"
+    ],
+    "answer": 4,
+    "id": 515,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "상해보험에서 상해급수에 대한 설명으로 잘못된 것은?",
+    "options": [
+      "상해 3급의 보험료가 상해 1급보다 높다",
+      "영업용자동차 운전자는 상해 3급에 해당된다",
+      "직업의 위험도 및 건강상태를 감안하여 정한다",
+      "보험기간 중 상해급수가 변경될 경우 계약자적립액을 다시 산정하여 정산해야 한다"
+    ],
+    "answer": 3,
+    "id": 516,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "상해보험에서 한시장해보험금의 지급조건에 대한 설명으로 가장 올바른 것은?",
+    "options": [
+      "3년 이상의 한시장해 발생시",
+      "5년 이상의 한시장해 발생시",
+      "10년 이상의 한시장해 발생시",
+      "보험기간 종료시까지 한시장해 발생시"
+    ],
+    "answer": 2,
+    "id": 517,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)과 관련하여 특별약관(비급여 실손\n의료비) 보험료 차등적용에서 제외되는 대상으로 맞는 것은?",
+    "options": [
+      "노인장기요양보험법상 장기요양대상자 중 1~2등급 판정자",
+      "노인장기요양보험법상 장기요양대상자 중 1~3등급 판정자",
+      "노인장기요양보험법상 장기요양대상자 중 1~4등급 판정자",
+      "노인장기요양보험법상 장기요양대상자 중 1~5등급 판정자"
+    ],
+    "answer": 1,
+    "id": 518,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "교통상해보험 약관에서 정의하고 있는 기타교통수단의 종류에 해당되지 않는 것은?",
+    "options": [
+      "선박",
+      "항공기",
+      "엘리베이터",
+      "덤프트럭"
+    ],
+    "answer": 4,
+    "id": 519,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "계약 전 알릴 의무 사항 등 가입심사요건을 축소하여 과거 질환이 있는 사람이\n실손의료보험에 가입하기 수월하도록 설계한 실손의료보험은 무엇인가?",
+    "options": [
+      "노후 실손의료보험",
+      "유병력자 실손의료보험",
+      "기본형 실손의료보험",
+      "선택형 실손의료보험"
+    ],
+    "answer": 2,
+    "id": 520,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "다음 중 간병보험에 가입할 경우 보상받을 수 있는 것은?",
+    "options": [
+      "의족, 의안, 의치 등 신체 보조장구에 입은 손해",
+      "장기요양등급 3등급 상태",
+      "습관성 약품에 의한 간병상태",
+      "알코올 중독"
+    ],
+    "answer": 2,
+    "id": 521,
+    "source": "2024_05_1"
+  },
+  {
+    "question": "다음 중 주택화재보험에 가입할 수 없는 물건은?",
+    "options": [
+      "주택병용 피아노교습소",
+      "주택병용 오피스텔",
+      "주택병용 조산원",
+      "아파트 및 연립주택"
+    ],
+    "answer": 2,
+    "id": 522,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "화재보험에서 사용하는 특별약관이 아닌 것은?",
+    "options": [
+      "풍수재위험담보 특별약관",
+      "구내폭발위험담보 특별약관",
+      "기업휴지손해담보 특별약관",
+      "전자위험담보 특별약관"
+    ],
+    "answer": 4,
+    "id": 523,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 풍수해보험의 가입대상이 아닌 것은?",
+    "options": [
+      "주택(16층 이상 아파트 제외)",
+      "온실(비닐하우스 포함)",
+      "가축 축사",
+      "소상공인 상가·공장"
+    ],
+    "answer": 3,
+    "id": 524,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 임의배상책임보험에 해당하지 않는 것은?",
+    "options": [
+      "시설소유관리자배상책임보험",
+      "생산물배상책임보험",
+      "임원배상책임보험",
+      "맹견소유자배상책임보험"
+    ],
+    "answer": 4,
+    "id": 525,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "도난보험에 대한 설명 중 틀린 것은?",
+    "options": [
+      "동산의 절도 또는 강도의 도난행위로 입은 직접손해는 보상한다",
+      "보관장소를 72시간 이상 비워둔 사이에 생긴 도난손해는 보상하지 않는다",
+      "수탁물의 절도 또는 강도의 도난행위로 입은 직접손해는 보상하지 않는다",
+      "사기 또는 횡령으로 인한 손해는 보상하지 않는다"
+    ],
+    "answer": 3,
+    "id": 526,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "장기손해보험의 부가보험료에 해당하지 않는 것은?",
+    "options": [
+      "신계약비",
+      "유지비",
+      "수금비",
+      "계약자적립액"
+    ],
+    "answer": 4,
+    "id": 527,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "장기손해보험의 보험료에 대한 설명 중 옳은 것은?",
+    "options": [
+      "장기손해보험의 순보험료는 위험보험료와 저축보험료로 구성된다",
+      "위험보험료는 보험업법에 의해 특별계정으로 운영된다",
+      "저축보험료는 사고발생시 보험금 지급의 재원이 되는 보험료이다",
+      "영업보험료는 위험보험료와 부가보험료로 구성된다"
+    ],
+    "answer": 1,
+    "id": 528,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "연금저축보험의 세제적격 요건에 부합하는 연금수령 개시 연령으로 맞는 것은?",
+    "options": [
+      "55세",
+      "60세",
+      "65세",
+      "70세"
+    ],
+    "answer": 1,
+    "id": 529,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "연금저축에 가입하여 80세 이후 연금수령시 적용되는 연금소득세율은?",
+    "options": [
+      "5%",
+      "4%",
+      "3%",
+      "2%"
+    ],
+    "answer": 3,
+    "id": 530,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "퇴직금을 연금수령할 경우 경감 세액은 몇 % 인가?",
+    "options": [
+      "40%",
+      "30%",
+      "20%",
+      "10%"
+    ],
+    "answer": 2,
+    "id": 531,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "자동차보험 담보종목에 대한 설명으로 틀린 것은?",
+    "options": [
+      "대인배상Ⅰ은 자동차손해배상보장법에 의한 손해배상책임에 한하여 보상한다",
+      "대물배상은 피보험자동차를 소유, 사용, 관리하는 동안에 생긴 피보험자동차의 사고로 인하여 타인의 재물을 없애거나 훼손한 때에 법률상 손해배상책임을 짐으로써 입은 손해를 보상한다",
+      "무보험자동차에 의한 상해는 피보험자가 무보험차에 의하여 생긴 사고로 사망 하거나 다친 때 그 손해에 대하여 배상의무자의 유무를 불문하고 보상한다",
+      "무보험자동차에 의한 상해에서 배상의무자는 무보험자동차의 사고로 인하여 피보험자를 죽게 하거나 다치게 함으로써 피보험자에게 법률상 손해배상책임을 지는 사람을 말한다"
+    ],
+    "answer": 3,
+    "id": 532,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "자동차보험계약의 청약철회에 대한 설명 중 틀린 것은?",
+    "options": [
+      "청약한 날로부터 30일이 지난 경우에는 청약철회를 할 수 없다",
+      "보험증권을 받은 날로부터 15일 이내에는 계약자가 임의로 청약을 철회할 수 없다",
+      "의무보험에 해당하는 보험계약은 청약을 철회할 수 없다",
+      "보험기간이 90일 이내인 보험계약에 대해서는 청약을 철회할 수 없다"
+    ],
+    "answer": 2,
+    "id": 533,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "만 30세 운전자연령 한정특약에 가입한 피보험자동차를 운전 중 2017년 4월 1일에\n사고가 발생하였다. 이 상황에서 보험금이 지급될 수 있는 경우에 해당하는 것은?",
+    "options": [
+      "주민등록상 생년월일이 1987년 4월 1일인 자가 피보험자동차를 운전하던 중 발생한 사고",
+      "주민등록상 생년월일이 1987년 3월 30일인 자가 피보험자동차를 운전하던 중 발생한 사고",
+      "주민등록상 생년월일이 1988년 4월 1일인 자가 피보험자동차를 운전하던 중 발생한 사고",
+      "주민등록상 생년월일이 1988년 3월 30일인 자가 피보험자동차를 운전하던 중 발생한 사고"
+    ],
+    "answer": 2,
+    "id": 534,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "자동차보험 보험료 분할납입특약에 대한 설명 중 맞는 것은?",
+    "options": [
+      "납입최고시 납입최고기간은 회사별, 상품별로 다르다",
+      "납입최고기간 중 사고는 보상하지 않는다",
+      "최고기간 내에 분할보험료 미납시 납입최고기간이 끝나더라도 보험계약은 해지 되지 않는다",
+      "분할보험료 미납으로 계약이 해지된 경우 계약 해지 후 1년 이내에는 보험계약을 부활할 수 있다"
+    ],
+    "answer": 1,
+    "id": 535,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 특별이익제공 금지행위에 관한 설명 중 틀린 것은?",
+    "options": [
+      "보험계약자 또는 피보험자에게 보험료의 100분의 10과 3만원 중 적은 금액 범위 내에서 금품을 제공하는 행위는 특별이익 제공에 해당하지 않음",
+      "기초서류에서 정한 사유에 근거하지 아니한 보험료의 할인 또는 수수료의 지급은 특별이익 제공에 해당",
+      "보험업법 제98조에서 규정한 금품 등을 제공한 자는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처함",
+      "보험업법 제98조에서 규정한 금품 등을 요구하여 수수한 보험계약자 또는 피보험자는 1천만원 이하의 벌금에 처함"
+    ],
+    "answer": 4,
+    "id": 536,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 보험협회의 등록절차를 거쳐야 보험상품을 모집할 수 있는 자는?",
+    "options": [
+      "보험회사 직원",
+      "법인보험중개사 소속의 보험설계사",
+      "개인보험중개사",
+      "보험회사의 대표이사"
+    ],
+    "answer": 2,
+    "id": 537,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "보험대리점의 영업보증금에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험대리점은 대리점 계약을 체결한 보험회사에 영업보증금을 예탁하여야 한다",
+      "법인보험대리점의 영업보증금 규모는 1억원 한도 내에서 보험회사와 협의하여 정할 수 있다",
+      "금융위원회는 보험계약자 보호 등을 위해 필요한 경우 영업보증금의 증액을 명할 수 있다",
+      "금융기관보험대리점은 영업보증금 예탁의무가 면제된다"
+    ],
+    "answer": 2,
+    "id": 538,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 금융기관보험대리점의 보험모집시 준수행위가 아닌 것은?",
+    "options": [
+      "보험모집 장소와 대출 취급 장소를 명확하게 분리할 것",
+      "보험민원 전담창구를 해당 금융기관의 지점에 설치·운영할 것",
+      "해당 금융기관이 보험대리점인 것을 알릴 것",
+      "대출받는 자를 모집시 보험계약체결 여부가 대출에 영향이 없다는 것을 알릴 것"
+    ],
+    "answer": 2,
+    "id": 539,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "우수인증 설계사 선발 요건으로 맞는 것은?",
+    "options": [
+      "불완전판매건수가 0건일 것",
+      "신청 또는 선발당시 보험설계사 및 법인보험대리점 소속 설계사로 등록되어 있을 것",
+      "동일 보험회사 또는 보험대리점에 2년 이상 설계사로 소속될 것",
+      "손해율이 일정 수준 이하일 것"
+    ],
+    "answer": 1,
+    "id": 540,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 투기위험이 아닌 것은?",
+    "options": [
+      "주식투자",
+      "신규사업 진출",
+      "교통사고",
+      "도박"
+    ],
+    "answer": 3,
+    "id": 541,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "보험을 가입대상에 따라 분류할 때 이익에 관한 보험에 해당하는 것은?",
+    "options": [
+      "영업배상책임보험",
+      "기업휴지보험",
+      "적하보험",
+      "기계보험"
+    ],
+    "answer": 2,
+    "id": 542,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "의료기관의 교통사고 입원환자의 외출·외박과 관련하여 의료기관이 기록하여야 할\n사항이 아닌 것은?",
+    "options": [
+      "환자의 이름",
+      "환자의 병명",
+      "외출, 외박기간",
+      "귀원일시"
+    ],
+    "answer": 2,
+    "id": 543,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 사례에서 보험회사가 지급해야 할 보험금액은 얼마인가?\n시가 10억원(보험가액)의 공장을 화재보험에 가입하면서 보험가입금액을 5억원으로 한\n경우 실제 화재가 발생하여 8억원의 손해가 발생",
+    "options": [
+      "3억원",
+      "4억원",
+      "5억원",
+      "8억원"
+    ],
+    "answer": 2,
+    "id": 544,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "보험계약 부활 요건으로 틀린 것은?",
+    "options": [
+      "연체보험료를 납입하여야 한다",
+      "연체이자를 납입하여야 한다",
+      "계약 전 알릴 의무를 이행하여야 한다",
+      "계약해지 시점으로부터 1년 이내에만 부활신청이 가능하다"
+    ],
+    "answer": 4,
+    "id": 545,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 보기는 무엇에 대한 설명인가?\n손해보험에서 보험회사는 피보험자의 손실을 보상해 주는 대신 피보험자가 보험의 목적\n이나 제3자에 대하여 가지는 권리를 법률상 당연히 취득한다",
+    "options": [
+      "보험자 대위",
+      "보험목적의 양도",
+      "피보험이익",
+      "타인을 위한 보험계약"
+    ],
+    "answer": 1,
+    "id": 546,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "제3보험에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보증보험회사에서만 영위하는 보험영역이다",
+      "제3보험만을 영위하는 보험회사 설립은 불가능하다",
+      "상해 및 질병으로 인한 신체손해를 보상하는 보험이다",
+      "자동차 사고로 인한 제3자 배상책임을 보상하는 보험이다"
+    ],
+    "answer": 3,
+    "id": 547,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "상해보험에서 주로 정액보상 방식을 적용하지 않는 보험금에 해당하는 것은?",
+    "options": [
+      "상해사망",
+      "상해입원의료비",
+      "상해수술비",
+      "상해후유장해"
+    ],
+    "answer": 2,
+    "id": 548,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "손해보험회사에서 영위하는 질병사망특약 보험금액의 한도로 올바른 것은?",
+    "options": [
+      "개인당 4억원 이내",
+      "개인당 3억원 이내",
+      "개인당 2억원 이내",
+      "개인당 1억원 이내"
+    ],
+    "answer": 3,
+    "id": 549,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "상해보험에 대한 내용으로 틀린 것은?",
+    "options": [
+      "사망보험금은 보험수익자에게 지급한다",
+      "재물보험과 같이 보험가액이 존재한다",
+      "실손의료비 담보에 다수 가입시 비례보상한다",
+      "타인의 사망보험계약은 피보험자의 동의가 필요하다"
+    ],
+    "answer": 2,
+    "id": 550,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "상해보험의 특징에 대한 설명으로 올바른 것은?",
+    "options": [
+      "단체보험의 경우에도 타인의 사망을 보험사고로 하는 계약에서는 타인의 동의를 반드시 얻어야 한다",
+      "보험계약자는 보험수익자를 지정할 권한이 없다",
+      "보험수익자 사망시에는 보험수익자 변경이 가능하다",
+      "보험수익자는 보험계약자를 변경할 수 있다"
+    ],
+    "answer": 3,
+    "id": 551,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "실손의료비 담보의 보상내용에 해당하는 것은?",
+    "options": [
+      "치과교정을 위한 의치 구입비용",
+      "해외소재 의료기관에서 발생한 의료비",
+      "건강검진 중 이상 소견 등에 따라 추가로 발생한 의료비",
+      "한방치료에서 발생한 비급여대상 의료비"
+    ],
+    "answer": 3,
+    "id": 552,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "상해보험의 사망보험금에 대한 설명으로 올바른 것은?",
+    "options": [
+      "사망보험금은 보험기간 중 발생한 상해사고의 직접결과로써 사망시 사망보험금을 지급한다",
+      "사망보험금은 보험가입금액과 관계없이 개인당 2억원 한도 내에서 보상한다",
+      "사망보험금 지급 후 피보험자의 생존이 확인되더라도 보험금을 회수하지 않는다",
+      "사망보험금은 보험계약자에게 지급한다"
+    ],
+    "answer": 1,
+    "id": 553,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 특별약관(비급여 실손의료비)\n보험료 차등적용에 대한 설명으로 맞는 것은?",
+    "options": [
+      "급여 지급보험금에 따라 비급여 보험료가 할인 또는 할증되는 구조이다",
+      "비급여 지급보험금에 따라 급여 보험료가 할인되는 구조이다",
+      "비급여 지급보험금에 따라 비급여 보험료가 무조건 할증만 되는 구조이다",
+      "비급여 지급보험금에 따라 비급여 보험료가 할인 또는 할증되는 구조이다"
+    ],
+    "answer": 4,
+    "id": 554,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 실손의료보험의 유형별 설명으로 틀린 것은?",
+    "options": [
+      "일반 실손의료보험, 노후 실손의료보험, 유병력자 실손의료보험 모두 보험료는 1년마다 갱신된다",
+      "일반 실손의료보험, 노후 실손의료보험, 유병력자 실손의료보험 모두 3년 후 재가입하는 구조이다",
+      "유병력자 실손의료보험은 통원의료비에서 처방조제는 보상하지 아니한다",
+      "유병력자 실손의료보험은 기본형(상해입원의료비, 상해통원의료비, 질병입원 의료비, 질병통원의료비)만으로 구성된다"
+    ],
+    "answer": 2,
+    "id": 555,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "상해 및 질병보험의 가지급보험금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험금 지급사유의 조사·확인이 필요할 경우 지급할 수 있다",
+      "보험회사가 추정하는 보험금의 50% 상당액을 지급한다",
+      "보험수익자 또는 피보험자가 청구할 수 있다",
+      "가지급보험금은 해약환급금을 한도로 한다"
+    ],
+    "answer": 4,
+    "id": 556,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "다음 중 장기간병보험에서 보장이 가능한 것은?",
+    "options": [
+      "계약 전 알릴 의무에 해당하는 과거 진단된 질병을 고지 누락한 경우",
+      "청약일 이후 5년 경과 시점에서 발생한 질병",
+      "알코올중독으로 인한 장기간병상태",
+      "계약 전 알릴 의무에 해당하는 사실을 고의로 알리지 않은 중대한 질병"
+    ],
+    "answer": 2,
+    "id": 557,
+    "source": "2024_05_2"
+  },
+  {
+    "question": "풍수해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "총 보험료의 70%이상을 정부 및 지자체가 지원하고 있는 정책성 보험이다",
+      "자연재해 취약지역의 경우 총 보험료의 100% 지원이 가능하다",
+      "주택만 가입가능하다",
+      "태풍, 홍수, 지진 등의 피해를 보상하는 보험이다"
+    ],
+    "answer": 3,
+    "id": 558,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "다음 중 주택화재보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "잔존물 제거비용은 보험가입금액의 10%를 한도로 보상한다",
+      "기타협력비용은 보험가입금액을 초과하더라도 보상받을 수 있다",
+      "보험가입금액이 보험가액의 100% 미만인 경우는 비례보상하게 된다",
+      "재산손해보험금과 잔존물 보전비용의 합계액은 보험가입금액을 한도로 한다"
+    ],
+    "answer": 2,
+    "id": 559,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "다음의 화재보험계약의 해지와 관련된 내용에서 잘못된 것은?",
+    "options": [
+      "계약자는 손해가 생기기 전에는 언제든지 해지할 수 있다",
+      "보험회사는 계약자, 피보험자가 고지의무를 위반한 사실을 안 날로부터 3개월 이내에 계약을 해지할 수 있다",
+      "계약자 등이 현저한 위험의 변경, 증가와 관련된 통지의무를 위반했을 경우 해지 할 수 있다",
+      "계약자나 피보험자의 고의나 중과실로 고지의무 위반시 보험회사는 해지권을 가진다"
+    ],
+    "answer": 2,
+    "id": 560,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "여행보험의 기본계약(보통약관)에서 보상하는 것은?",
+    "options": [
+      "배상책임보험금",
+      "실손의료비보험금",
+      "휴대품손해보험금",
+      "상해사망보험금"
+    ],
+    "answer": 4,
+    "id": 561,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "장기손해보험에 대한 설명 중 맞는 것은?",
+    "options": [
+      "보험기간이 통상 1년 이내이다",
+      "장기손해보험의 저축보험료는 특별계정에 의해 운용된다",
+      "보험증권을 받은 날부터 3개월 이내에 청약철회가 가능하다",
+      "피보험자의 보험금청구권 소멸시효는 2년이다"
+    ],
+    "answer": 2,
+    "id": 562,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "장기손해보험의 보험료 납입최고기간에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험계약자 보호제도의 일종이다",
+      "보험회사는 보험료가 미납된 경우 납입기일이 속하는 주의 마지막 영업일까지 납입최고를 하게 된다",
+      "납입최고기간 중 발생한 사고는 보상이 가능하다",
+      "계약자보호를 위해 제2회 이후의 보험료 납입연체부터 적용된다"
+    ],
+    "answer": 2,
+    "id": 563,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "장기화재보험 등 재산보험에서 보험계약자, 피보험자 및 수익자가 보험회사에\n이행해야 하는 통지의무에 해당하는 것은?",
+    "options": [
+      "보험계약에서 보장하는 위험과 동일한 위험을 보장하는 다른 보험계약이 있음을 알았을 때",
+      "보험의 목적을 수용하는 건물의 구조를 계속해서 15시간 이상 수선할 때",
+      "보험의 목적이 들어있는 건물을 지속하여 72시간 이상 비워두거나 휴업하는 경우",
+      "피보험자가 그 직업 또는 직무를 변경하는 경우"
+    ],
+    "answer": 1,
+    "id": 564,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "세제적격 요건을 갖추기 위한 연금저축 납입금액의 한도는?",
+    "options": [
+      "분기당 1,200만원 이내",
+      "분기당 1,000만원 이내",
+      "연간 1,800만원 이내",
+      "연간 600만원 이내"
+    ],
+    "answer": 3,
+    "id": 565,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "연금저축보험 가입 후 연금수령시 적용되는 연금소득세율로 맞는 것은?(지방소득세\n제외)",
+    "options": [
+      "비과세",
+      "70세 이전 15%",
+      "70세 이전 5%",
+      "70세 이전 12%"
+    ],
+    "answer": 3,
+    "id": 566,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "자동차보험에서 일반적으로 적용되는 보험기간은?",
+    "options": [
+      "보험기간 첫날 오후 4시부터 마지막날 오후 4시",
+      "보험기간 첫날 0시부터 마지막날 0시",
+      "보험기간 첫날 24시부터 마지막날 24시",
+      "보험료를 받은 시점부터 보험기간 마지막날 오후 4시"
+    ],
+    "answer": 3,
+    "id": 567,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "대인보상Ⅰ 보상한도에 대한 설명으로 틀린 것은?",
+    "options": [
+      "사망 1인당 최고한도는 1억 5천만원이다",
+      "후유장애 1인당 최고한도는 1억 5천만원이다",
+      "부상 1인당 최고한도는 급별한도와 관계없이 3천만원이다",
+      "치료중 사망한 경우 1인당 최고한도는 1억 8천만원이다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 3,
+    "id": 568,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "자동차보험의 차종구분 중 특정용도 자동차가 아닌 것은?",
+    "options": [
+      "이동진료차",
+      "이동도서관차",
+      "소독차",
+      "청소차"
+    ],
+    "answer": 4,
+    "id": 569,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "다음 중 자동차보험 사망피해자에게 지급하는 보험금에 대하여 올바르게 표현한 것은?",
+    "options": [
+      "장례비는 600만원을 지급한다",
+      "사망 당시 피해자 나이가 65세 미만인 경우의 위자료는 8,000만원이다",
+      "위자료에는 사망자 본인의 위자료는 포함되지 않는다",
+      "사망보험금은 2,000만원이다"
+    ],
+    "answer": 2,
+    "id": 570,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "자동차보험 대물배상 보험금 지급기준에서 대차료에 대한 설명 중 옳은 것은?",
+    "options": [
+      "수리가 불가능한 경우 대차료 인정기간은 10일을 한도로 한다",
+      "지급대상은 사업용자동차이다",
+      "대차하지 아니하는 경우에는 보험금이 지급되지 아니한다",
+      "수리가 가능한 경우 대차료 인정기간은 50일 한도로 한다"
+    ],
+    "answer": 1,
+    "id": 571,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "보험계약자가 전화를 이용하여 체결한 계약을 해지하고자 할 때 보험회사가 확인\n해야 할 내용이 아닌 것은? [4점]",
+    "options": [
+      "보험계약자 본인 여부",
+      "계약체결 전에 통신수단을 이용한 계약해지 동의 여부",
+      "타인을 위한 보험계약인 경우 피보험자 동의 여부",
+      "보험계약 체결시 청약서 자필서명 여부"
+    ],
+    "answer": 4,
+    "id": 572,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "보험설계사가 다른 보험회사의 보험계약을 부당하게 인수하는 승환계약을 행한 경우\n｢손해보험 공정경쟁질서유지에 관한 상호협정｣에서의 제재금 부과기준 한도는?",
+    "options": [
+      "위반계약 1건당 50만원, 모집행위자 1인당 최고 3천만원",
+      "위반계약 1건당 100만원, 모집행위자 1인당 최고 3천만원",
+      "위반계약 1건당 100만원, 모집행위자 1인당 최고 5천만원",
+      "위반계약 1건당 50만원, 모집행위자 1인당 최고 1천만원"
+    ],
+    "answer": 2,
+    "id": 573,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "승환계약에 대한 상호협정에 따른 처벌 기준으로 알맞은 것은?",
+    "options": [
+      "건당 10만원 제재금",
+      "건당 50만원 제재금",
+      "건당 1백만원 제재금",
+      "건당 2백만원 제재금"
+    ],
+    "answer": 3,
+    "id": 574,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "보험설계사 등록과 말소에 관한 내용으로 틀린 것은?",
+    "options": [
+      "보험설계사는 보험업법에 따라 금융위원회에 등록하여야 한다",
+      "현재 보험설계사 등록에 관한 업무는 보험협회에 위탁하고 있다",
+      "등록 후라도 등록 제한사유에 해당하게 된 때에는 등록이 취소된다",
+      "보험회사와 위촉계약이 종료되면 자동으로 말소 처리된다"
+    ],
+    "answer": 4,
+    "id": 575,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "손해보험 우수인증 설계사제도에서 인증효력이 상실되는 경우가 아닌 것은?",
+    "options": [
+      "보험설계사의 등록이 말소된 경우",
+      "보험대리점의 등록이 말소되거나 회사와 계약이 해지된 경우",
+      "점포관리자가 되는 등 보험모집에 종사하지 아니하게 된 경우",
+      "보험연수원과 연계한 보험전문교육에 불참한 경우"
+    ],
+    "answer": 4,
+    "id": 576,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "위태에 관한 설명 중 맞는 것은?",
+    "options": [
+      "강도나 사기는 손해발생 가능성을 새로 만들기 때문에 물리적 위태에 해당한다",
+      "정신적 위태의 경우 고의방화가 예가 된다",
+      "졸음운전 등과 같이 고의는 없으나 무관심 또는 부주의 등 손해발생을 방관하는 태도는 정신적 위태이다",
+      "위태라 함은 손해의 직접적인 원인이 되는 것을 말한다"
+    ],
+    "answer": 3,
+    "id": 577,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "보험의 분류상 보험가입금액에 따른 분류에 대한 설명으로 맞는 것은?",
+    "options": [
+      "보험가입금액과 보험가액이 일치할 경우 완전보험이라고 한다",
+      "초과보험의 경우 비례보상원칙에 따라 보상해야 한다",
+      "보험가입금액에 따라 분류된 보험은 이득금지의 원칙이 적용된다",
+      "일부보험의 경우에는 2개 이상 보험에 가입하더라도 중복보험이 성립하지 않는다"
+    ],
+    "answer": 3,
+    "id": 578,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "다음의 음주운전 처벌기준 중 맞는 것은?",
+    "options": [
+      "혈중알코올 농도가 0.08% 이상인 경우이더라도 사고가 발생하지 않는다면 면허 정지에 그친다",
+      "음주측정을 불응한 경우 사고발생 여부를 불문하여 면허정지된다",
+      "혈중알코올 농도가 0.03% ~ 0.08%미만인 경우에는 대인사고가 발생하더라도 면허취소는 되지 않는다",
+      "혈중알코올 농도가 0.08% 이상인 경우에는 사고발생 여부를 불문하고 면허취소 및 형사 처벌된다"
+    ],
+    "answer": 4,
+    "id": 579,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "보험회사의 의무에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험회사는 보험계약 성립 후 1개월 내에 보험증권을 보험계약자에게 교부해야 한다",
+      "보험계약이 성립되면 지체없이 보험증권을 작성하여 보험계약자에게 교부하여야 한다",
+      "보험회사가 계약자로부터 청약과 함께 보험료를 받은 경우 보험회사가 계약을 승낙하기 전에 발생한 보험사고에 대해서는 보험회사가 보상한다",
+      "보험계약자가 보험증권을 받지 못했다 하더라도 보험계약의 효력에는 영향이 없다"
+    ],
+    "answer": 1,
+    "id": 580,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "보험자 대위에 관한 설명으로 맞는 것은?",
+    "options": [
+      "이득 금지의 원칙이 적용된다",
+      "보험목적에 대한 권리취득을 청구권대위라 한다",
+      "대수의 법칙이 적용된다",
+      "제3자에 대한 권리취득을 잔존물대위라 한다"
+    ],
+    "answer": 1,
+    "id": 581,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "제3보험계약의 보장내용으로 올바른 것은?",
+    "options": [
+      "임차인의 화재손해를 보상하는 보험계약",
+      "타인의 재물손해를 보상하는 보험계약",
+      "피보험자의 상해 또는 질병으로 인한 치료비를 보상하는 보험계약",
+      "타인의 보증손해를 보상하는 보험계약"
+    ],
+    "answer": 3,
+    "id": 582,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "제3보험의 보험금 지급방식 중 정액보상 방식에 대해 틀린 것은?",
+    "options": [
+      "정액보상방식이란 실손보상의 원리가 적용되지 않고 보험사고 발생시 미리 정해진 급부를 제공하는 것을 말한다",
+      "제3보험 중 간병보험도 정액보상방식을 적용할 수 있다",
+      "정액보상방식은 실제 발생한 손해액을 넘는 초과이득이 발생하지 않도록 비례보상 원칙을 적용한다",
+      "정액보상방식을 적용하는 담보에는 사망·후유장해담보, 진단급여, 수술급여, 입원일당급여 등이 있다"
+    ],
+    "answer": 3,
+    "id": 583,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "손해보험회사의 질병사망 영위에 대한 설명으로 틀린 것은?",
+    "options": [
+      "제3보험의 특약의 형식으로 운영하여야 한다",
+      "보험가입금액은 개인당 2억원까지 설계할 수 있다",
+      "보험기간은 80세 만기 이내로 한다",
+      "생명보험회사와 동일한 조건으로 운영할 수 있다"
+    ],
+    "answer": 4,
+    "id": 584,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "상해보험에서 사망보험금 지급에 대한 설명이 옳은 것은?",
+    "options": [
+      "피보험자가 상해의 직접 또는 간접의 결과로써 사망한 경우 지급한다",
+      "사망보험금은 피보험자에게 지급한다",
+      "실종선고를 받은 경우 실종신고 후 1년이 경과하는 때에 사망한 것으로 본다",
+      "보험회사는 보험계약자, 피보험자, 보험수익자의 중과실로 인한 사망사고에 대하여도 보상하여야 한다"
+    ],
+    "answer": 4,
+    "id": 585,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "상해보험계약에서 피보험자가 탑승한 항공기가 행방불명인 경우 사망인정 시기는?",
+    "options": [
+      "관공서의 사망보고에 따라 가족관계 등록부에 사망으로 기재 후 1년 경과시",
+      "보험기간 만기시",
+      "관공서의 사망보고에 따라 가족관계 등록부에 사망으로 기재 후 2년 경과시",
+      "관공서의 사망보고에 따라 가족관계 등록부에 사망으로 기재된 경우 기재한 사망연월일"
+    ],
+    "answer": 4,
+    "id": 586,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 의료기관별 통원의료비 공제금액\n(급여 실손의료비 기준)으로 틀린 것은?",
+    "options": [
+      "의원 : 1만원과 보장대상의료비의 20% 중 큰 금액",
+      "보건소 : 1만원과 보장대상의료비의 20% 중 큰 금액",
+      "종합병원 : 2만원과 보장대상의료비의 20% 중 큰 금액",
+      "상급종합병원 : 3만원과 보장대상의료비의 30% 중 큰 금액"
+    ],
+    "answer": 4,
+    "id": 587,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "교통상해보험에서 보상하는 손해에 해당하는 것은?",
+    "options": [
+      "건설기계가 작업기계로 사용되는 동안 발생한 손해",
+      "피보험자가 운행 중인 기타 교통수단에 탑승하고 있는 동안 발생한 급격하고도 우연한 외래의 사고",
+      "하역작업을 하는 동안 발생한 손해",
+      "시운전을 위하여 운행 중인 자동차에 탑승하고 있는 동안 발생한 손해"
+    ],
+    "answer": 2,
+    "id": 588,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)에 가입한 피보험자가 상급종합병원에\n통원하여 상해 비급여의료비가 발생한 경우, 이에 해당하는 공제금액으로 맞는 것은?",
+    "options": [
+      "5만원",
+      "보장대상의료비의 15%",
+      "3만원과 보장대상의료비의 30% 중 큰 금액",
+      "보장대상의료비의 30%"
+    ],
+    "answer": 3,
+    "id": 589,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "다음 중 노후 실손의료보험의 설명으로 틀린 것은?",
+    "options": [
+      "보험료는 1년마다 갱신한다",
+      "노후 실손의료보험 입원시 자기부담금 연간한도는 500만원이다",
+      "계약 전 알릴 의무 사항 등 가입심사요건을 축소하여 과거 질환이 있는 사람이 가입하기 수월하도록 설계한 보험이다",
+      "상품구조는 3년후 재가입한다"
+    ],
+    "answer": 3,
+    "id": 590,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "질병보험에서 피보험자의 보험나이와 관련된 내용으로 틀린 것은?",
+    "options": [
+      "보험나이는 계약일 현재 만 연령으로 계산하며, 매년 1월 1일에 나이가 증가하는 것으로 한다",
+      "통상 보험연령별로 보험료 차이가 있다",
+      "계약일 현재 피보험자의 나이가 만 34년 10개월인 경우 보험나이는 35세이다",
+      "회사가 잘못하여 계산을 착오한 경우에는 보험료 변경시 소정의 보험료를 정산한다"
+    ],
+    "answer": 1,
+    "id": 591,
+    "source": "2024_06_1"
+  },
+  {
+    "question": "다음 중 주택화재보험의 자동담보물건에 해당하는 것은?",
+    "options": [
+      "원고, 설계서, 도안, 소프트웨어",
+      "귀금속, 귀중품",
+      "통화, 유가증권, 인지, 우표",
+      "피보험자 소유의 선전탑"
+    ],
+    "answer": 4,
+    "id": 592,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다음 중 ( ) 안에 들어갈 말로 옳은 것은?\n재산손해보험금과 ( )의 합계액은 보험가입금액을 한도로 한다",
+    "options": [
+      "손해방지비용",
+      "대위권보전비용",
+      "잔존물보전비용",
+      "잔존물제거비용"
+    ],
+    "answer": 4,
+    "id": 593,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다 음 중 다중이용업소 화재배상책임보험 가입대상이 아닌 것은?",
+    "options": [
+      "일반음식점",
+      "PC방",
+      "주유소",
+      "노래연습장"
+    ],
+    "answer": 3,
+    "id": 594,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "특수건물화재보험의 보장범위에 관한 설명 중 틀린 것은?",
+    "options": [
+      "사 망의 경우 피해자 1명당 1억 5천만원의 범위에서 피해자에게 발생한 손해액을 지급한다",
+      "후 유장애의 경우 피해자 1명당 8천만원의 범위에서 피해자에게 발생한 손해액을 지급한다",
+      "재 산 손해의 경우 사고 1건당 10억원의 범위에서 피해자에게 발생한 손해액을 지급한다",
+      "부 상의 경우 피해자 1명당 3천만원의 범위 내에서 보상한다"
+    ],
+    "answer": 2,
+    "id": 595,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "손해사고기준 배상책임보험에 해당하지 않는 것은?",
+    "options": [
+      "선주배상책임보험",
+      "임원배상책임보험",
+      "시설소유관리자배상책임보험",
+      "경비업자배상책임보험"
+    ],
+    "answer": 2,
+    "id": 596,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "장기손해보험의 환급금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "만 기환급금은 만기 전 계약이 소멸되는 경우에도 만기환급금을 지급한다",
+      "보 험계약자의 고지의무 및 통지의무 위반 등으로 계약이 해지된 경우 보험회사는 해지시까지 적립한 해약환급금을 지급한다",
+      "보험계약자가 보험료 미납으로 해지시 보험회사는 해지시까지 적립한 해약환급금을 지급한다",
+      "보 험계약자가 보험계약의 해지 의사표시를 한 경우 보험회사는 해지시까지 적립한 해약환급금을 지급한다"
+    ],
+    "answer": 1,
+    "id": 597,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "장기손해보험에서 계약의 무효사유에 해당하는 것은?",
+    "options": [
+      "보험계약시 이미 보험사고가 발생한 경우",
+      "계약자가 자필서명을 하지 않은 경우",
+      "보험계약자나 피보험자가 고지의무를 위반한 경우",
+      "피보험자의 위험이 현저하게 증가한 경우"
+    ],
+    "answer": 1,
+    "id": 598,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "총 급여 5,500만원을 초과하는 근로자가 납입한 연금저축의 연간 납입보험료가\n100만원일 경우, 세액공제 금액은?(지방소득세 포함)",
+    "options": [
+      "13만 2천원",
+      "16만 5천원",
+      "15만원",
+      "24만원"
+    ],
+    "answer": 1,
+    "id": 599,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다음 중 퇴직연금사업자로 등록할 수 없는 곳은?",
+    "options": [
+      "은행",
+      "손해보험회사",
+      "새마을금고연합회",
+      "저축은행"
+    ],
+    "answer": 4,
+    "id": 600,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "자동차보험 피보험자에 대한 설명 중 틀린 것은?",
+    "options": [
+      "승 낙피보험자는 기명피보험자와 친인척 관계에 있는 자를 말한다",
+      "운 전피보험자는 다른 피보험자를 위하여 피보험자동차를 운전 중인 자를 말한다",
+      "기 명피보험자는 보험증권에 기재되어 있는 피보험자를 말한다",
+      "친 족피보험자는 기명피보험자와 같이 살거나 살림을 같이하는 친족으로 피보험자동차를 사용 또는 관리 중인 자이다 - 수험번호 성 명"
+    ],
+    "answer": 1,
+    "id": 601,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다 음 중 경상사고의 대인2 피해자 과실상계에 대한 설명으로 맞는 것은?",
+    "options": [
+      "차 량운전자가 자동차손해배상보장법 시행령 <별표1>에서 정한 상해급별 구분 중 10급 내지 14급의 상해를 입은 경우 보상한다",
+      "차 대차 사고뿐만 아니라 차대 이륜차 사고의 이륜차 운전자도 보상한다",
+      "차 량운전자가 자동차손해배상보장법 시행령 <별표1>에서 정한 상해급별 구분 중 12급 내지 14급의 상해를 입은 경우 보상한다",
+      "차 대차 사고뿐만 아니라 차대 자전거 사고의 자전거 운전자도 보상한다"
+    ],
+    "answer": 3,
+    "id": 602,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다 음 중 자동차손해배상보장사업에 대한 설명에서 틀린 것은?",
+    "options": [
+      "자동차 사고 피해가족에 대한 지원금 제도가 있다",
+      "관련 주무 정부부처는 금융위원회이다",
+      "뺑 소니차 또는 무보험차에 의한 사고로 사망하거나 부상당한 피해자를 보상대상으로 하며, 22년 1월 28일부터는 차량 낙하물 사고 피해자도 보상된다",
+      "가 해자가 가입한 자동차보험에서 보상받을 수 있는 경우에는 보상받을 수 없다"
+    ],
+    "answer": 2,
+    "id": 603,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "운 전자 연령 한정운전특약 위반시에도 보상되는 담보에 해당하는 것은?",
+    "options": [
+      "대인1",
+      "대물",
+      "대인2",
+      "대물(가입금액 2천만원)"
+    ],
+    "answer": 1,
+    "id": 604,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보 험계약 단계별 설명의무에 대한 설명 중 맞는 것은? [4점]",
+    "options": [
+      "단 계별 설명의무는 보험계약 체결 권유, 보험계약 체결, 보험금 청구, 보험금 심사·지급 단계로 구분된다",
+      "모 집종사자의 보험계약 체결대리권 존재여부는 보험계약 체결 권유단계에서 설명하여야 한다",
+      "보 험계약 체결단계에서는 보장성 상품의 내용, 보험료의 감액 청구 등을 설명하여야 한다",
+      "일 반보험계약자가 설명을 거부하는 경우에는 음성녹음으로 설명내용을 확인하여야 한다"
+    ],
+    "answer": 1,
+    "id": 605,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다 음 중 보험업법 위반행위와 벌칙이 틀리게 연결된 것은?",
+    "options": [
+      "모 집종사자 등록 서류 변경 신고 위반 – 1천만원 이하의 과태료",
+      "특 별이익 제공금지 위반 – 3년 이하의 징역 3천만원 이하의 벌금",
+      "장 애인의 보험가입 거부 – 1천만원 이하의 벌금",
+      "보 험모집 위탁계약서 미교부 – 1천만원 이하의 과태료"
+    ],
+    "answer": 3,
+    "id": 606,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다 음 중 보험대리점의 신고사항에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보 험대리점의 신고사항에 관한 업무는 보험협회에서 담당한다",
+      "보 험대리점 지점이 폐쇄된 경우는 보험대리점의 신고사항에서 제외된다",
+      "신 고의무를 위반한 보험대리점에 대해서는 1천만원 이하의 과태료를 부과한다",
+      "보험대리점은 등록 신청시 제출한 서류에 변동사항이 있을 경우 이를 신고해야 할 의무가 있다"
+    ],
+    "answer": 2,
+    "id": 607,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다 음 중 「손해보험 공정경쟁질서유지에 관한 상호협정」에서 다른 회사 보험계약\n부당인수의 제재금 부과기준으로 맞는 것은?",
+    "options": [
+      "건당 5백만원 제재금",
+      "건당 1백만원 제재금",
+      "건당 5십만원 제재금",
+      "건강 3십만원 제재금"
+    ],
+    "answer": 2,
+    "id": 608,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보 험업법상 보험설계사의 등록취소 사유에 해당하지 않는 사람은?",
+    "options": [
+      "보험설계사로 등록된 후 파산한 자",
+      "보 험설계사 등록 당시 피한정후견인인 사실을 숨기고 등록한 자",
+      "보 험설계사 등록이 취소된 후 3년이 지난 사실을 알리지 않고 등록한 자",
+      "보 험업무 경력이 없으면서 보험회사 경력증명서를 위조하여 등록한 자"
+    ],
+    "answer": 3,
+    "id": 609,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "다음 ( ) 안에 들어갈 말로 알맞은 것은?\n보험대리점이 자기 또는 자기를 고용하고 있는 자를 보험계약자 또는 피보험자로 하는\n보험의 보험료 누계액이 당해 보험대리점이 모집한 보험의 보험료 누계액의 ( )을\n초과하는 대리점을 자기계약 대리점으로 정의한다",
+    "options": [
+      "50/100",
+      "60/100",
+      "40/100",
+      "30/100"
+    ],
+    "answer": 1,
+    "id": 610,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보 험판매 프로세스 중 재정정보 수집단계에서 고객의 5대 필요자금에 해당하지\n않는 것은?",
+    "options": [
+      "생활비",
+      "긴급예비자금",
+      "교육비",
+      "장례비 - 1 -"
+    ],
+    "answer": 4,
+    "id": 611,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "손 해보험에서 우연적 사고위험의 요소에 해당되지 않는 것은?",
+    "options": [
+      "발생정도",
+      "발생시기",
+      "발생약관",
+      "발생여부"
+    ],
+    "answer": 3,
+    "id": 612,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보 험회사가 보험금을 지급하지 않는 경우에 해당하는 것이 아닌 것은?",
+    "options": [
+      "보험금 청구권의 소멸시효 3년이 지난 경우",
+      "보 험계약자 또는 피보험자나 보험수익자의 고의 또는 중과실이 있는 경우",
+      "보험목적의 성질 또는 자연소모로 인한 손해의 경우",
+      "보험회사의 파산으로 인한 해지의 경우"
+    ],
+    "answer": 4,
+    "id": 613,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보험계약의 변경에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험계약자는 보험사고 발생의 위험이 현저하게 변경·증가된 경우 보험회사에 즉시 통지 하여야 한다",
+      "보 험회사 파산선고 후 3개월 경과시까지 계약을 해지하지 않으면 계약은 효력을 상실한다",
+      "보 험계약의 당사자가 특별한 위험을 예상하여 보험료를 정한 경우 보험기간 중 예기한 위험이 소멸한 때에는 보험계약자는 이후의 보험료에 대한 감액을 청구할 수 없다",
+      "보험계약자가 위험변경, 증가의 사실을 통지하지 않았다면 보험회사는 그 사실을 안 날로부터 1개월 내 계약을 해지할 수 있다"
+    ],
+    "answer": 3,
+    "id": 614,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보험사업 영위에 대한 설명으로 틀린 것은?",
+    "options": [
+      "해 상보험은 100억원 이상의 자본금 또는 기금을 납입하여야 보험업을 개시할 수 있다",
+      "통 신판매전문보험회사는 자본금의 3분의 2 이상을 납입하여야 보험업을 개시할 수 있다",
+      "외국보험회사의 영업기금은 30억원 이상으로 한다",
+      "보 험종목별 자본금 합계액이 300억원 이상인 경우에 300억원으로 한다"
+    ],
+    "answer": 1,
+    "id": 615,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "보 험업법상 겸영이 가능한 보험종목에 해당하지 않는 것은?",
+    "options": [
+      "생명보험의 재보험",
+      "제3보험의 재보험",
+      "대 통령령이 정하는 기준에 따른 제3보험의 종목에 부가되는 보험",
+      "신용보증보험의 재보험"
+    ],
+    "answer": 4,
+    "id": 616,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "제3보험의 보상방법에 대한 설명으로 틀린 것은?",
+    "options": [
+      "질병사망보험금은 정액보상한다",
+      "의료비에 대해서는 정액보상 또는 실손보상 할 수 있다",
+      "2 개 이상의 실손의료비 보험계약이 있는 경우 비례보상한다",
+      "질병보험은 실손보상만 가능하다"
+    ],
+    "answer": 4,
+    "id": 617,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "제 3보험에서 손해보험회사가 기본계약으로 영위할 수 있는 담보는?",
+    "options": [
+      "암으로 인한 사망보험금",
+      "중대질환으로 인한 사망보험금",
+      "심혈관질환으로 인한 사망보험금",
+      "중대재해로 인한 사망보험금 -"
+    ],
+    "answer": 4,
+    "id": 618,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "상 해보험에서 보험료 산출을 위한 상해급수에 대한 설명으로 틀린 것은?",
+    "options": [
+      "직 업 및 직무를 감안하여 5등급으로 구분하여 보험료를 책정한다",
+      "항공기정비공은 상해 2급 보험료를 적용한다",
+      "보험료의 크기는 3급이 1급보다 크다",
+      "사무직 근로자는 상해 1급 보험료를 적용한다"
+    ],
+    "answer": 1,
+    "id": 619,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "상 해보험의 사망보험금 지급조건에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보 험기간 중 발생한 상해사고의 직접결과로써 사망한 경우",
+      "보 험기간 중 발생한 상해의 직접 또는 간접결과로써 사망한 경우",
+      "보 험기간 개시 전 발생한 상해의 직접 또는 간접결과로써 사망한 경우",
+      "보 험기간 개시 전 발생한 상해의 직접결과로써 사망한 경우"
+    ],
+    "answer": 1,
+    "id": 620,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "상 해보험에서 치료종결 후 한시적인 장해가 5년 이상인 때 후유장해 지급률은?",
+    "options": [
+      "해당 장해지급률의 10%",
+      "해당 장해지급률의 20%",
+      "해당 장해지급률의 30%",
+      "해당 장해지급률의 40%"
+    ],
+    "answer": 2,
+    "id": 621,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "2 021년 7월 출시한 개인 실손의료보험(4세대) 피보험자가 상급종합병원 통원\n(급여의료비 발생) 후 보험금 청구시 공제금액으로 맞는 것은?",
+    "options": [
+      "1만원과 보장대상의료비의 20% 중 큰 금액",
+      "2만원과 보장대상의료비의 10% 중 큰 금액",
+      "2만원과 보장대상의료비의 20% 중 큰 금액",
+      "3만원과 보장대상의료비의 30% 중 큰 금액"
+    ],
+    "answer": 3,
+    "id": 622,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "휴 일교통상해보험에서 보험회사의 책임종기로 맞는 것은?",
+    "options": [
+      "24시",
+      "20시",
+      "18시",
+      "16시"
+    ],
+    "answer": 1,
+    "id": 623,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "노후 실손의료보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "의 료비(질병의료비, 상해의료비)와 요양병원의료비 특약, 상급병실보장 특약으로 구성된다",
+      "75세 이상이 가입할 수 있다",
+      "보험료는 3년마다 갱신한다",
+      "자기부담금이 일반실손의료보험에 비해 낮다"
+    ],
+    "answer": 1,
+    "id": 624,
+    "source": "2024_06_2"
+  },
+  {
+    "question": "일반화재보험에서 보상하지 않는 손해는?",
+    "options": [
+      "피난지에서 5일 동안 발생한 피난손해",
+      "화재, 벼락으로 인한 손해",
+      "폭발 및 파열에 따른 손해",
+      "화재진압과정에서 발생한 소방손해"
+    ],
+    "answer": 3,
+    "id": 625,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "아파트의 화재로 인해 손해가 발생한 경우 잔존물 제거비용 보험금은 얼마인가?\n보험가입금액 8,000만원, 보험가액 1억원, 화재손해액 3,000만원,\n잔존물 제거비용 400만원",
+    "options": [
+      "1,000만원",
+      "100만원",
+      "300만원",
+      "500만원"
+    ],
+    "answer": 3,
+    "id": 626,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "화재보험의 특별약관으로 추가할 수 없는 것은?",
+    "options": [
+      "신체손해배상책임담보특약",
+      "기업휴지손해담보특약",
+      "이행보증특약",
+      "전기위험담보특약"
+    ],
+    "answer": 3,
+    "id": 627,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "장기손해보험의 특징에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험기간이 통상 3년 이상으로 매년 재가입해야 하는 불편을 해소한다",
+      "저축성보험은 보험기간이 15년 이내 상품만 존재한다",
+      "저축보험료는 위험보험료와 함께 일반계정으로 운용한다",
+      "보험사고로 지급한 보험금이 보험가입금액의 80% 미만인 경우 감액되지 않고 자동복원된다"
+    ],
+    "answer": 3,
+    "id": 628,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "장기손해보험 계약자의 청약철회 기간은?",
+    "options": [
+      "보험증권을 받은 날부터 10일 이내",
+      "보험증권을 받은 날부터 15일 이내",
+      "보험증권을 받은 날부터 5일 이내",
+      "보험증권을 받은 날부터 20일 이내"
+    ],
+    "answer": 2,
+    "id": 629,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "장기손해보험의 보험료에 대한 설명으로 틀린 것은?",
+    "options": [
+      "위험보험료는 사고발생시 보험금 지급의 재원이 되는 보험료이다",
+      "보험료는 순보험료와 부가보험료로 구성된다",
+      "신계약비는 보험계약을 유지·관리하는데 소요되는 경비이다",
+      "저축보험료는 보험사고 없이 보험기간 만료시 만기환급금의 재원이 되는 보험료이다"
+    ],
+    "answer": 3,
+    "id": 630,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "연금저축보험의 세제적격 요건으로 맞는 것은?",
+    "options": [
+      "불입기간은 10년 이상이어야 한다",
+      "연금지급기간은 15년 이상이어야 한다",
+      "연금지급은 만 65세 이후부터 지급받아야 한다",
+      "가입대상은 성별, 연령별 제한이 없다"
+    ],
+    "answer": 4,
+    "id": 631,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "연금저축보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "연금수령요건을 충족하지 못하는 금액은 기타소득세(15%, 지방소득세 제외)를 부과한다",
+      "연금계좌에서 인출하는 연간 연금수령금액이 1,500만원을 초과하는 경우는 계약 자의 다른 소득과 합산하여 종합과세한다",
+      "천재지변으로 계약을 해지하는 경우 연금소득세를 납입하고, 종합과세 대상에는 미포함한다.",
+      "계약자 또는 그 부양가족의 질병, 부상에 따라 1개월 이상의 요양이 필요한 경우 연금수령시 연금소득세를 납입하게 되며 종합과세 대상에는 포함하지 않는다"
+    ],
+    "answer": 4,
+    "id": 632,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "퇴직연금보험에서 퇴직급여 수령에 대한 설명으로 틀린 것은?",
+    "options": [
+      "10년 이상 가입한 경우에 한해 연금수령이 가능하다",
+      "일시금 또는 연금수령이 가능하다",
+      "10년 이상 수령하는 경우에 한해 연금수령이 가능하다",
+      "연금수급자격 미달시에는 일시금으로 수령한다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 3,
+    "id": 633,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "자동차보험의 의무보험에 대한 설명 중 맞는 것은?",
+    "options": [
+      "보험회사는 특별한 사유가 없는 경우에도 계약을 거절할 수 있다",
+      "의무보험은 중복으로 계약이 체결되어도 계약을 해지할 수 없다",
+      "대인배상Ⅰ, 대물배상(1사고당 2천만원 이상)을 말한다",
+      "피해자 1인에 대한 보상한도는 실제손해 범위 내에서 무한으로 보상받을 수 있다"
+    ],
+    "answer": 3,
+    "id": 634,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "자동차보험 보험종목에 대한 설명으로 옳은 것은?",
+    "options": [
+      "농기계보험은 대인배상Ⅰ과 대인배상Ⅱ로 구분되지 않는다",
+      "자동차취급업자종합보험은 자동차탁송업자, 판매업자, 정비업자 등이 의무적으로 가입해야 하는 자동차보험 상품이다",
+      "업무용자동차보험은 개인택시와 같은 영업용자동차를 대상으로 한다",
+      "이륜자동차보험은 회사별 동일한 보험료가 적용된다"
+    ],
+    "answer": 1,
+    "id": 635,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "특약요율에 대한 설명으로 맞는 것은?",
+    "options": [
+      "가족운전자 한정운전 특약 대상에는 조부모, 손자·손녀도 포함된다",
+      "운전자연령 한정운전 특약의 대상 나이는 계약당시의 나이이다",
+      "특별요율의 종류는 전시용, 견인차, 특수장치 등이 있다",
+      "대인배상Ⅰ도 특약요율을 적용한다"
+    ],
+    "answer": 3,
+    "id": 636,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "자동차손해배상보장사업에 대한 설명으로 맞는 것은?",
+    "options": [
+      "무단운전에 의한 자동차 사고 피해자는 차량소유주(보유자)가 손해배상책임이 있는 경우에도 보장사업 청구가 가능하다",
+      "경찰서에서 발급하는 교통사고 사실확인원은 보장사업 청구시 구비서류이다",
+      "피해자가 가해자로부터 손해배상을 받은 경우에도 보장사업 청구가 가능하다",
+      "자동차 사고 피해가족에 대한 지원금은 뺑소니 사고로 피해를 입은 경우에만 지급된다"
+    ],
+    "answer": 2,
+    "id": 637,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "특별이익 제공금지 행위에 해당하지 않는 것은?",
+    "options": [
+      "기초서류에서 정한 보험금액의 지급 약속",
+      "보험료로 받은 수표 또는 어음에 대한 이자 상당액의 대납",
+      "보험계약자 또는 피보험자를 위한 보험료의 대납",
+      "보험계약자가 보험회사로부터 받은 대출금 이자 대납"
+    ],
+    "answer": 1,
+    "id": 638,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "보험계약의 체결 또는 모집에 관한 금지행위에 해당하지 않는 것은?",
+    "options": [
+      "보험계약자에게 보험상품의 내용을 사실과 다르게 알린 경우",
+      "보험계약자에게 보험상품의 중요한 사실을 알리는 것을 방해하거나 알리지 아니 하는 경우",
+      "보험계약자와 금전대차의 관계를 이용하여 보험계약을 청약하는 행위",
+      "보험계약자의 자필서명을 권고하는 행위"
+    ],
+    "answer": 4,
+    "id": 639,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정에서 승환계약을 한 경우 부과되는\n제재금 최고 한도액은?",
+    "options": [
+      "모집행위자별 1인당 최고 3천만원",
+      "모집행위자별 1인당 최고 1천만원",
+      "모집행위자별 1인당 최고 2천만원",
+      "모집행위자별 1인당 최고 5천만원"
+    ],
+    "answer": 1,
+    "id": 640,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "모집종사자에 대한 설명으로 바른 것은?",
+    "options": [
+      "보험설계사는 보험회사를 위하여 보험계약의 체결을 중개하는 자이다",
+      "보험회사의 대표이사 및 임직원은 보험모집을 할 수 있다",
+      "보험중개사는 보험회사를 위하여 보험계약의 체결을 대리하는 자이다",
+      "보험대리점은 계약체결권은 있으나, 고지의무수령권은 없다"
+    ],
+    "answer": 1,
+    "id": 641,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "교차모집제도에 대해 바르게 설명한 것은?",
+    "options": [
+      "방카슈랑스 제도와 함께 2003년 8월에 도입되었다",
+      "모집을 위탁받은 2개의 보험회사 중 1개의 보험회사만을 위하여 모집을 할 수 있다",
+      "손해보험을 모집하려는 생명보험설계사는 손해보험의 등록요건을 갖추어야 한다",
+      "교차모집설계사는 보험협회에 등록해야 할 의무가 없다"
+    ],
+    "answer": 3,
+    "id": 642,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "다음 중 등록기관이 다른 것은?",
+    "options": [
+      "간단손해보험대리점",
+      "보험대리점 소속 손해보험설계사",
+      "생명보험설계사",
+      "손해보험설계사"
+    ],
+    "answer": 3,
+    "id": 643,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "다음 설명 중 가장 올바른 것은?",
+    "options": [
+      "보험은 통계적으로 추출되고 예측할 수 있도록 동질의 위험을 가진 특정 소수 집단이 결합하여야 한다",
+      "보험료와 마찬가지로 보험금 또한 위험발생 확률을 예측하여 산정한다",
+      "사고발생 시기는 우연하되 발생 여부는 확정적이어야 한다",
+      "사고의 발생정도나 규모는 우연적이고 전부 확정성을 가져야 한다"
+    ],
+    "answer": 2,
+    "id": 644,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "가입대상에 따른 분류에서 대상이 다른 것은?",
+    "options": [
+      "화재보험",
+      "상해보험",
+      "도난보험",
+      "선박보험"
+    ],
+    "answer": 2,
+    "id": 645,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "보험범죄의 특성에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험범죄는 복합성, 다양성, 조직의 대형화의 특성을 갖고 있다",
+      "대다수의 선량한 보험계약자들에게 보험료 인상의 결과로 돌아가는 등 사회적 비용이 증가한다",
+      "친족살인, 자해, 방화 등과 같은 반인륜적인 범죄로 건전한 윤리의식 및 생명 존중의 가치관이 파괴된다",
+      "보험범죄로 인한 피해는 보험회사에만 국한되고 보험계약자에게는 피해가 없다"
+    ],
+    "answer": 4,
+    "id": 646,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "보험계약의 고지의무에 해당하지 않는 것은?",
+    "options": [
+      "피보험자의 직업",
+      "피보험자의 직무",
+      "피보험자의 연령",
+      "피보험자의 보험가입이력"
+    ],
+    "answer": 4,
+    "id": 647,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "고지의무에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험수익자는 고지의무가 없다",
+      "불고지 또는 부실고지 하지 아니할 의무를 갖는다",
+      "인보험에서 보험의는 고지수령권을 갖는다",
+      "고지의 방법은 서면방식만 인정한다"
+    ],
+    "answer": 4,
+    "id": 648,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "보험계약의 성립, 변경, 소멸에 대한 설명으로 틀린 것은?",
+    "options": [
+      "최초보험료 납입으로 보험회사의 책임이 개시된다",
+      "보험료미납으로 해지시 부활이 가능하다",
+      "보험회사 파산시 계약자는 보험계약을 해지할 수 있다",
+      "보험계약 성립 후 3개월이 지난 때까지 제1회 보험료를 미납한 경우 그 계약은 소멸한다"
+    ],
+    "answer": 4,
+    "id": 649,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "다음 보기에서 설명하는 것은 무엇인가?\n보험회사가 보험사고로 인한 피보험자의 손실을 보상해주는 대신 피보험자가 가지는\n보험의 목적이나 제3자에 대하여 가지는 권리를 법률상 당연히 취득하는 것을 말한다",
+    "options": [
+      "피보험이익",
+      "타인을 위한 보험계약",
+      "보험자 대위",
+      "보험 목적의 양도"
+    ],
+    "answer": 3,
+    "id": 650,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "손해보험회사가 영위하는 제3보험의 운영근거가 되는 법률 및 규정과 관계가 없는 것은?",
+    "options": [
+      "보험업법",
+      "보험업법시행령",
+      "보험업감독규정",
+      "의료급여법"
+    ],
+    "answer": 4,
+    "id": 651,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "제3보험 등 보험종목의 겸영에 대한 설명으로 맞는 것은?",
+    "options": [
+      "제3보험의 보험종목에 부가하는 보험은 겸영할 수 없다",
+      "제3보험의 재보험은 겸영할 수 없다",
+      "생명보험의 재보험은 겸영할 수 있다",
+      "보험업 겸영의 제한은 상법에 규정되어 있다"
+    ],
+    "answer": 3,
+    "id": 652,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "제3보험 상품개발기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "원칙적으로 보장성보험으로 개발이 가능하다",
+      "손해보험사의 경우 상해사망을 주계약으로 하여 저축성 보험으로 개발이 가능하다",
+      "손해보험사의 경우 질병사망을 주계약으로 개발 가능하다",
+      "손해보험사의 경우 저축성보험으로 개발시 보험기간은 15년 이내로 개발 가능하다"
+    ],
+    "answer": 3,
+    "id": 653,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "상해보험의 특징으로 보기 어려운 것은?",
+    "options": [
+      "보험가액은 없으나, 보험가입금액은 있다",
+      "단체보험에서는 타인의 사망보험 계약시 타인의 동의를 생략할 수 있다",
+      "보험계약자는 보험수익자를 지정할 수 없다",
+      "상법에서는 상해보험계약의 경우 당사자간 약정이 있을 때 보험자의 대위권 행사를 인정하고 있다"
+    ],
+    "answer": 3,
+    "id": 654,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "다음 중 상해보험의 보험료산출에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "단체상해보험은 단일률을 산출하여 적용할 수 있다",
+      "사무직 근로자는 상해 1급 보험료를 적용한다",
+      "일반적으로 보험료의 크기는 상해 1급 < 2급 < 3급이다",
+      "직업 및 직무를 감안하여 5등급으로 구분하여 보험료를 책정한다"
+    ],
+    "answer": 4,
+    "id": 655,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "상해보험의 실손의료비 보상대상에 포함되지 않는 것은?",
+    "options": [
+      "치과치료에서 발생한 국민건강보험법에서 규정한 급여대상 의료비 중 본인부담금",
+      "한방치료에서 발생한 국민건강보험법에서 규정한 급여대상 의료비 중 본인부담금",
+      "상해치료를 목적으로 하는 건강검진 비용",
+      "자동차보험에서 보상받는 의료비"
+    ],
+    "answer": 4,
+    "id": 656,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "상해보험의 후유장해보험금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "한시장해기간이 5년 이상인 경우에는 전액을 지급한다",
+      "일시적인 후유장해시에는 보험금을 지급하지 않는다",
+      "질병과 부상의 주증상과 합병증상 및 이에 대한 치료를 받는 과정에서 일시적으로 나타나는 증상은 장해에 포함되지 않는다.",
+      "ʻ장해ʼ라 함은 상해 또는 질병에 대하여 치유된 후 신체에 남아 있는 영구적인 정신 또는 육체의 훼손상태 및 기능상실 상태를 말하며 신체의 기능이 영구히 상실된 경우 보험금을 지급한다"
+    ],
+    "answer": 1,
+    "id": 657,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "다음 보기의 ( ) 안에 들어갈 말은 무엇인가?\n보험회사는 보험사고에 따른 보험금 청구서류를 접수한 때에는 접수증을 교부하고,\n서류를 접수한 날로부터 ( ) 이내에 신체사고 보험금을 지급합니다",
+    "options": [
+      "10영업일",
+      "5영업일",
+      "3영업일",
+      "7영업일"
+    ],
+    "answer": 3,
+    "id": 658,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "개인 실손의료보험(4세대)의 ‘3대 비급여’에 대한 설명 중 틀린 것은?",
+    "options": [
+      "체외충격파치료는 연간 50회까지 보상한다",
+      "상해비급여 통원의 자기부담금은 3만원과 보장대상의료비의 30% 중 큰 금액으로 정한다",
+      "자기공명영상진단은 연간 300만원 한도로 보상한다",
+      "도수치료는 증상의 개선, 병변의 호전이 확인되는 경우 연간 150회까지 보상한다"
+    ],
+    "answer": 4,
+    "id": 659,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "교통상해보험 약관상 기타 교통수단에 해당하지 않는 것은?",
+    "options": [
+      "이륜자동차",
+      "항공기",
+      "케이블카",
+      "리프트"
+    ],
+    "answer": 1,
+    "id": 660,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "대기기간(Waiting Period)이 가장 유효하게 적용되는 보험종목은?",
+    "options": [
+      "상해보험",
+      "질병보험",
+      "화재보험",
+      "제3자 배상책임보험"
+    ],
+    "answer": 2,
+    "id": 661,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "상해보험과 질병보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "질병보험은 급격, 우연한 사고에 의한 신체의 손상을 보상하는 보험이다",
+      "상해보험은 신체의 내재적 원인에 의한 신체의 손상을 보상하는 보험이다",
+      "손해보험사의 경우 상해사망 보장은 특약으로만 운영 가능하다",
+      "손해보험사의 경우 질병사망 보장의 보험만기는 80세 이하로만 운영 가능하다"
+    ],
+    "answer": 4,
+    "id": 662,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "다음 중 간병보험에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "미국에서는 ʻLTC보험ʼ이라고 불린다",
+      "우리나라에서는 ʻ개호보험ʼ 등으로 지칭 되었다가 현재는 ʻ장기간병보험ʼ으로 명칭이 통합되었다",
+      "활동불능 또는 인식불능 등 타인의 간병을 필요로 하는 상태 및 이로 인한 치료 등의 위험을 보장하는 보험이다",
+      "일상생활 장해상태 또는 치매상태로 진단 확정된 때, 간병비용을 일시금 형태로만 지급하는 장기손해보험 상품이다"
+    ],
+    "answer": 4,
+    "id": 663,
+    "source": "2024_07_1"
+  },
+  {
+    "question": "화재보험에서 보상하는 재산손해가 아닌 것은?",
+    "options": [
+      "화재에 따른 소방손해",
+      "화재에 따른 피난손해",
+      "화재에 따른 직접손해",
+      "화재에 따른 손해방지비용"
+    ],
+    "answer": 4,
+    "id": 664,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "주택화재보험을 예시와 같이 가입한 후 손해가 발생한 경우 지급보험금은?\n보험가액 1억원, 보험가입금액 9,000만원, 손해액 3,000만원",
+    "options": [
+      "1,000만원",
+      "2,000만원",
+      "3,000만원",
+      "4,000만원"
+    ],
+    "answer": 3,
+    "id": 665,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "다음 중 장기손해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "장기손해보험은 계약자보호를 위해 제2회 이후 보험료 미납에 대해 납입최고 (독촉)기간을 부여한다",
+      "계약 후 10년 이상 유지시 보험차익에 대해 비과세혜택을 받는다",
+      "보험료 미납으로 계약이 해지된 경우 해지일로부터 5년 이내에 부활이 가능하다",
+      "장기손해보험의 저축성보험이란 만기시 지급하는 환급금이 납입보험료 합계액을 초과하도록 설계된 보험을 말한다"
+    ],
+    "answer": 3,
+    "id": 666,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "다음은 연금저축보험 세제적격 요건에 대한 설명으로, 괄호 안에 들어갈 내용을\n순서대로 올바르게 나열한 것은?\n연금수령 요건 : ( )세 이후 수령, 가입일로부터 ( )년 이후 수령, 연간수령한도 이내 수령",
+    "options": [
+      "55, 5",
+      "55, 10",
+      "60, 5",
+      "65, 5"
+    ],
+    "answer": 1,
+    "id": 667,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "연금저축보험의 세제에 관한 설명 중 맞는 것은?",
+    "options": [
+      "기본계약보험료는 연간 400만원까지 세액공제된다",
+      "특약보험료는 연간 300만원 한도로 세액공제된다",
+      "연금수령시 연금수령금액은 소득세 과세대상이다",
+      "6년차 연금수령연차부터 연금수령한도가 적용되지 않는다"
+    ],
+    "answer": 3,
+    "id": 668,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "DC형(확정기여형) 퇴직연금에서 중도인출이 가능한 경우가 아닌 것은?",
+    "options": [
+      "가입자 또는 가입자의 배우자와 생계를 같이하는 부양가족의 결혼자금이 필요한 경우",
+      "무주택자인 가입자가 본인 명의로 주택을 구입하는 경우",
+      "가입자 또는 가입자의 배우자와 생계를 같이하는 부양가족이 질병 또는 부상으 로 6개월 이상 요양을 하는 경우",
+      "중도인출을 신청한 날부터 역산하여 5년 이내에 가입자가 파산선고를 받은 경우"
+    ],
+    "answer": 1,
+    "id": 669,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "자동차손해배상보장법에서 승객 이외의 자가 사상한 경우 운행자의 면책조건에\n해당되지 않는 것은?",
+    "options": [
+      "자기와 운전자가 자동차의 운행에 관하여 주의를 게을리하지 않았음을 증명",
+      "자동차 구조상의 결함 또는 기능의 장애가 없었음을 증명",
+      "피해자 또는 자기 및 운전자가 아닌 제3자에게 고의 또는 과실이 있음을 증명",
+      "운전자가 중대 교통법규를 위반하지 않았음을 증명 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 4,
+    "id": 670,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "20대 여성 B씨가 주취상태로 차량운행 중 보행자 1명을 충돌하여 피해자가 현장에서\n사망한 경우 대인배상Ⅰ에서 피보험자의 사고부담금은 얼마인가?(2022년 7월 28일\n개정약관, 손해액 2억)",
+    "options": [
+      "1,000만원",
+      "3,000만원",
+      "1억원",
+      "1억 5천만원"
+    ],
+    "answer": 4,
+    "id": 671,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "자동차보험 대물배상 보험금 지급기준에 대한 설명으로 맞는 것은?",
+    "options": [
+      "수리비 및 열처리 도장료의 합계는 피해물의 사고 직전 가액의 150%한도로 보상 한다",
+      "자동차 시세하락손해는 출고후 5년 이내의 자동차에 적용한다",
+      "교환가액 수리비용은 사고 직전 가액을 초과해도 전액을 지급한다",
+      "피해물의 수리는 원상회복이 목적이므로 한도없이 보상한다"
+    ],
+    "answer": 2,
+    "id": 672,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "자동차손해배상보장사업 제외대상에 해당하지 않는 것은?",
+    "options": [
+      "미군 보유자동차가 훈련 이외의 목적으로 운행하다가 사고가 난 경우",
+      "도로가 아닌 장소에서만 운행하는 자동차 사고",
+      "산재보험 등 다른 법률에 의해 보상을 받을 수 있는 경우",
+      "이륜자동차 사고"
+    ],
+    "answer": 4,
+    "id": 673,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "최초 보험계약체결시 중요사항을 설명하면 이후 계약체결시에도 보험업법\n제95조의2 및 금소법 제19조에 따른 설명의무를 이행한 것으로 보는 계약은? [4점]",
+    "options": [
+      "보험계약자와 피보험자가 최초 보험계약과 동일한 보험계약",
+      "이미 가입되어 있는 보험계약과 유사한 조건으로 갱신되는 보험계약",
+      "보험회사와 피보험자 또는 보험계약자간 거래의 종류, 기간, 금액 등 가입조건을 미리 정하고 그 범위 내에서 계속적으로 체결되는 보험계약",
+      "표준상품설명 대본을 통해 보험계약의 중요사항을 설명하고 녹취한 보험계약자의 보험계약"
+    ],
+    "answer": 3,
+    "id": 674,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "보험업법 제98조에서 금지하고 있는 특별이익제공에 해당하는 것은?",
+    "options": [
+      "금품제공(보험계약 체결시부터 최초 1년간 납입되는 보험료의 100분의 10과 3만원 중 적은 금액을 초과하지 아니하는 금품)",
+      "기초서류에서 정한 사유에 근거한 수수료의 지급",
+      "기초서류에서 정한 보험금액보다 더 많은 보험금액 지급의 약속",
+      "기초서류에서 정한 사유에 근거한 보험료 할인"
+    ],
+    "answer": 3,
+    "id": 675,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "A보험대리점 소속 설계사 김씨는 B보험회사 소속 설계사 황씨가 모집한 계약을\n자신이 모집한 것으로 하여 황씨에게 자기가 받은 수당 일부를 지급하였다.\n어떤 위반 행위에 해당하는가?",
+    "options": [
+      "승환계약",
+      "무자격 모집행위",
+      "특별이익 제공",
+      "경유처리"
+    ],
+    "answer": 4,
+    "id": 676,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "보험대리점 검사업무에 대한 설명으로 맞는 것은?",
+    "options": [
+      "금융감독원은 보험대리점 검사의 효율성을 높이기 위하여 검사업무를 위탁하지 않는다",
+      "손해보험협회가 소속 설계사 100인 미만의 보험대리점에 대하여 위탁검사를 실시한다",
+      "보험대리점협회가 소속 설계사 50인 미만의 보험대리점에 대하여 위탁검사를 실시한다",
+      "보험대리점 검사업무는 금융위원회가 실시한다"
+    ],
+    "answer": 2,
+    "id": 677,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "( ) 안에 들어갈 용어로 알맞은 것은?\n( )은/는 타인이 본인의 이름으로 법률행위의 의사표시를 하거나 의사표시를 받음으로써\n그 법률효과가 곧바로 본인에게 발생한다",
+    "options": [
+      "중개",
+      "약정",
+      "소개",
+      "대리"
+    ],
+    "answer": 4,
+    "id": 678,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "보험설계사 말소에 관하여 사실과 다른 설명은?",
+    "options": [
+      "타 보험사로 이직을 할 경우 반드시 말소를 하여야 한다",
+      "보험회사와 위촉계약이 종료(해촉)되는 즉시 타 보험회사로 이직 가능하다",
+      "본인에 의한 직접말소의 경우라도 먼저 해촉신청을 하여야 한다",
+      "말소는 일사전속의 원칙이 적용된다"
+    ],
+    "answer": 2,
+    "id": 679,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "인간의 부정, 부도덕, 사기, 고의 등 감정이 작용하여 사고의 빈도나 정도를 증가\n시키는 인간의 성격으로 고의방화나 강도, 사기 등을 유발하는 위태의 종류는 무\n엇인가?",
+    "options": [
+      "물리적 위태",
+      "도덕적 위태",
+      "기강적 위태",
+      "정신적 위태"
+    ],
+    "answer": 2,
+    "id": 680,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "보험사기에 대한 설명 중 맞는 것은?",
+    "options": [
+      "보험사기방지특별법상 보험사기행위라 함은 보험사고의 발생, 원인 또는 내용에 관하여 보험자를 기망하여 보험금을 청구하는 행위를 말한다",
+      "보험금 지급요건이 되는 사고 등을 고의로 조작하여 보험금을 편취하는 보험 사기를 ʻ연성사기ʼ라고 한다",
+      "보험사고 발생시 보험금 청구액을 부당하게 과장·확대하는 보험사기를 ʻ경성 사기ʼ라고 한다",
+      "고지사항을 허위로 하여 실제보다 낮은 보험료를 납입하는 행위도 보험사기방지 특별법상 보험사기행위에 해당한다"
+    ],
+    "answer": 1,
+    "id": 681,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "운전자의 의무와 책임에 대한 내용으로 알맞지 않은 것은?",
+    "options": [
+      "중앙선이 없는 보도와 차도가 구분되지 아니한 도로에서는 보행자가 도로의 전 부분으로 통행할 수 있다",
+      "운전자가 회전교차로에 진입하려는 경우 서행해야 한다",
+      "보행자보호를 위해 필요한 경우 자동차의 통행속도를 시속 20키로 이내로 제한 할 수 있다",
+      "보행자가 횡단보도를 ʻ통행할 때ʼ뿐 아니라 ʻ통행하려고 할 때ʼ에도 일시정지하여야 한다"
+    ],
+    "answer": 2,
+    "id": 682,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "보험의 종류에 따른 보상방법에 대한 다음의 설명 중 옳은 것은?",
+    "options": [
+      "초과보험은 보험가액이 아닌 보험가입금액을 한도로 실손보상한다",
+      "중복보험은 보험회사 각자의 보험가입금액 비율에 따라 보상하며, 보험가액을 초과하는 부분은 전액을 보상한다",
+      "일부보험은 보험가입금액에 대한 보험가액의 비율에 따라 비례보상한다",
+      "공동보험은 보험회사별 인수비율에 따라 비례보상한다"
+    ],
+    "answer": 4,
+    "id": 683,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "보험약관에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험계약자의 이익 보호를 위해 필요한 경우 종전 계약도 소급하여 변경된 약관을 적용하는 것이 일반적이다",
+      "약관이 불분명할 때 보험회사에게 불리하게, 보험계약자에게 유리하게 해석되어야 한다",
+      "필서와 인쇄가 모순되는 경우 필서가 우선한다",
+      "약관은 전문적 법률용어를 피하고, 간결하게 표기하여야 한다"
+    ],
+    "answer": 1,
+    "id": 684,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "제3보험업의 정의를 규정하고 있는 법률은?",
+    "options": [
+      "국민건강보험법",
+      "보험계약법",
+      "예금자보호법",
+      "보험업법"
+    ],
+    "answer": 4,
+    "id": 685,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "상법상 사망담보 생명보험계약의 무효 요건에 대한 내용으로 틀린 것은?",
+    "options": [
+      "사망을 보험사고로 하는 보험계약의 무효 요건은 보험업법에 규정되어 있다",
+      "만 15세 미만자의 사망을 보험사고로 하는 보험계약은 무효이다",
+      "심신상실자의 사망을 보험사고로 하는 보험계약은 무효이다",
+      "의사능력이 없는 심신박약자의 사망을 보험사고로 하는 보험계약은 무효이다"
+    ],
+    "answer": 1,
+    "id": 686,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "상해보험에서 보험수익자를 지정 또는 변경할 권리가 있는 사람은?",
+    "options": [
+      "보험계약자",
+      "피보험자",
+      "법정상속인",
+      "보험회사"
+    ],
+    "answer": 1,
+    "id": 687,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "다음 중 상해보험의 보험료산출에 대한 설명으로 알맞은 것은?",
+    "options": [
+      "단체상해보험은 단일률을 산출하여 적용할 수 있다",
+      "직업 및 직무를 감안하여 5등급으로 구분하여 보험료를 책정한다",
+      "연령이 높을수록 보험료가 높다",
+      "보험료의 크기는 1급 > 2급 > 3급 순으로 크다"
+    ],
+    "answer": 1,
+    "id": 688,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "상해보험의 보험금 지급기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "입원급여금은 보험기간 중에 상해를 입고 그 직접결과로써 생활기능에 지장을 가져와 입원하여 치료를 받은 경우 지급한다",
+      "동일한 상해의 치료를 직접 목적으로 2회 이상 입원한 경우 이를 1회 입원으로 본다",
+      "보험기간 중에 상해를 입고 그 직접적인 결과로써 치료를 직접목적으로 수술을 받은 경우 수술급여금을 지급한다",
+      "상해보험이 중복계약인 경우 보험금은 중복하여 지급하지 않는다"
+    ],
+    "answer": 4,
+    "id": 689,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)에 대한 설명으로 옳은 것은?",
+    "options": [
+      "실손의료보험은 특약없이 기본형으로만 구성된다",
+      "기본형 실손의료보험은 상해급여, 질병급여로 구성되어 있다",
+      "비급여의료비의 전액을 보상한다",
+      "질병비급여에서 보장하는 연간 통원횟수는 총 50회를 한도로 한다"
+    ],
+    "answer": 2,
+    "id": 690,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "휴일교통상해보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "보험회사의 책임시기 및 종기는 사고 발생지의 표준시를 기준으로 한다",
+      "법정공휴일 및 근로자의 날에 발생한 교통상해만을 보상한다",
+      "토요일은 휴일에 포함되지 않는다",
+      "보험회사의 책임시기는 휴일에 해당하는 날의 16시부터이다"
+    ],
+    "answer": 1,
+    "id": 691,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "암보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "갑상선암 진단시 암입원급여금은 가입금액의 120%가 지급된다",
+      "암수술로 인한 합병증 치료를 목적으로 입원한 경우 암입원급여금을 지급하지 않는다",
+      "보장개시일 이전에 암으로 진단확정된 경우는 암사망보험금을 지급하지 않는다",
+      "암보장개시일 이후 최초의 암으로 진단확정되어야 지급된다"
+    ],
+    "answer": 1,
+    "id": 692,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 특별약관(비급여 실손의료비)\n보험료 차등 적용을 위한 기준으로 올바른 것은?",
+    "options": [
+      "직전 3년간 비급여 보험금 지급액을 기준으로 한다",
+      "직전 5년간 비급여 보험금 지급액을 기준으로 한다",
+      "직전 6개월간 비급여 보험금 지급액을 기준으로 한다",
+      "직전 1년간 비급여 보험금 지급액을 기준으로 한다"
+    ],
+    "answer": 4,
+    "id": 693,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "암보험에서 대기기간을 설정할 수 있는 경우에 해당하는 것은?",
+    "options": [
+      "만 17세 고등학교 재학생이 피보험자인 경우",
+      "갑상선암을 보장하는 경우",
+      "경계성종양을 보장하는 경우",
+      "기타피부암을 보장하는 경우"
+    ],
+    "answer": 1,
+    "id": 694,
+    "source": "2024_07_2"
+  },
+  {
+    "question": "주택화재보험을 예시와 같이 가입한 후 손해가 발생한 경우 지급보험금은?\n보험가입금액 1억원, 보험가액 9,000만원, 재산손해액 3,000만원",
+    "options": [
+      "5,000만원",
+      "500만원",
+      "3,000만원",
+      "10,000만원"
+    ],
+    "answer": 3,
+    "id": 695,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "장기화재보험에서 주택물건으로 분류되는 것은?",
+    "options": [
+      "공장 내 기숙사",
+      "오피스텔",
+      "주택으로 사용되는 피아노교습소",
+      "작업장의 구내에 있는 건물"
+    ],
+    "answer": 3,
+    "id": 696,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "유아교육기관종합보험에서의 보험사고로 볼 수 없는 것은?",
+    "options": [
+      "유아교육기관 내에서의 교육활동 중 사고",
+      "유아원 밖에서의 교육활동 중 사고",
+      "유아원생의 가정생활 중 사고",
+      "통상적인 경로의 등·하교 중 사고"
+    ],
+    "answer": 3,
+    "id": 697,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음 체육시설업의 종류 중 보험가입 의무대상에 해당하는 것은?",
+    "options": [
+      "체육도장업",
+      "수영장업",
+      "당구장업",
+      "체력단련장업"
+    ],
+    "answer": 2,
+    "id": 698,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "계약의 부활(효력회복)에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보험료 미납으로 계약이 해지된 경우 해지일로부터 3개월 이내에 부활이 가능하다",
+      "계약자가 계약부활을 요청한 경우, 보험회사는 반드시 이를 승인해야 한다",
+      "부활시에도 계약체결시처럼 고지의무가 적용된다",
+      "부활 후 회사의 책임시기는 부활계약 승인시점부터 시작된다"
+    ],
+    "answer": 3,
+    "id": 699,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "장기손해보험 보험료 계산의 3요소에 해당하지 않는 것은?",
+    "options": [
+      "예정위험률",
+      "예정사업비율",
+      "예정이익률",
+      "예정이율"
+    ],
+    "answer": 3,
+    "id": 700,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "연금저축 세제혜택에 대한 설명으로 틀린 것은?",
+    "options": [
+      "총 급여액 기준은 ʻ5,500만원 이하ʼ, ʻ5,500만원 초과ʼ 구간으로만 운영된다",
+      "연금저축 세액공제 납입한도 금액은 600만원이다",
+      "총 급여액과 상관없이 세액공제비율은 동일하다",
+      "연금저축과 퇴직연금을 합한 세액공제 대상 납입한도는 900만원이다"
+    ],
+    "answer": 3,
+    "id": 701,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "자동차보험에서 다음 보기의 보험기간을 적용받는 경우는 어느 때인가?\n보험료를 받은 때부터 마지막 날 24시까지. 다만, 보험증권에 기재된 보험기간 이전에\n보험료를 받았을 경우에는 그 보험기간의 첫날 0시부터 시작",
+    "options": [
+      "자동차보험의 임의보험에 가입할 경우",
+      "자동차보험을 단기(3개월)로 가입할 경우",
+      "자동차보험에 처음으로 가입하는 자동차일 경우",
+      "자동차보험료가 연체되었을 경우"
+    ],
+    "answer": 3,
+    "id": 702,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "자동차보험 의무보험의 계약해지 요건에 대한 설명 중 맞는 것은?",
+    "options": [
+      "대인배상Ⅰ은 언제든지 해지할 수 있다",
+      "대물배상은 언제든지 해지할 수 있다",
+      "중복으로 계약이 체결되어도 계약을 해지할 수 없다",
+      "자동차 사고로 인하여 폐차한 경우 해지할 수 있다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 4,
+    "id": 703,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "자동차보험 우량할인 및 불량할증에 관한 설명으로 맞는 것은?",
+    "options": [
+      "개별할인 및 할증은 담보종목별로 구분하여 피보험자 단위로 사고실적을 평가하여 적용한다",
+      "단체할인·할증의 평가대상기간은 역년 기준 5년이다",
+      "단체할인 및 할증 적용대상의 보험료는 평가대상기간 말일의 익년 4월 1일부터 익익년 3월 31일 사이에 적용되는 계약에 적용한다",
+      "단체할인·할증에서 영업용자동차보험은 운전자 단위로 평가 적용한다"
+    ],
+    "answer": 3,
+    "id": 704,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음과 같은 사례에서 자동차손해배상보장0사업의 보상관계에 대한 설명으로 맞는\n것은?\n사례 : 기명피보험자 갑이 운전하는 A차량(자동차종합보험가입)에 갑의 친구 을, 병이\n함께 타고 가던 중 책임보험(대인배상Ⅰ)에 가입하지 않은 B차량의 중앙선 침범\n사고로 갑, 을, 병이 모두 사망하고 A차량이 파손된 사고",
+    "options": [
+      "병은 자동차손해배상보장사업에 의한 보상을 받을 수 있다",
+      "을은 자동차손해배상보장사업에 의한 보상을 받을 수 있다",
+      "갑의 차량(A) 파손에 대한 수리비 등도 자동차손해배상보장사업에 의해 보상 받을 수 있다",
+      "갑은 자동차손해배상보장사업에 의한 보상을 받을 수 있다"
+    ],
+    "answer": 4,
+    "id": 705,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "보험계약 체결시 각 단계별로 제공하여야 하는 보험안내자료에 대한 내용이 틀린\n것은? [4점]",
+    "options": [
+      "보험계약 체결 권유단계 - 상품설명서",
+      "보험계약 체결 단계 - 보험계약청약서 부본",
+      "보험계약 청약 단계 - 보험증권",
+      "보험계약 체결 권유단계 - 가입설계서"
+    ],
+    "answer": 3,
+    "id": 706,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "특별이익제공에 해당하지 않는 것은?",
+    "options": [
+      "보험계약 체결시부터 최초 1년간 납입되는 보험료가 30만원인 상품을 계약하고 2만원 상당의 사은품을 제공",
+      "인터넷 홈페이지를 통해 보험가입시 감사표시로 5만원 상당의 사은품 지급약속",
+      "기초서류에서 정한 보험금액보다 많은 보험금액의 지급 약속",
+      "계약체결 후 초회보험료의 대납"
+    ],
+    "answer": 1,
+    "id": 707,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "｢손해보험 공정경쟁질서유지에 관한 상호협정｣에서 금지하고 있는 행위가 아닌 것은?",
+    "options": [
+      "특별이익 제공",
+      "특별이익 제공약속",
+      "무자격자 모집행위",
+      "수수료 미지급 관련 민원"
+    ],
+    "answer": 4,
+    "id": 708,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음에서 설명하는 행위는 무엇인가?\n보험계약자 또는 피보험자로 하여금 이미 성립된 보험계약을 부당하게 소멸시킴으로써\n새로운 보험계약을 청약하게 하거나 새로운 보험계약을 청약하게 함으로써 기존보험\n계약을 부당하게 소멸시키거나 그 밖에 부당하게 보험계약을 청약하게 하거나 이러한\n것을 권유하는 행위",
+    "options": [
+      "승환계약",
+      "작성계약",
+      "부당계약",
+      "무효계약"
+    ],
+    "answer": 1,
+    "id": 709,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "보험업법상 보험을 모집할 수 있는 자에 해당하지 않는 경우는?",
+    "options": [
+      "소속 보험회사가 아닌 다른 보험회사를 위해 보험계약 체결을 중개하는 보험설계사",
+      "독립적으로 보험계약 체결을 중개하는 보험중개사",
+      "소속 보험회사를 위해 보험계약 체결을 중개하는 보험설계사",
+      "보험회사의 대표이사, 사외이사, 감사 및 감사위원을 제외한 임원"
+    ],
+    "answer": 1,
+    "id": 710,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "보험설계사 직접 말소시 제출서류에 대한 설명 중 틀린 것은?",
+    "options": [
+      "본인 신분증을 제출해야 한다",
+      "보험회사가 발행한 해촉증명서를 제출해야 한다",
+      "보험설계사 등록증 원본을 제출해야 한다",
+      "해촉증명서가 없을 경우, 발송 후 10일이 경과한 내용증명우편 원본으로 대체 가능하다"
+    ],
+    "answer": 3,
+    "id": 711,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음의 보험모집인 중 등록기관이 다른 것은?",
+    "options": [
+      "보험대리점 소속 손해보험설계사",
+      "생명보험설계사",
+      "간단손해보험대리점",
+      "손해보험대리점"
+    ],
+    "answer": 2,
+    "id": 712,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "순수위험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "이익과 손해가 모두 상존하는 위험이다",
+      "대수의 법칙이 적용 가능하여 보험의 대상으로 할 수 있다",
+      "보험회사는 순수위험을 대상으로 발생빈도와 손해의 크기를 합리적으로 측정하여 보험사업을 영위한다",
+      "개별주체가 손해를 입은 경우 사회적으로도 동일한 손해를 입는다"
+    ],
+    "answer": 1,
+    "id": 713,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "중복보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험가입금액이 보험가액과 일치한다",
+      "어느 시점에서 보험기간을 공동으로 하는 수 개의 보험계약이 병존하는 보험을 뜻한다",
+      "동일한 보험목적물에 대하여 2개 이상의 보험계약을 다수의 보험회사와 체결한다",
+      "보험회사는 각각의 보험가입금액의 비율에 따라 연대책임을 진다"
+    ],
+    "answer": 1,
+    "id": 714,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "보험사기방지특별법상 보험사기죄의 가중처벌에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험사기이득액이 5억원 이상 50억원 미만인 경우 3년 이상의 유기징역에 처해진다",
+      "보험사기이득액이 50억원 이상인 경우 무기징역 또는 5년 이상의 유기징역에 처해진다",
+      "범죄행위로 인하여 보험금을 받은 경우 보험사기이득액 이하에 상당하는 벌금을 병과할 수 없다",
+      "보험사기이득액이 5억원 이상인 경우 가중처벌을 받게 된다"
+    ],
+    "answer": 3,
+    "id": 715,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "음주운전 사망사고시 처벌기준으로 맞는 것은?",
+    "options": [
+      "1년 이상 5년 이하 징역 또는 5백만원 이상 2천만원 이하 벌금",
+      "무기 또는 3년 이상의 징역",
+      "1년 이상 15년 이하의 징역 또는 1천만원 이상 3천만원 이하 벌금",
+      "1년 이상 10년 이하의 징역 또는 5백만원 이상 3천만원 이하 벌금"
+    ],
+    "answer": 2,
+    "id": 716,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "보험계약에 관한 설명으로 올바른 것은?",
+    "options": [
+      "보험회사가 보험청약에 대해 승낙 또는 거부의 통지를 하지 않은 경우 보험계약은 무효이다",
+      "보험회사의 책임이 개시되는 시점은 보험회사가 낙부 통지를 발송한 때이다",
+      "보험기간 중 예기한 위험이 소멸한 때에는 보험계약자는 이후의 보험료에 대한 감액을 청구할 수 있다",
+      "보험회사가 파산선고를 받은 경우 보험계약자는 보험계약을 해지할 수 없다"
+    ],
+    "answer": 3,
+    "id": 717,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "타인을 위한 보험계약에 대한 설명 중 틀린 것은?",
+    "options": [
+      "타인을 위한 보험계약이라는 의사표시가 있어야 한다",
+      "부모가 자녀를 위해 보험을 가입할 경우도 해당한다",
+      "보험계약자는 보험금 청구권을 갖는다",
+      "보험계약자가 그 타인의 위임을 받았는지의 여부는 묻지 아니한다"
+    ],
+    "answer": 3,
+    "id": 718,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "제3보험의 상품개발 기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "손해보험회사의 상해보험은 보험기간 15년 이내에서 저축성보험으로 개발할 수 있다",
+      "실손해를 보장하는 보험의 경우에는 다른 회사 가입내역을 계약 전 알릴 의무로 할 수 있다",
+      "다른 회사 가입내역에 대한 계약 전 알릴 의무에는 생명보험회사 가입사항이 포함된다",
+      "약관상 보상하지 않는 이유로 사망시 만기환급금을 지급한다"
+    ],
+    "answer": 4,
+    "id": 719,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "타인의 사망을 보험사고로 하는 보험계약에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험계약 체결 이후의 피보험자의 서면에 의한 동의도 인정한다",
+      "피보험자가 아닌 자에게 그 보험계약의 권리를 양도하는 경우에도 피보험자의 동의를 받아야 한다.",
+      "보험계약 체결시까지 피보험자의 서면에 의한 동의를 얻어야 한다",
+      "단체보험의 경우 피보험자의 동의는 생략할 수 있다"
+    ],
+    "answer": 1,
+    "id": 720,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "기본형 실손의료보험(급여 실손의료비)은 상해급여, 질병급여로 구성되어 있다",
+      "4세대 실손으로 계약전환 후 6개월 이내 보험금 수령이 없는 경우 계약전환을 철회할 수 있다",
+      "기본형에서 보장하지 않는 대상을 보장하는 실손의료보험 특별약관은 상해비급여, 질병비급여, 3대비급여로 구성되어 있다",
+      "기본형 실손의료보험(급여 실손의료비)에 가입하지 않고 특별약관(비급여 실손 의료비)만 가입할 수도 있다"
+    ],
+    "answer": 4,
+    "id": 721,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험의 보상한도 중 잘못된 것은?",
+    "options": [
+      "질병급여 통원의 연간 치료횟수는 100회 한도이다",
+      "상해급여의 입원 보상금액은 5천만원 이내이다",
+      "질병급여의 입원 보상금액은 5천만원 이내이다",
+      "상해급여 통원은 1회당 20만원 이내이다"
+    ],
+    "answer": 1,
+    "id": 722,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "휴일교통상해보험에서 보험회사의 책임개시 시기로 맞는 것은?",
+    "options": [
+      "18시",
+      "16시",
+      "0시",
+      "14시"
+    ],
+    "answer": 3,
+    "id": 723,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음 개인 실손의료보험의 ʻ질병비급여ʼ 보상금액에 대한 설명에서 ( ) 안에 들어갈\n말을 순서대로 연결한 것은?\n상급병실료 차액의 경우 비급여 병실료의 ( ) 보상, 다만, 1일 평균금액 ( )을 한도",
+    "options": [
+      "30% / 30만원",
+      "20% / 20만원",
+      "10% / 50만원",
+      "50% / 10만원"
+    ],
+    "answer": 4,
+    "id": 724,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "보험계약 청약일 이전에 진단된 질병이 있는 상태에서 청약일 이후 같은 질병으로\n인해 추가적인 진단 또는 치료사실이 있는 경우 진단일은 청약일로부터 얼마의 기\n간이 경과해야 보상받을 수 있는가?",
+    "options": [
+      "10년",
+      "5년",
+      "어떠한 사유로든 보상받을 수 없다",
+      "3년"
+    ],
+    "answer": 2,
+    "id": 725,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음에서 설명하는 보험은 무엇인가?\n활동불능 또는 인식불능 등 타인의 간병을 필요로 하는 상태 및 이로 인한 치료 등의\n위험을 보장하는 보험",
+    "options": [
+      "장기간병보험",
+      "의료보장보험",
+      "CI보험",
+      "장기질병보험"
+    ],
+    "answer": 1,
+    "id": 726,
+    "source": "2024_08_1"
+  },
+  {
+    "question": "다음 중 화재보험증권에 기재하여야 보험의 목적에 포함되는 것은?",
+    "options": [
+      "피보험자 소유의 선전탑",
+      "피보험자와 같은 세대에 속하는 사람의 소유물",
+      "피보험자 소유의 건물 간판",
+      "피보험자 소유의 골동품"
+    ],
+    "answer": 4,
+    "id": 727,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "공장건물에 화재가 발생하여 아래와 같이 손해가 발생한 경우 지급되는 보험금은?\n보험가입금액 1억원, 보험가액 2억원, 손해액 5,000만원, 잔존물 제거비용 1,200만원",
+    "options": [
+      "2,600만원",
+      "3,000만원",
+      "2,500만원",
+      "5,000만원"
+    ],
+    "answer": 2,
+    "id": 728,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "특수건물화재보험의 신체손해배상책임담보 특별약관의 보상내용 중 틀린 것은?",
+    "options": [
+      "사망보험금은 1인당 1억 5천만원",
+      "부상의 경우 최고 3천만원",
+      "후유장애의 경우 최고 1억 5천만원",
+      "1사고당 10억원"
+    ],
+    "answer": 4,
+    "id": 729,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 중 특종보험에 해당하지 않는 것은?",
+    "options": [
+      "레저종합보험",
+      "해상보험",
+      "여행보험",
+      "동산종합보험"
+    ],
+    "answer": 2,
+    "id": 730,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "여행보험에서의 휴대품 손해에 대한 설명으로 틀린 것은?",
+    "options": [
+      "휴대품은 여행 중 휴대하는 피보험자 소유, 사용, 관리 하의 물품을 말한다",
+      "여행도중 분실된 휴대품 손해는 보상하지 않는다",
+      "휴대품 손해는 여행보험 보통약관에서는 보장되지 않으며, 별도의 특별약관에 가입하여야 한다",
+      "피보험자의 고의에 의한 휴대품 파손손해를 보상한다"
+    ],
+    "answer": 4,
+    "id": 731,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 중 장기손해보험의 환급금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "일반손해보험은 소멸성보험에 해당하지만 만기환급금이 있다",
+      "금리연동형 보험상품의 경우 이율변동에 따라 계약당시의 예상 만기환급금보다 많거나 적어질 수 있다",
+      "보험계약을 10년 이상 유지시 보험차익에 대해 비과세 혜택이 주어진다",
+      "확정금리형 보험상품의 경우 계약 당시 약정한 만기환급금을 지급한다"
+    ],
+    "answer": 1,
+    "id": 732,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "장기손해보험의 청구권 소멸시효에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험계약자의 계약자적립액 반환청구권의 소멸시효는 3년이다",
+      "보험회사의 보험료청구권의 소멸시효는 5년이다",
+      "피보험자의 보험금청구권의 소멸시효는 3년이다",
+      "보험계약자의 보험료 반환청구권의 소멸시효는 3년이다"
+    ],
+    "answer": 2,
+    "id": 733,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "연금저축보험의 세제에 대한 설명으로 틀린 것은?",
+    "options": [
+      "연금수령 요건을 충족하지 못하는 금액은 기타소득세 16.5%가 부과된다",
+      "퇴직연금과 합산하여 연간 900만원까지 소득공제된다",
+      "연금저축에 부가된 특약의 보험료는 다른 보험의 보장성 보험료와 합산하여 세액공제 된다",
+      "총 급여가 5,500만원 초과인 경우, 연금저축보험의 연간 납입보험료에 대한 세액공제율은 연간 13.2%이다"
+    ],
+    "answer": 2,
+    "id": 734,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "퇴직연금의 적립금 운용시 자산운영계약의 형태로 알맞은 것은?",
+    "options": [
+      "보험계약만 가능",
+      "신탁계약만 가능",
+      "보험계약 또는 신탁계약",
+      "예금계약"
+    ],
+    "answer": 3,
+    "id": 735,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "자동차보험의 특성에 대한 설명으로 알맞은 것은?",
+    "options": [
+      "가입자로부터 거수된 보험료를 사고시 보험금지급 용도 이외의 산업자금 조성 등에 활용할 수 없다",
+      "모든 교통사고에 대한 형사책임 면제를 통한 개인생활의 안정을 도모한다",
+      "자동차 사고로 인한 모든 책임이 면제되어 보험가입자의 생활을 윤택하게 한다",
+      "사고의 유무에 따른 할인할증제도 운영을 통한 사고예방 기능이 있다"
+    ],
+    "answer": 4,
+    "id": 736,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "자동차보험 대인배상Ⅱ에서 피보험자에 해당되지 않는 자는?",
+    "options": [
+      "자동차를 취급하는 것을 업으로 하는 자로서 업무로 위탁받은 피보험자동차를 사용 또는 관리하는 자동차정비업자",
+      "기명피보험자와 살림을 같이 하는 친족으로 피보험자동차를 사용 또는 관리 중인 자",
+      "기명피보험자의 승낙을 얻어 피보험자동차를 사용 또는 관리 중인 자",
+      "기명피보험자가 피보험자동차를 사용자 업무에 사용하고 있는 때에 기명피보험자의 사용자"
+    ],
+    "answer": 1,
+    "id": 737,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "자동차보험 부상보험금 지급기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "외국에서 치료를 받은 경우에는 국내의료기관에서의 치료에 소요되는 비용 상당액 (다만, 국내의료기관에서 치료가 불가능하여 외국에서 치료를 받는 경우에는 그에 소요되는 타당한 실비용)을 지급한다",
+      "부상보험금의 위자료 청구권자는 피해자 본인이다",
+      "병실 사정으로 부득이 하게 ʻ병원급 이상ʼ 의료기관의 상급병실에 입원 한 경우에 기준병실의 입원료와 상급병실의 입원료와의 차액은 7일 이내 기간만 지급한다",
+      "휴업손해는 부상으로 인한 휴업기간 중 실제 수입감소액의 80% 해당액을 지급한다"
+    ],
+    "answer": 4,
+    "id": 738,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "모집자실명제 및 상품설명제에 대한 설명으로 맞는 것은? [4점]",
+    "options": [
+      "모집종사자는 보험계약자에게 제공하는 설명서에 소속, 성명, 주민번호, 주소 등을 기재해야 한다",
+      "모집자실명제를 위반하면 1천만원 이하의 과태료가 부과될 수 있다",
+      "이미 가입되어 있는 보험계약과 동일한 조건으로 갱신되는 보험계약도 설명의무를 이행하여야 한다",
+      "통신수단을 이용한 보험모집의 경우에도 상품설명서는 자필서명을 받아야 한다"
+    ],
+    "answer": 2,
+    "id": 739,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 중 모집종사자의 준수사항에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험회사 등은 보험설계사에게 보험계약의 모집을 위탁할 때 보험모집 위탁계약서를 작성해야 한다",
+      "보험대리점의 지점이 폐쇄된 경우는 보험대리점의 신고사항에서 제외된다",
+      "신고의무를 위반한 모집종사자에 대해서는 1천만원 이하의 과태료를 부과한다",
+      "모집종사자는 등록 신청시 제출한 서류에 변동사항이 있을 경우 이를 신고해야 한다"
+    ],
+    "answer": 2,
+    "id": 740,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "｢손해보험 공정경쟁질서유지에 관한 상호협정｣상 보험설계사가 다른 보험대리점에게\n경유처리를 한 경우 제재금 한도가 올바른 것은?",
+    "options": [
+      "최저 2백만원 ~ 최고 5천만원",
+      "최저 1십만원 ~ 최고 1천만원",
+      "최저 1백만원 ~ 최고 3천만원",
+      "최저 1십만원 ~ 최고 3천만원"
+    ],
+    "answer": 2,
+    "id": 741,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "손해보험설계사의 등록취소 및 업무정지 요건으로 옳지 않은 것은?",
+    "options": [
+      "등록 후 등록제한 사유가 확인된 경우에는 등록이 취소되지 않는다",
+      "업무정지 기간은 6개월 이내이다",
+      "보험업법 상 업무정지 2회 이상자는 등록이 취소된다.",
+      "등록취소 후 2년이 경과해야 보험설계사 등록이 가능하다."
+    ],
+    "answer": 1,
+    "id": 742,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "금융소비자보호법상 금융상품의 유형과 예시 중 틀린 것은?",
+    "options": [
+      "예금성 상품 : 은행법상 예금",
+      "투자성 상품 : 자본시장법상 금융투자상품",
+      "보장성 상품 : 보험업법상 보험상품",
+      "대출성 상품 : 은행법상 예금"
+    ],
+    "answer": 4,
+    "id": 743,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 중 불완전판매방지교육 대상자 선정을 위한 불완전판매에 해당하지 않는 것은?",
+    "options": [
+      "품질보증해지",
+      "민원해지",
+      "보험계약내용 변경",
+      "계약 무효"
+    ],
+    "answer": 3,
+    "id": 744,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 중 의무보험에 해당하는 것은?",
+    "options": [
+      "기업휴지보험",
+      "여행자보험",
+      "체육시설업자배상책임보험",
+      "단체상해보험"
+    ],
+    "answer": 3,
+    "id": 745,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "의료기관의 자동차보험관련 사기를 근절하기 위한 자동차손해배상보장법의 내용 중\n틀린 것은?",
+    "options": [
+      "교통사고로 입원한 환자는 외출 ․ 외박시 의료기관의 허락을 받아야 한다",
+      "의료기관은 교통사고 입원환자의 외출 ․ 외박 관련사항을 기록 ․ 관리하여야 한다",
+      "외출 ․ 외박 기록에는 환자와 의료인의 서명 ․ 날인이 필요하다",
+      "입원 중인 교통사고환자의 상태가 호전되어 더 이상 입원치료가 불필요한 경우 퇴원지시나 다른 의료기관으로 전원을 지시할 수 없다"
+    ],
+    "answer": 4,
+    "id": 746,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "특정범죄가중처벌법상 음주운전으로 사람을 사망에 이르게 한 경우에 대한\n처벌기준은?",
+    "options": [
+      "1년 이상 10년 이하의 징역 또는 3년 이상의 유기징역",
+      "1년 이상의 유기징역",
+      "1년 이상 15년 이상의 징역 또는 1천만원 이상 3천만원 이하의 벌금",
+      "무기 또는 3년 이상의 징역"
+    ],
+    "answer": 4,
+    "id": 747,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "보험회사 및 보험계약자의 주요 의무에 대한 설명으로 옳은 것은?",
+    "options": [
+      "보험회사가 계약자로부터 청약과 함께 보험료의 일부만 받은 경우 보험사는 승낙 전 보험사고에 대해 책임을 지지 않는다",
+      "보험수익자의 중과실이 있는 경우에 보험사는 보험금을 지급한다",
+      "보험계약자는 위험변경·증가 통지의무를 부담하며, 위반시 보험회사는 3개월 내 보험계약을 해지할 수 있다",
+      "보험계약자의 보험료 반환청구권의 소멸시효는 3년이다"
+    ],
+    "answer": 4,
+    "id": 748,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "타인을 위한 보험계약에서 원칙적으로 보험계약자의 권리가 아닌 것은?",
+    "options": [
+      "보험증권교부청구권",
+      "보험료감액청구권",
+      "고지수령권",
+      "보험료 반환청구권"
+    ],
+    "answer": 3,
+    "id": 749,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 보기의 보상방법이 적용되는 보험의 종류로 맞는 것은?\n보험회사는 각자의 보험가입비율에 따라 피보험자에게 연대책임을 지며 보험가액 한도\n내에서 실손보상한다",
+    "options": [
+      "전부보험",
+      "중복보험",
+      "공동보험",
+      "초과보험"
+    ],
+    "answer": 2,
+    "id": 750,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "보험관련 기관에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험연수원 : 보험대리점 연수/자격시험",
+      "보험개발원 : 보험과 관련된 정보의 수집·제공 및 통계의 작성",
+      "금융감독원 : 금융기관에 대한 검사·감독업무",
+      "금융위원회 : 금융분쟁조정위원회 설치 운영"
+    ],
+    "answer": 4,
+    "id": 751,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "제3보험에 해당하지 않는 것은?",
+    "options": [
+      "질병보험",
+      "상해보험",
+      "재보험",
+      "간병보험"
+    ],
+    "answer": 3,
+    "id": 752,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "제3보험에서 보상방식이 다른 것은?",
+    "options": [
+      "입원일당액",
+      "후유장해보험금",
+      "통원의료비",
+      "사망보험금"
+    ],
+    "answer": 3,
+    "id": 753,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "상법상 사망을 보험사고로 하는 계약에서 법률상 무효대상에 해당되지 않는 것은?",
+    "options": [
+      "심신상실자",
+      "의사능력이 없는 심신박약자",
+      "15세 미만자",
+      "피한정후견인"
+    ],
+    "answer": 4,
+    "id": 754,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "타인의 사망을 보장하는 보험계약에 대한 설명 중 틀린 것은?",
+    "options": [
+      "타인의 사망을 보험사고로 하는 보험계약 체결 시 그 타인의 동의를 얻어야 한다",
+      "피보험자의 권리를 타인에게 양도하는 경우 피보험자의 동의를 얻어야 한다",
+      "단체상해보험의 경우 피보험자의 동의를 생략할 수 있다",
+      "보험계약 후 피보험자의 서명을 받아도 유효하다"
+    ],
+    "answer": 4,
+    "id": 755,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "상해보험에서 사망보험금 지급에 대해 설명이 틀린 것은?",
+    "options": [
+      "피보험자가 상해의 직접결과로써 사망한 경우 지급한다",
+      "전쟁으로 인해 피보험자가 사망한 경우 지급하지 않는다",
+      "실종선고를 받은 경우 실종신고 후 6개월이 경과하는 때에 사망한 것으로 본다",
+      "사망보험금은 보험가입금액을 한도로 지급한다"
+    ],
+    "answer": 3,
+    "id": 756,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)에 대한 설명으로 틀린 것은?",
+    "options": [
+      "도수치료는 증상의 개선, 병변호전 등이 확인된 경우에 한하여 10회 단위로 연간 50회까지 보상한다",
+      "상해급여 입원의료비는 연간 1억원까지 보상한다",
+      "상해비급여 입원의료비의 자기부담금은 보장대상의료비의 30%이다",
+      "자기공명영상진단은 1년 단위로 각 상해·질병 치료행위를 합산하여 300만원 이내에서 보상한다"
+    ],
+    "answer": 2,
+    "id": 757,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "다음 표가 설명하는 것은?\n단체의 구성원이 명확하여 계약의 일괄적인 관리가 가능한 단체로서 5인 이상의 구성원이\n있는 단체",
+    "options": [
+      "급여단체",
+      "규약단체",
+      "법정단체",
+      "동업자단체"
+    ],
+    "answer": 2,
+    "id": 758,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "질병보험의 특징에 대한 설명으로 알맞지 않은 것은?",
+    "options": [
+      "질병보험은 피보험자가 보험기간 중에 진단 확정된 질병으로 사망하거나 장애 분류표의 장애지급률에 해당하는 장애상태가 되었을 때 해당 보험약관에 따라 보상한다.",
+      "암을 담보하는 특별약관에서는 대기기간(90일) 중 암 진단이 확정되는 경우에는 특별약관을 무효로 한다",
+      "청약일 이전에 진단확정된 질병이 청약일 이후 4년간 추가진단, 치료사실이 없을 경우 청약일로부터 4년이 지난 이후에는 약관에 따라 보상한다",
+      "갑상선암은 대기기간 없이 보험기간 시작일로부터 보상한다"
+    ],
+    "answer": 3,
+    "id": 759,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "실손의료보험에서 보상하는 것은?",
+    "options": [
+      "건강검진 비용",
+      "예방접종 비용",
+      "한방치료에서 발생한 급여 의료비",
+      "인공유산 비용"
+    ],
+    "answer": 3,
+    "id": 760,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "장기간병보험에서 치매간병비 지급에 대한 설명으로 틀린 것은?",
+    "options": [
+      "청구권자는 피보험자이다",
+      "피보험자가 보험기간 중에 중증치매상태로 진단·확정되어야 한다",
+      "중증치매상태로 일정기간 지속되었을 때 보험수익자에게 지급한다",
+      "전쟁으로 발생한 간병비용은 보상한다"
+    ],
+    "answer": 4,
+    "id": 761,
+    "source": "2024_08_2"
+  },
+  {
+    "question": "주택화재보험 보통약관에서 보상하는 손해는?",
+    "options": [
+      "폭발에 따른 직접손해 및 화재진압과정에서 발생하는 손해",
+      "변압기, 배전반 등 전기장치의 전기적 사고로 생긴 손해",
+      "보험목적물의 자연발화로 생긴 손해",
+      "폭발사고시 발생한 도난 또는 분실로 생긴 손해"
+    ],
+    "answer": 1,
+    "id": 762,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "특수건물화재보험의 보장내용과 관련한 설명 중 틀린 것은?",
+    "options": [
+      "화재로 인하여 건물에 입은 직접적인 손해를 보상한다",
+      "신체손해배상책임 특약은 특수건물 소유자의 과실이 없는 경우에도 다른 사람이 입은 신체손해를 보상한다",
+      "태풍, 폭풍, 홍수 등 이와 유사한 풍수재로 인한 손해는 특별약관을 추가하지 않아도 보통약관에서 보상한다",
+      "신체손해배상책임 담보는 사람이 사망한 경우 1인당 1억 5천만원까지 보상한다"
+    ],
+    "answer": 3,
+    "id": 763,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "배상청구기준 및 손해사고기준 배상책임보험에 해당하는 보험을 각각 올바르게\n나열한 것은?",
+    "options": [
+      "임원배상책임보험, 전문인배상책임보험",
+      "전문인배상책임보험, 선주배상책임보험",
+      "선주배상책임보험, 임원배상책임보험",
+      "경비업자배상책임보험, 시설소유관리자배상책임보험"
+    ],
+    "answer": 2,
+    "id": 764,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "다음 체육시설업의 종류 중 보험가입 의무대상에 해당하지 않는 것은?",
+    "options": [
+      "승마장업",
+      "골프장업",
+      "골프연습장업",
+      "수영장업"
+    ],
+    "answer": 3,
+    "id": 765,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험업법 및 보험업감독규정에 의해 특별계정으로 운용되지 않는 보험종목은?",
+    "options": [
+      "장기손해보험",
+      "퇴직연금보험",
+      "연금저축보험",
+      "자동차보험"
+    ],
+    "answer": 4,
+    "id": 766,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "장기손해보험에서 보험회사는 계속보험료가 약정한 시기에 납입되지 아니한 때에\n보험계약을 해지할 수 있으나 해지를 위하여 반드시 거쳐야 하는 절차는?",
+    "options": [
+      "보험계약의 부활",
+      "보험료 납입최고",
+      "보험계약 효력중지",
+      "보험금 지급중지"
+    ],
+    "answer": 2,
+    "id": 767,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "장기손해보험의 청약철회 및 계약의 취소와 관련된 내용으로 옳은 것은?",
+    "options": [
+      "계약자는 보험증권을 받은 날부터 30일 이내에 청약을 철회할 수 있다",
+      "회사는 청약철회 접수일로부터 7일 이내에 이미 납입한 보험료 전액을 지급한다",
+      "보험회사가 보험약관 교부, 설명의무를 위반한 경우 계약자는 계약성립일로부터 3개월 이내에 보험계약을 취소할 수 있다",
+      "청약을 철회할 당시 보험금 지급사유가 발생하였으나, 계약자가 그 보험금 지급 사유의 발생사실을 알지 못할 경우 청약철회의 효력은 발생한다"
+    ],
+    "answer": 3,
+    "id": 768,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "다음 중 퇴직연금의 적립금(자산) 운용방법이 아닌 것은?",
+    "options": [
+      "예금",
+      "보험계약",
+      "복권기금운용",
+      "적금"
+    ],
+    "answer": 3,
+    "id": 769,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "교통사고처리특례법에 대한 설명으로 틀린 것은?",
+    "options": [
+      "일정한 경우 이외에는 가·피해자간 형사합의가 되면 처벌받지 않는다",
+      "12대 중과실 사고 중 속도위반사고는 제한속도를 시속 20km 이상 초과하는 사고이다",
+      "사망사고, 뺑소니 사고, 12대 중과실 사고인 경우에는 가·피해자간 형사합의와 상관없이 형사처벌을 받는다",
+      "피해자가 중대한 뇌손상을 입는 등 중상해를 입은 경우에도 교통사고처리특례법에 따라 가해자는 형사처벌을 면제받는다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 4,
+    "id": 770,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "자동차 양도시 양도인의 책임보험이 양수인에게 자동승계되는 것으로 인정하는\n기간은?",
+    "options": [
+      "양도된 날로부터 5일",
+      "양도된 날로부터 10일",
+      "양도된 날로부터 15일",
+      "양도된 당일부터"
+    ],
+    "answer": 3,
+    "id": 771,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "2022년 1월 1일 개정 약관에 따를 경우, 자동차보험 대인배상의 보험금 지급기준에\n따라 사망보험금 산정시 상실수익액의 올바른 산식은?",
+    "options": [
+      "월평균 현실소득액 × 취업가능월수에 해당하는 호프만계수",
+      "월평균 현실소득액 × 취업가능월수에 해당하는 라이프니츠계수",
+      "(월평균 현실소득액 – 생활비) × (사망일로부터 보험금지급일까지의 월수 + 취업가능 월수에 해당하는 라이프니츠계수)",
+      "(월평균 현실소득액 – 생활비) × (사망일로부터 보험금지급일까지의 월수 + 보험금지급일로부터 취업가능연한까지 월수에 해당하는 호프만계수)"
+    ],
+    "answer": 4,
+    "id": 772,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "자동차보험 대물배상의 보험금 지급기준에 대한 설명 중 옳은 것은?",
+    "options": [
+      "탑승자의 노트북이 훼손된 경우에는 300만원을 지급한다",
+      "수리비 및 열처리 도장료의 합계는 피해물의 사고 직전 가액의 100% 한도로 보상한다",
+      "피해물의 원상회복이 불가능하여 사고 직전의 피해물과 동종의 대용품으로 교환 할 경우 등록세, 취득세 등은 보상하지 않는다",
+      "출고 후 1년 이하인 자동차의 수리비용이 사고 직전 자동차가액의 20%를 초과하는 경우 수리비용의 20%를 자동차 시세하락 손해로 지급한다"
+    ],
+    "answer": 4,
+    "id": 773,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험료정산특별약정서 사용이 가능한 보험계약의 조건은? [4점]",
+    "options": [
+      "과거 6개월간에 있어 월평균 보험계약 건수가 25건 이상이고, 월평균 보험료가 500만원 이상",
+      "과거 6개월간에 있어 월평균 보험계약 건수가 25건 이상이고, 월평균 보험료가 600만원 이상",
+      "과거 3개월간에 있어 월평균 보험계약 건수가 20건 이상이고, 월평균 보험료가 500만원 이상",
+      "과거 3개월간에 있어 월평균 보험계약 건수가 25건 이상이고, 월평균 보험료가 600만원 이상"
+    ],
+    "answer": 1,
+    "id": 774,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "장애인 차별행위로 인한 시정권고 불이행시 시정명령을 하는 사람은?",
+    "options": [
+      "법무부 장관",
+      "국가인권위원회 위원장",
+      "금융감독원 원장",
+      "금융위원회 위원장"
+    ],
+    "answer": 1,
+    "id": 775,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험대리점에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험대리점은 영위종목별로 생명보험/손해보험/제3보험대리점으로 구분한다",
+      "개인보험대리점은 관계업무에 1년 이상 종사한 경력이 있는 경우 등록할 수 있다",
+      "임직원수가 100명 이상인 법인보험대리점의 경우 소속 임직원의 10분의 1 이상이 보험설계사 등록요건을 갖추고 있어야 한다",
+      "비전속 법인대리점 소속 설계사는 교차모집설계사가 될 수 없다"
+    ],
+    "answer": 2,
+    "id": 776,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "우수인증 설계사 제도에 대한 설명으로 ( )에 들어가는 숫자를 바르게 나열한 것은?\n• 우수인증 설계사 제도는 ( )년부터 시행하고 있다\n• 직전년도 ( )월부터 ( )월까지 보험설계사의 실적을 기준으로 인증을 부여한다\n• 선발기준으로는 동일회사에 ( )년 이상 근속하여야 한다",
+    "options": [
+      "2006, 6, 5, 2",
+      "2008, 6, 5, 3",
+      "2008, 1, 12, 3",
+      "2006, 3, 4, 3"
+    ],
+    "answer": 3,
+    "id": 777,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "다음은 위험과 관련된 개념 중 어떤 개념을 설명한 것인가?\n선박침몰의 원인인 폭풍우, 건물멸실의 원인인 화재",
+    "options": [
+      "사고",
+      "위태",
+      "손해",
+      "책임"
+    ],
+    "answer": 1,
+    "id": 778,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험가입이 법에 의해 강제화된 보험이 아닌 것은?",
+    "options": [
+      "원자력보험",
+      "특수건물화재보험",
+      "단체상해보험",
+      "체육시설업자배상책임보험"
+    ],
+    "answer": 3,
+    "id": 779,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "교통사고처리특례법상 중과실 사유에 해당하지 않는 것은?",
+    "options": [
+      "제한속도 10km/h 초과",
+      "뺑소니 운전",
+      "보도침범 운전",
+      "어린이보호구역 안전운전의무 위반"
+    ],
+    "answer": 1,
+    "id": 780,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험계약 체결 이전에 보험회사에 알려야 할 중요한 사항으로 보기 어려운 것은?",
+    "options": [
+      "피보험자의 직업",
+      "피보험자의 학력",
+      "보험목적인 건물의 구조",
+      "보험목적인 건물의 사용목적"
+    ],
+    "answer": 2,
+    "id": 781,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험기간 및 보험계약기간에 대한 설명으로 옳은 것은?",
+    "options": [
+      "보험계약기간의 성립시기는 통상 보험계약자의 청약시점이다",
+      "보험기간이 보험계약기간보다 일찍 시작하는 보험은 예정보험이다",
+      "보험기간은 다른 약정이 없는 한 최초의 보험료를 받은 때부터 개시된다",
+      "보험회사가 승낙하여 계약이 성립하면 초회보험료를 납입하지 않아도 보험회사의 책임이 개시된다"
+    ],
+    "answer": 3,
+    "id": 782,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "보험업 허가시 작성해야 하는 기초서류에 해당하는 것을 모두 고른 것은?\n가. 사업계획서 나. 상품설명서 다. 보험약관 라. 정관 마. 사업방법서",
+    "options": [
+      "가, 다",
+      "나, 라",
+      "가, 마",
+      "다, 마"
+    ],
+    "answer": 4,
+    "id": 783,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "제3보험에서의 보상방법을 바르게 설명한 것은?",
+    "options": [
+      "실손보상은 손해보험회사에서만 가능하다",
+      "정액보상 및 실손보상은 손해보험회사와 생명보험회사 모두 가능하다",
+      "정액보상은 생명보험회사에서만 가능하다",
+      "손해보험회사 및 생명보험회사 모두 정액보상만 가능하다"
+    ],
+    "answer": 2,
+    "id": 784,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "상해보험의 보험금 지급에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보험금지급사유의 조사가 필요한 경우 10영업일 이내에 지급한다",
+      "가지급보험금은 추정보험금의 30% 상당액을 지급한다",
+      "보험금 청구서류 접수일로부터 3영업일 이내에 지급한다",
+      "보험사고일로부터 10영업일 이내에 지급한다"
+    ],
+    "answer": 3,
+    "id": 785,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "상해보험의 보험료 산출시 고려요소에 해당하는 것은?",
+    "options": [
+      "피보험자의 가족력",
+      "피보험자의 과거 치료 내역",
+      "피보험자의 직장근무년수",
+      "피보험자의 직업 및 직무"
+    ],
+    "answer": 4,
+    "id": 786,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "뺑소니, 무보험차 상해보험에서 보상하는 손해에 대한 설명으로 맞지 않는 것은?",
+    "options": [
+      "자동차보험 대인배상Ⅱ에 미가입한 자동차에 의해 상해를 입음으로써 손해배상 청구권이 발생되는 경우",
+      "피보험자가 일상생활 중 뺑소니 사고 또는 무보험자동차에 의한 사고로 신체에 상해를 입어 생긴 손해",
+      "뺑소니 사고, 무보험차 사고로 생긴 신체보조장구의 손해",
+      "피보험자가 보유불명의 자동차에 의한 사고로 상해를 입고 경찰관서에 뺑소니 사고로 신고되어 손해배상금을 받을 수 있는 경우"
+    ],
+    "answer": 3,
+    "id": 787,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "실손의료보험에서 보상하지 않는 것은?",
+    "options": [
+      "상급병실료",
+      "요양병원의 입원의료비",
+      "한방병원에서 발생한 양방 비급여 의료비",
+      "비응급환자의 응급실 의료비(응급의료관리료)"
+    ],
+    "answer": 4,
+    "id": 788,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "김손보씨가 암보험을 2017.2.16에 가입 후 같은 해 3.18에 기타피부암 진단을\n받았다면 받게 되는 보험금은 얼마인가?\n• 보험가입금액 : 1,000만원(진단시 1회에 한함)\n• 제자리암, 기타피부암, 갑상선암 등은 일반암 보험금의 10%\n• 대기기간은 90일",
+    "options": [
+      "0원",
+      "100만원",
+      "1,000만원",
+      "1,100만원"
+    ],
+    "answer": 2,
+    "id": 789,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "간병보험과 관련된 설명으로 가장 거리가 먼 것은?",
+    "options": [
+      "상해, 질병 등의 사고로 일상생활장해상태 또는 치매상태로 진단이 확정되는 등 약관상 요건 충족시 간병비용을 보험금으로 지급한다",
+      "장기요양급여금 보장상품은 약관에서 정한 장기요양등급 판정을 받은 경우 보험금을 지급한다",
+      "치매판정만으로 보험금이 지급되지 않는 간병보험이 존재한다",
+      "피보험자가 심신상실 상태에서 자신을 해친 경우 보험금을 지급하지 아니한다"
+    ],
+    "answer": 4,
+    "id": 790,
+    "source": "2024_09_1"
+  },
+  {
+    "question": "다음 중 주택화재보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "기타 협력비용은 보험가입금액을 초과한 경우에도 전액 지급한다",
+      "손해방지비용은 보험가입금액을 초과하더라도 보상받을 수 있다",
+      "재산손해보험금과 잔존물 제거비용의 합계액은 보험가입금액을 한도로 한다",
+      "잔존물 제거비용은 보험가입금액의 10%를 한도로 보상한다"
+    ],
+    "answer": 4,
+    "id": 791,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "장기손해보험의 보험계약 대출제도에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험기간이 만료되더라도 보험계약자의 별도의 신청에 의해 보험계약 대출기간을 연장할 수 있다",
+      "보험계약대출은 보험회사가 정한 해약환급금 범위 내에서만 가능하다",
+      "해약환급금이 없는 순수보장성보험은 보험계약 대출제도가 제한될 수도 있다",
+      "만기환급금 지급시 보험계약 대출금이 있는 경우에는 만기환급금에서 보험계약 대출금을 차감할 수 있다"
+    ],
+    "answer": 1,
+    "id": 792,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "다음 중 장기손해보험의 계약취소 사유에 해당하지 않는 것은?",
+    "options": [
+      "약관의 중요한 내용에 대한 설명을 받지 못한 경우",
+      "보험 가입 후 위험한 직업으로 변경된 경우",
+      "계약자가 자필서명을 하지 않은 경우",
+      "청약서 부본을 전달받지 못한 경우"
+    ],
+    "answer": 2,
+    "id": 793,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "장기손해보험의 계약자적립액에 대한 설명으로 올바른 것은?",
+    "options": [
+      "계속보험료 수금에 필요한 제경비",
+      "보험회사가 보험계약에 대한 책임이행을 위해 의무적으로 적립하는 법정적립금",
+      "보험회사가 신계약을 모집하는데 필요한 제경비",
+      "지진, 홍수 등 거대위험에 대비한 준비금"
+    ],
+    "answer": 2,
+    "id": 794,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "장기화재보험에서 인수대상 물건에 대한 설명 중 틀린 것은?",
+    "options": [
+      "주택물건 중 연립(다세대)주택, 아파트로서 각 호(실)가 모두 주택으로 쓰이는 것은 인수대상 물건이다",
+      "주택물건 중 주택의 부속건물로서 가재만을 수용하는데 쓰이는 것은 인수대상 물건이다",
+      "무게나 부피가 휴대할 수 있으며 점당 300만원 이상인 귀중품은 보험증권에 기재하지 않아도 인수대상 물건이 된다",
+      "작업장(광업소, 발전소, 변전소, 개폐소 포함)의 구내에 있는 건물에 수용된 동산도 인수대상 물건이다"
+    ],
+    "answer": 3,
+    "id": 795,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "근로자 퇴직연금 납입액과 연금저축불입액을 합산하여 적용시 세액공제 가능한\n최대한도 금액은?",
+    "options": [
+      "700만원",
+      "400만원",
+      "600만원",
+      "900만원"
+    ],
+    "answer": 4,
+    "id": 796,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "자동차보험의 의무보험에 대한 설명 중 맞는 것으로 짝지어진 것은?\n가. 대물배상은 2천만원 이상 가입해야 한다\n나. 보험회사는 특별한 사유가 있으면 계약을 거절할 수 있다\n다. 자동차손해배상보장법은 자동차 보유자에게 의무보험 가입을 강제하고 있다\n라. 사업용 자동차와 비사업용자동차가 가입해야 하는 금액은 동일하다",
+    "options": [
+      "가, 나, 다, 라",
+      "가",
+      "가, 나, 다",
+      "가, 다"
+    ],
+    "answer": 3,
+    "id": 797,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "자동차보험 대물배상의 보험금 지급기준에 대한 설명 중 맞는 것은?",
+    "options": [
+      "견인비용은 피해물의 자력이동 여부와 관계없이 이를 정비 가능한 곳까지 운반 할 필요가 있는 경우 지급한다",
+      "수리 인정기간은 수리를 위해 자동차정비업자에게 인도하여 완료될 때까지의 기간으로 하되 20일을 한도로 한다",
+      "견인비용은 피해물을 고칠 수 있는 정비공장까지 운반하거나 그곳까지 운반하기 위한 임시수리에 소요되는 비용 중 필요 타당한 비용만 인정한다",
+      "휴차료는 비사업용 자동차를 사용하지 못하는 기간 동안에 발생한 영업손해를 지급한다"
+    ],
+    "answer": 3,
+    "id": 798,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "자동차보험 자기차량손해 담보에서 보상하는 손해에 해당하는 것은?",
+    "options": [
+      "일부 부속품만의 도난",
+      "타어어에만 입은 손해",
+      "흠, 부식 등 자연소모에 의한 손해",
+      "홍수에 의한 차량침수 손해"
+    ],
+    "answer": 4,
+    "id": 799,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "다음 자동차손해배상보장사업에 대한 설명 중 틀린 것은?",
+    "options": [
+      "뺑소니 자동차사고 피해자는 자동차손해배상진흥원에 피해보상을 청구할 수 있다",
+      "뺑소니 자동차사고 피해자 보상 외에 교통사고 피해자 가족지원 등의 사업이 있다",
+      "보상내용과 금액에 대한 구체적 내용은 국토교통부 고시로 정한다",
+      "통상 사고발생일로부터 3년 이내에 청구할 수 있다"
+    ],
+    "answer": 3,
+    "id": 800,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "다음 중 보험업법상 보험설계사로 등록할 수 있는 사람은?",
+    "options": [
+      "파산선고를 받은 후 복권되지 아니하고 3년이 경과한 자",
+      "보험업법에 따라 금고 이상의 형의 집행유예를 선고받고 그 유예기간에 있는 자",
+      "보험료 또는 보험금을 다른 용도에 유용한 후 2년이 경과한 자",
+      "보험업법에 따라 벌금형을 선고받고 그 집행이 종료된 후 2년이 경과한 자"
+    ],
+    "answer": 4,
+    "id": 801,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "교통사고는 무슨 위험에 해당하는가?",
+    "options": [
+      "순수위험",
+      "주관적 위험",
+      "투기위험",
+      "정신적 위험"
+    ],
+    "answer": 1,
+    "id": 802,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "의료기관이 교통사고 입원환자의 외출·외박 사항에 대한 기록 및 관리를 위반했을\n시 부과되는 과태료의 기준은?",
+    "options": [
+      "300만원 이하",
+      "500만원 이하",
+      "1천만원 이하",
+      "100만원 이하"
+    ],
+    "answer": 1,
+    "id": 803,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "다음 음주운전 및 관련 처벌에 관한 설명으로 옳지 않은 것은?",
+    "options": [
+      "운전이 금지되는 술에 취한 상태의 기준은 혈중알코올 농도 0.03% 이상인 경우로 한다",
+      "음주운전 사고로 위험운전치사죄가 성립되었을 때 무기 또는 3년 이상의 유기 징역에 처해진다",
+      "음주운전으로 1회 적발된 자가 다시 음주운전으로 적발되어 운전면허 정지사유에 해당한 경우 면허가 취소될 수 있다",
+      "술에 취한 상태에서 운전한 것이 확실함에도 경찰의 음주측정요구에 불응한 경우에는 운전면허가 정지된다"
+    ],
+    "answer": 4,
+    "id": 804,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "손해보험계약의 주요 요소에 관한 설명 중 옳은 것은?",
+    "options": [
+      "보험계약자가 보험증권을 받지 못했다 하더라도 보험계약의 효력에는 영향이 없다",
+      "보험회사는 보험계약 성립 후 1개월 내에 보험증권을 보험계약자에게 교부해야 한다",
+      "보험계약자, 피보험자, 보험수익자는 보험계약을 체결함에 있어 중요한 사항을 보험회사에게 고지하여야 한다",
+      "보험대리점뿐만 아니라 보험설계사도 고지수령권을 가진다"
+    ],
+    "answer": 1,
+    "id": 805,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "초과보험에 대한 다음 설명 중 틀린 것은?",
+    "options": [
+      "초과보험이란 보험가입금액이 보험가액을 초과하는 보험을 말한다",
+      "초과보험을 결정하는 보험가액의 산정 시기는 계약 당시이다",
+      "보험가액에 대한 보험가입금액의 비율에 따라 비례보상 한다",
+      "보험계약자의 사기로 인한 경우 보험계약은 전부 무효가 된다"
+    ],
+    "answer": 3,
+    "id": 806,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "보험계약의 약관에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험약관의 해석시 2가지 의미를 갖는 자구는 보험약관을 유효하게 하는 방향으로 해석하여야 한다",
+      "보험약관을 변경하는 경우 기존 계약자에게는 어떠한 경우에도 변경약관의 효력이 없다",
+      "약관의 종류에는 보통약관과 특별약관이 있다",
+      "보험약관은 일반적으로 보험회사에서 작성한다"
+    ],
+    "answer": 2,
+    "id": 807,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "법률상 보험계약의 무효에 해당하는 것은?",
+    "options": [
+      "15세 미만자의 암진단비를 보상하는 보험계약",
+      "15세 미만자의 입원의료비를 보상하는 보험계약",
+      "15세 미만자의 상해사고로 인한 후유장해를 보상하는 보험계약",
+      "15세 미만자의 상해사망을 보상하는 보험계약"
+    ],
+    "answer": 4,
+    "id": 808,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "상해보험의 수익자 변경에 대한 내용으로 올바른 것은?",
+    "options": [
+      "보험계약자는 보험수익자를 변경할 수 있다",
+      "피보험자는 보험수익자를 변경할 수 있다",
+      "보험계약자나 피보험자 모두 보험수익자를 변경할 수 있다",
+      "보험계약체결 이후에는 보험수익자를 변경할 수 없다"
+    ],
+    "answer": 1,
+    "id": 809,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "상해보험의 후유장애보험금에 대한 설명으로 올바른 것은?",
+    "options": [
+      "일시적으로 나타나는 장해에도 보험가입금액을 지급한다",
+      "한시장해기간이 5년 이상인 경우에는 보험가입금액을 전액 지급한다",
+      "후유장해보험금은 연령에 따라 차등적으로 지급한다",
+      "신체의 기능이 영구히 상실된 경우 보험금을 지급한다"
+    ],
+    "answer": 4,
+    "id": 810,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "보험약관상 질병보험에서 보상하는 경우가 아닌 것은?",
+    "options": [
+      "입원, 수술, 요양 등이 필요한 상태가 되었을 때",
+      "피보험자가 보험기간 중에 진단 확정된 질병으로 사망한 경우",
+      "장해분류표의 장해지급률에 해당하는 장해상태가 되었을 때",
+      "우연하고도 급격한 외래의 사고로 신체가 손해를 입은 경우"
+    ],
+    "answer": 4,
+    "id": 811,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "개인 실손의료보험(4세대)에 대한 설명으로 맞는 것은?",
+    "options": [
+      "기본형 실손의료보험(급여)은 상해비급여, 질병비급여로 구성되어 있다",
+      "기본형 실손의료보험(급여)에 가입하지 않고 특별약관(비급여)만 가입할 수도 있다",
+      "상해급여는 입·통원 합산 연간 5천만원이다",
+      "질병급여 통원의 연간 치료횟수는 100회 한도이다"
+    ],
+    "answer": 3,
+    "id": 812,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "장기간병보험의 활성화 필요성과 거리가 먼 것은?",
+    "options": [
+      "고령화 속도의 급속한 진전",
+      "노인성 질병의 급증",
+      "노인의료서비스의 선진화",
+      "노인의 간병의료비 부담 증가"
+    ],
+    "answer": 3,
+    "id": 813,
+    "source": "2024_09_2"
+  },
+  {
+    "question": "다음 중 주택화재보험에 가입할 수 있는 물건은?",
+    "options": [
+      "주택병용 오피스텔",
+      "콘도미니엄",
+      "공장 구내의 기숙사",
+      "주택병용 조산원"
+    ],
+    "answer": 4,
+    "id": 814,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "아래 예시의 경우 잔존물 제거비용 보험금은 얼마인가?\n보험가액이 1억원인 주택에 대해 보험가입금액을 4,000만원으로 하는 주택화재보험에\n가입한 경우, 화재가 발생하여 3,000만원의 손해가 발생하고 200만원의 잔존물 제거비용이\n발생함",
+    "options": [
+      "500만원",
+      "100만원",
+      "50만원",
+      "300만원"
+    ],
+    "answer": 2,
+    "id": 815,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "화재보험 공장물건 가입대상에 해당하는 것은?",
+    "options": [
+      "재고자산이 늘 수용되는 건물",
+      "화물보관 목적으로 쓰이는 창고업자 건물",
+      "콘도미니엄",
+      "천연가스 채취 작업을 하는 곳"
+    ],
+    "answer": 4,
+    "id": 816,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "유아교육기관종합보험에서 상해손해의 피보험자는?",
+    "options": [
+      "유아원생 및 유아원생 부모",
+      "유아원생",
+      "유아원생 및 유아원생 부모, 보육사",
+      "유아원생 및 보육사"
+    ],
+    "answer": 2,
+    "id": 817,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "장기손해보험의 보험료 구성과 그에 대한 설명으로 틀린 것은?",
+    "options": [
+      "장기손해보험의 보험료는 순보험료와 부가보험료로 구성된다",
+      "예정사업비율은 보험금을 지급하기 위하여 보험료 계산시 적용하는 할인 금리를 말한다",
+      "장기손해보험의 부가보험료는 신계약비, 유지비, 수금비로 구성된다",
+      "장기손해보험의 순보험료는 위험보험료와 저축보험료로 구성된다"
+    ],
+    "answer": 2,
+    "id": 818,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 중 연금저축보험을 계약해지 또는 연금 외의 형태로 지급받더라도 종합과세\n대상에 포함되지 않는 ʻ부득이한 사유ʼ에 해당하지 않는 것은?",
+    "options": [
+      "천재지변",
+      "계약자가 질병으로 2주 이상 요양이 필요한 경우",
+      "계약자의 해외이주",
+      "계약자의 파산선고"
+    ],
+    "answer": 2,
+    "id": 819,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "퇴직연금제도에 관한 설명 중 잘못된 것은?",
+    "options": [
+      "확정급여형은 중도인출이 불가능하다",
+      "확정기여형은 무주택자의 전세금 부담목적으로 중도인출이 가능하다",
+      "자영업자는 개인형퇴직연금(IRP)에 가입할 수 없다",
+      "확정기여형 적립금의 운영방법은 근로자가 결정한다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 3,
+    "id": 820,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "자동차보험의 기능에 관한 설명 중 옳은 것으로 짝지어진 것은?\n가. 적립된 보험료는 직/간접적으로 투자재원으로 활용되는 등 산업자금 조성에 기여한다\n나. 피해자에 대하여 위자료, 치료비, 휴업손해 등을 보상함으로써 피해자 보호기능을\n수행한다\n다. 무사고자에 대한 보험료 할인은 없으나 사고자에 대한 보험료 할증제도를 운영하고\n있어 사고 예방기능을 수행한다\n라. 위험의 분산을 통해 개인에 대해서는 생활의 안정과 기업에 있어서는 경영의 안정을\n도모한다\n마. 자동차 사고로 인한 모든 책임이 면제되어 보험가입자의 생활을 윤택하게 한다",
+    "options": [
+      "가, 나, 라",
+      "나, 다, 라",
+      "가, 나, 마",
+      "나, 라, 마"
+    ],
+    "answer": 1,
+    "id": 821,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 중 경상사고 환자의 대인2 피해자 과실상계에 대한 설명으로 맞는 것은?",
+    "options": [
+      "이 제도는 차대차 사고뿐만 아니라 차대 이륜차 사고의 이륜차 운전자도 보상한다",
+      "차량운전자가 자동차손해배상보장법 시행령 <별표1>에서 정한 상해급별 구분 중 12급 내지 14급의 상해를 입은 경우 보상한다",
+      "이 제도는 차대차 사고뿐만 아니라 차대 자전거 사고의 자전거 운전자도 보상한다",
+      "차량운전자가 자동차손해배상보장법 시행령 <별표1>에서 정한 상해급별 구분 중 10급 내지 12급의 상해를 입은 경우 보상한다"
+    ],
+    "answer": 2,
+    "id": 822,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "｢손해보험 공정경쟁질서유지에 관한 상호협정｣에서 무자격 모집행위를 한 경우\n부과되는 제재금 최고 한도액은?",
+    "options": [
+      "1십만원",
+      "1천만원",
+      "2천만원",
+      "3천만원"
+    ],
+    "answer": 4,
+    "id": 823,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "모집종사자에 관한 다음 설명 중 맞는 것은?",
+    "options": [
+      "법인보험대리점 등록 업무는 금융감독원에서 수행한다",
+      "보험설계사는 등록요건을 갖추고 금융위원회(보험협회 위탁)에 등록하여야 한다",
+      "보험중개사는 영업보증금을 보험회사에 예탁하여야 한다",
+      "보험중개사 소속 보험설계사는 금융감독원에 등록하여야 한다"
+    ],
+    "answer": 2,
+    "id": 824,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 중 금융기관보험대리점으로 등록할 수 있는 금융기관은?",
+    "options": [
+      "한국은행",
+      "겸영여신업자",
+      "보험회사",
+      "농협은행"
+    ],
+    "answer": 4,
+    "id": 825,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "보험모집 프로세스에 관한 설명으로 틀린 것은?",
+    "options": [
+      "가입권유 단계에서는 고객의 니즈와 재무정보를 토대로 최적의 위험보장 설계를 제시한다",
+      "가망고객의 발굴은 판매활동의 가장 기초적인 단계로서 보험세일즈로 성공하는 열쇠이다",
+      "접근은 고객과의 첫 만남의 단계로 보험모집 프로세스의 첫 단계에 해당한다",
+      "증권전달, 사후관리 등을 통한 소개확보는 새로운 영업활동의 원동력이 된다"
+    ],
+    "answer": 3,
+    "id": 826,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "순수위험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "이익발생의 가능성은 없이 손해만을 발생시키는 위험",
+      "손해와 이익이 모두 상존하는 위험",
+      "개인의 직감 등을 통한 위험",
+      "보험의 대상이 될 수 없는 위험"
+    ],
+    "answer": 1,
+    "id": 827,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "보험기간이 기간과 구간으로 혼합되어 정해지는 혼합보험에 해당되지 않는 것은?",
+    "options": [
+      "조립보험",
+      "여행자보험",
+      "적하보험",
+      "건설공사보험"
+    ],
+    "answer": 3,
+    "id": 828,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "보험사기에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험금을 노린 친족 살인, 자해, 방화 등과 같은 반인륜적인 범죄로 인해 건전한 윤리의식 및 생명 존중의 가치관이 파괴된다",
+      "보험사기는 대다수의 선량한 보험계약자들의 보험료가 인상되는 결과를 초래한다",
+      "교통사고를 이용한 보험사기가 많은 이유로는 범죄 실행의 용이성, 혐의 입증의 어려움, 교통사고 신고의무 완화 등이 있다",
+      "최근 10~20대 젊은 층의 보험사기는 감소하는 추세이다"
+    ],
+    "answer": 4,
+    "id": 829,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 중 음주운전 관련법에 관한 설명으로 틀린 것은?",
+    "options": [
+      "특정범죄가중처벌법상 ʻ위험운전치사상죄ʼ는 음주 및 약물의 영향으로 운전이 곤란한 상태에서 타인을 사상케 한 경우 적용된다",
+      "도로교통법에 의하면 음주측정 불응시 1년 이상 5년 이하의 징역 또는 5백만원 이상 2천만원 이하 벌금에 처해진다",
+      "특정범죄가중처벌법에 의하면 음주운전으로 타인을 사망케 한 경우 무기 또는 3년 이상의 유기징역에 처해진다",
+      "특정범죄가중처벌법에 의하면 음주운전으로 타인에게 상해를 입힌 경우 2년 6개월 이하의 유기징역에 처해진다"
+    ],
+    "answer": 4,
+    "id": 830,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "보험회사의 보험금 지급의무 면책사유가 아닌 것은?",
+    "options": [
+      "보험계약자 또는 피보험자나 보험수익자의 고의, 중과실",
+      "전쟁",
+      "보험목적의 자연소모",
+      "보험금청구권 발생 후 1년간 미행사"
+    ],
+    "answer": 4,
+    "id": 831,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "손해방지의무에 대한 설명으로 틀린 것은?",
+    "options": [
+      "사고발생 자체를 방지하는 것까지 포함한다",
+      "보험계약자 또는 피보험자는 보험사고 발생시 손해의 방지와 경감에 힘써야 한다",
+      "피보험자는 보험사고발생 통지의무 및 손해방지의무를 부담한다",
+      "손해방지의무를 게을리 함으로 인하여 손해가 증가된 때에는 그 증가된 손해에 대하여 보상하지 않는다"
+    ],
+    "answer": 1,
+    "id": 832,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 보험료에 관한 설명 중 옳지 않은 것은?",
+    "options": [
+      "순보험료는 위험보험료 및 저축보험료로 구성된다",
+      "영업보험료는 순보험료와 부가보험료로 구성된다",
+      "부가보험료는 신계약비, 유지비, 수금비로 구성된다",
+      "위험보험료는 보험업법에 따라 특별계정에 의해 운용된다"
+    ],
+    "answer": 4,
+    "id": 833,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "보험계약의 무효에 관한 설명 중 틀린 것은?",
+    "options": [
+      "보험계약이 무효이더라도 보험회사가 나중에 유효한 것으로 추인할 수 있다",
+      "보험계약의 무효는 처음부터 효력이 발생하지 않는다는 점에서 계약의 해지와는 다르다",
+      "보험계약의 무효는 당사자의 주장이 없더라도 당연히 효력이 생기지 않는다는 점에서 취소와 다르다",
+      "보험계약의 무효는 계약이 성립되었다는 점에서 계약의 불성립과 다르다"
+    ],
+    "answer": 1,
+    "id": 834,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 중 제3보험의 특징으로 바르게 짝지어진 것은?\n가. ‘Gray Zone’이라고도 한다\n나. 전부 실손보험이다\n다. 만 18세 미만자의 사망을 보험사고로 하는 보험계약은 무효이다\n라. 주계약이 상해보험인 경우 저축성보험은 15년 이하의 보험기간으로만 개발이 가능하다",
+    "options": [
+      "가, 라",
+      "나, 다",
+      "가, 다",
+      "나, 라"
+    ],
+    "answer": 1,
+    "id": 835,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "다음 중 손해보험에 해당하는 것만을 열거한 것은?",
+    "options": [
+      "배상책임보험, 보증보험, 재보험",
+      "보증보험, 재보험, 간병보험",
+      "연금보험, 자동차보험, 상해보험",
+      "해상보험, 보증보험, 간병보험"
+    ],
+    "answer": 1,
+    "id": 836,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "제3보험에서 각 항목별 보상방법 중 보상금액을 산정하는 방법이 다른 것은?",
+    "options": [
+      "암진단비",
+      "사망보험금",
+      "입원일당",
+      "질병통원의료비"
+    ],
+    "answer": 4,
+    "id": 837,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "상해보험 사고의 ‘우연성’에 대한 설명으로 맞는 것은?",
+    "options": [
+      "결과의 발생을 피할 수 없을 정도로 급박한 상태를 의미한다",
+      "원인 또는 결과가 예견되지 않는 상태를 말한다",
+      "신체 상해의 발생 원인이 피보험자 자신의 신체에 내재되어 있는 것이다",
+      "질병으로 유발된 사고는 상해보험의 보험사고에 해당한다"
+    ],
+    "answer": 2,
+    "id": 838,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "휴일교통상해보험에서 보상하는 휴일의 범위에 포함되지 않는 것은?",
+    "options": [
+      "피보험자의 휴가기간",
+      "토요일",
+      "근로자의 날",
+      "일요일"
+    ],
+    "answer": 1,
+    "id": 839,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "단체상해보험에서 단체의 구성원이 명확하여 계약의 일괄적인 관리가 가능한 5인\n이상의 구성원이 있는 단체의 종류에 해당하는 것은?",
+    "options": [
+      "급여단체",
+      "법정단체",
+      "규약단체",
+      "특별단체"
+    ],
+    "answer": 3,
+    "id": 840,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "암보험의 대기기간에 대한 설명으로 틀린 것은?",
+    "options": [
+      "대기기간은 통상 90일로 설정한다",
+      "대기기간 중에 암진단이 확정되면 대기기간 종료 후 보험금을 지급하고 보험 계약은 소멸된다",
+      "만 15세 미만자에 대해서는 대기기간을 설정하지 않는다",
+      "경계성종양은 대기기간 없이 보험기간 시작일로부터 보상한다"
+    ],
+    "answer": 2,
+    "id": 841,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)에 가입한 피보험자가 상급종합병원에\n통원하여 질병 비급여의료비가 발생한 경우 이에 해당하는 공제금액으로 맞는 것은?",
+    "options": [
+      "5만원",
+      "보장대상의료비의 30%",
+      "보장대상의료비의 10%",
+      "3만원과 보장대상의료비의 30% 중 큰 금액"
+    ],
+    "answer": 4,
+    "id": 842,
+    "source": "2024_10_1"
+  },
+  {
+    "question": "풍수해보험에 대한 설명으로 알맞지 않은 것은?",
+    "options": [
+      "풍수해보험 가입촉진 대상 지역에 실제 거주하고 있는 저소득층은 총 보험료의 100% 지원이 가능하다",
+      "태풍, 홍수, 호우, 지진 재해를 대상으로 한다",
+      "정부 및 지자체가 총 보험료의 70% 이상을 지원하는 정책성보험이다",
+      "주택만 가입가능하다"
+    ],
+    "answer": 4,
+    "id": 843,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "( ) 안에 알맞은 것은?\n재산손해보험금과 ( )의 합계액은 보험가입금액을 한도로 한다",
+    "options": [
+      "손해방지비용",
+      "잔존물 보존비용",
+      "잔존물 제거비용",
+      "대위권 보존비용"
+    ],
+    "answer": 3,
+    "id": 844,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "손해보험의 해지에 대한 설명으로 틀린 것은?",
+    "options": [
+      "계약자 및 피보험자가 고의 또는 중과실로 고지의무 위반시 보험회사에 계약 해지권이 발생한다",
+      "계약자 및 피보험자가 현저한 위험의 변경, 증가와 관련한 통지의무 위반시 보험 회사에 계약해지권이 발생한다",
+      "계약자나 피보험자가 고지의무 위반시 보험회사는 이를 안 날로부터 3개월 이내에 계약을 해지할 수 있다",
+      "보험계약자는 손해가 생기기 전에는 언제든지 계약의 일부 또는 전부를 해지할 수 있다"
+    ],
+    "answer": 3,
+    "id": 845,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "가스사고배상책임보험의 대인배상 보험금에 해당하지 않는 것은?",
+    "options": [
+      "사망보험금",
+      "휴업보상금",
+      "의료비보험금",
+      "후유장애보험금"
+    ],
+    "answer": 2,
+    "id": 846,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "장기손해보험에서 보험금 지급사항에 대한 설명으로 틀린 것은?",
+    "options": [
+      "신체손해보험금(상해, 질병)의 보험금 지급기간은 청구서류를 접수한 날로부터 3영업일 이내이다",
+      "보험회사는 계약자 또는 보험수익자의 청구시 청구일로부터 3영업일 이내에 환급금을 지급하여야 한다",
+      "상해·질병 등 신체손해보험은 가지급보험금을 미리 지급하지 않고 보험사고 조사가 완료되고 보험금액이 확정된 후 확정금액으로 보험금을 지급한다",
+      "보험회사는 만기환급금 지급시기가 되면 지급시기 7일 이전에 그 사유와 지급할 금액을 계약자 또는 보험수익자에게 알려야 한다"
+    ],
+    "answer": 3,
+    "id": 847,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "연금저축보험의 세제에 대한 설명으로 알맞은 것은?",
+    "options": [
+      "연금수령 요건을 충족하지 못하는 금액은 기타소득세 12%가 부과된다",
+      "연금저축보험의 기본계약보험료는 연간 600만원까지 세액공제된다",
+      "연금저축에 부가된 특약의 보험료는 다른 보험의 보장성 보험료와 별도로 각각 세액공제 된다",
+      "총 급여가 5,500만원 초과인 경우, 연금저축보험의 연간 납입보험료에 대한 세액공제율은 연간 10%이다"
+    ],
+    "answer": 2,
+    "id": 848,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "교통사고처리특례법에 대한 설명 중 맞는 것은?",
+    "options": [
+      "책임보험에 가입한 경우에는 가해자와 피해자간 합의가 이루어지지 않더라도 공소를 제기할 수 없다",
+      "사망사고는 교통사고처리특례법에 의해 공소를 제기할 수 없다",
+      "피해자의 생명유지에 반드시 필요한 뇌에 중대한 손상이 발생한 경우에는 보험 가입의 특례가 적용되지 않는다",
+      "어린이보호구역 안전운전의무 위반의 경우 보험가입의 특례가 적용된다"
+    ],
+    "answer": 3,
+    "id": 849,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "자동차보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "자동차손해배상보장법상의 의무보험에 가입하지 않은 경우 과태료가 부과된다",
+      "대인배상Ⅰ의 경우 자동차손해배상보장법상 손해배상책임을 담보한다",
+      "자기차량손해의 경우 피보험자동차가 일부 도난된 경우는 보상하지 아니한다",
+      "대물배상의 경우 1사고당 최고 5천만원 이상을 보험가입금액으로 하여 가입하여야 한다"
+    ],
+    "answer": 4,
+    "id": 850,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "경상 대인배상2에서 차량운전자가 상해를 입어 과실상계없이 우선 보상하게 될 때\n차량에 해당하지 않는 것은?",
+    "options": [
+      "자동차관리법 제3조에 의한 자동차(이륜자동차 포함)",
+      "군수품관리법에 의한 차량",
+      "건설기계관리법의 적용을 받는 건설기계",
+      "자동차관리법 제3조에 의한 자동차(이륜자동차 제외)"
+    ],
+    "answer": 1,
+    "id": 851,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "보험계약의 체결 또는 모집에 관한 금지사항에 해당하지 않는 것은?",
+    "options": [
+      "계약자에게 보험상품의 중요한 내용을 알리지 아니하는 행위",
+      "계약자와의 금전대차관계를 이용하여 보험계약을 청약하게 하는 행위",
+      "중요한 사실을 회사에 알리는 것을 방해하거나 알리지 아니할 것을 권유하는 행위",
+      "보험상담 및 분쟁의 해결에 관한 절차를 설명하는 행위"
+    ],
+    "answer": 4,
+    "id": 852,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "다음에서 교차모집설계사에 대한 금지사항에 해당하지 않는 것은?",
+    "options": [
+      "업무상 알게 된 특정 보험회사의 정보를 다른 보험회사에 제공하는 행위",
+      "다른 교차모집보험설계사 유치를 조건으로 대가를 요구하는 행위",
+      "교차모집 관련 보험계약 정보를 외부에 유출하는 행위",
+      "보험회사가 정한 수수료·수당을 요구하는 행위"
+    ],
+    "answer": 4,
+    "id": 853,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "손해보험대리점 등록과 관련하여 사실과 다른 것은?",
+    "options": [
+      "전세버스 운송사업자는 손해보험대리점으로 등록할 수 없다",
+      "수입차 판매업자는 손해보험대리점으로 등록할 수 있다",
+      "다단계판매업자 및 그 임직원은 손해보험대리점으로 등록할 수 없다",
+      "국가기관의 퇴직자로 구성된 법인은 손해보험대리점으로 등록할 수 있다"
+    ],
+    "answer": 4,
+    "id": 854,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "손해보험 우수인증설계사 선발기준으로 알맞은 것은?",
+    "options": [
+      "보험회사 또는 전속개인보험대리점에서 2년 이상 설계사로 소속되어 있을 것",
+      "불완전판매 0건일 것",
+      "손해율 0%일 것",
+      "신청 또는 선발당시 보험설계사 및 법인보험대리점 소속 설계사로 등록되어 있을 것"
+    ],
+    "answer": 2,
+    "id": 855,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "보험가입 대상 위험의 특성으로 틀린 것은?",
+    "options": [
+      "손실을 유발하는 유사한 특성을 가진 다수의 위험단위들이 필요하다",
+      "과거의 경험통계에 의하여 사고발생률을 예측할 수 있는 위험이어야 한다",
+      "손해발생의 여부, 시기, 정도가 의도적으로 조작된다면 보험가입 대상이 될 수 없다",
+      "손실발생의 원인, 시간, 장소, 손실금액 등이 불명확한 위험이어야 한다"
+    ],
+    "answer": 4,
+    "id": 856,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "보험기간이 지역으로 정해지는 구간보험에 해당되는 것은?",
+    "options": [
+      "자동차보험과 선박보험",
+      "선박보험과 적하보험",
+      "운송보험과 적하보험",
+      "자동차보험과 운송보험"
+    ],
+    "answer": 3,
+    "id": 857,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "다음 중 보험사기에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보험사기는 일반적으로 보험사고로 위장하기 위해 살인, 방화, 폭행 등 다른 범죄와 함께 복합적으로 발생된다",
+      "보험종목이 다양함에 따라 보험사기의 수법도 다양하게 발생된다",
+      "보험사기는 보험사기범들과 보험회사의 문제일 뿐 대다수의 선량한 보험계약자 들에게 영향을 미치지 않는다",
+      "조직폭력배가 개입된 보험사기단 등 보험사기가 조직화, 대형화되는 추세이다"
+    ],
+    "answer": 3,
+    "id": 858,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "다음 음주운전 관련법에 관한 설명 중 맞는 것은?",
+    "options": [
+      "특정범죄가중법상 ʻ위험운전치사상죄ʼ는 음주운전 측정 거부시 적용되는 법률이다",
+      "특정범죄가중법에 의하면 음주운전으로 타인에 상해를 입힌 경우 5년 이하의 징역 또는 5백만원 이상 3천만원 이하의 벌금에 처해진다",
+      "특정범죄가중법에 의하면 음주운전으로 타인을 사망케 한 경우 무기 또는 3년 이상의 징역에 처해진다",
+      "도로교통법상 음주측정 불응시에는 2년 이하의 징역 또는 5백만원 이하의 벌금에 처해진다"
+    ],
+    "answer": 3,
+    "id": 859,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "다음 중 청구권의 내용과 소멸시효가 틀리게 연결된 것은?",
+    "options": [
+      "보험회사의 보험료청구권 – 5년",
+      "보험계약자의 계약자적립액 반환청구권 – 3년",
+      "피보험자의 보험금청구권 – 3년",
+      "보험계약자의 보험료 반환청구권 – 3년"
+    ],
+    "answer": 1,
+    "id": 860,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "보험관련 기관에 대한 설명으로 알맞은 것은?",
+    "options": [
+      "보험연수원 : 순보험료율의 산출·검증",
+      "보험개발원 : 대리점 연수/자격시험",
+      "금융감독원 : 금융기관에 대한 감독 규정의 제정 및 개정",
+      "보험협회 : 보험대리점 변경사항 신고업무"
+    ],
+    "answer": 4,
+    "id": 861,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "상해보험의 보상내용에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "피보험자가 심신상실 상태에서 자살한 경우 보상하지 않는다",
+      "상법상 중과실로 인한 사망사고의 경우에도 보험회사가 보상하도록 규정하고 있다",
+      "보험계약자가 고의로 피보험자를 해친 경우는 보상하지 않는다",
+      "지진으로 인하여 다치거나 사망한 경우에도 보상한다"
+    ],
+    "answer": 1,
+    "id": 862,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "2021년 7월에 출시한 개인 실손의료보험(4세대) 피보험자가 상급종합병원 통원\n(급여 의료비 발생) 후 보험금 청구시 공제금액으로 맞는 것은?",
+    "options": [
+      "1만원과 보장대상 의료비의 20% 중 큰 금액",
+      "2만원과 보장대상 의료비의 10% 중 큰 금액",
+      "2만원과 보장대상 의료비의 20% 중 큰 금액",
+      "3만원과 보장대상 의료비의 30% 중 큰 금액"
+    ],
+    "answer": 3,
+    "id": 863,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "상해보험에서 신체손해보험금은 보험금 청구서류 접수일로부터 며칠 이내에 지급\n해야 하는가?",
+    "options": [
+      "3영업일 이내",
+      "7영업일 이내",
+      "10영업일 이내",
+      "20영업일 이내"
+    ],
+    "answer": 1,
+    "id": 864,
+    "source": "2024_10_2"
+  },
+  {
+    "question": "다음 중 피난지에서 일어난 손해에 대하여 보상 가능한 일수는?",
+    "options": [
+      "3일",
+      "5일",
+      "7일",
+      "10일"
+    ],
+    "answer": 2,
+    "id": 865,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "주택화재보험에서 보험가입금액, 보험가액, 손해액의 관계에 대한 설명 중 옳지\n않은 것은?",
+    "options": [
+      "보험가입금액과 보험가액이 동일한 경우 보험가입금액 한도로 손해액 전액을 보상한다",
+      "보험가입금액이 보험가액의 80% 미만인 경우 전부손해는 보험가입금액을 한도로 보상한다",
+      "보험가입금액이 보험가액의 80% 이상인 경우 전부손해는 보험가액을 한도로 보상한다",
+      "보험가입금액이 보험가액보다 큰 경우 전부손해는 보험가액을 한도로 손해액 전액을 보상한다"
+    ],
+    "answer": 3,
+    "id": 866,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "동산종합보험의 가입대상에 포함되는 것은?",
+    "options": [
+      "특정 장소에 있어서의 가재 포괄계약",
+      "자동차, 선박 및 항공기",
+      "공장 내에 장치된 리스업자의 리스시설",
+      "특정구간 수송 중의 위험만을 대상으로 하는 동산"
+    ],
+    "answer": 3,
+    "id": 867,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "장기손해보험의 만기환급금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "만기환급금의 재원이 되는 저축보험료는 보험기간 동안 특별계정으로 운용된다",
+      "만기환급금에는 위험보험료가 포함되지 않는다",
+      "계약 후 5년 이상 유지할 경우 이자소득에 대해 비과세 혜택을 받을 수 있다",
+      "만기환급금은 금리연동형 상품의 경우 이율변동에 따라 달라질 수 있다"
+    ],
+    "answer": 3,
+    "id": 868,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "자동차보험의 각 담보에 대한 설명 중 맞는 것으로 짝지어진 것은?\n가. 대인배상Ⅰ의 경우 최저사망보험금은 1,500만원이다\n나. 대인배상Ⅱ는 대인배상Ⅰ의 보상한도를 초과하는 손해를 보상한다\n다. 대인배상의 휴업손해는 부상으로 휴업함으로써 수입의 감소가 있을 경우에 한해\n휴업기간 중 실제수입 감소액 전액을 지급한다\n라. 사업용 자동차는 대물배상 휴차료의 지급대상이다\n마. 자기차량손해의 경우 차량을 수리하는 기간 동안의 대차료를 보상한다",
+    "options": [
+      "가, 나",
+      "다, 라",
+      "라, 마",
+      "나, 라 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 4,
+    "id": 869,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "자동차보험의 무보험자동차에 의한 상해에 관한 설명 중 틀린 것을 모두 고른 것은?\n가. 대인배상Ⅰ･Ⅱ, 대물배상, 자기신체사고, 자기차량손해가 함께 체결된 경우에만\n가입할 수 있음\n나. 피보험자 1인당 보상한도는 보험증권에 기재된 보험가입금액을 한도로 지급\n다. 가족운전자 한정특약에 가입한 경우에는 가입할 수 없음\n라. 무보험자동차에 의한 상해에 가입한 경우 누구나 운전하는 특약에 자동가입",
+    "options": [
+      "가, 나",
+      "다, 라",
+      "가, 다, 라",
+      "나, 다, 라"
+    ],
+    "answer": 3,
+    "id": 870,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "자동차보험 개별할인 및 할증의 평가대상 기간은?",
+    "options": [
+      "전계약 보험기간",
+      "전전계약 보험기간 시작일부터 전계약 보험기간 만료일까지",
+      "전전계약 보험기간 만료일 3개월 전부터 전계약 보험기간 만료일 3개월 전까지",
+      "전전계약 보험기간 만료일 6개월 전부터 전계약 보험기간 만료일 6개월 전까지"
+    ],
+    "answer": 3,
+    "id": 871,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "자동차보험 대인배상의 보험금 지급기준에 따라 후유장애보험금 산정시 위자료\n산정산식은?\n가정간호비 지급대상, 후유장해판정 당시 피해자 나이 65세 미만",
+    "options": [
+      "45,000,000원 × 노동능력상실률 × 85%",
+      "40,000,000원 × 노동능력상실률 × 85%",
+      "80,000,000원 × 노동능력상실률 × 85%",
+      "50,000,000원 × 노동능력상실률 × 85%"
+    ],
+    "answer": 3,
+    "id": 872,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "자동차 사고 과실비율분쟁시 과실비율 심의기관이 아닌 것은?",
+    "options": [
+      "손해보험협회 ｢자동차 사고 과실비율분쟁 심의위원회｣",
+      "경찰",
+      "금융감독원",
+      "법원"
+    ],
+    "answer": 2,
+    "id": 873,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "표에서 ( ) 안에 들어갈 내용으로 맞는 것은?\n개인의 보험계약정보는 개인에 관한 ( )정보로서 신용정보법에 준하여 보호받고\n있으며 정보유출 등으로 인한 소비자의 2차 피해를 막기 위해 보험회사의 임직원 및\n모집종사자들의 철저한 고객정보 관리·감독이 필요하다",
+    "options": [
+      "카드",
+      "보험",
+      "신용",
+      "개인"
+    ],
+    "answer": 3,
+    "id": 874,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "보험설계사로 등록하여 보험모집을 할 수 있는 경우는 무엇인가?",
+    "options": [
+      "피한정후견인 선고가 취소되고 1년이 경과한 자",
+      "벌금 이상의 형을 선고받고 그 집행이 면제된 후 1년이 경과된 자",
+      "등록이 취소된 후 1년이 경과한 자",
+      "모집과 관련하여 받은 보험료를 다른 용도에 유용한 후 1년이 경과한 자"
+    ],
+    "answer": 1,
+    "id": 875,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "다음 금소법상 상품유형에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보험상품은 보장성상품에 해당한다",
+      "예금성상품이란 은행법상 예금 등을 말한다",
+      "보험계약대출은 보장성상품에 해당한다",
+      "투자성상품이란 자본시장법상 금융투자상품 등을 말한다"
+    ],
+    "answer": 3,
+    "id": 876,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "보험의 분류 중 보험기간에 따른 분류에 관한 설명으로 틀린 것은?",
+    "options": [
+      "단기보험은 보험기간이 1년 이하인 소멸성 보험이다",
+      "장기보험의 보험기간은 통상 3년 이상이다",
+      "구간보험은 보험기간이 지역으로 정해지는 보험이다",
+      "자동차보험은 구간보험이다"
+    ],
+    "answer": 4,
+    "id": 877,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "보험사기방지특별법에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험사기방지특별법은 2016.9.30일부터 시행되었다",
+      "보험사기방지특별법상 보험사기행위라 함은 보험사고의 발생, 원인 또는 내용에 관하여 보험자를 기망하여 보험금을 청구하는 행위를 말한다",
+      "보험사기방지특별법에서는 보험사기죄의 미수범은 처벌하지 않는다",
+      "보험사기로 인한 이득액이 5억원 이상인 경우 가중처벌된다"
+    ],
+    "answer": 3,
+    "id": 878,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "보험사업을 영위하기 위한 보험종목별 자본금이 맞게 짝지어진 것은?",
+    "options": [
+      "자동차보험 – 300억원",
+      "보증보험 – 200억원",
+      "화재보험 – 150억원",
+      "해상보험 – 150억원"
+    ],
+    "answer": 4,
+    "id": 879,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "손해보험회사의 질병사망 영위에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보험가입금액은 개인당 3억원까지 설계할 수 있다",
+      "상해사망과 함께 기본계약으로 운영할 수 있다",
+      "제3보험의 특약의 형식으로 운영하여야 한다",
+      "보험기간에 제한없이 운영할 수 있다"
+    ],
+    "answer": 3,
+    "id": 880,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "보험업법시행령상 손해보험회사의 질병사망 특약의 보험만기로 올바른 것은?",
+    "options": [
+      "100세 이하",
+      "80세 이하",
+      "60세 이하",
+      "종신까지 가능"
+    ],
+    "answer": 2,
+    "id": 881,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "｢상법｣상 사망담보 생명보험계약의 무효 요건에 대한 내용으로 틀린 것은?",
+    "options": [
+      "사망을 보험사고로 하는 보험계약의 무효 요건은 ｢보험업법｣에 규정되어 있다",
+      "만 15세 미만자의 사망을 보험사고로 하는 보험계약은 무효이다",
+      "심신상실자의 사망을 보험사고로 하는 보험계약은 무효이다",
+      "의사능력이 없는 심신박약자의 사망을 보험사고로 하는 보험계약은 무효이다"
+    ],
+    "answer": 1,
+    "id": 882,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "보험회사가 상해보험계약에서 보험금 지급사유의 조사·확인이 필요한 경우 지급하는\n가지급보험금의 규모는?",
+    "options": [
+      "추정보험금의 20% 상당액",
+      "추정보험금의 30% 상당액",
+      "추정보험금의 50% 상당액",
+      "추정보험금의 70% 상당액"
+    ],
+    "answer": 3,
+    "id": 883,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "노후 실손의료보험의 상품구조에 대한 설명으로 알맞은 것은?",
+    "options": [
+      "의료비(질병의료비, 상해의료비)와 2개 특약(요양병원의료비, 상급병실보장 특약)으로 구성된다",
+      "의료비(상해입원의료비, 상해통원의료비, 질병입원의료비, 질병통원의료비)와 요양병원의료비 특약으로 구성된다",
+      "의료비(상해입원의료비, 상해통원의료비, 질병입원의료비, 질병통원의료비)와 상급병실보장 특약으로 구성된다",
+      "의료비(질병입원의료비, 질병통원의료비)로 구성된다"
+    ],
+    "answer": 1,
+    "id": 884,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 ‘3대 비급여ʼ 보상에 대한 설명 중\n틀린 것은?",
+    "options": [
+      "주사료는 1년 단위로 각 상해·질병 치료행위를 합산하여 250만원 이내에서 10회까지 보상 한다",
+      "도수치료는 증상의 개선, 병변호전 등이 확인된 경우에 한하여 10회 단위로 연간 50회까지 보상한다",
+      "자기공명영상진단은 1년 단위로 각 상해·질병 치료행위를 합산하여 300만원 이내에서 보상 한다",
+      "도수치료·체외충격파치료·증식치료의 공제금액은 1회당 3만원과 보장대상 의료비의 30% 중 큰 금액이다"
+    ],
+    "answer": 1,
+    "id": 885,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "다음 중 질병보험의 특징으로 바르게 짝지어진 것은?\n가. 만 15세 미만자, 심신상실자, 심신박약자를 피보험자로 하는 질병보험은 가입할 수 없다\n나. 피보험자의 보험연령은 계약일 현재 만 연령으로 1년 이하는 계산하지 않는다\n다. 대기기간이 있을 수 있다\n라. 정신질환은 보상하지 않는다",
+    "options": [
+      "가, 나",
+      "가, 다",
+      "나, 라",
+      "다, 라"
+    ],
+    "answer": 4,
+    "id": 886,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "간병보험에서 보상을 받을 수 없는 사항은?",
+    "options": [
+      "신체 보조장구에 입은 손해",
+      "중증치매 상태로 인한 간병비",
+      "피보험자의 의도하지 않은 간병상태",
+      "회사가 보장하기로 한 임신, 출산, 산후기 관련 질병"
+    ],
+    "answer": 1,
+    "id": 887,
+    "source": "2024_11_1"
+  },
+  {
+    "question": "다음 중 화재보험에서 보상하는 비용손해를 모두 고르시오.\n㉠ 잔존물 제거비용 ㉡ 손해방지비용 ㉢ 대위권보전비용\n㉣ 기타협력비용 ㉤ 임시생활비용",
+    "options": [
+      "㉠, ㉡",
+      "㉠, ㉡, ㉢",
+      "㉠, ㉡, ㉢, ㉣",
+      "㉠, ㉡, ㉢, ㉣, ㉤"
+    ],
+    "answer": 3,
+    "id": 888,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "주택화재보험을 예시와 같이 가입한 후 화재가 발생한 경우 지급보험금은?\n보험가입금액 1억원(전부보험), 화재손해액 9,500만원, 잔존물 제거비용 1,000만원,\n잔존물 보전비용 500만원",
+    "options": [
+      "1억원",
+      "1억 500만원",
+      "1억 950만원",
+      "1억 1,000만원"
+    ],
+    "answer": 2,
+    "id": 889,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "특수건물화재보험의 가입대상 물건이 아닌 것은?",
+    "options": [
+      "영화상영관",
+      "층수가 11층 이상인 건물",
+      "연면적 1,000㎡ 이상인 국유건물 및 부속건물",
+      "바닥면적의 합계가 2,000㎡ 이상인 학원"
+    ],
+    "answer": 1,
+    "id": 890,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음의 보험종목 중 담보기간이 기간보험으로 운영되는 것은?",
+    "options": [
+      "낚시보험",
+      "수렵보험",
+      "스키보험",
+      "운송보험"
+    ],
+    "answer": 2,
+    "id": 891,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "장기손해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "장기손해보험은 통상적으로 보험기간이 3년 이상인 보험계약을 말한다",
+      "보장성보험은 보험기간이 80세로 제한되어 있다",
+      "보험가입금액의 80% 미만 사고시 자동복원제도가 적용된다",
+      "해약환급금의 범위 내에서 보험계약대출이 가능하다"
+    ],
+    "answer": 2,
+    "id": 892,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "장기손해보험에서 자동복원제도에 대한 설명으로 틀린 것은?",
+    "options": [
+      "여러번의 보험사고가 발생하여도 사고 전의 보험가입금액을 동일하게 보장받는다",
+      "보험의 목적물에 부분손이 발생한 경우에는 보험가입금액에서 지급된 보험금을 공제한 후의 금액이 잔존 보험가입금액이 되어 잔여기간 동안 보장을 받게 된다",
+      "통상 화재보험이 일반손해보험으로 설계된 경우에는 없고 장기손해보험에만 존재한다",
+      "1회 사고로 지급한 보험금이 보험가입금액의 80% 미만인 경우에만 적용된다"
+    ],
+    "answer": 2,
+    "id": 893,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "종합소득 금액이 4천 5백만원 이하(총급여액 5천 5백만원 이하)인 자가 연금저축\n보험료 납부시 세액공제 적용 비율(지방소득세 포함)에 해당하는 것은?",
+    "options": [
+      "13.2%",
+      "12%",
+      "15%",
+      "16.5%"
+    ],
+    "answer": 4,
+    "id": 894,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "자동차손해배상보장법상 주요 용어에 대한 설명으로 틀린 것은?",
+    "options": [
+      "자동차란 자동차관리법상의 자동차와 건설기계관리법상의 9종 건설기계를 말한다",
+      "운행이란 자동차를 그 용법에 따라 사용 또는 관리하는 것을 말한다",
+      "자동차보유자란 타인을 위하여 자동차를 운행하는 자를 말한다",
+      "운전자란 다른 사람을 위하여 자동차의 운전이나 운전의 보조에 종사하는 자를 말한다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 3,
+    "id": 895,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "자동차보험의 차종구분 중 특정용도 자동차에 대한 설명으로 맞는 것은?",
+    "options": [
+      "화물을 운반하는 구조를 갖지 않고 특수작업을 하는 구조를 가진 자동차를 말한다",
+      "이동진료차, 채혈차, 소독차, 방송중계차 등이 해당된다",
+      "자동차의 가장 앞부분과 조향핸들 중심점까지의 거리가 자동차 길이의 1/4 이내인 자동차를 말한다",
+      "청소물 등을 흡입·집적하는 장비를 설치한 자동차를 말한다"
+    ],
+    "answer": 2,
+    "id": 896,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음은 자동차손해배상보장사업에 대한 설명이다. 이 중 틀린 것은?",
+    "options": [
+      "보상내용과 금액에 대한 구체적 내용은 국토교통부 고시로 정한다",
+      "무보험, 뺑소니차 사고 피해자 보상 외에 교통사고 피해자 가족지원 등의 사업이 있다",
+      "뺑소니 사고 피해자는 자동차손해배상진흥원에 피해보상을 청구할 수 있다",
+      "통상 사고발생일로부터 3년 이내에 청구할 수 있다"
+    ],
+    "answer": 1,
+    "id": 897,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보험료 영수제도와 관련하여 맞는 설명은? [4점]",
+    "options": [
+      "보험회사는 원칙적으로 보험기간이 시작되기 전에 보험료를 수납하여야 한다",
+      "손해보험의 가계성보험계약은 계약자가 발행한 선일자수표로 수납이 가능하다",
+      "보험료로 받은 은행도어음은 2개월이 경과하면 부도처리하여야 하며 이자수취 기간은 결제일까지로 한다",
+      "보험료로 받은 선일자수표는 취득일로 부터 2개월 내에 결제되는 것이어야 한다"
+    ],
+    "answer": 1,
+    "id": 898,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보험안내자료 필수기재사항이 아닌 것은?",
+    "options": [
+      "해약환급금에 관한 사항",
+      "예금자보호법에 따른 예금자보호 관련 사항",
+      "보험금이 금리에 연동되는 보험상품의 경우 적용금리에 관한 사항",
+      "보험금 지급 조건에 관한 사항"
+    ],
+    "answer": 4,
+    "id": 899,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다른 모집종사자의 명의를 이용하여 보험계약을 모집하는 행위를 한 경우 벌칙으로\n맞는 것은?",
+    "options": [
+      "1천만원 이하의 과태료 부과",
+      "2천만원 이하의 과태료 부과",
+      "3천만원 이하의 과태료 부과",
+      "4천만원 이하의 과태료 부과"
+    ],
+    "answer": 1,
+    "id": 900,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보험회사는 정상적인 보험서비스를 제공하기 위하여 반드시 보험계약자에게 “개인\n신용정보의 제공·활용” 동의를 얻어야 되는데 다음 중 보험계약정보를 제공하는\n기관이 아닌 곳은?",
+    "options": [
+      "금융결제원",
+      "손해보험협회",
+      "보험개발원",
+      "보험계약 관련 업무를 위탁한 자"
+    ],
+    "answer": 1,
+    "id": 901,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음 중 보험업법상 보험설계사 자격을 취득하면 등록할 수 있는 사람은?",
+    "options": [
+      "보험설계사 등록이 취소된 후 1년이 지난 자",
+      "파산자로서 복권되어 1년이 지난 자",
+      "보험업법 위반으로 징역 1년형을 선고받고 만기 출소한 지 1년이 지난 자",
+      "과거에 보험료를 유용한 후 1년이 지난 자"
+    ],
+    "answer": 2,
+    "id": 902,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보기에서 ( ) 안에 들어갈 알맞은 말은?\n보험대리점을 영위업종별로 분류하면 ( )으로 나눌 수 있다",
+    "options": [
+      "전속대리점, 비전속대리점",
+      "개인대리점, 법인대리점",
+      "생명보험대리점, 손해보험대리점, 제3보험대리점",
+      "전업대리점, 겸업대리점"
+    ],
+    "answer": 4,
+    "id": 903,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보험회사 영업행위 윤리준칙에서 보험영업 활동의 기본원칙에 대한 설명 중 잘못된\n것은?",
+    "options": [
+      "보험회사는 보험상품을 판매하고 서비스를 제공하는 일련의 과정에서 보험 소비자의 권익이 침해되는 일이 발생하지 않도록 노력하여야 한다",
+      "모집종사자는 금융인으로서 사명감과 윤리의식을 가져야 한다",
+      "모집종사자는 보험상품 판매를 최우선 가치로 삼고 영업활동을 수행하여야 한다",
+      "보험회사는 모집종사자의 도입, 양성, 교육, 관리 등에 있어서 법령을 준수하고 건전한 금융거래질서가 유지될 수 있도록 노력하여야 한다"
+    ],
+    "answer": 3,
+    "id": 904,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보험의 기본원칙에 관한 설명으로 맞는 것은?",
+    "options": [
+      "보험사업의 순보험료 총액은 지급보험금 총액과 합치해야 한다는 것이 급부·반대 급부 균등의 원칙이다",
+      "비례보상의 원칙을 비례적 책임주의 또는 안분의 원칙이라고 한다",
+      "보험계약자 개개인의 관점에서 보험은 수지상등의 원칙이 적용된다",
+      "실손보상의 원칙은 대수의 법칙에 입각한 보상의 기본원리이다"
+    ],
+    "answer": 2,
+    "id": 905,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음의 도로교통법에 대한 설명 중 틀린 것은?",
+    "options": [
+      "자전거 음주운전은 법령상 금지되어 있으나 훈시규정으로 단속되어도 처벌받지 않는다",
+      "중앙선이 없는 보도에서 보행자는 도로의 전 부분으로 통행할 수 있다",
+      "모든 차의 운전자는 회전교차로 진입시 서행하거나 일시정지해야 한다",
+      "보행자우선도로에서는 자동차의 통행속도를 시속 20km 이내로 제한할 수 있다"
+    ],
+    "answer": 1,
+    "id": 906,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "중복보험 및 공동보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "공동보험에서 보험회사는 보험가액에 대한 보험가입금액의 비율에 따라 비례 또는 실손보상한다",
+      "중복보험의 보상한도는 보험가입금액이다",
+      "공동보험은 두 군데 이상 보험회사가 동일한 목적물에 대해 보험계약을 체결하지만, 가입금액의 합이 보험가액을 초과하지 않는 경우이다",
+      "중복보험이 계약자의 사기로 인한 경우 보험계약은 무효가 된다"
+    ],
+    "answer": 2,
+    "id": 907,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "보험의 목적에 대한 보험자 대위에 관한 설명으로 틀린 것은?",
+    "options": [
+      "보험목적의 전부 멸실과 보험금 전부의 지급이 권리취득의 요건이다",
+      "보험자 대위로 인한 목적물의 권리 이전 시기는 보험사고 발생시가 아니라 보험금을 전부 지급한 때이다",
+      "일부보험의 경우 보험회사가 취득하는 권리는 보험금액의 보험가액에 대한 비율로 정한다",
+      "청구권 대위라고도 한다"
+    ],
+    "answer": 4,
+    "id": 908,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "손해보험협회의 업무가 아닌 것은?",
+    "options": [
+      "해상, 보세보험계약 인수업무",
+      "우수모집설계사 지정 및 관리업무",
+      "보험범죄방지대책 추진업무",
+      "순보험요율의 산출, 검증 및 제공"
+    ],
+    "answer": 4,
+    "id": 909,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음의 상해보험 계약 중 계약의 무효에 해당하지 않는 경우는?",
+    "options": [
+      "15세 미만자를 피보험자로 사망보험계약 체결시",
+      "의사능력이 없는 심신박약자를 피보험자로 사망보험계약 체결시",
+      "타인을 위한 사망보험계약에서 타인의 서면동의를 받고 계약을 체결하는 경우",
+      "심신상실자를 피보험자로 사망보험계약 체결시"
+    ],
+    "answer": 3,
+    "id": 910,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "( )에 들어가기 적절한 것은?\n상해보험에서 후유장해보험금 중 영구히 고정된 증상은 아니지만 치료 종결 후 한시적으로\n나타나는 장해에 대하여는 그 기간이 ( ) 이상인 때에는 해당 장해지급률의 ( )를\n장해지급률로 한다",
+    "options": [
+      "3년, 10%",
+      "5년, 20%",
+      "7년, 30%",
+      "5년, 50%"
+    ],
+    "answer": 2,
+    "id": 911,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "단체상해보험의 단체 분류에 대한 다음의 설명 중 옳은 것은?",
+    "options": [
+      "2종 단체 - 변호사회, 의사회 등 동업자단체로 5인 이상의 구성원이 있는 단체",
+      "2종 단체 - 단체의 구성원이 명확하고 계약의 일괄적인 관리가 가능한 단체로 5인 이상의 구성원이 있는 단체",
+      "3종 단체 - 회사, 조합 등 5인 이상의 근로자를 고용하고 있는 단체",
+      "3종 단체 - 사업장, 관공서 등 5인 이상의 근로자를 고용하고 있는 단체"
+    ],
+    "answer": 1,
+    "id": 912,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음은 2021년 7월 출시한 개인 실손의료 보험(4세대)의 ‘질병비급여ʼ 보상금액에\n대한 설명으로, 빈칸에 해당하는 것으로 맞는 것은?\n상급병실료의 경우 비급여 병실료의 (A) 보상, 다만, 1일 평균금액 (B)을 한도로 하며,\n1일 평균금액은 입원기간 동안 비급여 병실료 전체를 총 입원일수로 나누어 산출합니다",
+    "options": [
+      "A : 10% / B : 10만원",
+      "A : 20% / B : 20만원",
+      "A : 30% / B : 20만원",
+      "A : 50% / B : 10만원"
+    ],
+    "answer": 4,
+    "id": 913,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "다음 중 치아보험과 어린이보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "치아보험은 질병으로 인한 치료에 대하여는 면책기간이나 감액기간을 운영하고 있다",
+      "치아보험의 감액기간은 보험가입 전에 이미 치아질환을 보유한 사람이 보험금을 받을 목적으로 보험에 가입하는 것을 방지하기 위한 장치이다",
+      "어린이보험에 특약을 더해 출산시 위험까지 보장하는 상품은 실무적으로 ʻ태아 보험ʼ으로 통칭한다",
+      "태아보험은 고령 임산부 증가를 고려하여 장애, 기형 등 선천질환을 가진 신생아가 보험혜택을 받을 수 있도록 임신 사실을 알기 전에 보험에 가입할 수 있다"
+    ],
+    "answer": 4,
+    "id": 914,
+    "source": "2024_11_2"
+  },
+  {
+    "question": "주택화재보험에서 보상하지 않는 손해는?",
+    "options": [
+      "이웃집의 화재로 주택 내 가재도구가 불에 타서 소실됨",
+      "벼락으로 인해 집안 냉장고가 고장남",
+      "화재진압을 위해 뿌린 물이 TV에 스며들며 고장남",
+      "피보험자 또는 계약자가 고의로 화재를 일으켜 가재도구가 소실됨"
+    ],
+    "answer": 4,
+    "id": 915,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "화재보험의 알릴 의무 사항 중 틀린 것은?",
+    "options": [
+      "동일한 보험목적에 대한 중복보험 가입사항은 계약 전 알릴 의무사항에 해당한다",
+      "계약자 또는 피보험자가 계약 전 알릴 의무를 위반했을 경우 보험회사는 계약 해지권을 가진다",
+      "건물을 계속하여 30일 이상 비워두는 경우에는 보험회사에 이를 반드시 통지 해야 한다",
+      "건물구조물을 변경, 개축, 증축, 계속하여 10일 이상 수선할 때 통지하여야 한다"
+    ],
+    "answer": 4,
+    "id": 916,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "다음 배상책임보험에 대한 설명으로 올바른 것은?",
+    "options": [
+      "의사배상책임보험은 의사라면 의무적으로 가입해야 한다",
+      "생산물배상책임보험은 생산업자라면 의무적으로 가입해야 한다",
+      "체육시설업자는 체육시설업자배상책임보험에 의무적으로 가입해야 한다",
+      "회사의 임직원들은 임원배상책임보험에 의무적으로 가입해야 한다"
+    ],
+    "answer": 3,
+    "id": 917,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "장기손해보험 보험료 계산의 주요 요소에 해당하지 않는 것은?",
+    "options": [
+      "예정위험률",
+      "예정사업비율",
+      "예정이익률",
+      "예정이율"
+    ],
+    "answer": 3,
+    "id": 918,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "장기손해보험에서 청약철회 및 계약의 취소에 대한 설명으로 틀린 것은?",
+    "options": [
+      "계약체결 시 계약자가 자필서명(날인포함)을 하지 않은 경우에 계약을 취소할 수 없다",
+      "계약자는 보험증권을 받은 날부터 15일 이내에 청약을 철회할 수 있다",
+      "회사는 청약철회 접수일로부터 3영업일 이내에 이미 납입한 보험료 전액을 지급 한다",
+      "계약자는 청약을 한 날로부터 30일 이내에 청약을 철회할 수 있다"
+    ],
+    "answer": 1,
+    "id": 919,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "과거 사고통계를 기초로 장래 사고율을 예측한 위험률은 무엇인가?",
+    "options": [
+      "예정사업비율",
+      "예정위험률",
+      "사업비차손익",
+      "예정이율"
+    ],
+    "answer": 2,
+    "id": 920,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "자동차 사고의 책임관계에 대한 설명으로 틀린 것은?",
+    "options": [
+      "대인대물 사고시 사고운전자에 대한 형사처벌은 교통사고처리특례법을 우선 적용한다",
+      "민법의 특별법인 자동차손해배상보장법을 우선 적용한다",
+      "자동차종합보험 가입과 면허정지 등 행정상의 책임은 별개로 처분된다",
+      "사망사고도 교통사고처리특례법의 보험가입특례가 인정된다"
+    ],
+    "answer": 4,
+    "id": 921,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "자동차보험계약의 성립요건에 대한 설명 중 맞는 것은?",
+    "options": [
+      "일정기간 동안 보험회사의 승낙통지가 없으면 거절한 것으로 간주한다",
+      "보험회사가 보험료를 받고 청약을 승낙하기 전에 발생한 사고도 그 청약을 거절할 사유가 없는 한 보상한다",
+      "보험료를 받으면 보험회사의 승낙여부와 관계없이 보험계약은 성립한다",
+      "보험회사는 보험료 전액을 받아야만 계약의 승낙 여부를 통지할 수 있다 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 2,
+    "id": 922,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "다음 표와 같이 차량사고가 생겼다면 자동차 시세하락 손해로 인한 보험금은\n얼마인가?\n사고 직전 자동차 가액은 1억원(출고 후 6개월이 경과), 수리비는 3천만원, 무과실",
+    "options": [
+      "300만원",
+      "450만원",
+      "600만원",
+      "200만원"
+    ],
+    "answer": 3,
+    "id": 923,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "다음 중 보험설계사가 준수해야 하는 모집질서 관련 금지사항이 아닌 것은?",
+    "options": [
+      "자기가 모집한 계약을 타인이 모집한 것으로 처리하는 행위",
+      "보험료를 받지 아니하고 영수증을 먼저 선발행하는 행위",
+      "자기를 고용하고 있는 자를 보험계약자 또는 피보험자로 하는 보험을 모집하는 행위",
+      "모집을 위탁한 보험회사 이외의 보험회사를 위하여 보험을 모집하는 행위"
+    ],
+    "answer": 3,
+    "id": 924,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "다음 중 보험업법상 자기계약의 금지에 대한 설명이다. ( )에 들어갈 내용으로\n적절한 것은?\n보험대리점 또는 보험중개사가 모집한 자기 또는 자기를 고용하고 있는 자를 보험계약자나\n피보험자로 하는 보험의 보험료 누계액이 그 보험대리점 또는 보험중개사가 모집한 보험의\n보험료의 100분의 ( )을 초과하게 된 경우에는 이를 자기 또는 자기를 고용하고 있는\n자를 보험계약자 또는 피보험자로 하는 보험을 모집하는 것을 주된 목적으로 한 것으로 본다",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "answer": 4,
+    "id": 925,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "다음 ( ) 안에 들어갈 단어는?\n보험계약자는 보험회사의 인터넷 홈페이지, 유무선통신, 서면 등의 방법으로 제3자(제휴\n회사 등)에게 제공된 개인정보에 대하여 “개인신용정보의 제공동의”를 ( ) 할 수 있다",
+    "options": [
+      "철회",
+      "취소",
+      "수정",
+      "가감"
+    ],
+    "answer": 1,
+    "id": 926,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "보험대리점으로 등록할 수 있는 자에 해당하지 않는 것은?",
+    "options": [
+      "중고차 판매업자",
+      "수입차 판매업자",
+      "자동차판매업을 겸영하는 방송채널사용 사업자",
+      "보험중개사"
+    ],
+    "answer": 4,
+    "id": 927,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "보험모집 프로세스 중 “가입권유”에 관한 설명으로 올바르지 않은 것은?",
+    "options": [
+      "고객의 니즈와 재무정보를 토대로 최적의 위험보장 설계를 제시한다",
+      "상품안내 자료를 이용하여 고객이 받게 될 이점을 설명한다",
+      "다른 상품과 비교하여 보험상품의 가치를 납득시키고 반응을 관찰한다",
+      "상품가입 욕구를 높이기 위해 고객에게 불리한 내용은 설명하지 않는다"
+    ],
+    "answer": 4,
+    "id": 928,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "보험의 분류상 보험가입금액에 따른 분류에 대한 설명으로 틀린 것은?",
+    "options": [
+      "일부보험은 보험가입금액이 보험가액보다 적은 보험이다",
+      "초과보험은 보험가입금액을 한도로 실손보상한다",
+      "중복보험은 동일한 보험의 목적에 대해 동일한 피보험이익을 가져야 한다",
+      "넓은 의미의 중복보험은 수 개의 보험계약이 병존하는 경우를 말한다"
+    ],
+    "answer": 2,
+    "id": 929,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "보험사기방지특별법상 보험회사가 대통령령에서 정한 사유없이 보험금의 지급을\n지체 또는 거절하거나 삭감하여 지급한 경우 과태료 부과기준은?",
+    "options": [
+      "500만원 이하",
+      "1천만원 이하",
+      "1천 500만원 이하",
+      "2천만원 이하"
+    ],
+    "answer": 2,
+    "id": 930,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "도로교통법에 대한 설명으로 틀린 것은?",
+    "options": [
+      "고속도로 및 자동차 전용도로뿐만 아니라 일반도로에서도 뒷좌석 안전띠 착용을 의무화한다",
+      "자전거 음주운전 단속시 처벌규정이 신설되었다",
+      "경사로 주정차시 미끄럼방지 의무 도입, 시행되었다",
+      "70세 이상 고령자의 면허갱신시 적성검사 주기를 3년으로 단축한다"
+    ],
+    "answer": 4,
+    "id": 931,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "보험료의 구성에 대한 설명으로 올바른 것은?",
+    "options": [
+      "순보험료 = 저축보험료 + 부가보험료",
+      "영업보험료 = 저축보험료 + 순보험료",
+      "순보험료 = 영업보험료 + 부가보험료",
+      "영업보험료 = 순보험료 + 부가보험료"
+    ],
+    "answer": 4,
+    "id": 932,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "금융분쟁조정위원회에 관한 다음 설명 중 틀린 것은?",
+    "options": [
+      "금융분쟁조정위원회는 금융감독기구설치법에 의해 금융위원회에 설치되어 있다",
+      "금융기관 이용자와 금융기관간의 금융거래와 관련하여 발생된 분쟁의 조정을 심의·의결한다",
+      "판정에 구속력이 없기 때문에 그 판정결과를 따를 의무는 없다",
+      "조정결과에 불복하는 경우에는 소송을 제기할 수 있다"
+    ],
+    "answer": 1,
+    "id": 933,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "상해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험자 대위권은 당사자간의 약정이 있는 경우에 행사할 수 있다",
+      "타인의 사망보험 계약시에는 개인계약이든 단체계약이든 타인의 동의를 받아야 한다",
+      "보험가액이 존재하지 않는다",
+      "보험계약자는 보험기간 중에 보험수익자를 변경할 수 있다"
+    ],
+    "answer": 2,
+    "id": 934,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "국민건강보험법 또는 의료급여법을 적용받지 못하는 경우 질병급여의료비의 보상\n한도는?",
+    "options": [
+      "본인이 실제 부담한 금액의 30%",
+      "본인이 실제 부담한 금액의 40%",
+      "본인이 실제 부담한 금액의 50%",
+      "본인이 실제 부담한 금액의 60%"
+    ],
+    "answer": 2,
+    "id": 935,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "교통상해보험 약관상 기타 교통수단의 종류에 해당되는 것은?",
+    "options": [
+      "덤프트럭",
+      "콘크리트 믹서트럭",
+      "에스컬레이터",
+      "작업기계로 사용되는 건설기계"
+    ],
+    "answer": 3,
+    "id": 936,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "2021년 1월부터 현재까지 적용되는 한국표준질병·사인분류에 해당하는 것은?",
+    "options": [
+      "제5차 한국표준질병사인분류표",
+      "제6차 한국표준질병사인분류표",
+      "제7차 한국표준질병사인분류표",
+      "제8차 한국표준질병사인분류표"
+    ],
+    "answer": 4,
+    "id": 937,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "암보험에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "일정 연령 이상자에 대해서는 대기기간을 설정할 수 있다",
+      "암치료를 위해 입원시 암입원급여금을 지급한다",
+      "암으로 인해 50% 이상 장해상태시 사망보험금을 지급한다",
+      "암치료를 위한 통원시 통원 1회당 약정금액을 지급한다"
+    ],
+    "answer": 3,
+    "id": 938,
+    "source": "2024_12_1"
+  },
+  {
+    "question": "화재보험증권(보험가입증서)에 기재하지 않아도 보험의 목적이 되는 것은?",
+    "options": [
+      "통화, 유가증권, 인지, 우표",
+      "원고, 설계서, 소프트웨어",
+      "귀금속, 보석, 골동품",
+      "피보험자 소유의 간판, 네온사인"
+    ],
+    "answer": 4,
+    "id": 939,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "배상책임보험에 대한 설명으로 올바른 것은?",
+    "options": [
+      "가스용기운송업자는 가스사고배상책임 보험에 의무적으로 가입해야 한다",
+      "배상청구기준 배상책임보험이란 보험기간 중에 사고가 발생하고, 보험기간 중에 보험금이 청구되는 경우에만 보상하는 보험이다",
+      "의사배상책임보험은 의사라면 의무적으로 가입해야 되는 보험이다",
+      "시설소유관리자배상책임보험은 보험기간이 종료되기 이전에 보험금을 청구해야만 보상받을 수 있다"
+    ],
+    "answer": 2,
+    "id": 940,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "도난보험에서 보상하는 손해에 해당하는 것은?",
+    "options": [
+      "현금 및 유가증권의 절도 또는 강도의 도난행위로 입은 손해",
+      "계약자 및 피보험자의 고의, 중과실로 생긴 도난손해",
+      "화재, 폭발이 발생했을 때 생긴 도난손해",
+      "망실, 분실 손해"
+    ],
+    "answer": 1,
+    "id": 941,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "장기손해보험의 보험료 구성과 그에 대한 설명으로 옳은 것은?",
+    "options": [
+      "장기손해보험의 보험료는 순보험료와 위험보험료로 구성된다",
+      "장기손해보험의 순보험료는 위험보험료와 부가보험료로 구성된다",
+      "저축보험료는 보험계약의 중도해지시에 해약환급금의 재원이 된다",
+      "유지비는 신계약을 모집하는데 필요한 제경비이다"
+    ],
+    "answer": 3,
+    "id": 942,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "장기손해보험에서 계약내용의 변경에 대한 설명 중 맞는 것은?",
+    "options": [
+      "계약자의 변경은 불가능하다",
+      "피보험자는 보험종목, 보험기간을 변경할 수 있다",
+      "계약내용의 변경시 회사의 승낙은 불필요하다",
+      "계약자가 요청시 보험가입금액 변경이 가능하다"
+    ],
+    "answer": 4,
+    "id": 943,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "이연 퇴직소득에 대한 연금수령시, 적용세율은?",
+    "options": [
+      "이연퇴직소득세의 60%",
+      "이연퇴직소득세의 70%",
+      "이연퇴직소득세의 80%",
+      "이연퇴직소득세의 90% 수험번호\u0000: 성명\u0000:"
+    ],
+    "answer": 2,
+    "id": 944,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "자동차보험의 차종구분 중 청소차에 대한 설명에 해당하지 않는 것은?",
+    "options": [
+      "흡입세정차도 청소차에 포함된다",
+      "농작물 쓰레기를 치우는 것도 청소로 볼 수 있다",
+      "진공노면청소차도 청소차에 포함된다",
+      "청소차는 특수작업용 자동차에 속한다"
+    ],
+    "answer": 4,
+    "id": 945,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "자동차보험 특별할증에 대한 설명으로 옳은 것은?",
+    "options": [
+      "이륜자동차에도 특별할증이 적용된다",
+      "자동차보험 특별할증 적용대상 기준에 해당하는 계약에 대해서는 각 그룹별 최고할증률 한도 내에서 특별할증을 부과할 수 있다",
+      "특별할증률은 각 회사별로 동일하게 적용하여야 한다",
+      "승용차요일제 특별약관에 가입한 경우 비운행요일에 보험사고가 발생하면 무조건 특별할증을 적용한다"
+    ],
+    "answer": 2,
+    "id": 946,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "자동차손해배상보장법상 가불금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험회사의 보험금 지급의무가 발생하지 아니하는 것이 객관적으로 명백한 경우에도 가불금을 지급하여야 한다",
+      "가해자가 대인배상Ⅰ 및 Ⅱ에 가입한 경우 치료비는 그 보상한도 내에서 진료수가 전액을 보상한다",
+      "치료비 이외의 손해에 대해서는 책임보험금의 범위 내에서 피해자에게 발생한 손해액(치료비 공제)의 50%까지 지급한다",
+      "가불금 미지급시 보험회사에 대해 과태료가 부과된다"
+    ],
+    "answer": 1,
+    "id": 947,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정상 모집종사자가 특별이익 제공을\n약속한 경우 제재금 최대한도액은?",
+    "options": [
+      "5백만원",
+      "1천만원",
+      "2천만원",
+      "3천만원"
+    ],
+    "answer": 2,
+    "id": 948,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "다음 중 개인식별정보로 볼 수 없는 것은?",
+    "options": [
+      "◯◯보험회사에 근무하고 있는 설계사 이름 + 주민등록번호",
+      "웹사이트 방문시 생성된 단순 쿠키 정보",
+      "주소 + 성명 + 전자메일",
+      "성명 + 보험증권 번호"
+    ],
+    "answer": 2,
+    "id": 949,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "금소법상 금융상품직접판매업자에 해당하는 것은?",
+    "options": [
+      "보험회사",
+      "보험설계사",
+      "보험대리점",
+      "보험중개사"
+    ],
+    "answer": 1,
+    "id": 950,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "투기위험이 아닌 것은?",
+    "options": [
+      "주식투자",
+      "신규사업 진출",
+      "교통사고",
+      "도박"
+    ],
+    "answer": 3,
+    "id": 951,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "다음 중 보험사기방지특별법상의 내용이 아닌 것은?",
+    "options": [
+      "보험사기행위의 정의와 처벌규정",
+      "보험사기의 보고 및 수사의뢰",
+      "보험회사의 의무",
+      "나이롱환자 근절"
+    ],
+    "answer": 4,
+    "id": 952,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "보험계약의 소멸사유가 아닌 것은?",
+    "options": [
+      "피보험이익의 소멸",
+      "보험회사의 파산 후 1개월이 경과한 경우",
+      "보험계약자의 임의 해지",
+      "보험계약 성립 후 2개월이 지난 때까지 1회 보험료를 미납한 경우"
+    ],
+    "answer": 2,
+    "id": 953,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "소액단기전문보험회사에 대한 설명으로 틀린 것은?",
+    "options": [
+      "20억원 이상의 자본금을 납입하면 보험업을 개시할 수 있다",
+      "생명보험을 취급할 수 있다",
+      "자동차보험을 취급할 수 있다",
+      "동물보험을 취급할 수 있다"
+    ],
+    "answer": 3,
+    "id": 954,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "제3보험의 보험금 지급방식에 대한 설명으로 틀린 것은?",
+    "options": [
+      "손해보험사에서 취급하는 제3보험에서는 실손보상 방식이 가능하다",
+      "사망·후유장해 담보가 대표적인 정액급부형 담보이다",
+      "실손보상을 적용하는 실손의료비 담보를 여러건 체결시에는 중복보장을 받을 수 없다",
+      "정액보상 급부가 있는 보험계약은 보험가입내역을 보험회사 간에 교환하여 비례 보상한다"
+    ],
+    "answer": 4,
+    "id": 955,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "제3보험의 보험종목에 해당하지 않는 것은?",
+    "options": [
+      "질병보험",
+      "간병보험",
+      "연금보험",
+      "상해보험"
+    ],
+    "answer": 3,
+    "id": 956,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "다음 중 제3보험에서 보상하는 경우가 아닌 것은?",
+    "options": [
+      "타인의 간병을 필요로 하는 경우",
+      "질병으로 인해 발생되는 입원, 수술의 경우",
+      "우연하고도 급격한 외래의 사고로 신체가 손해를 입은 경우",
+      "화재로 인해 주택이 전손이 된 경우"
+    ],
+    "answer": 4,
+    "id": 957,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 공제금액에 대한 설명 중 잘못된\n것은?",
+    "options": [
+      "보건소에 통원하여 발생한 상해 급여의료비 : 1만원과 보장대상의료비의 20% 중 큰 금액",
+      "종합병원에 통원하여 발생한 질병 급여의료비 : 2만원과 보장대상의료비의 20% 중 큰 금액",
+      "종합병원에 통원하여 발생한 상해 급여의료비 : 2만원과 보장대상의료비의 20% 중 큰 금액",
+      "의원에 통원하여 발생한 상해 비급여의료비 : 1만원과 보장대상의료비의 20% 중 큰 금액"
+    ],
+    "answer": 4,
+    "id": 958,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "단체상해보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "비영리법인단체는 2종 단체에 해당한다",
+      "보험증권은 보험계약자와 피보험자 모두에게 교부한다",
+      "타인의 사망보험계약에서 피보험자의 서면에 의한 동의를 반드시 받아야 한다",
+      "단체의 대표자는 보험회사의 승인 없이 피보험자를 변경할 수 있다"
+    ],
+    "answer": 1,
+    "id": 959,
+    "source": "2024_12_2"
+  },
+  {
+    "question": "주택화재보험에서 다른 약정이 없어도 보험의 목적에\n포함되는 물건은?",
+    "options": [
+      "피 보험자와 같은 세대에 속하는 사람의 소유물인 가재도구",
+      "통화, 유가증권",
+      "귀금속, 귀중품, 조각물",
+      "원고, 설계도, 소프트웨어"
+    ],
+    "answer": 1,
+    "id": 960,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "다중이용업소 화재배상책임보험의 의무가입 대상이\n아닌 것은?",
+    "options": [
+      "산후조리원",
+      "방탈출카페",
+      "노래연습장",
+      "방송국"
+    ],
+    "answer": 4,
+    "id": 961,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "다음 중 배상청구기준 배상책임보험에 해당하는 것은?",
+    "options": [
+      "임원배상책임보험",
+      "경비업자배상책임보험",
+      "시설소유관리자배상책임보험",
+      "선주배상책임보험"
+    ],
+    "answer": 1,
+    "id": 962,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "선 납할인제도에 대한 설명으로 맞는 것은?",
+    "options": [
+      "장기손해보험을 포함해서 자동차보험 및 화재보험에도 적용된다",
+      "3개월 이상의 보험료를 미리 납부하는 경우에 해당된다",
+      "연금저축보험, 퇴직연금보험 등 저축성보험에서 할인이 이루어진다",
+      "선 납보험료에 대한 할인은 보험계약대출이율을 적용 한다"
+    ],
+    "answer": 2,
+    "id": 963,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "세제적격 요건을 갖추기 위한 연금저축보험 가입기간으로\n바른 것은?",
+    "options": [
+      "10년 이상",
+      "3년 이상",
+      "5년 이상",
+      "7년 이상 1 - 1월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 964,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "자 동차보험의 의무보험에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보 험회사는 고위험계층에 대해서는 계약을 거절할 수 있다",
+      "피해자의 직접청구권이 인정된다",
+      "자 동차 사고 환자를 진료한 의료기관이 보험회사에 청구할 수 있는 의료비를 환자에게 청구할 수 없다",
+      "보험계약자의 임의해지권이 제한된다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 1,
+    "id": 965,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "「 보험업법」 제97조에서 규정하고 있는 보험계약의 체결\n또는 모집에 관한 금지행위에 해당하지 않는 것은?",
+    "options": [
+      "보 험계약자 또는 피보험자에게 기초서류에서 정한 사유에 근거하여 보험료를 할인해 주는 행위",
+      "다 른 모집종사자의 명의를 이용하여 보험계약을 모집 하는 행위",
+      "보 험계약자 또는 피보험자에게 보험 상품의 내용을 사실과 다르게 알리는 행위",
+      "실 제 명의인이 아닌 자의 보험계약을 모집하거나 실제 명의인의 동의가 없는 보험계약을 모집하는 행위 2 - 1월 1회 모의고사"
+    ],
+    "answer": 1,
+    "id": 966,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "「 금소법」의 부당권유행위 금지 위반시 부과되는 과태료는\n얼마인가?",
+    "options": [
+      "1억원",
+      "5천만원",
+      "3천만원",
+      "1천만원"
+    ],
+    "answer": 1,
+    "id": 967,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "다음 중 「보험업법」상 보험설계사 자격을 취득하면 등록\n할 수 있는 사람은?",
+    "options": [
+      "보험설계사 등록이 취소된 후 1년이 지난 자",
+      "파산자로서 복권되어 1년이 지난 자",
+      "「보험업법」 위반으로 징역 1년형을 선고받고 만기 출소 한 지 1년이 지난 자",
+      "과거에 보험료를 유용한 후 1년이 지난 자"
+    ],
+    "answer": 2,
+    "id": 968,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "다 음 중 금융기관보험대리점에 관한 설명으로 틀린\n것은?",
+    "options": [
+      "금 융기관보험대리점의 보험모집을 방카슈랑스라고 표현한다",
+      "국 내에서 허가받은 은행과 상호저축은행은 금융기관 보험대리점으로 등록할 수 있다",
+      "국 내의 금융기관보험대리점 제도는 2003년 8월부터 실시되고 있다",
+      "겸영여신업자를 포함한 신용카드회사는 금융기관 보험대리점으로 등록할 수 있다 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 4,
+    "id": 969,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "공영보험에 관한 설명으로 맞는 것은?",
+    "options": [
+      "건강보험과 마찬가지로 산업재해보상보험도 공영보험에 속한다",
+      "영리추구를 목적으로 영위되는 보험사업이 공영보험이다",
+      "국 민의 복지증진을 위하여 민간사업자가 공영보험을 영위하기도 한다",
+      "자동차보험은 공영보험으로 분류된다"
+    ],
+    "answer": 1,
+    "id": 970,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "다음 「도로교통법」 내용 중 맞는 것은?",
+    "options": [
+      "음주운전 사망사고시 20년 이상의 징역",
+      "혈중알콜농도 0.03%~0.08% 미만시 벌점 100점",
+      "음주운전 2회 이상 10년간 면허 취득 불가",
+      "음주측정 불응시 15년간 면허 취득 불가 3 - 1월 1회 모의고사"
+    ],
+    "answer": 2,
+    "id": 971,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "손 해보험에서 사고보험금을 청구할 수 있는 권리를\n가지는 자와 인보험에서 보험사고 발생시 보험금\n청구권을 갖는 자를 맞게 짝지은 것은?",
+    "options": [
+      "보험계약자 – 보험수익자",
+      "보험자 – 보험계약자",
+      "피보험자 – 보험계약자",
+      "피보험자 – 보험수익자"
+    ],
+    "answer": 4,
+    "id": 972,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "보험계약의 특성이 아닌 것은?",
+    "options": [
+      "일정한 형식이 필요한 요식성",
+      "다 수의 계약자로 구성되는 보험단체를 기초로 하는 단체성",
+      "보험료와 보험금의 불일치에 따른 사행계약성",
+      "보험료 산정에 상당한 수리적 기술이 요구되는 기술성"
+    ],
+    "answer": 1,
+    "id": 973,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "보통약관의 기재사항이 아닌 것은?",
+    "options": [
+      "보험료 납입일자",
+      "보험계약의 일부 또는 전부의 해지원인과 해지시 당사자의 권리·의무",
+      "보험계약 무효 원인",
+      "보 험계약자나 피보험자가 그 의무를 이행할 시기와 미이행시 손실"
+    ],
+    "answer": 1,
+    "id": 974,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "손 해보험회사가 제3보험의 기본계약으로 운영할 수\n있는 것은?",
+    "options": [
+      "심장마비로 인한 사망",
+      "위암 및 폐암으로 인한 사망",
+      "제3자에 대한 배상책임손해",
+      "교통사고로 인한 사망 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 4,
+    "id": 975,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "「 상법」상 사망담보 보험계약의 무효 요건에 대한 내용으로\n맞는 것은?",
+    "options": [
+      "사망을 보험사고로 하는 보험계약의 무효 요건은 「보험업법」에 규정되어 있다",
+      "만 18세 미만자의 사망을 보험사고로 하는 보험계약은 무효이다",
+      "심 신상실자의 사망을 보험사고로 하는 보험계약은 유효하다",
+      "의 사능력이 없는 심신박약자의 사망을 보험사고로 하는 보험계약은 무효이다"
+    ],
+    "answer": 4,
+    "id": 976,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "타인의 사망을 보험사고로 하는 보험계약에 대한\n설명으로 맞는 것은?",
+    "options": [
+      "계 약체결시까지 피보험자의 서면에 의한 동의를 얻어야 한다",
+      "계 약체결시기와 관계없이 피보험자의 서면에 의한 동의만 있으면 계약이 성립한다",
+      "피 보험자의 동의여부는 계약성립에 영향을 미치지 않는다",
+      "단 체보험계약인 경우에도 피보험자의 서면에 의한 동의를 반드시 얻어야 한다"
+    ],
+    "answer": 1,
+    "id": 977,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "상해보험에서 사망보험금 수령자로 올바른 것은?",
+    "options": [
+      "피보험자의 자녀",
+      "보험계약자",
+      "피보험자",
+      "보험수익자"
+    ],
+    "answer": 4,
+    "id": 978,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "실손의료보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "노 후 실손의료보험은 가입자의 자기부담금을 높게 설정하고 일부 보장내용을 변경하여 65세 이상도 보험가입이 가능하다",
+      "유 병력자 실손의료보험은 계약 전 알릴 의무 사항 등 가입심사 요건을 축소하여 일부 유병력자도 가입 가능하다",
+      "실손의료보험은 일반, 노후, 유병력자 실손의료보험이 있다",
+      "노 후 실손의료보험은 의료비와 3개의 특약으로 구성 되어 있다"
+    ],
+    "answer": 4,
+    "id": 979,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "유병력자 실손의료보험의 상품구조로 맞는 것은?",
+    "options": [
+      "보 장범위에 도수치료와 비급여주사(영양제 등)가 포함된다",
+      "고혈압 환자 등의 처방조제비용도 보장된다",
+      "보장내용 변경주기(재가입 주기)가 3년으로 설정되어 있다",
+      "기본형과 특약으로 구성된다"
+    ],
+    "answer": 3,
+    "id": 980,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "보험회사가 상해 및 질병보험계약에서 보험금 지급\n사유의 조사·확인이 필요한 경우 지급하는 가지급\n보험금의 규모는?",
+    "options": [
+      "추정보험금의 20% 상당액",
+      "추정보험금의 30% 상당액",
+      "추정보험금의 50% 상당액",
+      "추정보험금의 70% 상당액"
+    ],
+    "answer": 3,
+    "id": 981,
+    "source": "2025_01_1"
+  },
+  {
+    "question": "다 음 ( ) 안에 알맞은 비용손해는?\n재산손해보험금과 ( )의 합계액은 보험가입금액을\n한도로 한다",
+    "options": [
+      "잔존물 보전비용",
+      "잔존물 제거비용",
+      "손해방지비용",
+      "대위권보전비용"
+    ],
+    "answer": 2,
+    "id": 982,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "다중이용업소 화재배상책임보험에 관한 설명 중 틀린\n것은?",
+    "options": [
+      "사망의 경우 피해자 1명당 1.5억원의 범위 내에서 피해자에게 발생한 손해액을 지급한다",
+      "후 유장애의 경우 피해자 1명당 8천만원의 범위 내에서 피해자에게 발생한 손해액을 지급한다",
+      "부 상의 경우 피해자 1명당 3천만원의 범위 내에서 보상 한다",
+      "재산손해의 경우 사고 1건당 10억원의 범위 내에서 피해자에게 발생한 손해액을 지급한다"
+    ],
+    "answer": 2,
+    "id": 983,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "다음 중 장기손해보험의 대한 설명으로 맞는 것은?",
+    "options": [
+      "보 험회사는 고지의무의 위반을 안날로부터 2개월 이내에 계약을 취소할 수 있다",
+      "제 2회 이후의 보험료를 납입하지 않은 경우 보험회사는 10일 이상의 기간을 납입최고기간으로 정하여 연체보험료를 납입할 것을 안내해야 한다",
+      "보 험료 납입연체(미납)로 계약이 해지된 경우 해지일로 부터 3년 이내에 부활이 가능하다",
+      "보 험사고로 지급한 보험금이 보험가입금액의 80% 미만인 경우 보험가입금액에서 1차 지급 보험금을 감액한다"
+    ],
+    "answer": 3,
+    "id": 984,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "장기손해보험의 해약환급금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "만 기환급금은 만기 전 계약이 소멸되는 경우에도 만기 환급금을 지급한다",
+      "보 험계약자의 고지의무 및 통지의무 위반 등으로 계약이 해지된 경우 보험회사는 해지시까지 적립한 해약환급금을 지급한다",
+      "보 험계약자가 보험료 미납으로 해지시 보험회사는 해지 시까지 적립한 해약환급금을 지급한다",
+      "보 험계약자가 보험계약자가 해지 의사표시를 한 경우 보험회사는 해지시까지 적립한 해약환급금을 지급한다"
+    ],
+    "answer": 1,
+    "id": 985,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "총 급여 5,500만원을 초과하는 근로자가 납입한 연금\n저축 연간 납입보험료가 100만원일 경우, 세액공제\n금액은?(지방소득세 포함)",
+    "options": [
+      "1 6.5만원",
+      "13.2만원",
+      "15만원",
+      "24만원"
+    ],
+    "answer": 2,
+    "id": 986,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "자동차보험 경상사고의 대인2 피해자 과실상계에 대한\n설명으로 맞는 것은?",
+    "options": [
+      "차 량운전자가 자동차손해배상보장법 시행령 <별표1> 에서 정한 상해급별 구분 중 10급 내지 14급의 상해를 입은 경우 보상한다",
+      "차 대차 사고뿐만 아니라 차대 이륜차 사고의 이륜차 운전자도 보상한다",
+      "차 대차 사고뿐만 아니라 차대 자전거 사고의 자전거 운전자도 보상한다",
+      "차 량운전자가 자동차손해배상보장법 시행령 <별표1> 에서 정한 상해급별 구분 중 12급 내지 14급의 상해를 입은 경우 보상한다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 4,
+    "id": 987,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "완전판매와 관련된 설명 중 맞는 것은?",
+    "options": [
+      "3대 기본 지키기는 청약서 등 자필서명, 청약서 부본전달, 약관의 전달 및 주요내용 설명이다",
+      "모집자 실명제를 위반할 경우에는 1천만원 이하의 벌금이 부과된다",
+      "기 업성 보험의 경우에는 단계별 설명의무가 적용되지 않는다",
+      "단 계별 설명의무에서 계약체결 권유단계에서는 보험 계약 승낙거절 시 거절사유를 설명하여야 한다"
+    ],
+    "answer": 1,
+    "id": 988,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정에서 금지\n하고 있는 행위로 맞는 것은?",
+    "options": [
+      "보험금 지급분쟁",
+      "특별이익 제공을 약속",
+      "보험계약 인수거절",
+      "수수료 변경관련 민원 2 - 1월 2회 모의고사"
+    ],
+    "answer": 2,
+    "id": 989,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "모집종사자에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험대리점은 계약체결권과 고지의무수령권이 있다",
+      "보험설계사는 보험중개사를 위하여 보험계약의 체결을 대리할 수 있다",
+      "보험중개사는 독립적으로 보험계약의 체결을 중개하는 자이다",
+      "보험설계사는 보험업법에 따라 금융위원회에 등록하여야 한다"
+    ],
+    "answer": 2,
+    "id": 990,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "보험업법상 보험설계사 등록 취소사유에 해당하지 않는\n사람은?",
+    "options": [
+      "보험설계사로 등록된 후 파산한 자",
+      "보험설계사 등록 당시 피한정후견인인 사실을 숨기고 등록한 자",
+      "보험설계사 등록이 취소된 후 3년이 지난 사실을 알리지 않고 등록한 자",
+      "보 험업무 경력이 없으면서 보험회사 경력증명서를 위조하여 등록한 자"
+    ],
+    "answer": 3,
+    "id": 991,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "( ) 안에 들어갈 알맞은 용어는 무엇인가?\n자기계약 대리점이란 보험대리점이 자기 또는 자기를\n고용하고 있는 자를 보험계약자 또는 피보험자로 하는\n보험의 보험료 누계액이 당해 보험대리점이 모집한\n보험의 보험료 누계액의 ( )을 초과하는 대리점을\n말한다",
+    "options": [
+      "1 0/100",
+      "30/100",
+      "50/100",
+      "60/100"
+    ],
+    "answer": 3,
+    "id": 992,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "제3보험 겸영에 대한 설명으로 틀린 것은?",
+    "options": [
+      "제3보험의 보험종목에 부가하는 보험은 겸영할 수 있다",
+      "제3보험의 재보험은 겸영할 수 있다",
+      "생명보험의 재보험은 겸영할 수 있다",
+      "신용보증보험의 재보험은 겸영할 수 있다"
+    ],
+    "answer": 4,
+    "id": 993,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "사망을 보험사고로 하는 보험계약의 법률상 무효에\n해당하는 대상은?",
+    "options": [
+      "2 0세 미만자",
+      "19세 미만자",
+      "15세 미만자",
+      "22세 미만자 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 3,
+    "id": 994,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대) 피보험자가\n상급종합병원 통원(비급여의료비 발생) 후 보험금 청구시\n공제금액으로 맞는 것은?",
+    "options": [
+      "1만원과 보장대상의료비의 20% 중 큰 금액",
+      "2만원과 보장대상의료비의 10% 중 큰 금액",
+      "2만원과 보장대상의료비의 20% 중 큰 금액",
+      "3만원과 보장대상의료비의 30% 중 큰 금액"
+    ],
+    "answer": 4,
+    "id": 995,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "다음 중 질병보험의 특징으로 바르게 짝지어진 것은?\n가. 피보험자가 고의로 자신을 해친 경우에도 보상한다\n나. 질병사망 보험은 보장성보험의 요건을 충족하여야\n한다\n다. 대기기간을 설정할 수 없다\n라. 정신질환은 보상하지 않는다",
+    "options": [
+      "나 , 라",
+      "가, 다",
+      "가, 나",
+      "다, 라"
+    ],
+    "answer": 1,
+    "id": 996,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "상 해 및 질병보험에서 신체손해보험금은 보험금 청구\n서류 접수일로부터 며칠 이내에 지급해야 하나?",
+    "options": [
+      "3영업일 이내",
+      "7영업일 이내",
+      "10영업일 이내",
+      "20영업일 이내"
+    ],
+    "answer": 1,
+    "id": 997,
+    "source": "2025_01_2"
+  },
+  {
+    "question": "재난배상책임보험에 관한 설명 중 틀린 것은?",
+    "options": [
+      "가입대상시설의 소유자와 점유자가 동일한 경우 보험 가입의무자는 소유자이다",
+      "가 입대상시설의 소유자와 점유자가 다른 경우 보험 가 입의무자는 점유자이다",
+      "소 유자 또는 점유자와의 계약에 따라 가입대상시설의 관리책임과 권한을 부여받은 자가 있는 경우 보험 가입 의무자는 점유자이다",
+      "재 난배상책임보험은 화재, 폭발, 붕괴로 인한 타인의 신체 또는 재산피해를 보상한다"
+    ],
+    "answer": 3,
+    "id": 998,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "다 음 중 다중이용업소 화재배상책임보험 가입대상이\n아닌 곳은?",
+    "options": [
+      "PC방",
+      "주유소",
+      "노래연습장",
+      "일반음식점"
+    ],
+    "answer": 2,
+    "id": 999,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "연금저축의 세제적격 요건에 해당하는 연금수령요건은?",
+    "options": [
+      "60세 이후 수령, 가입일로부터 2년 이후 수령",
+      "50세 이후 수령, 가입일로부터 5년 이후 수령",
+      "55세 이후 수령, 가입일로부터 5년 이후 수령",
+      "55세 이후 수령, 가입일로부터 2년 이후 수령 1 - 2월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1000,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "자 동차보험 보험요율의 반영요소가 아닌 것은?",
+    "options": [
+      "특약요율",
+      "가입자특성요율",
+      "특별요율",
+      "장기요율 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 4,
+    "id": 1001,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "자동차손해배상보장사업의 제외대상이 아닌 것은?",
+    "options": [
+      "보험가입을 요하지 않는 차량에 의한 사고 피해자(UN군 보유차, 미군 보유차)",
+      "도로가 아닌 장소에서만 운행하는 자동차사고 피해자",
+      "피해자가 가해자로부터 손해배상을 받은 경우",
+      "산재보험 등 그 밖에 다른 법률에 의해 보상받을 수 없는 경우"
+    ],
+    "answer": 4,
+    "id": 1002,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "다음 중 승환계약에 관한 설명으로 틀린 것은?",
+    "options": [
+      "기존 보험계약을 부당하게 소멸시킴으로써 새로운 보험계약을 청약하게 하는 행위이다",
+      "새로운 보험계약을 청약하게 함으로써 기존 보험계약을 부당하게 소멸시키는 행위이다",
+      "보 험업법에 따라 승환계약 체결 행위에 대해 1천만원 이하의 과태료를 부과할 수 있다",
+      "상호협정에 따라 승환계약 체결 행위에 대해 모집행위자 1인당 최고 2천만원의 제재금을 부과할 수 있다"
+    ],
+    "answer": 4,
+    "id": 1003,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "다 음 중 ‘위태ʼ에 대한 설명으로 틀린 것은?",
+    "options": [
+      "손 해의 가능성을 새로이 만들어 내거나 증가시키는 상태를 말한다",
+      "위태에는 물리적 위태, 도덕적 위태, 정신적 위태 등이 있다",
+      "정신적 위태는 기강적 위태라고도 한다",
+      "고의방화, 강도, 사기 등은 정신적 위태에 해당한다"
+    ],
+    "answer": 4,
+    "id": 1004,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "나이롱환자 근절을 위한 자동차손해배상보장법의 내용\n중 틀린 것은?",
+    "options": [
+      "외출·외박 기록에는 환자의 서명·날인은 필요하지만, 의료인의 서명·날인은 불필요하다",
+      "의료기관은 교통사고 입원환자의 외출·외박 관련사항을 기록·관리하여야 한다",
+      "교 통사고로 입원한 환자는 외출·외박시 의료기관의 허락을 받아야 한다",
+      "의료기관이 외출·외박 기록의무를 위반한 경우 300만원 이하의 과태료를 부과한다"
+    ],
+    "answer": 1,
+    "id": 1005,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "다음 운전자의 의무와 책임의 내용 가운데 틀린 것은?",
+    "options": [
+      "무면허, 음주운전을 하면 안된다",
+      "소주 한잔 정도는 운전해도 괜찮다",
+      "자발적으로 교통법규를 준수해야 한다",
+      "긴급상황 발생시 응급조치와 구조요청 등을 해야 한다"
+    ],
+    "answer": 2,
+    "id": 1006,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "보 험가입금액과 보험가액에 대한 설명 중 옳지 않은\n것은?",
+    "options": [
+      "보험가입금액과 보험가액이 동일한 경우 보험가입금액 한도로 손해액 전액을 보상한다",
+      "보험가입금액이 보험가액보다 큰 경우 보험가입금액을 한도로 손해액 전액을 보상한다",
+      "보험가액은 손해보험에만 있는 개념이다",
+      "공 동보험은 보험가입금액을 한도로 보험회사가 보험 가입금액 비율에 따라 비례 또는 실손보상한다"
+    ],
+    "answer": 2,
+    "id": 1007,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "보험목적의 양도에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "보 험목적이 양도되는 때에는 계약상 권리와 의무가 양수인에게 승계되는 것으로 간주한다",
+      "자 동차보험은 보험회사의 동의가 있어야 보험계약상 권리·의무가 승계된다",
+      "상 속과 보험목적의 양도는 보험의 목적과 함께 손해 보험 계약상의 권리와 의무관계가 포괄 승계되는지에 따라 구별된다",
+      "보험의 목적은 무체재산도 포함한다"
+    ],
+    "answer": 1,
+    "id": 1008,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험 (4세대)의 ‘기본형\n실손의료보험ʼ에 대한 설명으로 맞는 것은?",
+    "options": [
+      "비급여 자기공명영상진단(MRI/MRA) 비용을 보상한다",
+      "비급여 주사료를 모두 보상한다",
+      "통원의 보상한도는 회당 최대 20만원이다",
+      "비급여 도수치료 비용을 보상한다"
+    ],
+    "answer": 3,
+    "id": 1009,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "실 손의료보험(4세대)의 특별약관상 보장범위가 아닌\n것은?",
+    "options": [
+      "치 과 급여",
+      "질병비급여",
+      "3대비급여",
+      "상해비급여"
+    ],
+    "answer": 1,
+    "id": 1010,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "상해보험 약관상 ( ) 안에 들어갈 날짜로 적절한 것은?\n보험회사는 손해발생 통지 및 보험금 청구서류를\n접수한 때에는 접수증을 드리고 그 서류를 접수한\n날부터 신체손해에 관한 보험금은 ( ) 이내에\n지급하여 드립니다",
+    "options": [
+      "3영업일",
+      "5영업일",
+      "7영업일",
+      "10영업일 4 - 2월 1회 모의고사"
+    ],
+    "answer": 1,
+    "id": 1011,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "교통상해보험 약관상에서 정하고 있는 자동차의 종류에\n포함되지 않는 것은?",
+    "options": [
+      "승용자동차",
+      "이륜자동차",
+      "스쿠터",
+      "화물자동차"
+    ],
+    "answer": 3,
+    "id": 1012,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "개인 실손의료보험(4세대)의 의료기관별 공제금액\n(급여의료비 기준)으로 맞는 것은?",
+    "options": [
+      "보 건소 : 2만원과 보장대상의료비의 20% 중 큰 금액",
+      "의원 : 1만원과 보장대상의료비의 20% 중 큰 금액",
+      "종합병원 : 5만원과 보장대상의료비의 30% 중 큰 금액",
+      "상 급종합병원 : 7 만원과 보장대상의료비의 30% 중 큰 금액"
+    ],
+    "answer": 2,
+    "id": 1013,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "개 호보험이라고도 하며 주로 전신마비나 중증치매시\n보험금이 지급되는 보험은?",
+    "options": [
+      "국민건강보험",
+      "소득보장보험",
+      "실손형보험",
+      "장기간병보험 손해보험 모집인 등록시험 - 5 5 - 2월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1014,
+    "source": "2025_02_1"
+  },
+  {
+    "question": "특수건물화재보험에서 보상하는 손해로 알맞지 않은 것은?",
+    "options": [
+      "신체손해배상책임담보 특별약관에서 보상하는 손해",
+      "화재대물배상 특별약관에서 보상하는 손해",
+      "화재보험 보통약관에서 보상하는 손해",
+      "풍수재 특별약관에서 보상하는 손해"
+    ],
+    "answer": 4,
+    "id": 1015,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "다중이용업소 화재배상책임보험에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "다 중이용업소 안전관리에 관한 특별법에 따라 26개 다중이용업소 업주에게 배상책임보험 가입을 의무화한 보험이다",
+      "사망, 후유장애는 피해자 1인당 1억 5천만원 한도 내에서 보상한다",
+      "부상의 경우 피해자 1인당 3천만원 한도 내에서 보상한다",
+      "1사고당 5억원 한도 내에서 보상한다"
+    ],
+    "answer": 4,
+    "id": 1016,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "특종보험의 보험기간에 대한 설명으로 틀린 것은?",
+    "options": [
+      "수렵보험은 기간보험이다",
+      "낚시보험은 기간보험이다",
+      "골프보험은 기간보험이다",
+      "스키보험은 구간보험이다 손해보험 모집인 등록시험 - 1 모집인 등록자격시험 험번호 성명 시험지 유형 2-2"
+    ],
+    "answer": 2,
+    "id": 1017,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "다음 중 각각의 설명에 대한 보기로 옳은 구성은?\n가) 사고발생시 보험금 지급의 재원이 되는 보험료\n나) 보험계약의 해약환급금 또는 만기환급금의 재원이\n되는 보험료",
+    "options": [
+      "가) 순보험료, 나) 저축보험료",
+      "가) 위험보험료, 나) 저축보험료",
+      "가) 위험보험료, 나) 부가보험료",
+      "가) 부가보험료, 나) 순보험료"
+    ],
+    "answer": 2,
+    "id": 1018,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "사용자가 매년 근로자 연간 임금의 1/12 이상을 부담금\n으로 납부하고, 근로자가 적립금의 운용방법을 결정하여\n퇴직급여가 변동되는 퇴직연금 종류는?",
+    "options": [
+      "확정급여형",
+      "확정기여형",
+      "개인형퇴직연금",
+      "확정기여형 및 확정급여형"
+    ],
+    "answer": 2,
+    "id": 1019,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "피보험자가 무보험자동차에 의하여 생긴 사고로 사망\n하거나 다쳤을 때 그 손해에 대하여 배상의무자가 있는\n경우에 보상하는 자동차보험의 담보종목은 무엇인가?",
+    "options": [
+      "대 인배상",
+      "자기신체사고",
+      "자기차량손해",
+      "무보험차상해"
+    ],
+    "answer": 4,
+    "id": 1020,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "자동차보험 대물배상의 대차료 지급기준에 대한 설명 중\n틀린 것은?",
+    "options": [
+      "대차를 하지 않는 경우에는 대여 자동차요금의 35% 상당액을 지급한다",
+      "외 산 자동차의 동급이라 함은 배기량, 연식이 유사한 외산 자동차를 말한다",
+      "대 여자동차가 없는 경우란 여객자동차운수사업법에 따라 대여자동차 사업에 사용할 수 있는 자동차 외의 차종을 말한다",
+      "대여자동차가 없는 경우 사업용 해당 차종 휴차료 일람표 금액의 35% 상당액을 지급한다"
+    ],
+    "answer": 2,
+    "id": 1021,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "아래의 경우 자동차보험 자기차량손해 최종 자기부담금은\n얼마인가?\n할증기준금액 200만원, 정률 20%(자기부담금 최소\n20만원, 최대 50만원 기준), 차량손해액 500만원",
+    "options": [
+      "20만원",
+      "100만원",
+      "50만원",
+      "0원 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 3,
+    "id": 1022,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "자동차손해배상보장사업 제외대상에 대한 설명 중 맞는\n것은?",
+    "options": [
+      "미군 보유자동차가 훈련 이외의 목적으로 운행하다가 사고가 난 경우에는 피해자는 보장사업 청구가 가능하다",
+      "도로가 아닌 장소에서만 운행하는 자동차 사고의 피해자는 보장사업 청구가 가능하다",
+      "산재보험 등 다른 법률에 의해 보상을 받을 수 있는 경우에는 손해액에 대해서 비례분담방식에 따라 청구가 가능하다",
+      "5 0cc 미만 이륜자동차 사고의 피해자도 보장사업 청구가 가능하다"
+    ],
+    "answer": 4,
+    "id": 1023,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "보 험업법 제98조에서 금지하고 있는 특별이익제공\n유형으로 올바르지 않은 것은?",
+    "options": [
+      "금 품제공(보험계약 체결시부터 최초 1년간 납입되는 보험료의 100분의 10과 3만원 중 적은 금액을 제외한 금품)",
+      "특별이익을 요구하여 수수한 보험계약자는 처벌받지 않음",
+      "기초서류에서 정한 사유에 근거하지 않는 수수료의 지급",
+      "보험계약자나 피보험자를 위한 보험료의 대납"
+    ],
+    "answer": 2,
+    "id": 1024,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "손해보험협회에서 운영하는 장애인 및 장기기증자에 대한\n보험가입 차별 금지센터에 신고할 수 있는 내용에 해당하는\n것은?",
+    "options": [
+      "부당한 보험금 미지급",
+      "보험료 자동이체 제한",
+      "보험가입 청약 거절",
+      "장애판정기준 불인정 2 - 2월 2회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1025,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "보험의 모집에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험설계사는 보험대리점으로 등록할 수 있다",
+      "보험의 모집이 가능한 자는 법률로 제한하고 있다",
+      "보험회사가 아닌 자와는 보험계약을 체결하거나 중개, 대리할 수 없다",
+      "보 험계약의 중개는 보험설계사와 보험중개사에 의해 이루어진다"
+    ],
+    "answer": 1,
+    "id": 1026,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "보험가입 대상이 되는 위험이 아닌 것은?",
+    "options": [
+      "다수의 동질적 위험",
+      "확률적으로 측정 가능한 위험",
+      "자연계의 이상변동 위험",
+      "경제적 부담이 가능한 위험 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 3,
+    "id": 1027,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "자동차관리법상 정비의뢰자에게 사전견적서를 교부하지\n않은 경우 부과되는 과태료 기준은?",
+    "options": [
+      "100만원 이하",
+      "200만원 이하",
+      "300만원 이하",
+      "500만원 이하"
+    ],
+    "answer": 1,
+    "id": 1028,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "다음 중 보험계약자의 주요 의무에 대한 설명으로 옳은\n것은?",
+    "options": [
+      "보험계약자 등이 보험사고 발생의 통지의무를 게을리 하여 손해가 증가되더라도 보험회사는 증가된 손해를 보상할 책임이 있다",
+      "보험회사가 위험변경·증가 통지를 받은 때에는 1주일 이내에 보험료를 증액 청구할 수 있다",
+      "손해보험계약 체결 후 피보험자를 변경한 경우 그 사실을 보험회사에 통지해야 한다",
+      "보험계약자의 보험료 반환청구권 소멸시효는 2년이다"
+    ],
+    "answer": 3,
+    "id": 1029,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "다 음 중 보험가액을 한도로 보상하는 것은?",
+    "options": [
+      "일부보험",
+      "전부보험",
+      "초과보험",
+      "공동보험"
+    ],
+    "answer": 3,
+    "id": 1030,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "약관해석의 원칙에 대한 설명으로 틀린 것은?",
+    "options": [
+      "약관이 변경된 경우 이미 체결된 보험계약에 대해서도 그 변경의 효력을 적용하는 것이 일반적이다",
+      "필서와 인쇄가 모순되는 경우 필서가 우선한다",
+      "약 관표현이 불분명할 때에는 계약자에게 유리하게 해석한다",
+      "보험증권의 문언은 평이한 보통의 의미로 이해되어야 한다"
+    ],
+    "answer": 1,
+    "id": 1031,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "보험회사의 자본금 및 기금의 요건에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "외 국보험회사의 영업기금은 100억원 이상이다",
+      "자동차보험의 자본금 요건은 200억원이다",
+      "보증보험의 자본금 요건은 300억원이다",
+      "보 험회사가 보험종목의 일부만을 영위하고자 하는 경우에는 대통령령으로 자본금 또는 기금의 액수를 달리 정할 수 있다 3 - 2월 2회 모의고사"
+    ],
+    "answer": 1,
+    "id": 1032,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "제3보험의 보험금 지급방식 중 정액보상방식에 대한\n설명으로 틀린 것은?",
+    "options": [
+      "보험사고 발생시 미리 정해진 급부를 제공하는 것을 말한다",
+      "제3보험 중 간병보험도 정액보상방식을 적용할 수 있다",
+      "정 액보상방식으로 중복계약이 체결된 경우 비례보상 원칙을 적용한다",
+      "정 액보상방식을 적용하는 담보에는 사망·후유장해 담보, 진단급여, 수술급여, 입원일당급여 등이 있다"
+    ],
+    "answer": 3,
+    "id": 1033,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "손해보험회사에서 판매할 수 없는 상품으로 알맞은 것은?",
+    "options": [
+      "질병이나 상해의 원인으로 간병이 필요한 상태를 보장 하는 상품",
+      "질병입원비를 보장하는 상품",
+      "주계약으로 상해사망을 보장하는 상품",
+      "주계약으로 질병사망을 보장하는 상품"
+    ],
+    "answer": 4,
+    "id": 1034,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "손해보험회사의 질병사망특약 영위조건에 해당하지\n않는 것은?",
+    "options": [
+      "보험가입금액",
+      "보험기간",
+      "환급금 수준",
+      "보험료 납입방법"
+    ],
+    "answer": 4,
+    "id": 1035,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "상해보험에서 보험료 산출에 대한 설명으로 알맞은 것은?",
+    "options": [
+      "직 업 및 직무의 위험도를 감안하여 5개 등급으로 구분하여 보험료를 책정한다",
+      "사무직 근로자는 상해 1급 보험료를 적용한다",
+      "영업용자동차 운전자는 상해 2급 보험료를 적용한다",
+      "일 반적으로 위험도의 크기와 보험료의 크기는 상해 1급이 상해 3급보다 더 크다 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 2,
+    "id": 1036,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "2 021년 7월 출시한 개인 실손의료보험(4세대)의 3대 비급여\n보상에 대한 설명 중 틀린 것은?",
+    "options": [
+      "도 수치료·체외충격파치료·증식치료의 공제금액은 1회당 3만원과 보장대상 의료비의 30% 중 큰 금액이다",
+      "주사료는 1년 단위로 각 상해·질병 치료행위를 합산 하여 500만원 이내에서 180회까지 보상한다",
+      "자기공명영상진단은 1년 단위로 각 상해·질병 치료 행위를 합산하여 300만원 이내에서 보상한다",
+      "도수치료는 증상의 개선, 병변호전 등이 확인된 경우에 한하여 10회 단위로 연간 50회까지 보상한다"
+    ],
+    "answer": 2,
+    "id": 1037,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "단 체실손의료보험과 개인실손의료보험간 연계제도에\n관한 설명으로 맞는 것은?",
+    "options": [
+      "개 인실손의료보험 중지 후 재개시에는 기존에 중지 했던 상품으로만 재개할 수 있다",
+      "개인실손의료보험 중지는 최초 보장개시일로부터 1년 이상 유지한 계약만 가능하다",
+      "단체실손의료보험과 중복되지 않는 개인실손의료보험의 보장종목도 중지 가능하다",
+      "단 체실손의료보험 종료 후 3개월 이내 신청시에는 무심사로 재개할 수 있다"
+    ],
+    "answer": 2,
+    "id": 1038,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "질병급여의료비에서 보상하지 않는 사항으로 틀린 것은?",
+    "options": [
+      "피보험자가 정당한 이유없이 의사의 지시를 따르지 않아 발생한 의료비",
+      "국민건강보험공단으로부터 사후에 환급이 가능한 금액",
+      "성장호르몬제 투여에 소요된 비용",
+      "피 보험자가 입원치료 중 보험기간 종료일 익일부터 발생한 비용"
+    ],
+    "answer": 4,
+    "id": 1039,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "질병보험 보험사고에 대한 보험금 지급기한의 설명으로\n올바른 것은?",
+    "options": [
+      "보험금 청구서류 접수일로부터 3영업일 이내에 지급",
+      "보험금 청구서류 접수일로부터 5영업일 이내에 지급",
+      "보험금 청구서류 접수일로부터 7영업일 이내에 지급",
+      "보험금 청구서류 접수일로부터 9영업일 이내에 지급"
+    ],
+    "answer": 1,
+    "id": 1040,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "장 기간병보험이 필요한 이유가 아닌 것은?",
+    "options": [
+      "노인질병의 증가",
+      "보험범죄의 증가",
+      "초고령사회로 진입",
+      "노인 장기간병 의료비 부담 손해보험 모집인 등록시험 - 5 5 - 2월 2회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1041,
+    "source": "2025_02_2"
+  },
+  {
+    "question": "주택화재보험에서 예시와 같이 가입한 후 화재가 발생한\n경우 지급보험금은?\n[예시] 보험가입금액 1억원(전부보험),\n화재손해액 9,500만원, 잔존물 제거비용 1,000만원,\n잔존물 보전비용 500만원",
+    "options": [
+      "1억 500만원",
+      "9,500만원",
+      "1억 950만원",
+      "1억 1,000만원"
+    ],
+    "answer": 1,
+    "id": 1042,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "특수건물화재보험의 화재대물배상 특별약관에서 보상\n하는 손해액에 대한 설명으로 옳은 것은?",
+    "options": [
+      "보험기간 중 총 10억원까지 보장",
+      "1사고당 1억원까지 보장",
+      "1사고당 5억원까지 보장",
+      "1사고당 10억원까지 보장"
+    ],
+    "answer": 4,
+    "id": 1043,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "다음의 청구권 소멸시효 중 틀린 것은?",
+    "options": [
+      "보험회사의 보험료 청구권 – 5년",
+      "계약자의 적립액 반환청구권 – 3년",
+      "피보험자의 보험금 청구권 – 3년",
+      "계약자의 보험료 반환청구권 – 3년"
+    ],
+    "answer": 1,
+    "id": 1044,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "근로자가 퇴직하거나 직장을 옮길 때 받은 퇴직금을 자기\n명의의 계좌에 적립하여 연금 등 노후자금으로 활용할 수\n있게 하는 제도는?",
+    "options": [
+      "퇴직금 중간정산",
+      "확정급여형",
+      "개인형퇴직계좌",
+      "확정기여형"
+    ],
+    "answer": 3,
+    "id": 1045,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "자동차손해배상보장법상 책임관계에 대한 설명 중 틀린\n것은?",
+    "options": [
+      "피해자는 직접청구권을 행사할 수 있다",
+      "법률상 손해배상책임의 주체는 운행자이다",
+      "책임관계의 입증책임은 피해자에게 있다",
+      "자 동차손해배상보장법은 민법의 특별법으로 민법보다 우선하여 적용된다"
+    ],
+    "answer": 3,
+    "id": 1046,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "경상환자 대인2 피해자 과실상계에 대한 설명으로 맞는 것은?",
+    "options": [
+      "차 대차 사고뿐만 아니라 차대 이륜차 사고의 이륜차 운전자도 보상한다",
+      "차 대차 사고뿐만 아니라 차대 자전거 사고의 자전거 운전자도 보상한다",
+      "차 량운전자가 자동차손해배상보장법 시행령 <별표1> 에서 정한 상해급별 구분 중 12급 내지 14급의 상해를 입은 경우 보상한다",
+      "차 량운전자가 자동차손해배상보장법 시행령 <별표1> 에서 정한 상해급별 구분 중 10급 내지 14급의 상해를 입은 경우 보상한다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 3,
+    "id": 1047,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "3대 기본지키기에 대한 설명으로 틀린 것은?",
+    "options": [
+      "3 대 기본지키기는 1. 청약서 등 자필서명, 2. 청약서 부본 전달, 3. 약관의 전달 및 중요내용 설명이다",
+      "보 험회사 및 모집종사자는 청약 후에 약관 및 계약자 보관용 청약서를 반드시 문서로만 전달하여야 한다",
+      "3 대 기본지키기를 준수하지 않을 경우 보험계약자는 계약체결일로부터 3개월 이내에 계약을 취소할 수있다",
+      "보험회사 또는 모집종사자는 보험계약 체결시 계약자에게 약관을 전달하여야 하며, 약관의 중요한 내용을 설명 해야 한다"
+    ],
+    "answer": 2,
+    "id": 1048,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "보험설계사인 홍길동은 보험계약자에게 1백만원의 자동차\n보험을 체결 후 감사의 표시로 5만원 상당의 골프공을 선물\n하였다. 어떤 위반행위에 해당하는가?",
+    "options": [
+      "경유계약 위반",
+      "승환계약 위반",
+      "위반사항 없음",
+      "특별이익 제공금지 위반 2 - 3월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1049,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "보험업법상 신고의무 위반시 부과되는 과태료 기준으로\n맞는 것은?",
+    "options": [
+      "5백만원 이하 과태료",
+      "1천만원 이하 과태료",
+      "1백만원 이하 과태료",
+      "2천만원 이하 과태료"
+    ],
+    "answer": 2,
+    "id": 1050,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "손해보험 우수인증설계사 및 대리점 선발기준이 아닌 것은?",
+    "options": [
+      "근속기간",
+      "보험계약의 유지율",
+      "금융위원장 포상",
+      "모집질서 위반 여부"
+    ],
+    "answer": 3,
+    "id": 1051,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "다음 중 보험가입금액에 따른 분류에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "전부보험이란 보험가입금액이 보험가액과 일치하는 경우를 말한다",
+      "중복보험은 동일한 보험의 목적에 대해 동일한 피보험이익을 가져야 한다",
+      "초과보험은 이득금지의 원칙에서 제외된다",
+      "일부보험의 경우 보험가액에 대한 보험가입금액의 비율에 따라 비례보상한다"
+    ],
+    "answer": 3,
+    "id": 1052,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "다음 교통사고처리특례법, 도로교통법, 특정범죄가중처벌법\n내용 가운데 틀린 것은?",
+    "options": [
+      "혈중알콜농도 0.04%인 경우 훈방조치 된다",
+      "일반도로에서도 뒷좌석에 안전띠를 착용하여야 한다",
+      "중앙선 침범 사고시 형사처벌 받을 수 있다",
+      "사고가 발생하면 반드시 피해자에 대한 구호를 하여야 한다"
+    ],
+    "answer": 1,
+    "id": 1053,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "보 험계약자에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험계약자는 대리인을 통하여 계약을 체결할 수 없다",
+      "보험계약자는 타인을 피보험자 또는 보험수익자로 하여 보험계약을 체결할 수 있다",
+      "보험회사와 계약을 체결하는 상대방 당사자이다",
+      "보험계약자는 보험료 납입의무, 고지의무, 손해방지의무 등을 부담한다"
+    ],
+    "answer": 1,
+    "id": 1054,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "보 험계약에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보험계약의 성립요건은 보험계약자의 최초보험료 납부 여부이다",
+      "보험계약자의 청약은 반드시 서면으로 하여야 한다",
+      "보험회사는 반드시 명시적인 방법으로 승낙해야 한다",
+      "보 험계약 성립 후 2개월이 지난 때까지 보험료의 전부 또는 1회 보험료를 미납한 경우 그 계약은 소멸한다 3 - 3월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1055,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "상해보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "보험금은 보험가액을 한도로 보상한다",
+      "타 인의 사망을 보상하는 단체보험에서는 타인 (피보험자)의 동의를 생략할 수 있다",
+      "실제 손해를 보상하는 보험상품을 중복계약한 이후에 발생한 사고에 대해서 중복보상을 받을 수 있다",
+      "가족의 사망을 보상하는 계약에서는 피보험자의 동의를 면제할 수 있다"
+    ],
+    "answer": 2,
+    "id": 1056,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "상해보험에서 사망보험금 지급에 대한 설명이 틀린 것은?",
+    "options": [
+      "피보험자가 상해의 직접결과로써 사망한 경우 지급한다",
+      "사망보험금은 보험수익자에게 지급한다",
+      "실 종선고를 받은 경우 실종신고 후 6개월이 경과하는 때에 사망한 것으로 본다",
+      "‘ 사망ʼ은 관공서에서 재난 등을 조사하고 사망한 것으로 통보하는 경우 가족관계등록부에 기재된 사망연월일을 기준으로 한다"
+    ],
+    "answer": 3,
+    "id": 1057,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "휴일교통상해보험에서 보험회사의 책임기간을 바르게\n설명한 것은?",
+    "options": [
+      "보 험기간 내의 휴일 오후 4시부터 휴일 다음날의 오후 4시까지",
+      "보험기간 내의 휴일 오전 6시부터 오후 12시까지",
+      "보험기간 내의 휴일 오전 4시부터 오후 6시까지",
+      "보험기간 내의 휴일 0시부터 24시까지"
+    ],
+    "answer": 4,
+    "id": 1058,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "다 음 중 질병보험의 특징으로 바르게 짝지어진 것은?\n가. 손 해보험 기본계약의 질병사망 보험만기는\n80세 이하이다\n나. 질 병사망 보험은 보장성보험의 요건을 충족\n하여야 한다\n다. 대기기간을 설정할 수 없다\n라. 정신질환은 보상하지 않는다",
+    "options": [
+      "가 , 나",
+      "다, 라",
+      "나, 라",
+      "가, 다 손해보험 모집인 등록시험 - 5"
+    ],
+    "answer": 3,
+    "id": 1059,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대) 질병\n비급여의 통원 1회당 보험가입금액 한도는?",
+    "options": [
+      "2 0만원",
+      "30만원",
+      "50만원",
+      "1천만원"
+    ],
+    "answer": 1,
+    "id": 1060,
+    "source": "2025_03_1"
+  },
+  {
+    "question": "주택화재보험에 가입할 수 있는 물건은?",
+    "options": [
+      "공 장 구내의 기숙사",
+      "주택병용 오피스텔",
+      "콘도미니엄",
+      "주택병용 피아노 교습소"
+    ],
+    "answer": 4,
+    "id": 1061,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "장기손해보험의 환급금 지급제도에 대한 설명으로 틀린 것은?",
+    "options": [
+      "금리연동형 보험상품의 경우 이율변동에 따라 계약 당시의 예상 만기환급금보다 많거나 적어질 수 있다",
+      "보험기간 만기 전 사고가 발생하여 보험가입금액의 80% 이상에 해당하는 보험금을 지급하여 계약이 소멸되어도 만기환급금은 지급한다",
+      "일반손해보험은 만기환급금이 없지만 장기손해보험에서는 환급금이 발생한다",
+      "확정금리형 보험상품의 경우 계약당시 약정한 만기환급금을 지급한다 손해보험 모집인 등록시험 - 1 모집인 등록자격시험 험번호 성명 시험지 유형 3-2"
+    ],
+    "answer": 2,
+    "id": 1062,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "다음 중 각각의 설명에 대한 보기로 옳은 구성은?\n(가) 사고발생 시 보험금 지급의 재원이 되는 보험료\n(나) 보험계약의 해약환급금 또는 만기환급금의 재원이\n되는 보험료",
+    "options": [
+      "(가) 순보험료, (나) 저축보험료",
+      "(가) 위험보험료, (나) 저축보험료",
+      "(가) 위험보험료, (나) 부가보험료",
+      "(가) 부가보험료, (나) 순보험료"
+    ],
+    "answer": 2,
+    "id": 1063,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "다음 중 소멸시효가 틀린 것은?",
+    "options": [
+      "피 보험자의 보험금 청구권 - 3년",
+      "보험계약자의 보험료 반환청구권 - 3년",
+      "보험계약자의 적립금 반환청구권 - 3년",
+      "보험회사의 보험료 청구권 - 5년"
+    ],
+    "answer": 4,
+    "id": 1064,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "연금저축 가입 후 연금수령 시 연금소득세율 중 맞는 것은?",
+    "options": [
+      "70세 이전 15%(지방소득세 제외)",
+      "70세 이전 5.0%(지방소득세 제외)",
+      "70세 이전 2.0%(지방소득세 제외)",
+      "비과세 1 - 3월 2회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1065,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "근로자가 퇴직하거나 직장을 옮길 때 받은 퇴직금을 자기\n명의로 계좌에 적립하여 연금 등 노후자금으로 활용할 수\n있게 하는 제도는?",
+    "options": [
+      "확정급여형",
+      "확정기여형",
+      "개인형퇴직계좌",
+      "퇴직금 중간정산"
+    ],
+    "answer": 3,
+    "id": 1066,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "다음 중 승낙피보험자를 바르게 설명한 것은?",
+    "options": [
+      "보 험증권에 기재된 피보험자로서 자동차소유자도 같아야 함",
+      "기명피보험자와 같이 살거나 살림을 같이하는 친족으로 피보험자동차를 사용 또는 관리 중인 자",
+      "피보험자를 위하여 피보험자동차를 운전 중인 자",
+      "기 명피보험자의 승낙을 얻어 피보험자동차를 사용 또는 관리 중인 자"
+    ],
+    "answer": 4,
+    "id": 1067,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "자동차보험 경상사고의 대인2 피해자 과실상계와 관련된\n내용 중 “차량운전자”에서 차량에 해당하지 않는 것은?",
+    "options": [
+      "건설기계관리법의 적용을 받는 건설기계",
+      "군수품 관리법에 의한 차량",
+      "자동차관리법의 적용을 받는 자동차(이륜차 포함)",
+      "자동차관리법의 적용을 받는 자동차(이륜차 제외) 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 3,
+    "id": 1068,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "실손의료보험 계약 시 지켜야 할 절차로 바른 것은? [4점]\n㉠ 청약서 작성 ㉡ 가입의사 확인\n㉢ 중복가입 확인 ㉣ 조회동의서 징구\n㉤ 비례보상 설명",
+    "options": [
+      "㉡ → ㉠ → ㉢ → ㉤ → ㉣",
+      "㉡ → ㉢ → ㉣ → ㉤ → ㉠",
+      "㉡ → ㉣ → ㉢ → ㉤ → ㉠",
+      "㉡ → ㉢ → ㉠ → ㉤ → ㉣"
+    ],
+    "answer": 3,
+    "id": 1069,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "장애인 보험가입 차별 금지와 관련하여 틀린 설명은?",
+    "options": [
+      "정당한 사유없이 장애인의 보험계약 청약을 거절하면 장애인차별금지법에 따라 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다",
+      "1 5세 미만자, 심신상실자, 심신박약자에 해당하는 장애인의 사망을 보험사고로 하는 보험계약은 가입이 제한될 수 있다",
+      "장 애인차별금지법에서 금지하는 차별행위에 대해 국가인권위원회에서 시정권고를 할 수 있다",
+      "장 애인 차별행위로 인한 시정권고 불이행시 법무부 장관은 시정명령을 할 수 있으며 정당한 사유없이 미이행시 5천만원 이하의 과태료를 부과할 수 있다"
+    ],
+    "answer": 4,
+    "id": 1070,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "손 해보험 공정경쟁질서유지에 관한 상호협정에서\n금지하고 있는 행위가 아닌 것은?",
+    "options": [
+      "특별이익 제공",
+      "무자격 모집행위",
+      "보험계약 인수거절",
+      "승환계약 2 - 3월 2회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1071,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정에 따른\n처벌 기준으로 틀린 것은?",
+    "options": [
+      "특별이익을 제공한 경우 제재금이 부과될 수 있다",
+      "다 른 회사의 허위사실을 유포하거나 모함하는 경우 처벌되지 않는다",
+      "무 자격 모집 행위에 대해서는 최저 1십만원부터 최고 3천만원까지 제재금이 부과될 수 있다",
+      "경유처리를 한 경우 제재금이 부과될 수 있다"
+    ],
+    "answer": 2,
+    "id": 1072,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "모집종사자의 권한에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보 험대리점은 고지의무수령권이 없다",
+      "보험설계사는 계약체결권은 있으나 보험료 수령권은 없다",
+      "보험중개사는 독립적으로 보험계약의 체결을 중개하는 자이다",
+      "보험중개사는 고지의무수령권이 있다"
+    ],
+    "answer": 3,
+    "id": 1073,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "손 해보험대리점 등록제한사유에 해당하는 자는?",
+    "options": [
+      "중 고차 판매업자",
+      "수입차 판매업자",
+      "자동차판매업을 하면서 방송채널을 운영하는 경우",
+      "보험설계사 등록제한 사유에 해당하는 자"
+    ],
+    "answer": 4,
+    "id": 1074,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "가 망고객 발굴과 관련하여 잘못된 것은?",
+    "options": [
+      "판 매활동의 가장 기초적인 단계로 연고를 이용하는 방법이 기본적인 것이다",
+      "연 고를 이용할 경우 단기간 내 많은 고객을 확보할 수 있다",
+      "소 개에 의할 경우 유력한 가망고객 발굴은 용이하나 실패할 확률이 많다",
+      "신 규로 개척하거나 정보리스트를 활용하는 것도 발굴 기법 중 하나이다 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 3,
+    "id": 1075,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "다 음 보험료에 관한 설명 중 옳은 것은?",
+    "options": [
+      "영 업보험료는 위험보험료와 부가보험료로 구성된다",
+      "부가보험료는 신계약비와 유지비로 구성된다",
+      "위 험보험료란 보험사고 발생시 보험수익자 또는 피보험자에게 지급되는 보험금의 재원을 말한다",
+      "유 지비는 보험설계사 등의 급여로 사용되며, 초년도에만 사용된다"
+    ],
+    "answer": 3,
+    "id": 1076,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "( ) 안에 들어갈 말로 맞는 것은?\n보험기간이 보험계약기간보다 일찍 시작하는 보험을\n( )이라고 하고, 보험기간보다 보험계약기간이\n일찍 시작하는 보험을 ( )이라 한다",
+    "options": [
+      "소 급보험, 구간보험",
+      "소급보험, 예정보험",
+      "구간보험, 예정보험",
+      "구간보험, 일부보험"
+    ],
+    "answer": 2,
+    "id": 1077,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "보 험업법상 겸영 제한에 관한 설명 중 틀린 것은?",
+    "options": [
+      "보 험회사는 원칙적으로 손해보험업과 생명보험업을 겸영하지 못한다",
+      "생명보험의 재보험은 생명보험사도 겸영할 수 있다",
+      "소 득세법에 의한 연금보험은 손해보험사도 겸영할 수 있다",
+      "근로자퇴직급여보장법에 의한 퇴직연금은 생명보험사는 겸영할 수 없다 3 - 3월 2회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1078,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "다음 교통사고 관련 법령 내용 중 틀린 것은?",
+    "options": [
+      "혈중알콜농도가 0.08% 이상인 경우에는 면허취소된다",
+      "난 폭운전의 경우 도로교통법상 1년 이하의 징역 또는 500만원 이하의 벌금에 처해진다.",
+      "자 동차종합보험에 가입되어 있다면 신호위반 사고시 형사처벌이 면제된다",
+      "음 주운전으로 사람을 다치게 한 경우 특정범죄가중 처벌법에 의해 처벌한다"
+    ],
+    "answer": 3,
+    "id": 1079,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "손 해보험회사가 제3보험을 영위할 때 적용받는 법이\n아닌 것은?",
+    "options": [
+      "보 험업법",
+      "보험업법 시행령",
+      "의료급여법",
+      "보험업감독규정"
+    ],
+    "answer": 3,
+    "id": 1080,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "손 해보험회사의 질병사망특약 영위조건에 대한 설명\n으로 틀린 것은?",
+    "options": [
+      "보험가입금액은 제한없이 설계할 수 있다",
+      "보험업법시행령에 규정되어 있다",
+      "보장성보험으로만 개발할 수 있다",
+      "보험만기가 제한되어 있다"
+    ],
+    "answer": 1,
+    "id": 1081,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "제3보험 중 상해보험에 가입하여 약관에서 보상하지\n않는 원인으로 사망할 경우 지급되는 금액은?",
+    "options": [
+      "사망보험금",
+      "계약자적립액",
+      "기납입보험료",
+      "해약환급금 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 2,
+    "id": 1082,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "다음 중 손해보험사에서 설계가 가능한 제3보험은?",
+    "options": [
+      "사망보험금을 이미 납입한 보험료 이하로 설계한 상해보험",
+      "보험기간이 16년인 저축성보험",
+      "질병사망을 특약으로 90세까지 보장하는 상해보험",
+      "기본계약을 실손보장형 담보로 개발하는 경우"
+    ],
+    "answer": 4,
+    "id": 1083,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "상해보험에 대한 내용으로 맞는 것은?",
+    "options": [
+      "사망보험금은 보험수익자에게 지급한다",
+      "보험금은 보험가액을 한도로 보상한다",
+      "정액보상담보는 중복 가입시 비례보상한다",
+      "타 인의 사망을 보상하는 단체보험에서는 타인 (피보험자)의 동의를 생략할 수 없다"
+    ],
+    "answer": 1,
+    "id": 1084,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "상해보험에서 후유장해보험금에 대한 설명으로 올바른\n것은?",
+    "options": [
+      "한시적인 후유장해 시에는 보험금을 지급하지 않는다",
+      "후유장해보험금은 연령에 따라 차등적으로 지급한다",
+      "한 시적인 후유장해보험금은 장해기간이 5년 이상인 경우 보험금을 지급한다",
+      "한 시적인 후유장해보험금은 영구후유장해보험금 지급률의 30%를 지급한다"
+    ],
+    "answer": 3,
+    "id": 1085,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "2 021년 7월 출시한 개인 실손의료보험(4세대)의 '3대\n비급여' 보상에 대한 설명 중 틀린 것은?",
+    "options": [
+      "도수치료·체외충격파치료·증식치료의 각 치료횟수를 합산하여 100회까지 보상한다",
+      "주 사료는 1년 단위로 각 상해·질병 치료행위를 합산 하여 250만원 이내에서 50회까지 보상한다",
+      "자 기공명영상진단은 1년 단위로 각 상해·질병 치료 행위를 합산하여 300만원 이내에서 보상한다",
+      "도수치료는 증상의 개선, 병변호전 등이 확인된 경우에 한하여 10회 단위로 연간 50회까지 보상한다"
+    ],
+    "answer": 1,
+    "id": 1086,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "단체상해보험에서 단체의 구성원이 명확하여 계약의\n일괄적인 관리가 가능한 단체로서 5인 이상의 구성원이\n있는 단체의 종류에 해당하는 것은?",
+    "options": [
+      "급 여단체",
+      "법정단체",
+      "규약단체",
+      "특별단체 손해보험 모집인 등록시험 - 5"
+    ],
+    "answer": 3,
+    "id": 1087,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대) 피보험자가\n상급종합병원에 통원하여 질병 비급여의료비가 발생한\n경우, 이에 해당하는 공제금액으로 맞는 것은?",
+    "options": [
+      "1 만원",
+      "2만원과 보장대상 의료비의 20% 중 큰 금액",
+      "보장대상 의료비의 20%",
+      "3만원과 보장대상 의료비의 30% 중 큰 금액"
+    ],
+    "answer": 4,
+    "id": 1088,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "유 병력자 실손의료보험의 가입심사 요건에 해당되지\n않는 것은?",
+    "options": [
+      "최 근 3개월간 입원 필요소견, 수술 필요소견, 치료, 추가검사 필요소견 여부",
+      "최근 1년간 추가 검사를 받았는지 여부",
+      "최근 2년간 입원 수술, 7일 이상 치료여부",
+      "최근 5년간 암(진단, 입원, 수술, 치료) 여부"
+    ],
+    "answer": 2,
+    "id": 1089,
+    "source": "2025_03_2"
+  },
+  {
+    "question": "공장기숙사 건물에 화재가 발생하여 아래와 같이 손해가\n발생한 경우 보상하는 보험금은?\n보험가입금액 1억원, 보험가액 2억원,\n손해액 5,000만원, 잔존물 제거비용 1,000만원",
+    "options": [
+      "3,500만원",
+      "3,000만원",
+      "5,000만원",
+      "2,000만원"
+    ],
+    "answer": 2,
+    "id": 1090,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "연 금저축보험의 세제적격 요건 중 맞는 것은?",
+    "options": [
+      "보험료 불입기간은 5년 이상",
+      "가입대상은 만 18세 이상 국내거주자",
+      "납입한도는 매월 300만원 이내",
+      "연금수령기간은 15년 이상 1 - 4월 1회 모의고사"
+    ],
+    "answer": 1,
+    "id": 1091,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "자 동차보험료에 대한 설명 중 옳은 것은?",
+    "options": [
+      "기 본보험료는 차량의 종류, 배기량, 용도, 보험가입 금액, 성별, 연령 등에 따라 미리 정해놓은 기본적인 보험료이다",
+      "가입자특성요율은 보험가입기간만 고려하고 법규위반 경력은 고려하지 않는다",
+      "특 별요율은 운전자의 연령범위와 가족으로 운전자를 한정하는 요율이다",
+      "사 고건수별 특성요율은 직전 2년간 사고유무 및 사고 건수에 따라 적용하는 요율이다"
+    ],
+    "answer": 1,
+    "id": 1092,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "보험계약 단계별 설명의무에 대한 설명으로 틀린\n것은? [4점]",
+    "options": [
+      "모 집종사자의 보험계약 체결대리권 존재여부는 보험 계약 체결 권유단계에서 설명하여야 한다",
+      "단계별 설명의무는 보험계약 체결 권유, 보험계약 체결, 보험금 청구, 보험금 심사·지급 단계로 구분된다",
+      "보험계약 체결 권유단계에서 설명해야 하는 사항 중에는 해약환급금 산출근거도 포함된다",
+      "일반보험계약자가 설명을 거부하는 경우에는 계약체결 단계를 설명하지 않아도 된다"
+    ],
+    "answer": 1,
+    "id": 1093,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "모집종사자가 보험업법에 따른 보험계약의 체결 또는\n모집에 관한 금지행위를 위반한 경우 보험업상 처벌은?",
+    "options": [
+      "1천만원 이하의 과태료",
+      "1년 이하의 징역",
+      "300만원 이하의 벌금",
+      "500만원 이하의 제재금"
+    ],
+    "answer": 1,
+    "id": 1094,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "보 험계약에 관한 설명 중 틀린 것은?",
+    "options": [
+      "상 법상 손해보험의 피보험이익은 금전으로 산정할 수 있는 이익으로 한정한다",
+      "보 험회사가 보험계약자로부터 청약과 함께 보험료의 일부 또는 전부를 받은 경우라도 승낙 전 보험사고에 대해 책임지지 않는다",
+      "피보험자의 위험유지의무 위반시 보험회사는 그 사실을 안 날로부터 1개월 이내에 보험료 증액을 청구하거나 계약을 해지할 수 있다",
+      "보 험금청구권 소멸시효 3년이 지난 경우 보험회사는 보험금을 지급하지 않아도 된다"
+    ],
+    "answer": 2,
+    "id": 1095,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "손 해보험회사의 질병사망 영위에 대한 설명 중 맞는\n것은?",
+    "options": [
+      "특 약의 형식으로 영위가 가능하다",
+      "보험금액의 한도는 개인당 1억원 이내로 제한되어 있다",
+      "보험만기는 100세 이하로 제한되어 있다",
+      "생명보험회사와 동일한 조건으로 운영할 수 있다"
+    ],
+    "answer": 1,
+    "id": 1096,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "개인 실손의료보험(4세대)의 상품구조에 대한 설명으로\n맞는 것은?",
+    "options": [
+      "기 본형 실손의료보험은 상해급여, 질병급여로 구성 되어 있다",
+      "3대 비급여만 분리하여 단독으로 가입할 수 있다",
+      "급 여 의료이용량에 따라 비급여 보험료가 할인 또는 할증된다",
+      "기 본형 실손의료보험은 상해비급여와 3대 비급여로 구성된다"
+    ],
+    "answer": 1,
+    "id": 1097,
+    "source": "2025_04_1"
+  },
+  {
+    "question": "주 택화재보험에 예시와 같이 가입한 후 손해가 발생한\n경우 지급보험금은?\n보험가액 1억원, 보험가입금액 8천만원,\n재산손해액 7,000만원, 손해방지비용 1,200만원",
+    "options": [
+      "7,000만원",
+      "8,000만원",
+      "8,200만원",
+      "8,500만원"
+    ],
+    "answer": 3,
+    "id": 1098,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "다음 중 장기손해보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "1회 사고로 지급한 보험금이 보험가입금액의 80% 미만인 경우 보험가입금액에서 지급한 보험금을 공제하고 잔여 기간 동안 보장한다",
+      "보 험료 납입연체(미납)로 계약이 해지된 경우 해지일 로부터 3년 이내에 부활이 가능하다",
+      "보 험기간 만기 전 사고가 발생하여 보험가입금액의 80% 이상에 해당하는 보험금을 지급하여 계약이 소멸 되어도 만기환급금을 지급한다",
+      "계약자가 제2회 이후의 보험료를 납입하지 않아 보험료 납입이 연체 중인 경우 회사는 10일 이상의 기간을 납입최고(독촉)기간으로 정한다"
+    ],
+    "answer": 2,
+    "id": 1099,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "장기화재보험 등 재산보험에서 보험회사에 지체없이\n알리고 보험증권에 확인을 받아야 하는 통지의무에\n해당하지 않는 것은?",
+    "options": [
+      "보 험의 목적을 수용하는 건물의 용도를 변경함으로써 위험이 증가하는 경우",
+      "보험의 목적물을 다른 곳으로 옮길 때",
+      "보험의 목적을 수용하는 건물을 3일 이상 비울 때",
+      "보 험의 목적을 수용하는 건물의 구조를 변경, 개축, 증축할 때"
+    ],
+    "answer": 3,
+    "id": 1100,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "종 합소득이 5,000만원인 거주자가 연금저축보험에\n100만원을 납입하였을 때 세액공제액은 얼마인가?",
+    "options": [
+      "12만원",
+      "13.2만원",
+      "24만원",
+      "16.5만원"
+    ],
+    "answer": 2,
+    "id": 1101,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "자동차보험에서 무면허 운전에 대한 설명으로 틀린 것은?",
+    "options": [
+      "운전면허 정지기간 중 운전은 무면허 운전에 해당한다",
+      "면 허에서 허가된 차종 이외의 차량을 운행하는 것은 무면허 운전에 해당한다",
+      "외국에서 운전면허를 취득하고 국내면허나 국제면허로 변경하여 운전하는 것은 무면허 운전에 해당한다",
+      "무면허 운전 중 사고는 대인배상Ⅱ에서 보상한다"
+    ],
+    "answer": 3,
+    "id": 1102,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "자 동차보험 대인배상Ⅰ의 보상한도에 관한 설명으로\n틀린 것은?",
+    "options": [
+      "후 유장애시 1인당 최고한도는 1억 5,000만원이다",
+      "피 해자 1인에 대한 보상한도가 무한이며, 1사고당 한도도 없다",
+      "부 상사고 시 보상한도는 14급 50만원, 1급 3,000만원 이다",
+      "과 실상계 후의 사망보험금이 2,000만원에 미달하면 2,000만원을 보상한다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 2,
+    "id": 1103,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "자동차보험 보험금 지급기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "전손사고 또는 보험회사가 보상하여야 할 금액이 보험가입 금액 전액일 경우 보험계약은 사고발생 시점에서 종료된다",
+      "자기차량손해의 경우 피보험자동차가 일부 도난된 경우는 보상하지 아니한다",
+      "자기신체사고의 경우 단독사고(또는 일방과실사고)와 쌍방과실사고의 지급보험금 계산방법에는 차이가 없다",
+      "대물배상의 대차료는 동급의 대여자동차 중 최저요금의 대여자동차를 빌리는데 소요되는 통상의 요금을 지급한다"
+    ],
+    "answer": 3,
+    "id": 1104,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "아 래의 경우 피보험자 A씨가 부담하는 사고부담금은\n얼마인가?\n30대 남성 A씨, 주취 상태로 운전 중 차량 1대와 충돌\n하여 피해자 1명이 골절(부상1급) 등 수술 시행(손해액\n2,500만원)하였고, 차량 전손(손해액 1,500만원)하였다",
+    "options": [
+      "대 인 1,000만원, 대물 500만원",
+      "대인 1,500만원, 대물 1,000만원",
+      "대인 2,000만원, 대물 1,000만원",
+      "대인 2,500만원, 대물 1,500만원"
+    ],
+    "answer": 4,
+    "id": 1105,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "보 험설계사로 등록할 수 있는 사람은?",
+    "options": [
+      "피 성년후견인 또는 피한정후견인",
+      "보 험업법에 따라 벌금이상의 형을 받고 집행 종료 후 2년이 경과되지 아니한 자",
+      "과 거에 수수한 보험료를 유용한 후 2년이 경과되지 아니한 자",
+      "과거에 등록이 취소된 후 4년이 지난 자"
+    ],
+    "answer": 4,
+    "id": 1106,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "보 험대리점 등록 제한 사유에 해당하지 않는 것은?",
+    "options": [
+      "보 험중개사로 등록된 자",
+      "파산자로서 복권되어 1년이 지난 자",
+      "다른 보험회사의 임직원",
+      "금 융감독원장으로부터 정직처분을 받고 2년이 경과 하지 않은 자 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 2,
+    "id": 1107,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "우수인증설계사에 관하여 바르게 설명한 것은?",
+    "options": [
+      "계 약유지율과 손해율이 일정수준 이하여야 한다",
+      "품질보증해지 건이 3건 이하여야 한다",
+      "직 전년도 1월부터 12월까지 설계사의 실적을 기준으로 한다",
+      "보험회사별로 합산하여 3년 이상 근속하여야 한다"
+    ],
+    "answer": 3,
+    "id": 1108,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "다 음 중 어린이 교통안전에 관한 도로교통법 및 특정\n범죄 가중처벌 등에 관한 법률의 내용에 대해 기술한\n내용 중 잘못된 것은?",
+    "options": [
+      "어 린이 보호구역에 교통안전시설 및 무인단속장비 설치 의무화",
+      "스 쿨존 내 어린이 사망사고 가해자에게 무기 또는 3년 이상 징역형 부과",
+      "스쿨존 내 어린이 상해사고 가해자에게 1년 이상 15년 이하 징역 또는 5백만원 이상 3천만원 이하 벌금형 부과",
+      "어린이 보호구역에서 제한속도는 시속 80km이다 3 - 4월 2회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1109,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "보 험계약의 무효사유로 알맞은 것은?",
+    "options": [
+      "보험계약자의 사기로 인한 초과보험, 중복보험",
+      "보험계약자의 고지의무 위반",
+      "보험회사의 파산",
+      "보험계약자의 위험 변경, 증가 사실에 대한 통지의무 위반"
+    ],
+    "answer": 1,
+    "id": 1110,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "보험관련 기관에 대한 설명으로 옳은 것은?",
+    "options": [
+      "금융감독원 – 금융기관에 대한 감독 법률의 제정 및 개정",
+      "손해보험협회 – 보험모집인의 등록업무",
+      "보험개발원 – 보험대리점 연수 및 자격시험 관리",
+      "금융위원회 – 종합자산관리사 교육 및 교재개발"
+    ],
+    "answer": 2,
+    "id": 1111,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "손해보험회사의 질병사망보험 영위조건으로 알맞은 것은?",
+    "options": [
+      "보 험기간은 만기 75세 이하로 한다",
+      "보험가입금액은 개인당 1억원을 한도로 한다",
+      "만기환급금이 납입보험료 합계액 범위 이내이어야 한다",
+      "생명보험회사와 동일한 조건으로 운영할 수 있다"
+    ],
+    "answer": 3,
+    "id": 1112,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "상해보험에서 보험료 산출에 대한 설명으로 틀린 것은?",
+    "options": [
+      "직 업 및 직무의 위험도를 감안하여 3개 등급으로 구분하여 보험료를 책정한다",
+      "단 체상해보험은 등급을 나누지 않고 단일률을 산출 하여 적용한다",
+      "연령별 보험료 차이가 없다",
+      "보험료의 크기는 1급 > 2급 > 3급 순으로 크다"
+    ],
+    "answer": 4,
+    "id": 1113,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "상해보험의 실손의료비 담보에서 보상하는 것은?",
+    "options": [
+      "친자확인을 위한 검사비용",
+      "치과치료를 위해 소요된 국민건강보험법상 급여치료비 중 본인부담금",
+      "국민건강보험법에 의해 사후에 환급받는 의료비",
+      "해외 소재 의료기관에서 발생한 의료비"
+    ],
+    "answer": 2,
+    "id": 1114,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "교 통상해보험에서 기타교통수단에 해당하는 것은?",
+    "options": [
+      "항 공기",
+      "시내버스",
+      "개인택시",
+      "농어촌버스"
+    ],
+    "answer": 1,
+    "id": 1115,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "보험나이의 계산에 대한 설명이다. ( )에 들어갈 것으로\n적절한 것은?\n1년 미만의 단수가 있을 경우 ( ) 미만은 삭제,\n( ) 이상은 1년으로 계산",
+    "options": [
+      "6개월, 1년",
+      "3개월, 3개월",
+      "1년, 1년",
+      "6개월, 6개월"
+    ],
+    "answer": 4,
+    "id": 1116,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "2021년 7월 출시한 개인 실손의료보험(4세대)의 ‘질병급여ʼ\n에서 보상하지 않는 사항에 해당하지 않는 것은?",
+    "options": [
+      "피 보험자가 임신, 출산, 산후기로 입원 또는 통원한 경우(O00~O99)",
+      "피 보험자가 보험가입 당시 태아인 경우의 선천성 뇌질환(Q00~Q04)",
+      "피 보험자가 정당한 이유없이 통원기간 중 의사의 지시를 따르지 않아 발생한 통원의료비",
+      "성 장호르몬제 투여에 소요된 비용으로 부담한 전액 본인부담금"
+    ],
+    "answer": 2,
+    "id": 1117,
+    "source": "2025_04_2"
+  },
+  {
+    "question": "아래 예시의 경우 잔존물 제거비용 보험금은?\n보험가액이 1억원인 주택에 대해 보험가입금액을\n4,000만원으로 하는 주택화재보험에 가입한 경우,\n화재가 발생하여 1,000만원의 손해가 발생하고\n400만원의 잔존물 제거비용이 발생함",
+    "options": [
+      "100만원",
+      "400만원",
+      "300만원",
+      "200만원"
+    ],
+    "answer": 1,
+    "id": 1118,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음 중 장기손해보험 계약의 청약철회 및 계약의 취소에\n대한 설명으로 올바른 것은?",
+    "options": [
+      "보 험회사는 청약철회 접수일로부터 3영업일 이내에 납입한 보험료 전액을 지급한다",
+      "보 험료 미납으로 계약이 해지된 경우 해지일로부터 2년 이내에 부활이 가능하다",
+      "통신판매를 통한 보험계약의 경우 6개월 이내에 청약을 철회할 수 있다",
+      "청 약을 철회할 당시 보험금 지급사유가 발생하였으나, 계약자가 그 보험금 지급사유의 발생사실을 알지 못할 경우 청약철회의 효력은 발생한다"
+    ],
+    "answer": 1,
+    "id": 1119,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음 중 보험료 계산의 주요 요소에서 위험률차손익에\n대한 설명으로 맞는 것은?",
+    "options": [
+      "예 정해약률과 실제해약률간의 차이",
+      "예정이율과 투자수익률간의 차이",
+      "예정위험률과 실제손해율간의 차이",
+      "예정사업비와 실제사업비간의 차이 1 - 5월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1120,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음 연금저축의 세제적격 요건에 대한 설명에서\n( ) 안에 들어갈 말이 바르게 나열된 것은?\n최소 납입기간 ( )년 이상, 가입일로부터 ( )년\n이후 연금수령",
+    "options": [
+      "3, 5",
+      "10, 3",
+      "5, 5",
+      "5, 3"
+    ],
+    "answer": 3,
+    "id": 1121,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "퇴직연금제도를 설정한 사용자 또는 가입자가 퇴직연금\n사업자와 체결하는 계약의 형태로 가능한 것은?",
+    "options": [
+      "보 험계약 또는 예·적금계약",
+      "보험계약 또는 신탁계약",
+      "보험계약만 가능",
+      "신탁계약만 가능"
+    ],
+    "answer": 2,
+    "id": 1122,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음 중 개인용자동차보험의 「다른 자동차 운전담보\n특별약관」에 대한 설명으로 틀린 것은?",
+    "options": [
+      "피 보험자는 무보험자동차에 의한 상해의 피보험자와 동일하다",
+      "기명피보험자와 그 부모, 배우자 또는 자녀가 소유하는 자동차는 다른 자동차에 해당하지 않는다",
+      "다 른 자동차 운전 중 생긴 대인배상Ⅱ, 대물배상, 자기신체사고에 대하여 보상한다",
+      "다른 자동차보험계약에 의하여 지급될 수 있는 금액을 초과하는 때에 한하여 그 초과금액을 보상한다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 1,
+    "id": 1123,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음은 사고내용별 점수이다. 대인사고시 부상 1급\n사고에 대한 건당 점수는?",
+    "options": [
+      "3 점",
+      "2점",
+      "4점",
+      "1점"
+    ],
+    "answer": 3,
+    "id": 1124,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음은 자동차손해배상보장법에 대한 설명이다.\n이 중 틀린 것은?",
+    "options": [
+      "일정한 조건의 자동차보험을 의무로 가입하여야 한다",
+      "과실책임주의를 채택하고 있다",
+      "민법의 특별법으로서 우선 적용한다",
+      "법률상 손해배상책임의 주체는 운행자이다"
+    ],
+    "answer": 2,
+    "id": 1125,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음 중 모집자실명제 및 상품설명제에 대한 설명\n으로 옳지 않은 것은? [4점]",
+    "options": [
+      "상 품설명서는 2부를 작성하여 1부는 보험계약자가, 1부는 보험설계사가 보관한다",
+      "모집종사자는 보험계약자에게 제공하는 상품설명서에 소속, 성명 등을 기재하여야 한다",
+      "모 집자실명제를 위반하면 1천만원 이하의 과태료를 부과받을 수 있다",
+      "최 초 계약시 설명의무를 이행한 갱신계약(기존 보험 계약과 동일조건)은 설명의무를 이행한 것으로 본다"
+    ],
+    "answer": 1,
+    "id": 1126,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음에서 설명하는 것은 무엇인가?\n보험계약자 또는 피보험자로 하여금 이미 성립된\n보험계약을 부당하게 소멸시킴으로 인하여 기존\n보험계약의 내용과 보장내용이 비슷한 새로운\n보험계약을 청약하게 함으로써 기존 보험계약을\n부당하게 소멸시키거나 그밖에 부당하게 보험계약을\n청약하게 하거나 이러한 것을 권유하는 행위",
+    "options": [
+      "승환계약",
+      "부당계약",
+      "작성계약",
+      "무효계약"
+    ],
+    "answer": 1,
+    "id": 1127,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음 중 보험업법상 자기계약의 금지에 대한 설명이다.\n( ) 안에 들어갈 내용으로 적절한 것은?\n보험대리점 또는 보험중개사가 모집한 자기 또는\n자기를 고용하고 있는 자를 보험계약자나 피보험자로\n하는 보험의 보험료 누계액이 그 보험대리점 또는\n보험중개사가 모집한 보험의 보험료의 100분의\n( )을 초과하게 된 경우에는 이를 자기 또는 자기를\n고용하고 있는 자를 보험계약자 또는 피보험자로 하는\n보험을 모집하는 것을 주된 목적으로 한 것으로 본다",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "answer": 4,
+    "id": 1128,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "보험설계사가 직접 등록말소 신청시 제출서류에 대한\n설명 중 틀린 것은?",
+    "options": [
+      "보험설계사로 등록된 등록카드 원본을 제출해야 한다",
+      "보험회사가 발행한 해촉증명서를 제출해야 한다",
+      "해 촉증명서가 없을 경우, 발송 후 10일이 경과한 내용증명우편 원본으로 대체 가능하다",
+      "본인 신분증을 제출해야 한다"
+    ],
+    "answer": 1,
+    "id": 1129,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음 중 보험의 기본원칙에 대한 설명으로 틀린 것은?",
+    "options": [
+      "실 제 손해액만큼을 보상하기 위해 급부·반대급부 균등의 원칙이 적용된다",
+      "보험자 대위는 이득금지의 원칙에 따라 도입된 것이다",
+      "고의로 사고가 유발되는 사태를 막기 위해 이득금지의 원칙이 엄격히 적용된다",
+      "위험집단 구성원 각자가 부담하는 보험료는 지급 보험금에 사고발생확률을 곱한 것과 같다"
+    ],
+    "answer": 1,
+    "id": 1130,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "보험의 분류 중 보험기간에 따른 분류에 해당하지 않는\n것은?",
+    "options": [
+      "장기보험",
+      "단기보험",
+      "임의보험",
+      "구간보험"
+    ],
+    "answer": 3,
+    "id": 1131,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음 중 보험사고에 대한 설명으로 틀린 것은?",
+    "options": [
+      "당 사자의 입장에서 불확정적이어야 한다",
+      "보험사고에서 ‘우연’이란 사고발생의 여부, 시기, 방법 모두 불확정한 것을 말한다",
+      "보험사고는 적법한 것이어야 한다",
+      "보험사고는 발생 가능한 것이어야 한다"
+    ],
+    "answer": 2,
+    "id": 1132,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음 중 보험가입금액과 보험가액에 대한 설명으로\n옳지 않은 것은?",
+    "options": [
+      "보 험가입금액과 보험가액의 일치여부에 따른 것으로 일부보험·전부보험·초과보험의 판정을 위한 기준이 되는 것을 실손보험이라 한다",
+      "보험가액은 법률상 보상의 최고한도액을 말한다",
+      "초과보험의 경우 이득금지의 원칙에 따라 보상한다",
+      "보 험가액은 손해보험에만 있는 개념으로 손해액 산 정의 기초가 된다"
+    ],
+    "answer": 1,
+    "id": 1133,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "소액단기전문보험회사가 취급할 수 없는 종목은?",
+    "options": [
+      "생명보험",
+      "날씨보험",
+      "동물보험",
+      "간병보험"
+    ],
+    "answer": 4,
+    "id": 1134,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "질병보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "특정질병의 경우 대기기간을 설정할 수 있다",
+      "질 병보험에서 80% 이상 후유장해시 사망보험금을 지급한다",
+      "질 병을 직접적인 원인으로 하여 사망할 경우에만 사망보험금을 지급한다",
+      "특 정질병을 보상하는 경우에는 대기기간을 설정할 수 없다"
+    ],
+    "answer": 4,
+    "id": 1135,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다음 중 4세대 실손의료보험에 대한 설명으로 옳은 것은?",
+    "options": [
+      "기 본형과 6대 특약으로 구성되어 있다",
+      "상 해비급여, 질병비급여, 3대 비급여 특약은 의무 가입해야 한다",
+      "질병비급여 특약만 가입 가능하다",
+      "기 본형 실손의료보험은 상해급여, 질병급여로 구성 되어 있다"
+    ],
+    "answer": 4,
+    "id": 1136,
+    "source": "2025_05_1"
+  },
+  {
+    "question": "다 음 중 손해보험에 해당하지 않는 것은?",
+    "options": [
+      "자 동차보험",
+      "정기보험",
+      "화재보험",
+      "배상책임보험"
+    ],
+    "answer": 2,
+    "id": 1137,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "화재보험의 알릴 의무에 대한 설명 중 틀린 것은?",
+    "options": [
+      "계약자 또는 피보험자가 계약 전 알릴 의무를 위반했을 경우 보험회사는 계약해지권을 가진다",
+      "건물을 계속하여 20일 이상 비워두는 경우에는 보험 회사에 이를 반드시 통지해야 한다",
+      "계 약자나 피보험자는 보험계약 체결 후 위험이 변경된 경우, 보험회사에 서면으로 이를 알려야 한다",
+      "동 일한 보험목적에 대한 중복보험 가입사항은 계약 전 알릴 의무 사항에 해당된다"
+    ],
+    "answer": 2,
+    "id": 1138,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "해상보험 중 보험증권이 무역대금결제의 수단으로 이용되어\n국제 무역거래의 중요한 역할을 담당하는 보험은 무엇인가?",
+    "options": [
+      "선주배상책임보험",
+      "선박보험",
+      "적하보험",
+      "운임보험"
+    ],
+    "answer": 3,
+    "id": 1139,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 계약의 부활(효력회복)에 대한 설명으로 올바른 것은?",
+    "options": [
+      "보 험료 미납으로 계약이 해지된 경우 해지일로부터 3개월 이내에 부활이 가능하다",
+      "계 약자가 계약부활을 요청한 경우, 보험회사는 반드시 이를 승인해야 한다",
+      "부활시에도 계약체결시처럼 고지의무가 적용된다",
+      "계 약자는 계약이 해지된 이후 해약환급금을 받은 경우라도 5년 이내라면 부활이 가능하다"
+    ],
+    "answer": 3,
+    "id": 1140,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 순보험료의 구성으로 바르게 짝지어진 것은?\n㉠ 부가보험료 ㉡ 위험보험료\n㉢ 저축보험료 ㉣ 영업보험료",
+    "options": [
+      "㉠ , ㉢",
+      "㉡, ㉣",
+      "㉠, ㉡",
+      "㉡, ㉢"
+    ],
+    "answer": 4,
+    "id": 1141,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 장기화재보험에서 보상받을 수 있는 경우는?",
+    "options": [
+      "전 용주택의 폭발, 파열로 생긴 손해",
+      "화재가 발생했을 때 도난",
+      "보험목적의 자연발화",
+      "피보험자가 고의로 일으킨 화재"
+    ],
+    "answer": 1,
+    "id": 1142,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "연 금저축보험 제도시행의 취지로 옳지 않은 것은?",
+    "options": [
+      "국가의 노후복지 지출 부담 완화",
+      "단기 자금 운용을 통한 고수익 실현",
+      "공적연금의 한계를 보완하기 위한 수단",
+      "개인의 노후소득 보장 1 - 6월 1회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1143,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "연 금저축보험의 세액공제한도는 얼마인가?",
+    "options": [
+      "300만원",
+      "600만원",
+      "400만원",
+      "200만원"
+    ],
+    "answer": 2,
+    "id": 1144,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 자동차보험의 담보종목이 아닌 것은?",
+    "options": [
+      "대인배상 I",
+      "대물배상",
+      "자동차상해",
+      "영업손실보상"
+    ],
+    "answer": 4,
+    "id": 1145,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "피보험자의 자녀가 새벽에 걷다가 뺑소니 사고로 부상을\n입은 경우 보상받을 수 있는 담보는?",
+    "options": [
+      "대 인배상",
+      "무보험차상해",
+      "자기차량손해",
+      "자기신체사고"
+    ],
+    "answer": 2,
+    "id": 1146,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 교통법규위반 경력요율에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "교통법규위반 경력요율의 적용대상은 기명피보험자인 모든 운전자를 말한다",
+      "교통법규위반 경력요율의 대상차종은 개인소유자동차에 한한다",
+      "법인소유자동차에도 교통법규위반 경력요율을 적용한다",
+      "교통법규위반 경력요율은 보험회사별로 자율적으로 적용한다"
+    ],
+    "answer": 3,
+    "id": 1147,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "자 동차손해배상보장사업의 청구가능 기간에 대한\n설명으로 맞는 것은?",
+    "options": [
+      "통상 사고일로부터 3년 이내에 청구권을 행사하지 않으면 그 권리가 소멸된다",
+      "손 해를 인지한 지 4년이 되었어도 가해자를 최근에 알았다면 청구 가능하다",
+      "2 4.4.1 이후에 발생한 사고의 보장사업 청구기간은 5년이다",
+      "뺑 소니사고의 특성상 뺑소니사고는 사고 후 5년 이내 청구할 수 있다"
+    ],
+    "answer": 1,
+    "id": 1148,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "청약 후 약관 및 계약자 보관용 청약서를 전자적 방법으로\n교부하는 경우 준수사항으로 틀린 것은? [4점]",
+    "options": [
+      "보험계약 자료를 전자적으로 재생하는 방법, 청약철회 및 계약취소의 방법에 대하여 안내서면으로 교부하여야 한다",
+      "전 자우편 등 전자적 방법으로 교부하는 경우에 한해 보험계약자의 자필서명이 필요한 경우 자필서명을 생략할 수 있다",
+      "보 험계약자가 전자적 방법에 의한 보험계약 자료의 교부에 동의하여야 한다",
+      "전자적 방법에 의해 교부되는 보험계약 자료는 위조 및 변조가 불가능하도록 보안시스템을 갖추어야 한다"
+    ],
+    "answer": 2,
+    "id": 1149,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "보험업법 제98조에서 금지하고 있는 특별이익 제공행위에\n해당하지 않는 것은?",
+    "options": [
+      "보험계약자나 피보험자를 위한 보험료의 대납",
+      "금품(대통령령으로 정하는 금액을 초과하지 아니하는 금품은 제외) 제공",
+      "위험률이 낮은 직업으로의 변경에 따른 보험료의 할인",
+      "기 초서류에서 정한 보험금액보다 많은 보험금액의 지급 약속"
+    ],
+    "answer": 3,
+    "id": 1150,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "「 손해보험 공정경쟁질서유지에 관한 상호협정」에서\n금지하고 있는 행위로 맞는 것은?",
+    "options": [
+      "보험계약 인수거절",
+      "보험금 지급분쟁",
+      "특별이익 제공을 약속",
+      "수수료 변경관련 민원 2 - 6월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1151,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 보험중개사에 대한 설명으로 옳은 것은?",
+    "options": [
+      "1개의 금융회사에 소속되어 보험계약의 체결을 중개한다",
+      "1개의 보험회사에 소속되지만 독립적으로 보험계약의 체결을 중개한다",
+      "특정 보험회사에 소속되지 않고 독립적으로 보험계약의 체결을 중개한다",
+      "보험중개사는 보험회사를 대리하여 보험계약의 체결을 중개한다"
+    ],
+    "answer": 3,
+    "id": 1152,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "우수인증설계사의 인증효력이 상실되는 경우가 아닌\n것은?",
+    "options": [
+      "점포의 관리자가 되는 등 보험모집에 종사하지 아니하게 된 경우",
+      "보험대리점의 등록이 말소되거나 회사와 계약이 해지된 경우",
+      "보험설계사 외의 다른 직업을 병행하는 경우",
+      "보험설계사의 등록이 말소된 경우"
+    ],
+    "answer": 3,
+    "id": 1153,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "위험과 관련된 설명으로 옳은 것은?",
+    "options": [
+      "주관적 위험은 명확한 자료를 근거로 하는 자신의 직감 등을 위험으로 하는 보험가능위험에 해당한다",
+      "순수위험에는 상해, 사망, 화재 등이 있다",
+      "순수위험은 대수의 법칙이 적용되기 용이하므로 모두 보험가능위험에 해당한다",
+      "보험회사는 순수위험과 투기위험을 보험사업으로 영위한다 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 2,
+    "id": 1154,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "보 험계약의 무효사유로 맞는 것은?",
+    "options": [
+      "보 험계약자의 사기로 인한 초과보험, 중복보험",
+      "보험계약자의 고지의무 위반",
+      "보험회사의 파산",
+      "보험계약자의 위험 변경, 증가 사실에 대한 통지의무 위반"
+    ],
+    "answer": 1,
+    "id": 1155,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "「보험업법」상 보험회사의 보험업 허가종목이 아닌 것은?",
+    "options": [
+      "손해보험",
+      "생명보험",
+      "산재보험",
+      "제3보험"
+    ],
+    "answer": 3,
+    "id": 1156,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 Gray Zone에 해당하는 제3보험의 보험종목에\n해당하는 것은?",
+    "options": [
+      "상 해보험",
+      "이행보증보험",
+      "연금보험",
+      "퇴직연금보험"
+    ],
+    "answer": 1,
+    "id": 1157,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "제3보험의 상품설계 기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 장하는 금액은 정액과 실손해를 기준으로 설계할 수 있다",
+      "제 3보험의 약관상 보상하지 않는 사유로 사망시 사망 보험금을 지급한다",
+      "실 제 손해를 보상하는 위험담보의 경우 다른 회사의 가입내역을 고지의무 사항으로 추가할 수 있다",
+      "제3보험의 약관상 보상하지 않는 사유로 사망시 계약자 적립액을 지급한다"
+    ],
+    "answer": 2,
+    "id": 1158,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "손해보험회사의 저축성보험 기준에 해당하는 것은?",
+    "options": [
+      "생 존시 지급되는 보험금 합계액 ≦ 지금까지 납부한 (기납입) 보험료",
+      "생 존시 지급되는 보험금 합계액 ＞ 지금까지 납부한 (기납입) 보험료",
+      "생 존시 지급되는 보험금 합계액 ≧ 지금까지 납부한 (기납입) 보험료",
+      "생 존시 지급되는 보험금 합계액 ＜ 지금까지 납부한 (기납입) 보험료 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 2,
+    "id": 1159,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 상해사고의 요건 중 ‘원인 또는 결과가 예견되지\n않는 상태ʼ를 설명하는 것은?",
+    "options": [
+      "외 래성",
+      "우연성",
+      "급격성",
+      "긴급성"
+    ],
+    "answer": 2,
+    "id": 1160,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "뺑 소니, 무보험차 상해보험에서 보상받을 수 있는\n내용으로 맞는 것은?",
+    "options": [
+      "영업목적으로 자동차를 운전하던 중 무보험차에 의해 사고가 발생한 경우",
+      "신체에 입은 상해로 신체보조장구(의수, 의족, 의안, 의치 등)가 파손된 경우",
+      "자동차보험 대인배상Ⅱ에 미가입한 자동차에 의해 상해를 입어 손해배상청구권이 발생되는 경우",
+      "가 해자동차가 2대인 경우 이 중 1대만 무보험자동차인 경우"
+    ],
+    "answer": 3,
+    "id": 1161,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 중 4세대 실손의료보험의 기본형 실손의료보험에서\n보상하는 것은?",
+    "options": [
+      "자기공명영상진단",
+      "주사료",
+      "도수치료",
+      "상해급여"
+    ],
+    "answer": 4,
+    "id": 1162,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "동 일한 질병 또는 상해로 두 가지 이상의 후유장해가\n생긴 경우에는 후유장해지급률 대한 설명으로 맞는\n것은?",
+    "options": [
+      "그 중 높은 지급률을 적용한다",
+      "그 중 낮은 지급률을 적용한다",
+      "합산하여 적용한다",
+      "합산하여 평균지급률을 적용한다"
+    ],
+    "answer": 3,
+    "id": 1163,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "개 인 실손의료보험(4세대)의 특별약관상 보장범위가\n아닌 것은?",
+    "options": [
+      "질병비급여",
+      "상해비급여",
+      "3대비급여",
+      "치과 급여"
+    ],
+    "answer": 4,
+    "id": 1164,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "상해보험의 보험료산출에 대한 설명으로 옳은 것은?",
+    "options": [
+      "보험료의 크기는 3급 ＜ 2급 ＜ 1급이다.",
+      "직 업 및 직무를 감안하여 3등급으로 구분하여 보험료를 책정한다",
+      "항공기정비공은 상해 3급 보험료를 적용한다",
+      "단 체상해보험은 상해등급을 5등급으로 구분하여 적용 한다 4 - 6월 1회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1165,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 ( ) 안에 들어갈 말로 옳은 것은?\n유병력자 실손의료보험의 통원시 최소 자기부담금은\n( ), 우선공제는 ( ).",
+    "options": [
+      "2만원이고, 없다",
+      "없고, 3만원이다",
+      "3만원이고, 없다",
+      "없고, 2만원이다"
+    ],
+    "answer": 1,
+    "id": 1166,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "동일한 신체부위에 장해분류표상의 2가지 이상의 장해가\n발생한 경우 후유장해지급률에 대한 설명으로 맞는 것은?",
+    "options": [
+      "각각의 후유장해지급률 중 높은 지급률을 적용",
+      "각각의 후유장해지급률 중 낮은 지급률을 적용",
+      "각각의 후유장해지급률을 합산하여 적용",
+      "각각의 후유장해지급률을 합산한 후 평균지급률을 적용"
+    ],
+    "answer": 1,
+    "id": 1167,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "4세대 실손의료보험의 입원시 질병급여 담보에 해당하지\n않는 것은?",
+    "options": [
+      "입 원제비용",
+      "외래수술비",
+      "입원수술비",
+      "입원실료"
+    ],
+    "answer": 2,
+    "id": 1168,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "보험계약 청약일 이전에 진단된 질병이 있는 상태에서\n청약일 이후 같은 질병으로 인해 추가적인 진단 또는\n치료사실이 없는 경우 청약일로부터 보상받을 수 있는\n경과기간은?",
+    "options": [
+      "1 0년",
+      "5년",
+      "15년",
+      "3년"
+    ],
+    "answer": 2,
+    "id": 1169,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "다음 장기요양등급의 5등급에 대한 설명 중 ( ) 안에\n들어갈 말로 맞는 것은?\n( )(노인장기요양보험법 시행령 제2조에 따른\n노인성질병으로 한정한다)",
+    "options": [
+      "심신상실자",
+      "심신박약자",
+      "심신이상자",
+      "치매환자 손해보험 모집인 등록시험 - 5 5 - 6월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1170,
+    "source": "2025_06_1"
+  },
+  {
+    "question": "주택화재보험에 예시와 같이 가입한 후 손해가 발생한\n경우 잔존물 제거비용 보험금은?\n보험가액 1억원, 보험가입금액 4천만원,\n재산손해액 1,000만원, 잔존물 제거비용 400만원",
+    "options": [
+      "1 00만원",
+      "400만원",
+      "0원",
+      "200만원"
+    ],
+    "answer": 1,
+    "id": 1171,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "화재보험 일반물건에 해당하는 것은?",
+    "options": [
+      "공장 내의 기숙사",
+      "공장 내의 작업장",
+      "15층 아파트",
+      "오피스텔"
+    ],
+    "answer": 4,
+    "id": 1172,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음에서 동산종합보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "동산에 발생하는 화재, 도난, 파손, 폭발 등 우연한 사고에 의한 손해를 보상하는 보험이다",
+      "동 산에 발생하는 화재, 도난, 파손, 폭발 등에 대해 열거 위험담보방식을 적용한다",
+      "수 용장소가 특정되어 있는 상품은 동산종합보험의 가입 대상에 해당하지 않는다",
+      "자동차, 항공기는 가입대상에서 제외된다 손해보험 모집인 등록시험 - 1 모집인 등록자격시험 험번호 성명 시험지 유형 6-2"
+    ],
+    "answer": 2,
+    "id": 1173,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "장기손해보험 보험료 계산시 사용되는 주요 요소로 맞게\n짝지은 것은?",
+    "options": [
+      "예정사업비율, 예정이율, 예정수익률",
+      "예정사업비율, 예정이율, 예정위험률",
+      "예정수익률, 예정사업비율, 예정위험률",
+      "예정수익률, 예정위험률"
+    ],
+    "answer": 2,
+    "id": 1174,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "연 금저축보험 가입자가 만 70세 이상 80세 미만의\n기간에 연금으로 수령할 때 적용되는 세율은? (지방\n소득세 별도)",
+    "options": [
+      "5 %",
+      "3%",
+      "6%",
+      "4%"
+    ],
+    "answer": 4,
+    "id": 1175,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "자 동차손해배상보장법에 의하여 의무보험에 반드시\n가입해야 하는 의무가입건설기계에 해당하지 않는 것은?",
+    "options": [
+      "타 이어식 건설기계",
+      "덤프트럭",
+      "아스팔트 살포기",
+      "노면측정장비"
+    ],
+    "answer": 1,
+    "id": 1176,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "자동차보험에서 가입자특성요율에 대한 설명으로\n틀린 것은?",
+    "options": [
+      "자기를 피보험자로 하여 과거 자동차보험에 가입한 경과기간에 따라 적용한다",
+      "외국에서의 보험가입경력은 인정되지 않는다",
+      "요율적용방법은 보험회사별로 자율적으로 적용한다",
+      "군 운전병 근무경력은 인정된다"
+    ],
+    "answer": 2,
+    "id": 1177,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 표와 같이 차량사고가 생겼다면 자동차 시세하락\n손해로 인한 보험금은 얼마인가?\n사고 직전 자동차 가액은 1억원(출고 후 5년 경과),\n수리비는 4천만원, 무과실",
+    "options": [
+      "8 00만원",
+      "0원",
+      "400만원",
+      "200만원 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 2,
+    "id": 1178,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "자동차 사고 과실비율분쟁시 과실비율에 대한 설명 중\n옳은 것은?",
+    "options": [
+      "사고유형이 과실비율 인정기준에 없거나 과실기준 적용이 곤란한 경우에는 적용하지 않는다",
+      "과 실비율 인정기준은 법적 구속력을 갖추고 있어 모든 보험회사가 실무에 적용하고 있다",
+      "속 도위반·선 진입 등 수정요소에 대하여는 과실비율의 가감이 가능하다",
+      "소송이 제기된 경우 과실비율분쟁 심의위원회의 결정 비율에 따른다"
+    ],
+    "answer": 3,
+    "id": 1179,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음 중 보험계약체결과 관련하여 모집금지행위에\n해당하지 않는 것은?",
+    "options": [
+      "본인 소속의 보험대리점이 아닌 다른 보험대리점 명의로 보험계약을 체결하는 행위",
+      "보험계약 체결권유시 보험안내자료를 제공하는 행위",
+      "특별이익을 제공하는 행위",
+      "보험료를 대납하는 행위"
+    ],
+    "answer": 2,
+    "id": 1180,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음에서 보험모집과 관련한 설명의무에 대한 설명으로\n맞는 것은?",
+    "options": [
+      "보험계약자나 피보험자에게 보험상품의 중요한 사항을 사실대로 알리는 행위",
+      "객관적 근거없이 한 상품만을 유리하게 설명하는 행위",
+      "보험상품의 내용을 사실과 다르게 알리는 행위",
+      "피보험자가 보험상품의 중요한 사항을 보험회사에 알리지 아니할 것을 권유하는 행위 2 - 6월 2회 모의고사"
+    ],
+    "answer": 1,
+    "id": 1181,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "모집종사자의 권한에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보 험설계사는 계약체결권은 있으나 보험료수령권은 없다",
+      "보 험대리점은 계약체결권이 있으나, 보험설계사는 계약체결권이 없다",
+      "보험설계사와 보험중개사는 보험료수령권이 없다",
+      "보험중개사는 고지의무수령권이 없다"
+    ],
+    "answer": 1,
+    "id": 1182,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 중 보험모집과 관련된 설명으로 틀린 것은?",
+    "options": [
+      "보험업법에 따라 금융위원회에 등록해야 한다",
+      "설 계사 등록 후 등록 제한사유에 해당할 경우 등록을 취소할 수 있다",
+      "보험회사 임원(대표이사, 사외이사, 감사 및 감사위원) 또는 직원은 모집을 할 수 있다",
+      "등록에 관한 업무는 보험협회가 위탁받아 운영한다"
+    ],
+    "answer": 3,
+    "id": 1183,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "보험대리점의 업무정지 기간은?",
+    "options": [
+      "1 2개월",
+      "3개월",
+      "6개월",
+      "1개월"
+    ],
+    "answer": 3,
+    "id": 1184,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "연고를 이용한 가망고객 발굴에 대한 설명으로 틀린 것은?",
+    "options": [
+      "판 매활동의 가장 기초적인 단계로 연고를 이용하는 방법이 기본적이다",
+      "연 고를 이용할 경우 단기간 내 많은 고객을 확보할 수 있다",
+      "유력한 가망고객 발굴이 용이하다",
+      "가까운 가족, 친척, 친구들은 가망고객 발굴 대상에서 제외한다"
+    ],
+    "answer": 4,
+    "id": 1185,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "보험의 성립요건에 대한 설명으로 틀린 것은?",
+    "options": [
+      "고 의에 의한 사고는 보험대상이 되지만, 불법에 의한 사고는 보험대상이 되지 않는다",
+      "보험은 다수의 동질적인 위험의 결합을 필요로 한다",
+      "과거의 위험발생을 토대로 향후의 사고발생률을 예측 할 수 있어야 한다",
+      "사고발생 여부와, 발생시기, 발생규모 중 어느 하나라도 불확정적이어야 한다"
+    ],
+    "answer": 1,
+    "id": 1186,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 중 기간과 구간이 혼합되어 있는 혼합보험에 해당\n하지 않는 것은?",
+    "options": [
+      "조 립보험",
+      "건설공사보험",
+      "여행자보험",
+      "자동차보험"
+    ],
+    "answer": 4,
+    "id": 1187,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "보험범죄와 보험사기방지특별법에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "자동차 정비업체 관련 보험범죄는 보험사기방지특별법과 자동차손해배상보장법에 의해 가중처벌된다",
+      "보 험금 지급요건이 되는 사고 등을 고의로 조작하여 보험금 편취하는 보험사기를 경성사기라고 한다",
+      "보 험사고 발생시 보험금 청구액을 부당하게 과장· 확대하는 보험사기를 연성사기라고 한다",
+      "보 험사기이득액이 고액인 경우 가중처벌하는 조항이 규정되어 있다"
+    ],
+    "answer": 1,
+    "id": 1188,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "교 통사고 예방을 위한 도로교통법에 대한 설명으로\n틀린 것은?",
+    "options": [
+      "중앙선이 없는 보도와 차도가 구분되지 아니한 도로에서 보행자는 도로의 전 부분으로 통행할 수 있다",
+      "모 든 차의 운전자는 회전교차로에 진입하려는 경우 서행하거나 일시정지해야 한다",
+      "보행자보호를 위해 필요한 경우 자동차의 통행속도를 시속 20km 이내로 제한할 수 있다",
+      "횡단보도를 건너는 보행자가 있을 경우 운전자는 서행 해야 한다"
+    ],
+    "answer": 4,
+    "id": 1189,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음에서 피보험이익에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험은 사행계약성을 가지고 있으므로 도박화 및 인위적 위험을 방지할 수 있다",
+      "보험회사의 책임범위를 결정할 수 있다",
+      "동 일한 보험의 목적을 보험에 가입한 경우 피보험 이익도 동일하다",
+      "초과보험과 중복보험의 판정 및 방지효과가 있다 3 - 6월 2회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1190,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 보기의 ( ) 안에 들어갈 알맞은 말은?\n보험계약 당시에 보험사고가 이미 발생하였거나\n또는 발생할 수 없는 것인 때에는 보험계약은\n( )이다",
+    "options": [
+      "무 효",
+      "취소",
+      "해지",
+      "소멸"
+    ],
+    "answer": 1,
+    "id": 1191,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음 중 보험약관에 대한 설명으로 틀린 것은?",
+    "options": [
+      "해석의 폭이 생기지 않도록 명확한 내용으로 규정해야 한다",
+      "소비자를 위해 약관내용에 대한 적합한 예시가 있어야 한다",
+      "전 문적인 법률용어를 사용하여 약관의 해석을 명확히 할 수 있도록 해야 한다",
+      "거래의 실태와 약관 규정이 일치해야 한다"
+    ],
+    "answer": 3,
+    "id": 1192,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "제3보험의 보상방법에 대한 설명으로 맞는 것은?",
+    "options": [
+      "초과이익 금지를 위해 중복가입이 불가능하다",
+      "손해보험회사는 실손보상만 가능하다",
+      "생명보험회사는 정액보상만 가능하다",
+      "실 손보상 급부가 있는 계약은 그 보험가입내역을 보험회사 간에 교환하여 비례보상한다"
+    ],
+    "answer": 4,
+    "id": 1193,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음 중 손해보험회사가 제3보험을 저축성보험으로\n개발할 수 있는 경우는?",
+    "options": [
+      "질 병보험 100세 만기",
+      "질병사망보험 100세 만기",
+      "상해사망보험 100세 만기",
+      "상해보험 15년 만기"
+    ],
+    "answer": 4,
+    "id": 1194,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 중 상해사고 요건에 해당하는 것으로 바르게 묶은 것은?",
+    "options": [
+      "우 연성, 외래성, 확정성",
+      "우연성, 외래성, 급격성",
+      "외래성, 확정성, 급격성",
+      "우연성, 확정성"
+    ],
+    "answer": 2,
+    "id": 1195,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "손해보험회사의 상해보험 중과실 담보에 대한 설명으로\n틀린 것은?",
+    "options": [
+      "사 망을 보험사고로 한 계약에서 중과실은 담보한다",
+      "보험계약자의 중과실에 의한 사고에 대해 보상한다",
+      "피보험자의 중과실에 의한 사고에 대해 보상한다",
+      "보 험수익자의 중과실에 의한 사고에 대해 보상하지 않는다"
+    ],
+    "answer": 4,
+    "id": 1196,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "상해보험에서 상해급수에 대한 설명으로 틀린 것은?",
+    "options": [
+      "항공기정비공은 2급에 해당한다",
+      "직 업·직무·건강상태에 따라 위험도를 감안하여 3개 등급으로 구분한다",
+      "단체상해보험은 등급을 나누지 않는다",
+      "급수가 높아지면 보험료도 높아진다"
+    ],
+    "answer": 2,
+    "id": 1197,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음 보기의 ( ) 안에 들어갈 알맞은 단어는?\n보험회사는 피보험자가 보험기간 중에 상해의\n직접결과로써 사망한 경우 ( )을 보험수익자에게\n사망보험금으로 지급한다",
+    "options": [
+      "보험가입금액",
+      "해지환급금",
+      "보험가액",
+      "계약자적립금 4 - 6월 2회 모의고사"
+    ],
+    "answer": 1,
+    "id": 1198,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 보기의 ( ) 안에 들어갈 말이 바르게 나열된 것은?\n상해보험에서 후유장해보험금 중 영구히 고정된\n증상은 아니지만 치료 종결 후 한시적으로 나타나는\n장해에 대하여는 그 기간이 ( ) 이상인 때에는\n해당 장해지급률의 ( )를 장해지급률로 한다",
+    "options": [
+      "3 년, 10%",
+      "5년, 20%",
+      "7년, 30%",
+      "5년, 50%"
+    ],
+    "answer": 2,
+    "id": 1199,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "2 021년 7월 출시한 개인 실손의료보험(4세대)의 상해\n비급여 통원시 최소 자기부담금으로 맞는 것은?",
+    "options": [
+      "1 만원과 보장대상의료비의 20% 중 큰 금액",
+      "2만원과 보장대상의료비의 10% 중 큰 금액",
+      "2만원과 보장대상의료비의 20% 중 큰 금액",
+      "3만원과 보장대상의료비의 30% 중 큰 금액"
+    ],
+    "answer": 4,
+    "id": 1200,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "유병력자 실손의료보험에서 최근 3개월간의 가입심사\n항목으로 알맞지 않은 것은?",
+    "options": [
+      "추가검사 필요소견",
+      "약물 상시복용 여부",
+      "입원 필요소견",
+      "수술 필요소건"
+    ],
+    "answer": 2,
+    "id": 1201,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "단 체실손의료보험의 개인실손의료보험 전환심사시\n적용되는 10대 중대질환에 해당하지 않는 것은?",
+    "options": [
+      "심장판막증",
+      "치매",
+      "간경화",
+      "협심증"
+    ],
+    "answer": 2,
+    "id": 1202,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다음 보기의 ( ) 안에 들어갈 숫자로 적절한 것은?\n동일한 질병에 대한 입원이라도 질병입원급여금이\n지급된 최종 입원의 퇴원일로부터 ( )일이 경과\n하여 개시한 입원은 새로운 입원으로 본다",
+    "options": [
+      "6 0",
+      "365",
+      "180",
+      "90"
+    ],
+    "answer": 3,
+    "id": 1203,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음에서 장기요양인정점수가 51점 이상 60점 미만인\n경우 적용되는 장기요양등급은?",
+    "options": [
+      "3 등급",
+      "4등급",
+      "5등급",
+      "인지지원등급 5 - 6월 2회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1204,
+    "source": "2025_06_2"
+  },
+  {
+    "question": "다 음 보기의 (가)~(다)에 알맞은 말로 짝지어진 것은?\n보험계약은 당사자 일방( (가) )이 약정한 보험료를\n지급하고 상대방( (나) )이 재산 또는 생명이나 신체에\n대하여 생길 우연한 사고( (다) )로 피보험자가 입을\n재산상의 손해보상을 약정함으로써 효력이 생긴다",
+    "options": [
+      "( 가) 보험자 - (나) 보험계약자 - (다) 보험사고",
+      "(가) 보험수익자 - (나) 보험자 - (다) 보험사고",
+      "(가) 보험계약자 - (나) 보험자 - (다) 보험사고",
+      "(가) 피보험자 - (나) 보험사고 - (다) 보험자"
+    ],
+    "answer": 3,
+    "id": 1205,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "아래 예시의 경우 잔존물 제거비용 보험금은?\n보험가액이 1억원인 아파트에 대해 보험가입금액을\n8,000만원으로 하는 주택화재보험에 가입한 경우,\n화재가 발생하여 3,000만원의 손해가 발생하고\n400만원의 잔존물 제거비용이 발생함",
+    "options": [
+      "300만원",
+      "1,000만원",
+      "500만원",
+      "200만원"
+    ],
+    "answer": 1,
+    "id": 1206,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 화재보험에서 사용되는 특별약관이 아닌 것은?",
+    "options": [
+      "소 방손해담보 특별약관",
+      "구내폭발위험담보 특별약관",
+      "전기위험담보 특별약관",
+      "도난위험담보 특별약관"
+    ],
+    "answer": 1,
+    "id": 1207,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 전문(직업)인 배상책임보험에 해당하지 않는\n것은?",
+    "options": [
+      "변호사배상책임보험",
+      "생산물배상책임보험",
+      "회계사배상책임보험",
+      "의사배상책임보험"
+    ],
+    "answer": 2,
+    "id": 1208,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 여행보험에 대한 설명으로 맞는 것은?",
+    "options": [
+      "구간보험과 기간보험의 성격을 가지고 있다",
+      "보험회사의 보장개시는 여행지 현지의 표준시를 따른다",
+      "기간보험의 성격만 갖는다",
+      "구간보험만의 성격을 갖는다 손해보험 모집인 등록시험 - 1 모집인 등록자격시험 험번호 성명 시험지 유형 7-1"
+    ],
+    "answer": 1,
+    "id": 1209,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 장기손해보험의 특징으로 알맞지 않은 것은?",
+    "options": [
+      "일 반손해보험의 장점에 저축기능을 추가할 수 있다",
+      "보험기간은 통상 3년 이상이다",
+      "보장성보험은 100세 만기로 설계할 수 있다",
+      "보험료를 미리 납부하는 경우 평균공시이율로 할인하여 적용한다"
+    ],
+    "answer": 4,
+    "id": 1210,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 장기손해보험계약에 대한 설명으로 틀린 것은?",
+    "options": [
+      "회사가 청약을 받고 제1회 보험료를 받은 경우 30일 이내에 승낙 또는 거절의 통지가 없으면 승낙된 것으로 본다",
+      "회 사가 청약을 받고 승낙한 경우 보험증권을 즉시 교부 하여야 한다",
+      "신 용카드로 제1회 보험료를 납입하였으나 회사가 청약을 거절한 경우에는 매출을 취소하며 이자를 더하여 지급해야 한다",
+      "회사가 청약을 거절할 시에는 이미 납입한 보험료에 보험료를 받은 기간에 대해 약관에서 정한 이자를 더하여 반환해야 한다"
+    ],
+    "answer": 3,
+    "id": 1211,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "장기화재보험에서 계약 후 알릴 의무(통지의무)에 해당\n하는 것은?",
+    "options": [
+      "보험목적의 양도",
+      "피보험자의 직업, 직무의 변경",
+      "보 험의 목적이 수용되어 있는 건물을 1주일 이상 비워둘 경우",
+      "보험의 목적을 수용하는 건물을 24시간 이상 수리하는 경우"
+    ],
+    "answer": 1,
+    "id": 1212,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "연금저축보험의 세제적격 요건에 부합하지 않는 것은?",
+    "options": [
+      "만 27세 직장인이 5년간 매월 50만원의 보험료를 납입",
+      "매월 10만원씩 55세 퇴직시까지 5년간 보험료를 납입",
+      "5년 이상 매월 100만원의 보험료를 납입",
+      "만 55세가 되는 해에 일시금으로 연금을 수령"
+    ],
+    "answer": 4,
+    "id": 1213,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "확 정기여형 퇴직연금에서 중도인출이 가능한 사유에\n해당하지 않는 것은?",
+    "options": [
+      "무주택자인 가입자가 본인명의로 주택을 구입하는 경우",
+      "가입자가 배우자와 이혼한 경우",
+      "중도인출을 신청한 날부터 역산하여 5년 이내에 가입자가 파산선고를 받은 경우",
+      "가입자 또는 가입자의 배우자와 생계를 같이하는 부양가족이 질병 또는 부상으로 6개월 이상 요양을 하는 경우"
+    ],
+    "answer": 2,
+    "id": 1214,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "「자동차손해배상보장법」에서 승객 이외의 자가 사상한\n경우 운행자가 손해배상책임을 면할 수 있는 조건에\n해당되지 않는 것은?",
+    "options": [
+      "자기와 운전자가 자동차의 운행에 관하여 주의를 게을리 하지 않았음을 증명",
+      "자 동차 구조상의 결함 또는 기능의 장애가 없었음을 증명",
+      "피 해자 또는 자기 및 운전자가 아닌 제3자에게 고의 또는 과실이 있음을 증명",
+      "운전자가 중대 교통법규를 위반하지 않았음을 증명"
+    ],
+    "answer": 4,
+    "id": 1215,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "개인용자동차보험 가입대상 자동차에 해당하는 것은?",
+    "options": [
+      "법 정정원 10인승 이하의 개인소유 자가용승용차",
+      "법정정원 11인승의 개인소유 자가용승용차",
+      "자동차 운전학원 대표자 소유의 도로주행연습용 승용차",
+      "자동차 운전학원 소유의 도로주행교육용 9인승 승합차 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 1,
+    "id": 1216,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "자 동차보험료에 대해 설명으로 알맞은 것은?",
+    "options": [
+      "기본보험료에는 사고건수별 특성요율이 포함되어 있다",
+      "사 고건수별 특성요율은 직전 10년간 사고유무 및 사고건수에 따라 적용하는 요율이다",
+      "교 통법규위반 경력요율은 법인소유자동차에도 동일 하게 적용한다",
+      "가 입자특성요율은 법인체에서의 운전경력을 보험 가입경력으로 인정한다"
+    ],
+    "answer": 4,
+    "id": 1217,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "자 동차보험의 대인배상보험금에 대한 설명으로 옳은\n것은?",
+    "options": [
+      "사 망보험금은 2천만원을 지급한다",
+      "사 망보험금에는 본인을 위한 위자료는 포함되지 않는다",
+      "6 5세 이상 사망 피해자에 대한 위자료는 5,000만원을 지급한다",
+      "장례비는 600만원을 지급한다"
+    ],
+    "answer": 3,
+    "id": 1218,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "자 동차보험의 자기차량손해 담보에 대한 설명으로\n틀린 것은?",
+    "options": [
+      "피 보험자동차에 직접적으로 생긴 손해는 보험가입 금액을 한도로 보상한다",
+      "보 험가입금액이 보험가액보다 많은 경우에는 보험 가액을 한도로 보상한다",
+      "도 난으로 인하여 보험금을 지급받은 후 그 자동차를 찾은 경우 피보험자는 이미 받은 보험금을 반환하고 자동차를 되찾을 수 있다",
+      "일부도난(부분도난)의 경우 보상한다"
+    ],
+    "answer": 4,
+    "id": 1219,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 약관의 전달 및 설명의무에 대한 설명으로\n옳지 않은 것은? [4점]",
+    "options": [
+      "보 험설계사는 보험회사를 대신하여 약관의 전달 및 설명의무를 이행한다",
+      "보 험약관은 분량이 많고 이해하기 어려운 보험전문 용어로 설명되어 있는 부분들이 많으므로 중요한 내용에 대해 충분히 설명해야 한다",
+      "약 관은 계약체결 시 직접 대면하여 전달하여야 하며 전자우편 등 전자적 방법으로 전달해서는 안된다",
+      "약 관의 전달 및 설명의무를 위반한 경우 계약 체결일 로부터 3개월 이내에 계약을 취소할 수 있다 2 - 7월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1220,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 보기에서 ( ) 안에 들어갈 알맞은 용어는?\n보험회사는 보험료를 현금으로 수납함을 원칙으로\n하되, ( )계약의 경우에는 보험계약자가 발행한\n선일자수표 또는 은행도어음(진성어음인 경우 배서분을\n포함)으로 보험료와 이자를 수납할 수 있다",
+    "options": [
+      "손 해보험의 가계성보험",
+      "손해보험의 비가계성보험",
+      "기업성보험",
+      "생명보험"
+    ],
+    "answer": 3,
+    "id": 1221,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "보험안내자료에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험안내자료는 불특정다수에게 제공되는 홍보물이다",
+      "모 집광고의 광고 관련 준수사항 등은 「금융소비자보호에 관한 법률」의 적용을 받는다",
+      "보 험안내자료의 필수기재 사항 등은 「보험업법」의 적용을 받는다",
+      "전 문보험계약자를 대상으로 하는 보험계약은 보험계약 관리내용을 제공하지 않아도 된다"
+    ],
+    "answer": 1,
+    "id": 1222,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "손해보험 공정경쟁질서유지에 관한 상호협정에서 무자격\n모집행위를 한 경우 부과되는 제재금 최고 한도액은?",
+    "options": [
+      "3천만원",
+      "1천만원",
+      "2천만원",
+      "5천만원"
+    ],
+    "answer": 1,
+    "id": 1223,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "「보험업법」상 모집할 수 있는 자의 범위에 해당하지\n않는 것은?",
+    "options": [
+      "보험대리점",
+      "보험회사의 직원",
+      "보험회사의 대표이사",
+      "보험설계사"
+    ],
+    "answer": 3,
+    "id": 1224,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "보험설계사의 등록과 말소에 대한 설명으로 틀린 것은?",
+    "options": [
+      "위 촉 : 보 험회사와 보험설계사간 위촉계약을 체결하는 것",
+      "말소 : 보험협회에 등록된 사항을 말소하는 것",
+      "등록 : 보험개발원에 모집할 자로 등록하는 것",
+      "해촉 : 보 험회사와 보험설계사간 위촉계약을 종료하는 것"
+    ],
+    "answer": 3,
+    "id": 1225,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "간단손해보험대리점에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험연수원에서 주관하는 손해보험대리점 연수과정 이수 시 자격시험을 면제한다",
+      "법인보험대리점 유자격자를 1명 이상 보유해야 등록이 가능하다",
+      "등록신청 유효기간은 연수과정 이수 후 2년이다",
+      "보험연수원에서 주관하는 손해보험대리점 자격시험을 통과해야 한다 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 4,
+    "id": 1226,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 보험모집프로세스의 순서가 올바르게 나열된\n것은?",
+    "options": [
+      "소 개확보 → 정보수집 → 가입권유 → 계약체결",
+      "정보수집 → 소개확보 → 가입권유 → 계약체결",
+      "가망고객 발굴 → 정보수집 → 가입권유 → 계약체결",
+      "접근 → 가망고객 발굴 → 가입권유 → 계약체결"
+    ],
+    "answer": 3,
+    "id": 1227,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "보험의 성립요건이 아닌 것은?",
+    "options": [
+      "사 고의 우연성, 불확실성",
+      "다수의 동질적 위험",
+      "보험료, 보험금의 산정",
+      "측정 불가능한 위험의 존재"
+    ],
+    "answer": 4,
+    "id": 1228,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "제3보험의 종류에 해당되지 않는 것은?",
+    "options": [
+      "상 해보험",
+      "질병보험",
+      "보증보험",
+      "간병보험"
+    ],
+    "answer": 3,
+    "id": 1229,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "「보험사기방지특별법」에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보험사기범은 10년 이하의 징역 또는 2천만원 이하의 벌금형에 처한다",
+      "보 험사기행위는 보험사고의 발생·원인 또는 내용에 관하여 보험자를 기망하여 보험금을 청구하는 행위이다",
+      "보 험사기 조사로 인한 계약자 등의 피해를 방지할 수 있는 규정이 마련되어 있다",
+      "보험사기이득액이 고액인 경우 가중처벌한다"
+    ],
+    "answer": 1,
+    "id": 1230,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 「도로교통법」에 대한 설명으로 잘못된 것은?",
+    "options": [
+      "중 앙선이 없는 보도와 차도가 구분되지 아니한 도로 에서는 보행자가 우선이다",
+      "운 전자는 보행자의 통행에 방해가 될 때에는 서행 하거나 일시정지 하여야 한다",
+      "7 5세 이상 고령자의 면허 갱신시 적성검사 주기는 3년이다",
+      "보 행자우선도로에서 자동차 통행속도를 시속 30km 이내로 제한할 수 있다"
+    ],
+    "answer": 4,
+    "id": 1231,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 보험회사 각자의 보험가입금액 비율에 따라\n피보험자에게 연대책임을 지며 보험가액 한도 내에서\n실손보상하는 보험으로 맞는 것은?",
+    "options": [
+      "일 부보험",
+      "공동보험",
+      "전부보험",
+      "중복보험"
+    ],
+    "answer": 4,
+    "id": 1232,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 제3보험에 해당하는 것만을 열거한 것은?",
+    "options": [
+      "상해보험, 간병보험, 재보험",
+      "상해보험, 질병보험, 간병보험",
+      "보증보험, 기술보험, 상해보험",
+      "연금보험, 질병보험, 간병보험"
+    ],
+    "answer": 2,
+    "id": 1233,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 제3보험과 관계 깊은 법률로 맞는 것은?",
+    "options": [
+      "보험업법",
+      "상법",
+      "산업구조조정법",
+      "국민건강보험법"
+    ],
+    "answer": 1,
+    "id": 1234,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 비례보상 원칙이 적용되지 않는 것은?",
+    "options": [
+      "실 손급부 질병보험",
+      "실손급부 상해보험",
+      "생명보험 손해보험 모집인 등록시험 - 4",
+      "손해보험"
+    ],
+    "answer": 3,
+    "id": 1235,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 보기의 ( ) 안에 들어갈 알맞은 것은?\n손해보험사가 판매하는 제3보험 상품에서 주계약이\n상해보험인 경우는 저축성보험으로의 개발이 가능하며\n이 경우 보험기간은 ( ) 이내로 개발이 가능하다",
+    "options": [
+      "10년",
+      "5년",
+      "20년",
+      "15년"
+    ],
+    "answer": 4,
+    "id": 1236,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 유병력자 실손의료보험에 대한 설명으로 맞는\n것은?",
+    "options": [
+      "보 험료 갱신주기는 5년이다",
+      "일 부 보장내용을 변경하여 65세 이상에서도 보험 가입이 가능하다",
+      "계약 전 알릴 의무 사항 등 가입심사 요건을 축소하여 가입이 수월하도록 설계한 보험이다",
+      "급 여의료비는 보상하지만 비급여의료비는 보상하지 않는다"
+    ],
+    "answer": 3,
+    "id": 1237,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 상해보험의 보험료산출에 대한 설명으로\n맞는 것은?",
+    "options": [
+      "보험료의 크기는 1급 > 2급 > 3급 순으로 크다",
+      "항공기정비공은 상해 3급 보험료를 적용한다",
+      "직 업 및 직무를 감안하여 3등급으로 구분하여 보험료를 책정한다",
+      "단체상해보험은 5등급으로 구분하여 보험료를 책정한다"
+    ],
+    "answer": 3,
+    "id": 1238,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "상해보험의 실손의료비 담보에서 보상하는 손해는?",
+    "options": [
+      "한방치료에서 발생한 비급여 의료비",
+      "의사의 진단에 따른 검진비용",
+      "해외소재 의료기관에서 발생한 의료비",
+      "치과치료에서 발생한 의치 구입비용 4 - 7월 1회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1239,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "장기상해보험에서 치료종결 후 한시적인 장해가 5년\n이상인 때 후유장해보험금은?",
+    "options": [
+      "해 당 장해지급률의 20%를 상실수익액에 곱하여 산출한다",
+      "해 당 장해지급률의 30%를 상실수익액에 곱하여 산출한다",
+      "해 당 장해지급률의 30%를 보험가입금액에 곱하여 산출 한다",
+      "해 당 장해지급률의 20%를 보험가입금액에 곱하여 산출 한다"
+    ],
+    "answer": 4,
+    "id": 1240,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "상 해보험에서 지급하는 보험금에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "피 보험자가 상해보험 보장개시일 이후에 특정 상해 상태를 진단받은 경우 상해진단비를 지급한다",
+      "피보험자가 보험기간 중에 상해로 생활기능에 지장이 발생하여 입원·치료를 받은 경우 입원 1일당 보험가입 금액을 입원급여금으로 피보험자에게 지급한다",
+      "피보험자가 입원기간 중 의사의 지시를 따르지 아니한 때에는 입원급여금의 전부 또는 일부를 지급하지 않는다",
+      "보험기간 중 진단확정된 상해로 간병이 필요한 상태가 되었을 때 간병보험금을 지급한다"
+    ],
+    "answer": 2,
+    "id": 1241,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "4세대 실손의료보험의 3대 비급여에 해당하지 않는 것은?",
+    "options": [
+      "체외충격파치료",
+      "도수치료",
+      "상급병실료 차액",
+      "자기공명영상진단"
+    ],
+    "answer": 3,
+    "id": 1242,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "휴 일교통상해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "상품에 따라서는 금요일이 휴일의 대상이 되기도 한다",
+      "일요일은 휴일에 포함된다",
+      "근로자의 날은 휴일에 포함된다",
+      "휴일의 0시에 보험책임이 개시된다"
+    ],
+    "answer": 1,
+    "id": 1243,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다 음 중 질병수술급여금에 대한 설명으로 틀린 것은?",
+    "options": [
+      "질병으로 두 종류 이상의 질병 수술을 받은 경우 하나의 질병수술보험금만 지급한다",
+      "피 보험자가 보험기간 중에 진단 확정된 질병의 치료를 직접적인 목적으로 수술을 받는 경우 지급한다",
+      "질병으로 두 종류 이상의 질병 수술을 받은 경우 두 종류의 질병수술보험금을 모두 지급한다",
+      "질병수술급여금은 보험가입금액으로 정액보상한다 손해보험 모집인 등록시험 - 5"
+    ],
+    "answer": 3,
+    "id": 1244,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 우선공제금을 높게 설정하는 실손의료보험으로\n맞는 것은?",
+    "options": [
+      "일 반 실손의료보험",
+      "노후 실손의료보험",
+      "일반, 노후, 유병력자 실손의료보험",
+      "유병력자 실손의료보험"
+    ],
+    "answer": 2,
+    "id": 1245,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음의 암보험 설명에서 ( ) 안에 알맞은 것은?\n피보험자가 암 보장개시일 이후에 통상 최초 ( )에\n한하여 암으로 진단된 경우 암진단급여금을 지급한다",
+    "options": [
+      "1 회",
+      "2회",
+      "3회",
+      "4회"
+    ],
+    "answer": 1,
+    "id": 1246,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "다음 중 심신의 기능상태 장애로 일상생활에서 전적으로\n다른 사람의 도움이 필요한 상태에 해당하는 장기요양\n등급으로 맞는 것은?",
+    "options": [
+      "3 등급",
+      "인지지원등급",
+      "2등급",
+      "1등급 5 - 7월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1247,
+    "source": "2025_07_1"
+  },
+  {
+    "question": "주 택화재보험에서 다른 약정이 없어도 보험의 목적에\n포함되는 것은?",
+    "options": [
+      "피 보험자 소유의 칸막이",
+      "유가증권",
+      "조각물",
+      "소프트웨어, 설계서"
+    ],
+    "answer": 1,
+    "id": 1248,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "주택화재보험에서 보험가액이 1억원, 보험가입금액이\n4,000만원인 계약 후 손해액이 1,000만원, 잔존물 제거비용이\n400만원 발생 시 잔존물 제거비용 보험금은 얼마인가?",
+    "options": [
+      "4 00만원",
+      "100만원",
+      "300만원",
+      "200만원"
+    ],
+    "answer": 2,
+    "id": 1249,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "의무보험인 재난배상책임보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "인명피해는 사망, 부상·후유장애시 1인당 1억 5천만원 한도 내에서 보상한다",
+      "재 난배상책임보험은 화재, 폭발, 붕괴로 인한 타인의 신체 또는 재산피해를 보상한다",
+      "재산피해는 1사고당 10억원 한도 내에서 보상한다",
+      "「 재난 및 안전관리 기본법」에 따라 20개 업종을 대상으로 가입을 의무화하였다"
+    ],
+    "answer": 1,
+    "id": 1250,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "가스사고배상책임보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "대 인배상은 사망, 후유장애, 부상시 약관에서 정한 금액을 보상한다",
+      "대 물보상은 1사고당 보험증권에 기재된 금액 한도 내에서 실손 보상한다",
+      "가스용기제조업자도 가입대상에 포함된다",
+      "임의보험이다"
+    ],
+    "answer": 4,
+    "id": 1251,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "유 아교육기관종합보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "유아의 상해사고시 의료비 보상한도는 1사고당 보험가입 금액이다",
+      "보 험기간 중 상해사고 보험금이 지급되면 잔여기간에 대한 보험가입금액은 감액된다",
+      "통 상적인 경로의 등교 및 하교도 교육기관 생활 중의 범위에 포함된다",
+      "교 육기관 생활 중에는 교육기관 내의 활동도 포함되며, 교육기관 밖에서의 교육활동도 포함된다 손해보험 모집인 등록시험 - 1 모집인 등록자격시험 험번호 성명 시험지 유형 9-1"
+    ],
+    "answer": 2,
+    "id": 1252,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "장기손해보험의 위험보험료에 대한 설명으로 맞는 것은?",
+    "options": [
+      "저 축보험료에는 위험보험료와 부가보험료가 포함된다",
+      "사고발생시 보험금지급의 재원이 된다",
+      "특별계정에서 운용한다",
+      "보험회사에 필요한 사업비이다"
+    ],
+    "answer": 2,
+    "id": 1253,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "장 기손해보험의 보험계약 대출제도에 대한 설명으로\n맞는 것은?",
+    "options": [
+      "해 약환급금 범위 내에서 보험계약대출이 가능하다",
+      "일 반손해보험과 같은 소멸성 보험도 보험계약대출이 가능하다",
+      "보험기간이 만료되어도 보험계약 대출기간은 만료되지 않는다",
+      "만기환급금 지급시 만기환급금에서 보험계약 대출금을 차감할 수 없다"
+    ],
+    "answer": 1,
+    "id": 1254,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 보험금 지급 기간으로 틀린 것은?",
+    "options": [
+      "신 체손해보험금(질병) : 청 구서류를 접수한 날로부터 7영업일 이내",
+      "배상책임보험금 : 지급보험금이 결정된 후 7일 이내",
+      "재산손해보험금 : 지급보험금이 결정된 후 7일 이내",
+      "신체손해보험금(상해) : 청 구서류를 접수한 날로부터 3영업일 이내"
+    ],
+    "answer": 1,
+    "id": 1255,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "장 기화재보험에는 약관상 인수제한 물건이 있는데,\n다음 중 인수제한 물건에 해당하는 것은?",
+    "options": [
+      "공장 구내에 있는 건물",
+      "공장 옥외에 쌓아둔 동산",
+      "주택에 수용된 가재, 집기비품, 재고자산",
+      "기념주화, 우표"
+    ],
+    "answer": 4,
+    "id": 1256,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "세제적격 연금저축의 연금수령요건으로 알맞은 것은?",
+    "options": [
+      "58세 이후 수령",
+      "55세 이후 수령",
+      "50세 이후 수령",
+      "60세 이후 수령 1 - 9월 1회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1257,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "부득이한 사유가 아닌 경우로 연금저축보험의 연금수령\n요건을 충족하지 못하는 금액에 대해 부과하는\n기타소득세율(지방소득세 제외)은?",
+    "options": [
+      "32%",
+      "15%",
+      "12%",
+      "2%"
+    ],
+    "answer": 2,
+    "id": 1258,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 「교통사고처리특례법」의 12대 중과실 사고에\n해당하지 않는 것은?",
+    "options": [
+      "신호 또는 지시위반",
+      "속도위반(제한속도 20㎞ 이상 초과)",
+      "주 취운전(호흡 중 알코올 농도 0.02% 이상) 또는 약물 복용운전",
+      "무면허 운전"
+    ],
+    "answer": 3,
+    "id": 1259,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다 음의 「자동차손해배상보장법」에 근거한 의무보험에\n대한 설명으로 틀린 것은?",
+    "options": [
+      "비사업용 자동차는 대인배상Ⅰ과 대물배상 2천만원 이상에 가입하여야 한다",
+      "사업용 자동차는 대인배상Ⅱ(1억원 이상)를 추가로 가입하여야 한다",
+      "자동차를 보유한 사람이 의무적으로 가입해야 하는 자동차보험이다",
+      "보험회사는 의무보험의 계약을 절대 거절하지 못한다"
+    ],
+    "answer": 4,
+    "id": 1260,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "자동차보험의 자동차보험료 적용요소 중 단체할인·할증에\n대한 내용으로 틀린 것은?",
+    "options": [
+      "영업용자동차보험은 단체할인·할증 평가대상기간의 최종 연도 1년간 평균유효대수가 10대 이상인 경우에 적용한다",
+      "업무용자동차보험에는 관용자동차가 포함된다",
+      "평가대상기간은 역년 기준 3년이다",
+      "영업용자동차보험은 피보험자 단위로 평가 적용한다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 2,
+    "id": 1261,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "자동차사고 과실비율분쟁시 과실비율 적용에 대한\n설명으로 틀린 것은?",
+    "options": [
+      "상 대방과 과실비율 다툼이 계속될 경우 경찰이 과실 비율을 결정한다",
+      "속 도위반, 선 진입 등 수정요소에 대하여 과실비율의 가감이 가능하다",
+      "소송이 제기된 경우에는 확정판결에 의한 과실비율을 적용한다",
+      "경찰의 사고조사기록은 과실비율 산정에 필요한 객관적 참고자료로 활용된다"
+    ],
+    "answer": 1,
+    "id": 1262,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "보험모집시 지켜야 할 3대 기본지키기 중 약관의 전달 및\n중요한 내용 설명에 대한 내용으로 틀린 것은? [4점]",
+    "options": [
+      "보험약관은 광기록매체, 전자우편 등 전자적 방법으로 교부할 수 있다",
+      "보 험설계사에게 설명을 하게 하는 것은 보험약관은 분량이 많고 이해하기 어려운 보험전문용어로 설명 되어 있는 부분들이 많기 때문이다",
+      "보 험계약 체결시 보험계약자가 작성한 청약서의 사본(부본)을 보험계약자에게 제공하는 것을 말한다",
+      "중 요한 내용에는 약관에 기재된 보험상품의 내용, 보상하는 손해, 보상하지 않는 손해 등이 포함된다"
+    ],
+    "answer": 3,
+    "id": 1263,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 「보험업법」상 금지되는 특별이익 제공에 해당\n하지 않는 것은?",
+    "options": [
+      "금품(대통령령으로 정하는 금액을 초과하지 아니하는 금품은 제외) 제공",
+      "보험계약자나 피보험자를 위한 보험료의 대납",
+      "기초서류에서 정한 보험금액보다 많은 보험금액의 지급 약속",
+      "상 해보험에서 직업에 따른 위험도를 반영한 보험료의 할인 2 - 9월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1264,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 보험계약 모집질서 관련 준수사항의 위반사항에\n해당하지 않는 것은?",
+    "options": [
+      "무자격자 모집위탁",
+      "다른 모집종사자에 대한 비방",
+      "특별이익 제공",
+      "보험계약 경유처리"
+    ],
+    "answer": 2,
+    "id": 1265,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "보험모집질서 확립을 통한 보험산업의 공신력 제고 및\n보험가입자의 권익보호를 위해 「손해보험 공정경쟁질서\n유지에 관한 상호협정」을 운영하고 있는 기관은?",
+    "options": [
+      "보험개발원",
+      "보험연수원",
+      "생명보험협회",
+      "손해보험협회"
+    ],
+    "answer": 4,
+    "id": 1266,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다 음 중 보험모집종사자에 대한 설명으로 옳지 않은\n것은?",
+    "options": [
+      "보 험설계사는 보험회사를 위하여 보험계약의 체결을 중개한다",
+      "보험설계사는 계약체결권이 없다",
+      "보험대리점은 보험계약자를 위하여 보험계약의 체결을 대리한다",
+      "보 험설계사는 「보험업법」에 따라 금융위원회에 등록 하여야 한다"
+    ],
+    "answer": 3,
+    "id": 1267,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 교차모집보험설계사로 등록할 수 있는 경우는?",
+    "options": [
+      "A 보험대리점 소속 손해보험설계사가 A보험대리점 생명보험설계사로 겸하고자 하는 경우",
+      "A 보험대리점 소속 손해보험설계사가 Z보험대리점 생명보험설계사로 겸하고자 하는 경우",
+      "A 손해보험사 설계사가 Z손해보험사 설계사로 등록 하고자 하는 경우",
+      "Z 생명보험사 설계사가 A손해보험사 설계사로 등록 하고자 하는 경우"
+    ],
+    "answer": 4,
+    "id": 1268,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 손해보험 우수인증설계사에게 주어지는 혜택으로\n옳지 않은 것은?",
+    "options": [
+      "손 해보험협회는 관계 기관과 협력하여 일반인과 보험인을 대상으로 우수인증설계사에 대한 홍보활동을 한다",
+      "자긍심 고취와 홍보를 위해 정기적인 언론홍보를 통해 인지도 제고 등을 지원한다",
+      "인 증로고를 명함, 보험안내자료, 보험증권 등에 인쇄 하여 보험영업에 활용할 수 있도록 한다",
+      "우 수인증설계사에 선발되면 미국이나 유럽 등으로 해외연수를 보낸다"
+    ],
+    "answer": 4,
+    "id": 1269,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 위험에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "주관적 위험은 자신의 직감 등을 통한 위험을 말한다",
+      "객 관적 위험은 기업의 위험관리자에게 매우 유용한 개념이다",
+      "주관적 위험은 구체화되고 명확한 자료를 근거로 한다",
+      "객관적 위험은 대수의 법칙에 근거한 위험이다"
+    ],
+    "answer": 3,
+    "id": 1270,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "「상법」상 보험의 분류에 대한 설명으로 맞는 것은?",
+    "options": [
+      "「 상법」상 보험은 손해보험, 인보험, 제3보험으로 분류된다",
+      "「 상법」상 상해보험은 손해보험에 속한다",
+      "「 상법」상 자동차보험은 손해보험, 인보험 모두에 속한다",
+      "「 상법」상 보험은 손해보험과 인보험으로 구분한다"
+    ],
+    "answer": 4,
+    "id": 1271,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "「보험사기방지특별법」상 보험회사가 대통령령에서 정한\n사유없이 보험금의 지급을 지체 또는 거절하거나 삭감하여\n지급한 경우 과태료 부과기준은?",
+    "options": [
+      "1 천 500만원 이하",
+      "1천만원 이하",
+      "500만원 이하",
+      "2천만원 이하"
+    ],
+    "answer": 2,
+    "id": 1272,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 음주운전 사망사고시 처벌기준으로 맞는 것은?",
+    "options": [
+      "무 기 또는 3년 이상의 징역",
+      "20년 이상의 징역 또는 1천만원 이상 3천만원 이하의 벌금",
+      "10년 이상의 유기징역",
+      "5년 이상의 징역 또는 500만원 이상 1천만원 이하의 벌금"
+    ],
+    "answer": 1,
+    "id": 1273,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 보험회사의 주요의무에 해당하지 않는 것은?",
+    "options": [
+      "보험금 지급의무",
+      "약관교부 및 설명의무",
+      "보험료 수납의무",
+      "청약의 낙부통지의무 3 - 9월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1274,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다 음 중 보험의 목적에 대해 특정한 경제주체가 갖는\n경제적 이해관계를 말하는 것은?",
+    "options": [
+      "중 복보험",
+      "피보험자",
+      "보험계약자",
+      "피보험이익"
+    ],
+    "answer": 4,
+    "id": 1275,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다 음 중 타인을 위한 보험계약에 대한 설명으로 옳지\n않은 것은?",
+    "options": [
+      "제3자가 수익의 의사표시를 하지 않더라도 그 이익을 받는다는 점에서 「민법」과 차이가 있다",
+      "보험계약자는 보험금청구권을 갖는다",
+      "타인을 위한 보험계약이라는 의사표시가 있어야 한다",
+      "부모가 자녀를 위해 보험을 가입할 경우도 해당한다"
+    ],
+    "answer": 2,
+    "id": 1276,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 제3보험의 보험종목에 해당하지 않는 것은?",
+    "options": [
+      "연 금보험",
+      "간병보험",
+      "질병보험",
+      "상해보험"
+    ],
+    "answer": 1,
+    "id": 1277,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "제 3보험의 보상방식에 대한 설명으로 옳은 것은?",
+    "options": [
+      "정 액보상과 실손보상 모두 가능하다",
+      "정액보상 급부가 있는 보험계약은 비례보상한다",
+      "실손보상 급부가 있는 보험계약은 중복보상한다",
+      "제3보험은 손해액에 관계없이 보험금이 지급된다 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 1,
+    "id": 1278,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 제3보험의 설계기준에 대한 설명으로 틀린 것은?",
+    "options": [
+      "만 기시 지급되는 만기환급금은 납입한 보험료를 초과할 수 없다",
+      "보 험계약대출 원리금 상계 전 지급되는 환급금은 납입한 보험료를 초과할 수 없다",
+      "사고보험금액은 만기환급금을 초과할 수 없다",
+      "중 도해지시 지급되는 보험금은 납입한 보험료를 초과할 수 없다"
+    ],
+    "answer": 3,
+    "id": 1279,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "단 체실손의료보험과 개인실손의료보험의 연계제도에\n대한 설명으로 틀린 것은?",
+    "options": [
+      "개인실손의료보험으로 전환시 보장종목, 보장금액, 자기 부담금 등의 세부 조건은 전환 직전 단체실손의료보험과 동일 또는 유사하게 적용된다",
+      "개 인실손의료보험 중지 후 재개시에는 기존에 중지했던 상품으로만 재개할 수 있다",
+      "직장 재직 중 실손의료보험 중복가입을 해소하고 퇴직 후 실손의료보험 보장이 가능하도록 연계제도가 시행되었다",
+      "단체실손의료보험에 가입되어 있는 소비자가 퇴직 등으로 단체실손의료보험 종료시 개인실손의료보험으로 전환 할 수 있다"
+    ],
+    "answer": 2,
+    "id": 1280,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 상해보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험의 목적은 피보험자의 신체에 발생한 상해이다",
+      "상해란 급격하고도 우연한 외래의 사고로 입은 신체의 손상을 의미한다",
+      "상 해보험은 사망, 후유장해, 입원, 통원 등의 담보를 포함할 수 있다",
+      "우연성, 외래성, 지속성의 요건을 충족하여야 한다"
+    ],
+    "answer": 4,
+    "id": 1281,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "상해보험에서 직업등급상 보험료가 가장 낮은 직업군은\n무엇인가?",
+    "options": [
+      "항공기정비공",
+      "영업용자동차 운전자",
+      "사무직근로자",
+      "중국집배달원"
+    ],
+    "answer": 3,
+    "id": 1282,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 상해 또는 질병에 대하여 치유된 후 신체에 남아\n있는 영구적인 정신 또는 육체의 훼손상태 및 기능상실\n상태를 말하는 것은?",
+    "options": [
+      "부 상",
+      "장해",
+      "손해",
+      "후유증 4 - 9월 1회 모의고사"
+    ],
+    "answer": 2,
+    "id": 1283,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "영구히 고정된 증상은 아니지만 치료종결 후 한시적인\n장해가 5년 이상인 때 후유장해지급률은?",
+    "options": [
+      "해 당 장해지급률의 30%",
+      "해당 장해지급률의 20%",
+      "해당 장해지급률의 10%",
+      "해당 장해지급률의 5%"
+    ],
+    "answer": 2,
+    "id": 1284,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "개 인 실손의료보험(4세대) 상해급여의 보상한도 중\n옳은 것은?",
+    "options": [
+      "입 ·통원 합산 연간 5천만원 한도(단, 통원은 회당 30만원 한도)",
+      "입 ·통원 합산 연간 1억원 한도(단, 통원은 회당 20만원 한도)",
+      "입 ·통원 합산 연간 1억원 한도(단, 통원은 회당 30만원 한도)",
+      "입 ·통원 합산 연간 5천만원 한도(단, 통원은 회당 20만원 한도)"
+    ],
+    "answer": 4,
+    "id": 1285,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "개인 실손의료보험(4세대)의 상해비급여 통원시 자기\n부담금 비율로 옳은 것은?",
+    "options": [
+      "보 장대상의료비의 30% 또는 최소 자기부담금(3만원) 중 적은 금액",
+      "보 장대상의료비의 20% 또는 최소 자기부담금(3만원) 중 적은 금액",
+      "보 장대상의료비의 30% 또는 최소 자기부담금(3만원) 중 큰 금액",
+      "보 장대상의료비의 20% 또는 최소 자기부담금(3만원) 중 큰 금액"
+    ],
+    "answer": 3,
+    "id": 1286,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "4세대 실손의료보험 특별약관 보험료 갱신시 적용되는\n요율 상대도에서 할증요율이 적용되는 특별약관 보험금\n지급실적은 얼마인가?",
+    "options": [
+      "2 00만원 이상인 실손의료보험 계약",
+      "100만원 미만인 실손의료보험 계약",
+      "100만원 이상인 실손의료보험 계약",
+      "300만원 이상인 실손의료보험 계약"
+    ],
+    "answer": 3,
+    "id": 1287,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다음 중 단체실손의료보험과 개인실손의료보험의 연계\n제도에 대한 설명으로 맞는 것은?",
+    "options": [
+      "단체실손의료보험 가입시 개인실손의료보험은 자동으로 중지된다",
+      "단체실손의료보험 가입시 기존에 가입한 개인실손의료 보험의 보험료는 계속 납입하여야 한다",
+      "단체실손의료보험 가입시 기존에 가입한 개인실손의료 보험의 중복된 보장을 중지할 수 있다",
+      "단체실손의료보험과 개인실손의료보험에 중복 가입된 경우 단체실손의료보험의 보험료는 환급되지 않는다 손해보험 모집인 등록시험 - 5"
+    ],
+    "answer": 3,
+    "id": 1288,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다 음 중 질병보험의 대기기간에 대한 설명으로 옳지\n않은 것은?",
+    "options": [
+      "제 자리암, 기타피부암 등은 대기기간 없이 보험기간 시작일로부터 보상한다",
+      "암을 담보하는 특별약관에서는 대기기간 중 암 진단이 확정되는 경우에는 특별약관을 무효로 한다",
+      "15세 미만자는 암보험에서 대기기간을 설정하지 않고 있다",
+      "특 별약관의 계약무효 시에는 이미 납입한 특별약관 보험료를 환급하지 않는다"
+    ],
+    "answer": 4,
+    "id": 1289,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "질병보험에서 보상하지 않는 손해에 해당하는 것은?",
+    "options": [
+      "심 신상실 상태에서 피보험자가 고의로 자신을 해친 경우",
+      "계 약자가 실수로 피보험자를 해친 경우 그 사실을 증명한 경우",
+      "피 보험자가 정당한 이유 없이 의사의 지시를 따르지 아니하여 악화된 부분으로 인하여 발생한 통원치료비",
+      "고의로 피보험자를 해친 보험수익자가 일부 수익자인 경우 다른 보험수익자의 보험금"
+    ],
+    "answer": 3,
+    "id": 1290,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "일반 실손의료보험의 보험료 및 상품구조의 변경주기에\n대한 설명으로 옳은 것은?",
+    "options": [
+      "보험료는 고정되어 갱신하지 않고, 상품구조만 변경하여 재가입한다",
+      "보험료는 5년마다 갱신하고, 상품구조는 1년 후 재가입 한다",
+      "보험료는 1년마다 갱신하고, 상품구조는 5년 후 재가입 한다",
+      "보험료와 상품구조 모두 1년마다 갱신한다"
+    ],
+    "answer": 3,
+    "id": 1291,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "장기요양등급에서 인지지원 등급과 5등급을 구분하는\n기준점수는?",
+    "options": [
+      "9 0점",
+      "45점",
+      "0점",
+      "10점 5 - 9월 1회 모의고사 손해보험·제3보험 모집인 등록자"
+    ],
+    "answer": 2,
+    "id": 1292,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "",
+    "options": [
+      "/",
+      "납입보험료는 위험보험료와 저축보험료, 부가보험료로 구성되며 서로 중첩되지 않음",
+      "특별계정 → 일반계정",
+      "부가보험료에 대한 설명임"
+    ],
+    "answer": 2,
+    "id": 1293,
+    "source": "2025_09_1"
+  },
+  {
+    "question": "다 음 중 주택화재보험과 일반화재보험에서 공통으로\n보상하는 손해가 아닌 것은?",
+    "options": [
+      "피 난지에서 발생한 소방손해",
+      "손해방지를 위한 침수손해",
+      "폭발 또는 파열에 따른 직접손해",
+      "화재진압과정에서 발생한 소방손해"
+    ],
+    "answer": 3,
+    "id": 1294,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 화재보험에 대한 설명으로 옳은 것은?",
+    "options": [
+      "잔존물 보전비용은 재산손해액의 10%를 초과할 수 없다",
+      "재 산손해보험금과 잔존물 제거비용의 합계액은 보험 가입금액을 한도로 한다",
+      "기타 협력비용은 보험가입금액 한도 내에서 지급한다",
+      "손해방지비용은 보험가입금액 한도 내에서 지급한다"
+    ],
+    "answer": 2,
+    "id": 1295,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 보험회사의 주택화재보험 책임개시 시기는 언제\n인가?",
+    "options": [
+      "계약자가 청약한 날 0시부터",
+      "보험기간의 첫날 12시부터",
+      "청약승낙 후 제1회 보험료를 받은 때부터",
+      "청약을 승낙한 때부터"
+    ],
+    "answer": 3,
+    "id": 1296,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "해상보험에서 광의의 면책위험에 해당하지 않는 것은?",
+    "options": [
+      "항로 변경",
+      "담보위반",
+      "항해 지연",
+      "쥐나 해충에 근인한 손해"
+    ],
+    "answer": 4,
+    "id": 1297,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 동산종합보험의 보험가입대상에 해당하는 것은?",
+    "options": [
+      "동물",
+      "수용장소가 특정되어 있지 않은 상품",
+      "항공기",
+      "특정장소에 있어서의 가재 포괄계약 손해보험 모집인 등록시험 - 1 모집인 등록자격시험 험번호 성명 시험지 유형 10-1"
+    ],
+    "answer": 2,
+    "id": 1298,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "장기손해보험에서 해약환급금을 지급하는 경우에 해당하지\n않는 것은?",
+    "options": [
+      "보 험계약자가 자의로 보험계약의 해지 의사표시를 한 경우",
+      "피보험자의 고지의무 위반으로 해지된 경우",
+      "보험계약자가 통지의무를 위반하여 해지된 경우",
+      "보험계약자가 제1회 보험료를 납부하지 않은 경우"
+    ],
+    "answer": 4,
+    "id": 1299,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 중 장기손해보험에 대한 설명으로 올바른 것은?",
+    "options": [
+      "계 약자는 보험료를 일시에 전액 납부해야 한다",
+      "장기손해보험의 보험기간은 통상 5년 이상이다",
+      "장기손해보험은 만기 또는 중도해지시 환급금이 발생한다",
+      "일반손해보험의 보험기간은 통상 2년 이상이다"
+    ],
+    "answer": 3,
+    "id": 1300,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "장기화재보험의 보험료 구성에 대한 설명으로 틀린 것은?",
+    "options": [
+      "순 보험료는 위험보험료와 저축보험료로 구성된다",
+      "위 험보험료는 신계약을 모집하는데 필요한 제경비로 사용된다",
+      "저축보험료는 만기환급금 지급재원이 되는 보험료이다",
+      "보험료는 순보험료와 부가보험료로 구성된다"
+    ],
+    "answer": 2,
+    "id": 1301,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 보기에서 설명하는 보험상품은?\n재물손해, 신체상해손해 및 배상책임손해 등 각종의\n이질적인 위험을 하나의 보험약관으로 포괄 담보하는\n형태의 보험",
+    "options": [
+      "장기통합보험",
+      "장기종합보험",
+      "장기포괄보험",
+      "장기총괄보험"
+    ],
+    "answer": 2,
+    "id": 1302,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "연금저축의 세제혜택에 대한 설명으로 옳은 것은?",
+    "options": [
+      "연 금수령요건을 충족하지 못하는 금액은 기타소득세 12%가 부과된다",
+      "납입한도는 퇴직연금 가입자 부담금을 합산하여 연간 600만원이다",
+      "연간 근로소득이 5,500만원을 초과할 경우 10%의 세액공제율을 적용한다(지방소득세 제외)",
+      "특 약보험료는 다른 보험의 보장성보험료와 합산하여 세액공제한다 1 - 10월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1303,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "연금수령시 종합과세가 적용되는 기준으로 맞는 것은?",
+    "options": [
+      "소득세 과세대상 연금소득의 합계가 연간 1,500만원을 초과하는 경우",
+      "소득세 과세대상 연금 외 소득의 합계가 연간 1,200만원을 초과하는 경우",
+      "연금계좌에서 인출하는 금액이 소득공제를 받지 못하는 금액을 포함하여 1,500만원을 초과하는 경우",
+      "소득공제대상 연금소득의 합계가 연간 1,500만원 이하인 경우"
+    ],
+    "answer": 1,
+    "id": 1304,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "확정기여형 퇴직연금의 부담금 납입시 사외적립 비율은?",
+    "options": [
+      "60%",
+      "90%",
+      "100%",
+      "50%"
+    ],
+    "answer": 3,
+    "id": 1305,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "자동차보험의 피보험자에 대한 설명으로 틀린 것은?",
+    "options": [
+      "기명피보험자의 승낙을 얻어 피보험자동차를 사용 또는 관리 중인 자를 승낙피보험자라고 한다",
+      "대인Ⅱ, 대물의 경우 자동차정비업, 주차장업 등 자동차를 취급하는 것을 업으로 하는 자가 업무로서 위탁받은 피보험 자동차를 사용 또는 관리하는 경우 승낙피보험자로 본다",
+      "기명피보험자의 사용자 또는 계약에 따라 기명피보험자의 사용자에 준하는 지위를 얻는 자를 사용피보험자라고 한다",
+      "다른 피보험자를 위하여 피보험자동차를 운전 중인 자를 운전피보험자라고 한다"
+    ],
+    "answer": 2,
+    "id": 1306,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 자동차보험의 대차료에 대한 설명으로 틀린 것은?",
+    "options": [
+      "동급이라 함은 배기량, 연식이 유사한 차량을 말한다",
+      "하이브리드 차량, 다운사이징엔진 장착 차량에 대해서는 배기량과 연식 이외에 다른 조건을 고려하지 않는다",
+      "수리가 불가능한 경우 대차료 인정기간은 10일을 한도로 한다",
+      "부 당한 수리지연, 출고지연 등의 사유로 인해 통상의 수리기간을 초과하는 기간은 인정하지 않는다"
+    ],
+    "answer": 2,
+    "id": 1307,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "자기신체사고에 대한 설명으로 틀린 것은?",
+    "options": [
+      "피보험자가 피보험자동차를 소유, 사용, 관리하는 동안에 생긴 피보험자동차의 사고로 인하여 죽거나 다친 때 그로 인한 손해를 보상한다",
+      "사 망하였을 경우 보험증권에 기재된 사망보험금을 한도로 지급한다",
+      "사고와 무관한 원인으로 장애시 후유장애등급별 보험 가입금액을 한도로 지급한다",
+      "쌍방과실사고는 실제 손해액에서 비용을 더한 금액에서 공제액을 공제한 후 사망보험금 한도 내에서 지급한다 손해보험 모집인 등록시험 - 2"
+    ],
+    "answer": 3,
+    "id": 1308,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "자 동차손해배상보장사업에서 보장하는 사업대상에\n해당하는 것은?",
+    "options": [
+      "미 군 보유차에 의한 사고 피해자",
+      "도로가 아닌 장소에서만 운행하는 자동차사고 피해자",
+      "무보험자동차 사고피해자가 가해자로부터 손해배상을 받지 못할 경우",
+      "산 재보험 등 그 밖에 다른 법률에 의해 보상받을 수 있는 경우"
+    ],
+    "answer": 3,
+    "id": 1309,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 자동차손해배상보장사업에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "사 고를 야기한 자동차의 보유자가 명확한 경우 보장 사업 대상이 된다",
+      "보장사업을 청구할 수 있는 기간은 3년이다",
+      "차량이 파손된 경우에 보장사업 청구가 불가능하다",
+      "보상내용과 보상금액은 대인배상Ⅰ의 약관지급기준이 적용된다"
+    ],
+    "answer": 1,
+    "id": 1310,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 보험안내자료의 필수기재사항에 해당하지 않는\n것은?",
+    "options": [
+      "보험가입에 따른 권리·의무에 관한 주요 사항",
+      "보험료 할인이 가능한 신용카드 목록 제공 서비스",
+      "해약환급금에 관한 사항",
+      "보험상담 및 분쟁의 해결에 관한 사항"
+    ],
+    "answer": 2,
+    "id": 1311,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음에서 보험계약의 체결 또는 모집에 관한 금지행위에\n해당하지 않는 것은?",
+    "options": [
+      "보 험계약자와 대출 관계를 이용하여 보험계약을 청약하게 하는 행위",
+      "보 험상품의 중요한 사항에 대하여 부실한 사항을 보험회사에 알릴 것을 권유하는 행위",
+      "보 험계약자에게 보험상품 내용의 중요한 사항을 알리지 않는 행위",
+      "보험계약자의 자필서명을 권고하는 행위 2 - 10월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1312,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 보기의 ( ) 안에 공통으로 들어갈 숫자는?\n손해보험협회는 2010년부터 소속 설계사 ( )인 미만의\n보험대리점에 대하여 위탁검사를 실시하고 있다. 다만,\n금융감독원에서 공문을 통해 검사를 요청하는 보험\n대리점에 대해서는 소속 보험설계사 규모에 관계 없이\n( )인 이상의 대리점에 대해서도 검사실시가 가능하다",
+    "options": [
+      "1 00",
+      "200",
+      "50",
+      "150"
+    ],
+    "answer": 1,
+    "id": 1313,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 모집종사자에 대한 설명 중 틀린 것은?",
+    "options": [
+      "보 험설계사는 고지의무수령권이 없다",
+      "보 험대리점은 보험료수령권이 있지만 보험설계사는 보험료수령권이 없다",
+      "보험설계사는 보험료수령권이 없지만 고지의무수령권은 있다",
+      "보험중개사는 보험료수령권이 없다"
+    ],
+    "answer": 3,
+    "id": 1314,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 「보험업법」상 보험모집을 할 수 있는 자가 아닌\n것은?",
+    "options": [
+      "보 험설계사",
+      "보험대리점",
+      "보험회사 사외이사",
+      "보험중개사"
+    ],
+    "answer": 3,
+    "id": 1315,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 중 불완전판매방지교육에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "보험협회에서 보험회사 등에 통보하여 소속 보험설계사 에게 안내하고 있다",
+      "교 육대상자는 전년도 불완전판매비율 10% 이상이면서 불완전판매 보험계약이 10건 이상인 모집종사자이다",
+      "모집종사자의 불완전판매 재발 방지 및 준법의식 향상을 위해 실시하는 특별교육이다",
+      "보 험협회에서 보험회사 등으로부터 필요한 정보를 제공받아 대상자를 선정한다"
+    ],
+    "answer": 2,
+    "id": 1316,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "가망고객의 조건에 해당하지 않는 것은?",
+    "options": [
+      "쉽 게 만날 수 있는 사람",
+      "보험의 니즈가 있는 사람",
+      "보험회사가 정한 가입자격이 되는 사람",
+      "보험료를 지속적으로 납입할 수 있는 능력이 없는 사람 손해보험 모집인 등록시험 - 3"
+    ],
+    "answer": 4,
+    "id": 1317,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음에서 위험과 관련된 설명으로 맞는 것은?",
+    "options": [
+      "보험가능위험은 인적위험과 재산적 위험뿐이다",
+      "순수위험 모두가 보험화가 가능하다",
+      "보 험기술상 인수가 가능한 순수위험을 보험가능위험 이라고 한다",
+      "투기위험은 보험가능위험에 해당한다"
+    ],
+    "answer": 3,
+    "id": 1318,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 보험기간에 따른 보험의 분류에 대한 설명으로\n옳은 것은?",
+    "options": [
+      "구간보험은 보험기간이 어디서부터 어디까지라는 장소로 정해지는 보험이다",
+      "장기보험은 보험기간이 통상 5년 이상인 보험이다",
+      "연금보험은 단기보험에 해당한다",
+      "단기보험은 보험기간이 2년 이하인 소멸성 보험이다"
+    ],
+    "answer": 1,
+    "id": 1319,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 중 보험범죄에 대한 설명으로 틀린 것은?",
+    "options": [
+      "모 방범죄가 증가하고 있어 사회적 문제가 되고 있다",
+      "부당한 보험금이 지급됨으로써 손해율 악화로 이어져 보험료 인상에 따른 선량한 피해자가 발생한다",
+      "반인륜적인 범죄로 인해 건전한 윤리의식 및 생명 존중의 가치관이 파괴된다",
+      "보 험범죄는 다양한 수법, 복합적, 입증의 용이성, 대형화되어 가는 특성을 가진다"
+    ],
+    "answer": 4,
+    "id": 1320,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "위험운전치사상죄에 대한 설명으로 맞는 것은?",
+    "options": [
+      "타인을 사망에 이르게 한 경우에는 5년 이상의 징역에 처해진다",
+      "「특정범죄가중처벌에 관한 법률」에 따라 음주운전으로 인한 대인사고를 위험운전치사상죄로 규정하고 있다",
+      "타인에게 상해를 입힌 경우에는 1년 이상의 징역 또는 1억원 이하의 벌금에 처해진다",
+      "어 린이가 사망하였을 경우에는 위험운전치사상죄를 적용하지 않는다"
+    ],
+    "answer": 2,
+    "id": 1321,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 피보험자의 보험금청구권 소멸시효는?",
+    "options": [
+      "2년",
+      "3년",
+      "1년",
+      "5년"
+    ],
+    "answer": 2,
+    "id": 1322,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 피보험이익에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험회사의 책임범위를 결정할 수 있다",
+      "보험의 도박화 및 인위적 위험을 방지할 수 있다",
+      "보험계약의 동일성을 구분하는 표준이 된다",
+      "현 재의 이익은 피보험이익이 될 수 있지만 장래의 이익은 피보험이익이 될 수 없다 3 - 10월 1회 모의고사"
+    ],
+    "answer": 4,
+    "id": 1323,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음에서 약관에 대한 설명으로 틀린 것은?",
+    "options": [
+      "대량, 반복적인 거래를 신속하고 간편하게 처리할 수 있어 거래비용을 절감할 수 있다",
+      "보험회사는 미리 정해놓은 약관을 제시하게 되며 상대방이 이를 승인함으로써 보험계약은 성립된다",
+      "특별약관은 보통약관에 우선하여 해석한다",
+      "보 험회사가 보험계약의 내용에 대해 미리 정해놓은 표준적인 계약조항을 특별약관이라고 한다"
+    ],
+    "answer": 4,
+    "id": 1324,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "「보험업법」상 보험업 종목과 관련한 설명으로 틀린\n것은?",
+    "options": [
+      "「보험업법」상 보험업은 생명보험업, 손해보험업, 제3보험업 으로 구분된다",
+      "해 상보험에 대한 허가를 받은 자는 항공보험도 영위할 수 있다",
+      "퇴직연금은 생명보험사와 손해보험사에서 모두 판매할 수 있고, 제3보험업에 해당한다",
+      "소 액단기전문보험회사는 20억원 이상의 자본금 납입으로 보험업을 개시할 수 있다"
+    ],
+    "answer": 3,
+    "id": 1325,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음에서 제3보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "생명보험과 손해보험의 성격을 공통적으로 가지고 있다",
+      "실손보상 성격과 정액보상 성격을 동시에 가지고 있다",
+      "생명보험회사와 손해보험회사가 모두 영위할 수 있다",
+      "실손보상 성격을 가지고 있어 손해보험에 가깝다"
+    ],
+    "answer": 4,
+    "id": 1326,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "손해보험회사의 제3보험 상품의 개발기준에 대한\n설명으로 옳은 것은?",
+    "options": [
+      "상해보험은 저축성보험으로 개발할 수 있다",
+      "질병사망보장은 저축성보험으로 개발할 수 있다",
+      "간병보험은 저축성보험으로 개발할 수 있다",
+      "질병보험은 저축성보험으로 개발할 수 있다"
+    ],
+    "answer": 1,
+    "id": 1327,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 제3보험에 대한 설명으로 옳은 것은?",
+    "options": [
+      "정 액보상 및 실손보상 모두 가능하다",
+      "손해보험회사의 제3보험은 실손보상만 가능하다",
+      "정 액보상 급부가 있는 계약은 보험가입내역을 보험 회사 간에 교환하여 비례보상한다",
+      "피보험이익이 존재한다 손해보험 모집인 등록시험 - 4"
+    ],
+    "answer": 1,
+    "id": 1328,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 제3보험의 질병사망보장에 대한 설명으로 틀린\n것은?",
+    "options": [
+      "보험만기는 80세 이하로 개발해야 한다",
+      "특약으로만 개발할 수 있다",
+      "보험금액의 한도는 개인당 5억원 이내이다",
+      "만기환급금이 납입보험료 합계액 범위 내이어야 한다"
+    ],
+    "answer": 3,
+    "id": 1329,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 보기의 ( ) 안에 들어갈 알맞은 단어는?\n제3보험 약관에서 보상하지 않은 사고로 피보험자가\n사망하는 경우 보험회사에서는 ( )을 지급하게 된다",
+    "options": [
+      "계 약자적립액",
+      "사망보험금",
+      "해약환급금",
+      "기납입보험료"
+    ],
+    "answer": 1,
+    "id": 1330,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 상해보험의 특징에 대한 설명으로 틀린 것은?",
+    "options": [
+      "실손해를 보상하는 다수 보험가입시 보험가입금액을 한도로 비례보상한다",
+      "피 보험자의 중대한 과실로 사망시에도 사망보험금을 지급한다",
+      "보험가입금액과 보험가액을 설정할 수 있다",
+      "피보험자의 권리를 해치지 아니하는 범위 안에서 보험자 대위권을 허용한다"
+    ],
+    "answer": 3,
+    "id": 1331,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 상해보험에서 보상에서 제외되는 손해에 해당\n하지 않는 것은?",
+    "options": [
+      "전 문등반 중 발생한 상해",
+      "선 박승무원이 직무상 선박에 탑승하고 있는 동안 발생한 상해",
+      "천재지변(지진 포함)으로 인한 상해",
+      "자동차 경기 중 발생한 상해 4 - 10월 1회 모의고사"
+    ],
+    "answer": 3,
+    "id": 1332,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 4세대 실손의료보험에 대한 설명으로 틀린 것은?",
+    "options": [
+      "유 병력자 실손의료보험은 기본형만 가입할 수 있다",
+      "6 5세 이상에서도 보험가입이 가능한 노후 실손의료 보험이 존재한다",
+      "일반실손의료보험은 기본형과 특별약관으로 구성되어 있다",
+      "보험료 차등적용시 할인은 하지 않는다"
+    ],
+    "answer": 4,
+    "id": 1333,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 유병력자 실손의료보험에서 입원시 자기부담금의\n연간 한도금액은 얼마인가?",
+    "options": [
+      "100만원",
+      "500만원",
+      "300만원",
+      "200만원"
+    ],
+    "answer": 4,
+    "id": 1334,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 뺑소니·무보험차 상해보험에서 보상하는\n상해에 해당하는 것은?",
+    "options": [
+      "의 수",
+      "의족",
+      "의안",
+      "인공장기"
+    ],
+    "answer": 4,
+    "id": 1335,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "사망보험계약에서 타인의 서면에 의한 동의를 생략할 수\n있는 보험계약은?",
+    "options": [
+      "간 병보험",
+      "암보험",
+      "단체상해보험",
+      "변액생명보험"
+    ],
+    "answer": 3,
+    "id": 1336,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "질병보험의 사망보장 담보에 대한 설명으로 틀린 것은?",
+    "options": [
+      "보 험만기는 80세 이하로 설계해야 한다",
+      "보통약관으로 운영해야 한다",
+      "보험금액의 한도는 개인당 2억원 이내여야 한다",
+      "보장성보험의 요건을 갖추어야 한다"
+    ],
+    "answer": 2,
+    "id": 1337,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다 음 보기의 ( ) 안에 들어갈 숫자로 알맞은 것은?\n질병입원급여금의 지급일수는 1회 입원당 ( )일 한도로\n한다. 동일한 질병의 치료를 직접 목적으로 보험기간\n중에 2회 이상 입원한 경우에는 이를 1회 입원으로 보아\n각 입원일수를 더하여 계산한다",
+    "options": [
+      "9 0",
+      "60",
+      "180",
+      "150 손해보험 모집인 등록시험 - 5"
+    ],
+    "answer": 3,
+    "id": 1338,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "다음 중 4세대 실손의료보험의 특약에서 보장하지 않는\n것은?",
+    "options": [
+      "3 대비급여(도수치료, 체외충격파치료, 증식치료 / 주사료 / 자기공명영상진단)",
+      "상해비급여",
+      "후유장애비급여",
+      "질병비급여"
+    ],
+    "answer": 3,
+    "id": 1339,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "뇌졸중, 심근경색 등 고액의 치료비가 드는 치명적 질병을\n집중적으로 보장하는 보험은?",
+    "options": [
+      "암 보험",
+      "CI보험",
+      "치아보험",
+      "실손의료보험"
+    ],
+    "answer": 2,
+    "id": 1340,
+    "source": "2025_10_1"
+  },
+  {
+    "question": "장기요양등급 판정을 받을 경우 장기요양급여금을 지급\n하는 보험상품은?",
+    "options": [
+      "노후 실손의료보험",
+      "장기간병보험",
+      "장기질병보험",
+      "소득지원보험 5 - 10월 1회 모의고사 손해보험·제3보험 모집인 등록자"
+    ],
+    "answer": 2,
+    "id": 1341,
+    "source": "2025_10_1"
   }
 ];

@@ -8,7 +8,7 @@ if (!lastResult) {
   window.location.href = 'index.html';
 }
 
-const { results, elapsed, examId } = lastResult;
+const { results, elapsed, examId, examType } = lastResult;
 
 // 히스토리에 저장 (중복 방지: finishedAt 기준)
 (function saveHistory() {
@@ -18,10 +18,11 @@ const { results, elapsed, examId } = lastResult;
     history.unshift({
       finishedAt: lastResult.finishedAt,
       examId: lastResult.examId,
+      examType: lastResult.examType || '손해보험',
       total: lastResult.results.length,
       correct: lastResult.results.filter(r => r.correct).length,
       elapsed: lastResult.elapsed,
-      results: lastResult.results,  // 상세 보기용 전체 결과
+      results: lastResult.results,
     });
     // 최대 30개 보관
     if (history.length > 30) history.pop();
@@ -40,7 +41,7 @@ document.getElementById('totalCount').textContent = results.length;
 const mins = Math.floor(elapsed / 60);
 const secs = elapsed % 60;
 document.getElementById('scoreMeta').textContent =
-  `소요시간 ${mins}분 ${secs}초 · ${getExamName(examId)}`;
+  `소요시간 ${mins}분 ${secs}초 · ${getExamName(examId, examType)}`;
 
 if (wrong.length === 0) {
   document.getElementById('retryWrongBtn').disabled = true;
@@ -48,7 +49,7 @@ if (wrong.length === 0) {
 }
 
 // 실전 모의고사: 과목별 채점
-if (examId === 'real' && results.length === 50) {
+if (examId === 'real' && results.length === 50 && (!examType || examType === '손해보험')) {
   const 손해 = results.slice(0, 17);   // 1~17번: 손해보험
   const 공통 = results.slice(17, 33);  // 18~33번: 공통
   const 제3 = results.slice(33, 50);   // 34~50번: 제3보험

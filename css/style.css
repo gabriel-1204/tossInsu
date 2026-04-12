@@ -321,6 +321,33 @@ html { padding-top: env(safe-area-inset-top); }
 .stat-green { color: var(--green); }
 .stat-red { color: var(--red); }
 
+/* 보험 유형 탭 */
+.exam-type-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 16px;
+  background: var(--gray-100);
+  border-radius: 12px;
+  padding: 3px;
+}
+.exam-type-tab {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-500);
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.exam-type-tab.active {
+  background: #fff;
+  color: var(--gray-900);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
 .filter-row { display: flex; gap: 8px; margin-bottom: 16px; }
 .filter-btn {
   padding: 6px 16px;

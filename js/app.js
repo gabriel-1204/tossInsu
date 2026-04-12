@@ -32,14 +32,23 @@ function escapeHtml(s) {
     .replace(/\n/g, '<br>');
 }
 
+// 시험 유형별 문제 배열 반환
+function getQuestionsForType(examType) {
+  if (examType === '생명보험' && typeof QUESTIONS_생명보험 !== 'undefined') return QUESTIONS_생명보험;
+  if (examType === '변액보험' && typeof QUESTIONS_변액보험 !== 'undefined') return QUESTIONS_변액보험;
+  return typeof QUESTIONS !== 'undefined' ? QUESTIONS : [];
+}
+
+// 시험 유형별 설정
+const EXAM_TYPE_CONFIG = {
+  '손해보험': { total: 50, time: 60, label: '손해보험', hasCategory: true },
+  '생명보험': { total: 40, time: 50, label: '생명보험', hasCategory: false },
+  '변액보험': { total: 40, time: 50, label: '변액보험', hasCategory: false },
+};
+
 // 시험 모드 이름
-function getExamName(examId) {
-  const map = {
-    'real': '실전 모의고사',
-    'retry': '오답 재시험',
-    '손해보험': '과목별 연습: 손해보험',
-    '공통': '과목별 연습: 공통',
-    '제3보험': '과목별 연습: 제3보험',
-  };
-  return map[examId] || `시험`;
+function getExamName(examId, examType) {
+  if (examId === 'real') return (examType || '손해보험') + ' 실전 모의고사';
+  if (examId === 'retry') return '오답 재시험';
+  return '과목별 연습: ' + examId;
 }

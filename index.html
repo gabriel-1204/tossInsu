@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>손해보험 모의고사</title>
+<title>보험 모의고사</title>
 <meta name="theme-color" content="#3182f6">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -16,7 +16,7 @@
 
 <header class="header">
   <div class="header-inner">
-    <span class="header-title">손해보험 모의고사</span>
+    <span class="header-title">보험 모의고사</span>
     <button onclick="signOut()" class="btn btn-secondary" style="padding:6px 14px;font-size:12px">로그아웃</button>
   </div>
 </header>
@@ -24,7 +24,14 @@
 <div class="container">
   <div class="page-top">
     <div class="page-title">시험을 선택하세요</div>
-    <div class="page-sub">손해보험 자격시험 대비</div>
+    <div class="page-sub">보험 자격시험 대비</div>
+  </div>
+
+  <!-- 보험 유형 탭 -->
+  <div class="exam-type-tabs" id="examTypeTabs">
+    <button class="exam-type-tab active" onclick="switchExamType('손해보험', this)">손해보험</button>
+    <button class="exam-type-tab" onclick="switchExamType('생명보험', this)">생명보험</button>
+    <button class="exam-type-tab" onclick="switchExamType('변액보험', this)">변액보험</button>
   </div>
 
   <div id="examGrid" class="exam-grid"></div>
@@ -73,9 +80,10 @@
 
         <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">문제 데이터</div>
         <div style="margin-bottom:16px;padding-left:12px">
-          총 241문항 (손해보험 92 / 공통 86 / 제3보험 63)<br>
-          출처: 25년 모의고사 #1~#3 + 26년 예상문제 전체범위<br>
-          중복 9문항 제거, 과목별 분류 완료
+          손해보험: 1,341문항 (2024~2026 모의고사)<br>
+          생명보험: 981문항 (2024~2026 모의고사)<br>
+          변액보험: 888문항 (2024~2026 모의고사)<br>
+          총 3,210문항 (중복 제거)
         </div>
 
         <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
@@ -120,29 +128,38 @@ if ('serviceWorker' in navigator) {
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="data/questions.js"></script>
+<script src="data/생명보험_questions.js"></script>
+<script src="data/변액보험_questions.js"></script>
 <script src="js/app.js"></script>
 <script src="js/auth.js"></script>
 <script>
 let selectedExamId = null;
+let currentExamType = LS.get('selected_exam_type', '손해보험');
 
-// 오답 재시험 가능 여부 확인
-const wrongIds = LS.get('wrong_answers', []);
-const hasWrong = wrongIds.length > 0;
+function switchExamType(type, btn) {
+  currentExamType = type;
+  LS.set('selected_exam_type', type);
+  selectedExamId = null;
 
-// 과목별 문항 수 계산
-const catCounts = {};
-for (const q of QUESTIONS) {
-  catCounts[q.category] = (catCounts[q.category] || 0) + 1;
+  document.querySelectorAll('.exam-type-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+
+  renderExamGrid();
+  updateStartBtn();
 }
 
 function renderExamGrid() {
   const grid = document.getElementById('examGrid');
+  const questions = getQuestionsForType(currentExamType);
+  const config = EXAM_TYPE_CONFIG[currentExamType];
   let html = '';
 
-  // 오답 재시험 카드 (오답이 있을 때만)
-  if (hasWrong) {
+  // 오답 재시험 (해당 유형의 오답만)
+  const wrongKey = 'wrong_answers' + (currentExamType === '손해보험' ? '' : '_' + currentExamType);
+  const wrongIds = LS.get(wrongKey, []);
+  if (wrongIds.length > 0) {
     html += `
-      <div class="exam-card" id="retry-card" onclick="selectExam('retry', this)">
+      <div class="exam-card" onclick="selectExam('retry', this)">
         <span class="exam-icon">🔁</span>
         <div>
           <div class="exam-name">오답 재시험</div>
@@ -157,28 +174,36 @@ function renderExamGrid() {
       <span class="exam-icon">📋</span>
       <div>
         <div class="exam-name">실전 모의고사</div>
-        <div class="exam-meta">50문항 · 60분 · 실제 시험과 동일</div>
+        <div class="exam-meta">${config.total}문항 · ${config.time}분 · ${questions.length}문항 풀에서 랜덤</div>
       </div>
     </div>`;
 
-  // 과목별 연습
-  const subjects = [
-    { id: '손해보험', icon: '🔥', label: '손해보험' },
-    { id: '공통', icon: '📖', label: '공통' },
-    { id: '제3보험', icon: '🏥', label: '제3보험' },
-  ];
+  // 과목별 연습 (손해보험만 — 생명/변액은 category 없음)
+  if (config.hasCategory) {
+    const catCounts = {};
+    for (const q of questions) {
+      if (q.category) catCounts[q.category] = (catCounts[q.category] || 0) + 1;
+    }
 
-  html += `<div style="margin-top:16px;margin-bottom:8px;font-size:13px;font-weight:600;color:var(--gray-500)">과목별 연습</div>`;
-  for (const s of subjects) {
-    const count = catCounts[s.id] || 0;
-    html += `
-      <div class="exam-card" onclick="selectExam('${s.id}', this)">
-        <span class="exam-icon">${s.icon}</span>
-        <div>
-          <div class="exam-name">${s.label}</div>
-          <div class="exam-meta">${count}문항 중 20문항 랜덤</div>
-        </div>
-      </div>`;
+    const subjects = [
+      { id: '손해보험', icon: '🔥', label: '손해보험' },
+      { id: '공통', icon: '📖', label: '공통' },
+      { id: '제3보험', icon: '🏥', label: '제3보험' },
+    ];
+
+    html += `<div style="margin-top:16px;margin-bottom:8px;font-size:13px;font-weight:600;color:var(--gray-500)">과목별 연습</div>`;
+    for (const s of subjects) {
+      const count = catCounts[s.id] || 0;
+      if (count === 0) continue;
+      html += `
+        <div class="exam-card" onclick="selectExam('${s.id}', this)">
+          <span class="exam-icon">${s.icon}</span>
+          <div>
+            <div class="exam-name">${s.label}</div>
+            <div class="exam-meta">${count}문항 중 20문항 랜덤</div>
+          </div>
+        </div>`;
+    }
   }
 
   grid.innerHTML = html;
@@ -199,27 +224,42 @@ function updateStartBtn() {
 function startExam() {
   if (!selectedExamId) return;
 
+  const questions = getQuestionsForType(currentExamType);
+  const config = EXAM_TYPE_CONFIG[currentExamType];
   let questionIds;
-  let totalTime = 60; // 기본 60분
+  let totalTime = config.time;
 
   if (selectedExamId === 'retry') {
-    questionIds = wrongIds;
-    totalTime = Math.max(30, Math.ceil(wrongIds.length * 1.2)); // 문항 수에 비례
+    const wrongKey = 'wrong_answers' + (currentExamType === '손해보험' ? '' : '_' + currentExamType);
+    questionIds = LS.get(wrongKey, []);
+    totalTime = Math.max(30, Math.ceil(questionIds.length * 1.2));
   } else if (selectedExamId === 'real') {
-    // 실전 모의고사: 손해17 + 공통16 + 제3보험17 = 50문항
-    const 손해 = shuffle(QUESTIONS.filter(q => q.category === '손해보험').map(q => q.id)).slice(0, 17);
-    const 공통 = shuffle(QUESTIONS.filter(q => q.category === '공통').map(q => q.id)).slice(0, 16);
-    const 제3 = shuffle(QUESTIONS.filter(q => q.category === '제3보험').map(q => q.id)).slice(0, 17);
-    questionIds = [...손해, ...공통, ...제3];
-    totalTime = 60;
+    if (currentExamType === '손해보험' && config.hasCategory) {
+      // 손해보험: 과목별 배분
+      const catQuestions = {};
+      questions.forEach(q => {
+        if (q.category) {
+          if (!catQuestions[q.category]) catQuestions[q.category] = [];
+          catQuestions[q.category].push(q.id);
+        }
+      });
+      const 손해 = shuffle(catQuestions['손해보험'] || []).slice(0, 17);
+      const 공통 = shuffle(catQuestions['공통'] || []).slice(0, 16);
+      const 제3 = shuffle(catQuestions['제3보험'] || []).slice(0, 17);
+      questionIds = [...손해, ...공통, ...제3];
+    } else {
+      // 생명/변액: 전체 풀에서 랜덤
+      questionIds = shuffle(questions.map(q => q.id)).slice(0, config.total);
+    }
   } else {
-    // 과목별 연습: 해당 과목에서 20문항
-    const pool = QUESTIONS.filter(q => q.category === selectedExamId).map(q => q.id);
+    // 과목별 연습
+    const pool = questions.filter(q => q.category === selectedExamId).map(q => q.id);
     questionIds = shuffle(pool).slice(0, 20);
     totalTime = 25;
   }
 
   const session = {
+    examType: currentExamType,
     examId: selectedExamId,
     questionIds,
     answers: {},
@@ -257,7 +297,7 @@ function renderHistory() {
   const rows = history.map((h, i) => {
     const score = Math.round((h.correct / h.total) * 100);
     const date = new Date(h.finishedAt).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    const examName = getExamName(h.examId);
+    const examName = getExamName(h.examId, h.examType);
     const mins = Math.floor(h.elapsed / 60);
     const secs = h.elapsed % 60;
     const color = score >= 80 ? 'var(--green)' : score >= 60 ? 'var(--blue)' : 'var(--red)';
@@ -354,6 +394,14 @@ function clearHistory() {
 (async () => {
   await initAuth({ requiredRole: 'agent' });
   await syncPendingResults();
+
+  // 저장된 시험 유형 탭 복원
+  const tabs = document.querySelectorAll('.exam-type-tab');
+  tabs.forEach(tab => {
+    if (tab.textContent === currentExamType) tab.classList.add('active');
+    else tab.classList.remove('active');
+  });
+
   renderExamGrid();
   renderHistory();
 })();

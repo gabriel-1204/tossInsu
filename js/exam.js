@@ -9,7 +9,8 @@ if (!session || !session.questionIds || session.questionIds.length === 0) {
 }
 
 const qMap = {};
-QUESTIONS.forEach(q => { qMap[q.id] = q; });
+const _examQuestions = getQuestionsForType(session.examType || '손해보험');
+_examQuestions.forEach(q => { qMap[q.id] = q; });
 
 const questions = session.questionIds.map(id => qMap[id]).filter(Boolean);
 
@@ -143,9 +144,11 @@ function finishExam() {
   }));
 
   const wrongIds = results.filter(r => !r.correct).map(r => r.id);
-  LS.set('wrong_answers', wrongIds);
+  const wrongKey = 'wrong_answers' + ((session.examType && session.examType !== '손해보험') ? '_' + session.examType : '');
+  LS.set(wrongKey, wrongIds);
   LS.set('last_result', {
     examId: session.examId,
+    examType: session.examType || '손해보험',
     results,
     elapsed,
     finishedAt: new Date().toISOString(),
