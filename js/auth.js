@@ -132,14 +132,19 @@ function saveExamResultToServer(examResult) {
 
 // Gemini 해설 요청 (Edge Function 프록시)
 async function callGeminiProxy(prompt, context) {
-  const { data: { session } } = await _supabase.auth.getSession();
-  if (!session) throw new Error('인증이 필요합니다');
+  // 세션 갱신 (만료된 토큰 자동 리프레시)
+  let { data: { session: activeSession } } = await _supabase.auth.refreshSession();
+  if (!activeSession) {
+    const { data: { session: fallback } } = await _supabase.auth.getSession();
+    activeSession = fallback;
+  }
+  if (!activeSession) throw new Error('인증이 필요합니다');
 
   const res = await fetch(`${SUPABASE_URL}/functions/v1/gemini-proxy`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${session.access_token}`,
+      'Authorization': `Bearer ${activeSession.access_token}`,
     },
     body: JSON.stringify({ prompt, context }),
   });
