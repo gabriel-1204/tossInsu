@@ -205,11 +205,9 @@ async function explainWithGemini(questionId, btn) {
   expEl.className = 'explanation explanation-loading';
   expEl.textContent = 'Gemini가 해설을 작성하고 있습니다...';
 
-  const relevantCtx = extractRelevantContext(r);
   const optionLines = r.options.map((o, i) => `${i + 1}. ${o}`).join('\n');
   const userAns = r.userAnswer || '미응답';
-  const hasCtx = relevantCtx.length > 0;
-  const prompt = `보험 자격시험 오답노트를 작성해줘.
+  const prompt = `첨부된 교재를 참고하여 보험 자격시험 오답노트를 작성해줘.
 
 문제: ${r.question}
 ${optionLines}
@@ -222,7 +220,7 @@ ${optionLines}
 내가 고른 ${userAns}번이 왜 이 문제의 답이 아닌지 1~2문장. 해당 보기 내용이 사실인지 거짓인지 정확히 구분해서 설명. 보기의 사실관계를 임의로 뒤집지 마.
 
 [정답 해설]
-${r.answer}번이 정답인 이유를 2~3문장으로 설명.${hasCtx ? ' 아래 참고자료의 내용을 우선적으로 인용해서 설명해.' : ''}
+${r.answer}번이 정답인 이유를 교재 내용을 인용하여 2~3문장으로 설명.
 
 규칙:
 - 마크다운 서식(**, ##, * 등) 사용 금지
