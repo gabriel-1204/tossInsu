@@ -58,12 +58,12 @@ function autoSubmit() {
 function renderQuestions() {
   const container = document.getElementById('questionsContainer');
   let html = '';
-  // 실전 모의고사일 때 과목 구분 라벨 (손해1~17, 공통18~33, 제3보험34~50)
-  const isReal = session.examId === 'real';
+  // 실전 모의고사일 때 과목 구분 라벨 (손해보험만: 손해1~17, 공통18~33, 제3보험34~50)
+  const isRealSonhae = session.examId === 'real' && (!session.examType || session.examType === '손해보험');
   let prevSection = '';
 
   questions.forEach((q, idx) => {
-    if (isReal) {
+    if (isRealSonhae) {
       let section = '';
       if (idx < 17) section = '손해보험';
       else if (idx < 33) section = '공통';
@@ -111,7 +111,7 @@ function updateProgress() {
   document.getElementById('progressPct').textContent = `${pct}%`;
   document.getElementById('progressFill').style.width = pct + '%';
   document.getElementById('answeredCount').textContent = `${answered}/${total}`;
-  document.getElementById('headerTitle').textContent = getExamName(session.examId);
+  document.getElementById('headerTitle').textContent = getExamName(session.examId, session.examType);
 }
 
 function saveSession() {
