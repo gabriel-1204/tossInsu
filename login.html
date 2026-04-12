@@ -126,7 +126,7 @@ async function handleLogin(e) {
       const { data: profile } = await _supabase.from('profiles').select('role, is_active').eq('id', data.user.id).single();
       if (profile && !profile.is_active) {
         await _supabase.auth.signOut();
-        throw new Error('합격을 축하합니다! 계정이 비활성화되었습니다.');
+        throw new Error('계정이 비활성화되었습니다. 관리자에게 문의하세요.');
       }
       window.location.href = profile?.role === 'admin' ? 'admin.html' : 'index.html';
     }

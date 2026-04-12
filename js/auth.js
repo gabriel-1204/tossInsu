@@ -35,7 +35,7 @@ async function initAuth({ requireAuth = true, requiredRole = null } = {}) {
   // 비활성화 계정 체크
   if (!profile.is_active) {
     await _supabase.auth.signOut();
-    alert('합격을 축하합니다! 계정이 비활성화되었습니다.\n관리자에게 문의하세요.');
+    alert('계정이 비활성화되었습니다.\n관리자에게 문의하세요.');
     window.location.href = 'login.html';
     return null;
   }
