@@ -208,16 +208,26 @@ async function explainWithGemini(questionId, btn) {
   const relevantCtx = extractRelevantContext(r);
   const optionLines = r.options.map((o, i) => `${i + 1}. ${o}`).join('\n');
   const userAns = r.userAnswer || '미응답';
-  const prompt = `보험 시험 문제의 오답 해설을 해줘.
+  const hasCtx = relevantCtx.length > 0;
+  const prompt = `보험 자격시험 오답노트를 작성해줘.
 
 문제: ${r.question}
 ${optionLines}
-정답: ${r.answer}번 / 내가 고른 답: ${userAns}번
+정답: ${r.answer}번
+내가 고른 답: ${userAns}번
+
+아래 형식을 정확히 지켜서 작성해:
+
+[오답 분석]
+내가 고른 ${userAns}번이 왜 이 문제의 답이 아닌지 1~2문장. 해당 보기 내용이 사실인지 거짓인지 정확히 구분해서 설명. 보기의 사실관계를 임의로 뒤집지 마.
+
+[정답 해설]
+${r.answer}번이 정답인 이유를 2~3문장으로 설명.${hasCtx ? ' 아래 참고자료의 내용을 우선적으로 인용해서 설명해.' : ''}
 
 규칙:
-1. 정답(${r.answer}번)이 왜 정답인지 2~3문장으로 핵심만 설명
-2. 내가 고른 답(${userAns}번)은 사실은 맞는/틀린 설명이라서 이 문제의 정답이 될 수 없는 이유를 1문장으로 설명. 보기의 사실관계를 임의로 뒤집지 마.
-3. 마크다운 서식 금지. 5줄 이내.`;
+- 마크다운 서식(**, ##, * 등) 사용 금지
+- [오답 분석]과 [정답 해설] 헤더는 반드시 포함
+- 총 8줄 이내`;
 
   try {
     const text = await callGeminiProxy(prompt, relevantCtx);
