@@ -80,20 +80,17 @@
 
         <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">문제 데이터</div>
         <div style="margin-bottom:16px;padding-left:12px">
-          손해보험: 1,341문항 (2024~2026 모의고사)<br>
-          생명보험: 981문항 (2024~2026 모의고사)<br>
-          변액보험: 888문항 (2024~2026 모의고사)<br>
-          총 3,210문항 (중복 제거)
+          손해보험·변액보험: 통합 풀에서 랜덤 출제<br>
+          생명보험: 회차 단위 출제 (2025년판 교재 기준 모의고사 회차)<br>
+          연도/회차를 선택해 실제 시험과 동일한 40문항 50분 형식으로 풀이
         </div>
 
         <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
 
-        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">Gemini 해설</div>
+        <div style="font-size:15px;font-weight:700;color:var(--gray-900);margin-bottom:12px">해설</div>
         <div style="margin-bottom:16px;padding-left:12px">
-          오답 문제에 대해 AI 해설을 제공합니다.<br>
-          Google AI Studio에서 API 키를 발급받아 위 입력란에 입력하세요.<br>
-          키는 이 기기의 브라우저에만 저장되며 외부로 전송되지 않습니다.<br>
-          문제와 관련된 참고자료만 추출해서 보내는 RAG 방식으로 동작합니다.
+          오답 문제에 "해설 보기" 버튼을 누르면 교재에 수록된 원본 해설을 표시합니다.<br>
+          외부 AI 호출 없음. 즉시 표시.
         </div>
 
         <div style="height:1px;background:var(--gray-200);margin:16px 0"></div>
@@ -128,18 +125,19 @@ if ('serviceWorker' in navigator) {
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="data/questions.js"></script>
-<script src="data/생명보험_questions.js"></script>
 <script src="data/변액보험_questions.js"></script>
 <script src="js/app.js"></script>
 <script src="js/auth.js"></script>
 <script>
 let selectedExamId = null;
+let selectedExamKey = null;
 let currentExamType = LS.get('selected_exam_type', '손해보험');
 
 function switchExamType(type, btn) {
   currentExamType = type;
   LS.set('selected_exam_type', type);
   selectedExamId = null;
+  selectedExamKey = null;
 
   document.querySelectorAll('.exam-type-tab').forEach(t => t.classList.remove('active'));
   btn.classList.add('active');
@@ -150,7 +148,6 @@ function switchExamType(type, btn) {
 
 function renderExamGrid() {
   const grid = document.getElementById('examGrid');
-  const questions = getQuestionsForType(currentExamType);
   const config = EXAM_TYPE_CONFIG[currentExamType];
   let html = '';
 
@@ -168,7 +165,24 @@ function renderExamGrid() {
       </div>`;
   }
 
-  // 실전 모의고사
+  // 생명보험: 회차 단위 (드롭다운 펼침)
+  if (config.byRound) {
+    html += `
+      <div class="exam-card" onclick="toggleLifeSelector()" id="lifeCard">
+        <span class="exam-icon">📋</span>
+        <div>
+          <div class="exam-name">모의고사</div>
+          <div class="exam-meta">2025년판 교재 기준 · ${config.total}문항 · ${config.time}분</div>
+        </div>
+      </div>
+      <div id="examSelector" style="display:none"></div>`;
+    grid.innerHTML = html;
+    loadLifeIndex();
+    return;
+  }
+
+  // 손해/변액: 기존 실전 모의고사 카드 (전체 풀 랜덤)
+  const questions = getQuestionsForType(currentExamType);
   html += `
     <div class="exam-card" onclick="selectExam('real', this)">
       <span class="exam-icon">📋</span>
@@ -213,19 +227,110 @@ function selectExam(examId, el) {
   document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
   el.classList.add('selected');
   selectedExamId = examId;
+  selectedExamKey = null;
   updateStartBtn();
 }
 
 function updateStartBtn() {
   const btn = document.getElementById('startBtn');
-  btn.disabled = !selectedExamId;
+  if (currentExamType === '생명보험' && selectedExamId === 'real') {
+    btn.disabled = !selectedExamKey;
+  } else {
+    btn.disabled = !selectedExamId;
+  }
+}
+
+// 생명보험: 회차 인덱스 로드 + 드롭다운 토글
+let _lifeIndex = null;
+
+async function loadLifeIndex() {
+  if (_lifeIndex) return _lifeIndex;
+  try {
+    _lifeIndex = await loadExamIndex('생명보험');
+  } catch (e) {
+    console.error(e);
+    _lifeIndex = { exams: [] };
+  }
+  return _lifeIndex;
+}
+
+async function toggleLifeSelector() {
+  const sel = document.getElementById('examSelector');
+  const card = document.getElementById('lifeCard');
+  if (sel.style.display === 'none' || !sel.style.display) {
+    sel.style.display = 'block';
+    card.classList.add('selected');
+    selectedExamId = 'real';
+    await loadLifeIndex();
+    renderLifeSelector();
+  } else {
+    sel.style.display = 'none';
+    card.classList.remove('selected');
+    selectedExamId = null;
+    selectedExamKey = null;
+    updateStartBtn();
+  }
+}
+
+function renderLifeSelector() {
+  if (!_lifeIndex || !_lifeIndex.exams) return;
+  const exams = _lifeIndex.exams.filter(e => e.complete !== false);
+  if (!exams.length) {
+    document.getElementById('examSelector').innerHTML =
+      `<div class="card card-sm" style="text-align:center;color:var(--gray-500);padding:16px">사용 가능한 회차가 없습니다</div>`;
+    return;
+  }
+  const years = [...new Set(exams.map(e => e.year))].sort((a, b) => b - a);
+  const html = `
+    <div class="card" style="padding:16px;margin-top:8px">
+      <div style="display:flex;gap:8px;margin-bottom:12px">
+        <select id="yearSelect" onchange="onYearChange()" style="flex:1;padding:10px;border-radius:8px;border:1px solid var(--gray-200);font-size:14px;background:#fff;color:#222">
+          ${years.map(y => `<option value="${y}">${y}년</option>`).join('')}
+        </select>
+        <select id="roundSelect" onchange="onRoundChange()" style="flex:1;padding:10px;border-radius:8px;border:1px solid var(--gray-200);font-size:14px;background:#fff;color:#222"></select>
+      </div>
+      <div style="font-size:12px;color:var(--gray-500)">총 ${exams.length}개 회차 응시 가능</div>
+    </div>`;
+  document.getElementById('examSelector').innerHTML = html;
+  onYearChange();
+}
+
+function onYearChange() {
+  const year = parseInt(document.getElementById('yearSelect').value);
+  const exams = _lifeIndex.exams
+    .filter(e => e.complete !== false && e.year === year)
+    .sort((a, b) => b.month - a.month || b.round - a.round);
+  document.getElementById('roundSelect').innerHTML =
+    exams.map(e => `<option value="${e.key}">${e.month}월 ${e.round}회</option>`).join('');
+  onRoundChange();
+}
+
+function onRoundChange() {
+  const sel = document.getElementById('roundSelect');
+  selectedExamKey = sel ? sel.value : null;
+  updateStartBtn();
 }
 
 function startExam() {
   if (!selectedExamId) return;
 
-  const questions = getQuestionsForType(currentExamType);
   const config = EXAM_TYPE_CONFIG[currentExamType];
+
+  // 생명보험: 회차 단위 시험 (questionIds 없이 examKey만 전달)
+  if (currentExamType === '생명보험' && selectedExamId === 'real' && selectedExamKey) {
+    LS.set('exam_session', {
+      examType: '생명보험',
+      examId: 'real',
+      examKey: selectedExamKey,
+      answers: {},
+      startedAt: new Date().toISOString(),
+      totalTime: config.time,
+    });
+    window.location.href = 'exam.html';
+    return;
+  }
+
+  const questions = getQuestionsForType(currentExamType);
   let questionIds;
   let totalTime = config.time;
 
@@ -297,7 +402,7 @@ function renderHistory() {
   const rows = history.map((h, i) => {
     const score = Math.round((h.correct / h.total) * 100);
     const date = new Date(h.finishedAt).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    const examName = getExamName(h.examId, h.examType);
+    const examName = getExamName(h.examId, h.examType, h.examTitle);
     const mins = Math.floor(h.elapsed / 60);
     const secs = h.elapsed % 60;
     const color = score >= 80 ? 'var(--green)' : score >= 60 ? 'var(--blue)' : 'var(--red)';
@@ -329,6 +434,10 @@ function viewHistory(idx) {
   LS.set('last_result', {
     finishedAt: h.finishedAt,
     examId: h.examId,
+    examType: h.examType,
+    examKey: h.examKey,
+    examTitle: h.examTitle,
+    sections: h.sections,
     results: h.results,
     elapsed: h.elapsed,
     fromHistory: true,

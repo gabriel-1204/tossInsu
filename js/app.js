@@ -32,9 +32,8 @@ function escapeHtml(s) {
     .replace(/\n/g, '<br>');
 }
 
-// 시험 유형별 문제 배열 반환
+// 시험 유형별 문제 배열 반환 (손해/변액 — 생명은 회차 JSON 직접 fetch)
 function getQuestionsForType(examType) {
-  if (examType === '생명보험' && typeof QUESTIONS_생명보험 !== 'undefined') return QUESTIONS_생명보험;
   if (examType === '변액보험' && typeof QUESTIONS_변액보험 !== 'undefined') return QUESTIONS_변액보험;
   return typeof QUESTIONS !== 'undefined' ? QUESTIONS : [];
 }
@@ -42,13 +41,38 @@ function getQuestionsForType(examType) {
 // 시험 유형별 설정
 const EXAM_TYPE_CONFIG = {
   '손해보험': { total: 50, time: 60, label: '손해보험', hasCategory: true },
-  '생명보험': { total: 40, time: 50, label: '생명보험', hasCategory: false },
+  '생명보험': { total: 40, time: 50, label: '생명보험', hasCategory: false, byRound: true },
   '변액보험': { total: 40, time: 50, label: '변액보험', hasCategory: false },
 };
 
+// 생명보험 회차 데이터 캐시 + 동적 fetch
+const _examCache = {};
+
+async function loadExamIndex(examType) {
+  if (_examCache['_index_' + examType]) return _examCache['_index_' + examType];
+  const res = await fetch(`data/exams/${examType}/_index.json`);
+  if (!res.ok) throw new Error(`회차 인덱스 로드 실패: ${res.status}`);
+  const data = await res.json();
+  _examCache['_index_' + examType] = data;
+  return data;
+}
+
+async function loadExamData(examType, examKey) {
+  const cacheKey = examType + '/' + examKey;
+  if (_examCache[cacheKey]) return _examCache[cacheKey];
+  const res = await fetch(`data/exams/${examType}/${examKey}.json`);
+  if (!res.ok) throw new Error(`회차 로드 실패: ${res.status}`);
+  const data = await res.json();
+  _examCache[cacheKey] = data;
+  return data;
+}
+
 // 시험 모드 이름
-function getExamName(examId, examType) {
-  if (examId === 'real') return (examType || '손해보험') + ' 실전 모의고사';
+function getExamName(examId, examType, examTitle) {
+  if (examId === 'real') {
+    if (examTitle) return (examType || '손해보험') + ' ' + examTitle;
+    return (examType || '손해보험') + ' 실전 모의고사';
+  }
   if (examId === 'retry') return '오답 재시험';
   return '과목별 연습: ' + examId;
 }

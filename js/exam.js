@@ -4,28 +4,46 @@
 initAuth({ requiredRole: 'agent' });
 
 const session = LS.get('exam_session');
-if (!session || !session.questionIds || session.questionIds.length === 0) {
+if (!session) {
   window.location.href = 'index.html';
 }
 
-const qMap = {};
-const _examQuestions = getQuestionsForType(session.examType || '손해보험');
-_examQuestions.forEach(q => { qMap[q.id] = q; });
-
-const questions = session.questionIds.map(id => qMap[id]).filter(Boolean);
+let questions = [];
+let examMeta = null;  // 생명보험 회차 단위 시험의 경우 sections 등 메타정보
 
 // 답변 상태 (questionId → 선택한 번호 1-4)
-let answers = { ...session.answers };
+let answers = { ...(session && session.answers) };
 
-// 타이머 (세션에 저장된 시간 사용, 기본 60분)
-const TOTAL_SECONDS = (session.totalTime || 60) * 60;
+// 타이머
+const TOTAL_SECONDS = ((session && session.totalTime) || 60) * 60;
 let elapsed = 0;
-if (session.startedAt) {
+if (session && session.startedAt) {
   elapsed = Math.floor((Date.now() - new Date(session.startedAt).getTime()) / 1000);
   elapsed = Math.min(elapsed, TOTAL_SECONDS);
 }
 let remaining = TOTAL_SECONDS - elapsed;
 let timerInterval = null;
+
+async function loadQuestions() {
+  if (session.examType === '생명보험' && session.examKey) {
+    examMeta = await loadExamData('생명보험', session.examKey);
+    questions = examMeta.questions.slice();
+    // 오답 재시험: retryIds로 필터
+    if (session.examId === 'retry' && Array.isArray(session.retryIds)) {
+      const retrySet = new Set(session.retryIds);
+      questions = questions.filter(q => retrySet.has(q.id));
+    }
+  } else {
+    if (!session.questionIds || !session.questionIds.length) {
+      window.location.href = 'index.html';
+      return;
+    }
+    const qMap = {};
+    const pool = getQuestionsForType(session.examType || '손해보험');
+    pool.forEach(q => { qMap[q.id] = q; });
+    questions = session.questionIds.map(id => qMap[id]).filter(Boolean);
+  }
+}
 
 function startTimer() {
   updateTimerUI();
@@ -58,8 +76,8 @@ function autoSubmit() {
 function renderQuestions() {
   const container = document.getElementById('questionsContainer');
   let html = '';
-  // 실전 모의고사일 때 과목 구분 라벨 (손해보험만: 손해1~17, 공통18~33, 제3보험34~50)
   const isRealSonhae = session.examId === 'real' && (!session.examType || session.examType === '손해보험');
+  const isLifeRound = session.examType === '생명보험' && session.examKey && examMeta && examMeta.sections;
   let prevSection = '';
 
   questions.forEach((q, idx) => {
@@ -72,6 +90,9 @@ function renderQuestions() {
         html += `<div style="margin:24px 0 8px;font-size:13px;font-weight:700;color:var(--blue);padding-left:4px">${section} (${idx + 1}번~)</div>`;
         prevSection = section;
       }
+    } else if (isLifeRound && q.section && q.section !== prevSection) {
+      html += `<div style="margin:24px 0 8px;font-size:13px;font-weight:700;color:var(--blue);padding-left:4px">${escapeHtml(q.section)} (${idx + 1}번~)</div>`;
+      prevSection = q.section;
     }
     html += `
       <div class="card question-card" id="qcard-${q.id}">
@@ -111,7 +132,8 @@ function updateProgress() {
   document.getElementById('progressPct').textContent = `${pct}%`;
   document.getElementById('progressFill').style.width = pct + '%';
   document.getElementById('answeredCount').textContent = `${answered}/${total}`;
-  document.getElementById('headerTitle').textContent = getExamName(session.examId, session.examType);
+  const title = examMeta ? examMeta.title : null;
+  document.getElementById('headerTitle').textContent = getExamName(session.examId, session.examType, title);
 }
 
 function saveSession() {
@@ -131,10 +153,13 @@ function finishExam() {
   clearInterval(timerInterval);
   const elapsed = TOTAL_SECONDS - remaining;
 
-  // 채점
+  // 채점 — 회차 단위 시험은 explanation/section/points까지 결과에 보존
   const results = questions.map((q, idx) => ({
     id: q.id,
     category: q.category,
+    section: q.section,
+    points: q.points,
+    explanation: q.explanation,
     idx,
     question: q.question,
     options: q.options,
@@ -149,6 +174,9 @@ function finishExam() {
   LS.set('last_result', {
     examId: session.examId,
     examType: session.examType || '손해보험',
+    examKey: session.examKey || null,
+    examTitle: examMeta ? examMeta.title : null,
+    sections: examMeta ? examMeta.sections : null,
     results,
     elapsed,
     finishedAt: new Date().toISOString(),
@@ -167,5 +195,12 @@ function confirmLeave() {
 }
 
 // 초기화
-renderQuestions();
-startTimer();
+(async () => {
+  await loadQuestions();
+  if (!questions.length) {
+    window.location.href = 'index.html';
+    return;
+  }
+  renderQuestions();
+  startTimer();
+})();

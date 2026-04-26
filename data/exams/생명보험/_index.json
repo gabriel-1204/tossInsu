@@ -1,0 +1,198 @@
+{
+  "type": "생명보험",
+  "textbookYear": 2025,
+  "exams": [
+    {
+      "key": "2026_01_2",
+      "title": "2026년 1월 2회",
+      "year": 2026,
+      "month": 1,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2026_01_1",
+      "title": "2026년 1월 1회",
+      "year": 2026,
+      "month": 1,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_11_2",
+      "title": "2025년 11월 2회",
+      "year": 2025,
+      "month": 11,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_11_1",
+      "title": "2025년 11월 1회",
+      "year": 2025,
+      "month": 11,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_10_2",
+      "title": "2025년 10월 2회",
+      "year": 2025,
+      "month": 10,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_10_1",
+      "title": "2025년 10월 1회",
+      "year": 2025,
+      "month": 10,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_09_2",
+      "title": "2025년 9월 2회",
+      "year": 2025,
+      "month": 9,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_09_1",
+      "title": "2025년 9월 1회",
+      "year": 2025,
+      "month": 9,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_08_2",
+      "title": "2025년 8월 2회",
+      "year": 2025,
+      "month": 8,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_08_1",
+      "title": "2025년 8월 1회",
+      "year": 2025,
+      "month": 8,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_07_2",
+      "title": "2025년 7월 2회",
+      "year": 2025,
+      "month": 7,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_07_1",
+      "title": "2025년 7월 1회",
+      "year": 2025,
+      "month": 7,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_06_2",
+      "title": "2025년 6월 2회",
+      "year": 2025,
+      "month": 6,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_06_1",
+      "title": "2025년 6월 1회",
+      "year": 2025,
+      "month": 6,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_05_2",
+      "title": "2025년 5월 2회",
+      "year": 2025,
+      "month": 5,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_05_1",
+      "title": "2025년 5월 1회",
+      "year": 2025,
+      "month": 5,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_04_2",
+      "title": "2025년 4월 2회",
+      "year": 2025,
+      "month": 4,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_04_1",
+      "title": "2025년 4월 1회",
+      "year": 2025,
+      "month": 4,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_03_2",
+      "title": "2025년 3월 2회",
+      "year": 2025,
+      "month": 3,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_03_1",
+      "title": "2025년 3월 1회",
+      "year": 2025,
+      "month": 3,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_02_2",
+      "title": "2025년 2월 2회",
+      "year": 2025,
+      "month": 2,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_02_1",
+      "title": "2025년 2월 1회",
+      "year": 2025,
+      "month": 2,
+      "round": 1,
+      "complete": true
+    },
+    {
+      "key": "2025_01_2",
+      "title": "2025년 1월 2회",
+      "year": 2025,
+      "month": 1,
+      "round": 2,
+      "complete": true
+    },
+    {
+      "key": "2025_01_1",
+      "title": "2025년 1월 1회",
+      "year": 2025,
+      "month": 1,
+      "round": 1,
+      "complete": true
+    }
+  ]
+}
