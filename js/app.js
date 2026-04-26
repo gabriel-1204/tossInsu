@@ -32,17 +32,17 @@ function escapeHtml(s) {
     .replace(/\n/g, '<br>');
 }
 
-// 시험 유형별 문제 배열 반환 (손해/변액 — 생명은 회차 JSON 직접 fetch)
+// 시험 유형별 문제 배열 반환 (변액 — 손해/생명은 회차 JSON 직접 fetch)
 function getQuestionsForType(examType) {
   if (examType === '변액보험' && typeof QUESTIONS_변액보험 !== 'undefined') return QUESTIONS_변액보험;
-  return typeof QUESTIONS !== 'undefined' ? QUESTIONS : [];
+  return [];
 }
 
 // 시험 유형별 설정
 const EXAM_TYPE_CONFIG = {
-  '손해보험': { total: 50, time: 60, label: '손해보험', hasCategory: true },
-  '생명보험': { total: 40, time: 50, label: '생명보험', hasCategory: false, byRound: true },
-  '변액보험': { total: 40, time: 50, label: '변액보험', hasCategory: false },
+  '손해보험': { total: 50, time: 60, label: '손해보험', byRound: true },
+  '생명보험': { total: 40, time: 50, label: '생명보험', byRound: true },
+  '변액보험': { total: 40, time: 50, label: '변액보험' },
 };
 
 // 생명보험 회차 데이터 캐시 + 동적 fetch

@@ -25,10 +25,10 @@ let remaining = TOTAL_SECONDS - elapsed;
 let timerInterval = null;
 
 async function loadQuestions() {
-  if (session.examType === '생명보험' && session.examKey) {
-    examMeta = await loadExamData('생명보험', session.examKey);
+  if (session.examKey && session.examType) {
+    // 회차 단위 시험 (생명보험·손해보험)
+    examMeta = await loadExamData(session.examType, session.examKey);
     questions = examMeta.questions.slice();
-    // 오답 재시험: retryIds로 필터
     if (session.examId === 'retry' && Array.isArray(session.retryIds)) {
       const retrySet = new Set(session.retryIds);
       questions = questions.filter(q => retrySet.has(q.id));

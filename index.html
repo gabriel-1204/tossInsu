@@ -124,7 +124,6 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="data/questions.js"></script>
 <script src="data/변액보험_questions.js"></script>
 <script src="js/app.js"></script>
 <script src="js/auth.js"></script>
@@ -233,25 +232,26 @@ function selectExam(examId, el) {
 
 function updateStartBtn() {
   const btn = document.getElementById('startBtn');
-  if (currentExamType === '생명보험' && selectedExamId === 'real') {
+  const config = EXAM_TYPE_CONFIG[currentExamType];
+  if (config && config.byRound && selectedExamId === 'real') {
     btn.disabled = !selectedExamKey;
   } else {
     btn.disabled = !selectedExamId;
   }
 }
 
-// 생명보험: 회차 인덱스 로드 + 드롭다운 토글
-let _lifeIndex = null;
+// 회차 인덱스 캐시 (보험 종류별)
+const _indexCache = {};
 
-async function loadLifeIndex() {
-  if (_lifeIndex) return _lifeIndex;
+async function loadCurrentIndex() {
+  if (_indexCache[currentExamType]) return _indexCache[currentExamType];
   try {
-    _lifeIndex = await loadExamIndex('생명보험');
+    _indexCache[currentExamType] = await loadExamIndex(currentExamType);
   } catch (e) {
     console.error(e);
-    _lifeIndex = { exams: [] };
+    _indexCache[currentExamType] = { exams: [] };
   }
-  return _lifeIndex;
+  return _indexCache[currentExamType];
 }
 
 async function toggleLifeSelector() {
@@ -261,8 +261,8 @@ async function toggleLifeSelector() {
     sel.style.display = 'block';
     card.classList.add('selected');
     selectedExamId = 'real';
-    await loadLifeIndex();
-    renderLifeSelector();
+    await loadCurrentIndex();
+    renderRoundSelector();
   } else {
     sel.style.display = 'none';
     card.classList.remove('selected');
@@ -272,9 +272,10 @@ async function toggleLifeSelector() {
   }
 }
 
-function renderLifeSelector() {
-  if (!_lifeIndex || !_lifeIndex.exams) return;
-  const exams = _lifeIndex.exams.filter(e => e.complete !== false);
+function renderRoundSelector() {
+  const idx = _indexCache[currentExamType];
+  if (!idx || !idx.exams) return;
+  const exams = idx.exams.filter(e => e.complete !== false);
   if (!exams.length) {
     document.getElementById('examSelector').innerHTML =
       `<div class="card card-sm" style="text-align:center;color:var(--gray-500);padding:16px">사용 가능한 회차가 없습니다</div>`;
@@ -296,8 +297,9 @@ function renderLifeSelector() {
 }
 
 function onYearChange() {
+  const idx = _indexCache[currentExamType];
   const year = parseInt(document.getElementById('yearSelect').value);
-  const exams = _lifeIndex.exams
+  const exams = idx.exams
     .filter(e => e.complete !== false && e.year === year)
     .sort((a, b) => b.month - a.month || b.round - a.round);
   document.getElementById('roundSelect').innerHTML =
@@ -316,10 +318,10 @@ function startExam() {
 
   const config = EXAM_TYPE_CONFIG[currentExamType];
 
-  // 생명보험: 회차 단위 시험 (questionIds 없이 examKey만 전달)
-  if (currentExamType === '생명보험' && selectedExamId === 'real' && selectedExamKey) {
+  // 회차 단위 시험 (생명보험·손해보험)
+  if (config.byRound && selectedExamId === 'real' && selectedExamKey) {
     LS.set('exam_session', {
-      examType: '생명보험',
+      examType: currentExamType,
       examId: 'real',
       examKey: selectedExamKey,
       answers: {},

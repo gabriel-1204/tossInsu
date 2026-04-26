@@ -216,10 +216,10 @@ function retryWrong() {
   const wrongIds = LS.get(wrongKey, []);
   if (wrongIds.length === 0) return;
 
-  if (examType === '생명보험' && examKey) {
-    // 생명보험 회차에서 오답만 — 회차 전체 데이터를 그대로 쓰되 questionIds 필터로 처리
+  if (examKey && examType) {
+    // 회차 단위 시험(생명보험·손해보험): 같은 회차에서 오답만
     LS.set('exam_session', {
-      examType: '생명보험',
+      examType,
       examId: 'retry',
       examKey,
       retryIds: wrongIds,
@@ -243,14 +243,15 @@ function retryWrong() {
 }
 
 function retryAll() {
-  if (examType === '생명보험' && examKey) {
+  if (examKey && examType) {
+    const cfg = (typeof EXAM_TYPE_CONFIG !== 'undefined' && EXAM_TYPE_CONFIG[examType]) || { time: 50 };
     LS.set('exam_session', {
-      examType: '생명보험',
+      examType,
       examId: 'real',
       examKey,
       answers: {},
       startedAt: new Date().toISOString(),
-      totalTime: 50,
+      totalTime: cfg.time,
     });
     window.location.href = 'exam.html';
     return;
