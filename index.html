@@ -124,7 +124,6 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="data/변액보험_questions.js"></script>
 <script src="js/app.js"></script>
 <script src="js/auth.js"></script>
 <script>
@@ -148,6 +147,18 @@ function switchExamType(type, btn) {
 function renderExamGrid() {
   const grid = document.getElementById('examGrid');
   const config = EXAM_TYPE_CONFIG[currentExamType];
+
+  // 변액보험: 2026년판 교재 적용 대기 중
+  if (currentExamType === '변액보험') {
+    grid.innerHTML = `<div class="card" style="padding:32px 24px;text-align:center">
+      <div style="font-size:15px;font-weight:700;color:#222;margin-bottom:8px">준비 중</div>
+      <div style="font-size:13px;color:var(--gray-700);line-height:1.6">
+        변액보험 모의고사는 2026년판 교재 적용 이후 추가됩니다.
+      </div>
+    </div>`;
+    return;
+  }
+
   let html = '';
 
   // 오답 재시험 (해당 유형의 오답만)
