@@ -9,3 +9,12 @@ node_modules/
 Thumbs.db
 *.py
 __pycache__/
+
+# 디버그/임시 파일
+/parsed_*.json
+/parsed_*.err
+/damage_*.json
+/damage_*.err
+/ocr_*.txt
+/ocr_*.json
+/_tmp_*
