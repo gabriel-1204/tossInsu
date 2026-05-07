@@ -94,6 +94,30 @@ if (examId === 'real' && results.length === 50 && (!examType || examType === '�
   document.getElementById('subjectScores').style.display = 'block';
 }
 
+// 변액보험 회차 단위: 단일 점수 70점 합격 표시
+if (examType === '변액보험' && examKey) {
+  const cfg = (typeof EXAM_TYPE_CONFIG !== 'undefined' && EXAM_TYPE_CONFIG['변액보험']) || {};
+  const passScore = cfg.passScore || 70;
+  const totalScore = Math.round((correct.length / results.length) * 100);
+  const pass = totalScore >= passScore;
+  document.getElementById('subjectScoreList').innerHTML = `
+    <div style="display:flex;align-items:center;gap:8px;padding:10px 0;font-weight:700">
+      <div style="flex:1">총점</div>
+      <div style="font-size:18px;color:${pass ? 'var(--blue)' : 'var(--red)'}">${totalScore}점 / 100점</div>
+    </div>`;
+  const passEl = document.getElementById('passResult');
+  if (pass) {
+    passEl.style.background = '#e8f5e9';
+    passEl.style.color = 'var(--green)';
+    passEl.textContent = `합격 (${passScore}점 이상)`;
+  } else {
+    passEl.style.background = '#ffeaea';
+    passEl.style.color = 'var(--red)';
+    passEl.textContent = `불합격 (${passScore}점 이상 필요)`;
+  }
+  document.getElementById('subjectScores').style.display = 'block';
+}
+
 // 생명보험 회차 단위: 섹션별 점수 표시
 if (examType === '생명보험' && examKey && Array.isArray(sections) && sections.length) {
   const rows = sections.map(s => {

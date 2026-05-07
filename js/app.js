@@ -42,7 +42,7 @@ function getQuestionsForType(examType) {
 const EXAM_TYPE_CONFIG = {
   '손해보험': { total: 50, time: 60, label: '손해보험', byRound: true },
   '생명보험': { total: 40, time: 50, label: '생명보험', byRound: true },
-  '변액보험': { total: 40, time: 50, label: '변액보험' },
+  '변액보험': { total: 40, time: 50, label: '변액보험', byRound: true, passScore: 70 },
 };
 
 // 생명보험 회차 데이터 캐시 + 동적 fetch
