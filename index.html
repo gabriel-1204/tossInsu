@@ -151,15 +151,19 @@ function renderExamGrid() {
   let html = '';
 
   // 오답 재시험 (해당 유형의 오답만)
-  const wrongKey = 'wrong_answers' + (currentExamType === '손해보험' ? '' : '_' + currentExamType);
+  const wrongKey = getWrongAnswersKey(currentExamType);
   const wrongIds = LS.get(wrongKey, []);
+  const wrongMeta = LS.get(getWrongAnswersMetaKey(currentExamType), {});
   if (wrongIds.length > 0) {
+    const wrongLabel = wrongMeta.examTitle
+      ? `${escapeHtml(wrongMeta.examTitle)} 오답 ${wrongIds.length}문항`
+      : `지난 시험 오답 ${wrongIds.length}문항`;
     html += `
       <div class="exam-card" onclick="selectExam('retry', this)">
         <span class="exam-icon">🔁</span>
         <div>
           <div class="exam-name">오답 재시험</div>
-          <div class="exam-meta">지난 시험 오답 ${wrongIds.length}문항</div>
+          <div class="exam-meta">${wrongLabel}</div>
         </div>
       </div>`;
   }
@@ -337,9 +341,44 @@ function startExam() {
   let totalTime = config.time;
 
   if (selectedExamId === 'retry') {
-    const wrongKey = 'wrong_answers' + (currentExamType === '손해보험' ? '' : '_' + currentExamType);
+    const wrongKey = getWrongAnswersKey(currentExamType);
     questionIds = LS.get(wrongKey, []);
     totalTime = Math.max(30, Math.ceil(questionIds.length * 1.2));
+
+    if (config.byRound) {
+      let wrongMeta = LS.get(getWrongAnswersMetaKey(currentExamType));
+      const last = LS.get('last_result');
+      if ((!wrongMeta || !wrongMeta.examKey) &&
+          last &&
+          (last.examType || '손해보험') === currentExamType &&
+          last.examKey &&
+          Array.isArray(last.results)) {
+        const lastWrongIds = last.results.filter(r => !r.correct).map(r => r.id);
+        if (lastWrongIds.length > 0) questionIds = lastWrongIds;
+        wrongMeta = {
+          examType: currentExamType,
+          examKey: last.examKey,
+          examTitle: last.examTitle || null,
+        };
+      }
+
+      if (!wrongMeta || !wrongMeta.examKey || questionIds.length === 0) {
+        showToast('오답 회차 정보를 찾을 수 없습니다. 모의고사를 한 번 다시 풀어주세요.');
+        return;
+      }
+
+      LS.set('exam_session', {
+        examType: currentExamType,
+        examId: 'retry',
+        examKey: wrongMeta.examKey,
+        retryIds: questionIds,
+        answers: {},
+        startedAt: new Date().toISOString(),
+        totalTime,
+      });
+      window.location.href = 'exam.html';
+      return;
+    }
   } else if (selectedExamId === 'real') {
     if (currentExamType === '손해보험' && config.hasCategory) {
       // 손해보험: 과목별 배분
@@ -463,7 +502,10 @@ function clearHistory() {
   if (!confirm('기록을 모두 삭제할까요?')) return;
   LS.remove('exam_history');
   LS.remove('last_result');
-  LS.remove('wrong_answers');
+  Object.keys(EXAM_TYPE_CONFIG).forEach(type => {
+    LS.remove(getWrongAnswersKey(type));
+    LS.remove(getWrongAnswersMetaKey(type));
+  });
   renderHistory();
 }
 

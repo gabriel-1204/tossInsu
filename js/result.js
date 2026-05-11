@@ -234,14 +234,13 @@ function showExplanation(questionId, btn) {
   btn.style.display = 'none';
 }
 
-// 재시험 — 생명보험 회차는 같은 회차 다시
+// 재시험 — 회차 단위 시험은 같은 회차에서 오답만 다시
 function retryWrong() {
-  const wrongKey = 'wrong_answers' + ((examType && examType !== '손해보험') ? '_' + examType : '');
-  const wrongIds = LS.get(wrongKey, []);
+  const wrongIds = wrong.map(r => r.id);
   if (wrongIds.length === 0) return;
 
   if (examKey && examType) {
-    // 회차 단위 시험(생명보험·손해보험): 같은 회차에서 오답만
+    // 회차 단위 시험: 같은 회차에서 오답만
     LS.set('exam_session', {
       examType,
       examId: 'retry',

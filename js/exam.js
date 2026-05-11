@@ -152,6 +152,7 @@ function submitExam() {
 function finishExam() {
   clearInterval(timerInterval);
   const elapsed = TOTAL_SECONDS - remaining;
+  const finishedAt = new Date().toISOString();
 
   // 채점 — 회차 단위 시험은 explanation/section/points까지 결과에 보존
   const results = questions.map((q, idx) => ({
@@ -169,8 +170,15 @@ function finishExam() {
   }));
 
   const wrongIds = results.filter(r => !r.correct).map(r => r.id);
-  const wrongKey = 'wrong_answers' + ((session.examType && session.examType !== '손해보험') ? '_' + session.examType : '');
+  const wrongKey = getWrongAnswersKey(session.examType);
   LS.set(wrongKey, wrongIds);
+  LS.set(getWrongAnswersMetaKey(session.examType), {
+    examType: session.examType || '손해보험',
+    examKey: session.examKey || null,
+    examTitle: examMeta ? examMeta.title : null,
+    wrongIds,
+    finishedAt,
+  });
   LS.set('last_result', {
     examId: session.examId,
     examType: session.examType || '손해보험',
@@ -179,7 +187,7 @@ function finishExam() {
     sections: examMeta ? examMeta.sections : null,
     results,
     elapsed,
-    finishedAt: new Date().toISOString(),
+    finishedAt,
   });
   LS.remove('exam_session');
 

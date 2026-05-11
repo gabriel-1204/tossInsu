@@ -45,6 +45,14 @@ const EXAM_TYPE_CONFIG = {
   '변액보험': { total: 40, time: 50, label: '변액보험', byRound: true, passScore: 70 },
 };
 
+function getWrongAnswersKey(examType) {
+  return 'wrong_answers' + ((examType && examType !== '손해보험') ? '_' + examType : '');
+}
+
+function getWrongAnswersMetaKey(examType) {
+  return getWrongAnswersKey(examType) + '_meta';
+}
+
 // 생명보험 회차 데이터 캐시 + 동적 fetch
 const _examCache = {};
 
