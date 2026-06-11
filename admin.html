@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>관리자 - 손해보험 모의고사</title>
+<title>관리자 - 보험 모의고사</title>
 <meta name="theme-color" content="#3182f6">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.svg">
@@ -13,26 +13,25 @@
 
 <header class="header">
   <div class="header-inner">
-    <span class="header-title">설계사 학습 현황</span>
+    <span class="header-title">계정 및 학습 활동</span>
     <button onclick="signOut()" class="btn btn-secondary" style="padding:6px 14px;font-size:12px">로그아웃</button>
   </div>
 </header>
 
 <div class="container" style="padding-top:16px;padding-bottom:40px">
 
-  <!-- 요약 통계 -->
   <div class="stats-grid" id="statsGrid">
     <div class="card card-sm stat-card">
-      <div class="stat-label">총 설계사</div>
+      <div class="stat-label">전체 계정</div>
       <div class="stat-value" id="statTotal">-</div>
     </div>
     <div class="card card-sm stat-card">
-      <div class="stat-label">이번 주 응시</div>
-      <div class="stat-value stat-blue" id="statWeekly">-</div>
+      <div class="stat-label">활성 계정</div>
+      <div class="stat-value stat-blue" id="statActive">-</div>
     </div>
     <div class="card card-sm stat-card">
-      <div class="stat-label">평균 점수</div>
-      <div class="stat-value stat-green" id="statAvg">-</div>
+      <div class="stat-label">기간 내 활동</div>
+      <div class="stat-value stat-green" id="statActivePeriod">-</div>
     </div>
     <div class="card card-sm stat-card">
       <div class="stat-label">60점 미만</div>
@@ -40,14 +39,12 @@
     </div>
   </div>
 
-  <!-- 기간 필터 -->
   <div class="filter-row">
     <button class="filter-btn active" onclick="setFilter('week', this)">1주</button>
     <button class="filter-btn" onclick="setFilter('month', this)">1개월</button>
     <button class="filter-btn" onclick="setFilter('all', this)">전체</button>
   </div>
 
-  <!-- 설계사 추가 -->
   <div class="card" style="margin-bottom:16px">
     <div style="font-size:14px;font-weight:700;margin-bottom:12px">설계사 추가</div>
     <div style="display:flex;gap:8px;flex-wrap:wrap">
@@ -59,21 +56,22 @@
     <div id="createMsg" style="display:none;font-size:13px;margin-top:8px;padding:8px 12px;border-radius:8px"></div>
   </div>
 
-  <!-- 설계사 테이블 -->
   <div class="card" style="padding:0;overflow:hidden">
     <div class="table-wrap">
       <table class="data-table">
         <thead>
           <tr>
-            <th>이름</th>
-            <th>최근 점수</th>
-            <th>응시</th>
+            <th>계정</th>
+            <th>권한</th>
+            <th>최근 접속</th>
+            <th>최근 응시</th>
+            <th>기간 응시</th>
             <th>상태</th>
             <th>활성</th>
           </tr>
         </thead>
-        <tbody id="agentTableBody">
-          <tr><td colspan="5" style="text-align:center;color:var(--gray-500);padding:40px 20px">불러오는 중...</td></tr>
+        <tbody id="accountTableBody">
+          <tr><td colspan="7" style="text-align:center;color:var(--gray-500);padding:40px 20px">불러오는 중...</td></tr>
         </tbody>
       </table>
     </div>
@@ -88,37 +86,38 @@
 let allProfiles = [];
 let allResults = [];
 let currentFilter = 'week';
+let currentAdminProfile = null;
+let expandedProfileId = null;
 
 (async () => {
   const profile = await initAuth({ requiredRole: 'admin' });
   if (!profile) return;
-  await loadDashboard(profile.organization_id);
+  currentAdminProfile = profile;
+  await loadDashboard();
 })();
 
-async function loadDashboard(orgId) {
-  // 조직 내 설계사 조회
-  const { data: profiles } = await _supabase
-    .from('profiles')
-    .select('*')
-    .eq('organization_id', orgId)
-    .eq('role', 'agent')
-    .order('created_at', { ascending: true });
-
-  allProfiles = profiles || [];
-
-  // 전체 시험 결과 한 번에 조회 (N+1 방지)
-  const agentIds = allProfiles.map(p => p.id);
-  if (agentIds.length > 0) {
-    const { data: results } = await _supabase
+async function loadDashboard() {
+  const [{ data: profiles, error: profilesError }, { data: results, error: resultsError }] = await Promise.all([
+    _supabase
+      .from('profiles')
+      .select('*')
+      .order('created_at', { ascending: true }),
+    _supabase
       .from('exam_results')
       .select('*')
-      .in('user_id', agentIds)
-      .order('created_at', { ascending: false });
-    allResults = results || [];
-  } else {
-    allResults = [];
+      .order('created_at', { ascending: false }),
+  ]);
+
+  if (profilesError || resultsError) {
+    const message = (profilesError && profilesError.message) || (resultsError && resultsError.message) || '데이터를 불러오지 못했습니다.';
+    showToast(message);
+    document.getElementById('accountTableBody').innerHTML =
+      '<tr><td colspan="7" style="text-align:center;color:var(--gray-500);padding:40px 20px">데이터를 불러오지 못했습니다.</td></tr>';
+    return;
   }
 
+  allProfiles = profiles || [];
+  allResults = results || [];
   renderDashboard();
 }
 
@@ -126,76 +125,137 @@ function getFilterDate() {
   const now = new Date();
   if (currentFilter === 'week') {
     return new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString();
-  } else if (currentFilter === 'month') {
+  }
+  if (currentFilter === 'month') {
     return new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000).toISOString();
   }
-  return null; // 전체
+  return null;
+}
+
+function getProfileGroups() {
+  const filterDate = getFilterDate();
+  const groups = {};
+  for (const p of allProfiles) {
+    groups[p.id] = {
+      profile: p,
+      allResults: [],
+      filteredResults: [],
+    };
+  }
+  for (const r of allResults) {
+    if (!groups[r.user_id]) continue;
+    groups[r.user_id].allResults.push(r);
+    if (!filterDate || r.created_at >= filterDate) groups[r.user_id].filteredResults.push(r);
+  }
+  return groups;
 }
 
 function renderDashboard() {
+  const groups = getProfileGroups();
   const filterDate = getFilterDate();
   const filteredResults = filterDate
     ? allResults.filter(r => r.created_at >= filterDate)
     : allResults;
 
-  // 설계사별 그룹핑
-  const byAgent = {};
+  const activeProfiles = allProfiles.filter(p => p.is_active);
+  const profilesWithActivity = new Set();
   for (const p of allProfiles) {
-    byAgent[p.id] = { profile: p, results: [] };
+    if (filterDate && p.last_seen_at && p.last_seen_at >= filterDate) profilesWithActivity.add(p.id);
   }
-  for (const r of filteredResults) {
-    if (byAgent[r.user_id]) byAgent[r.user_id].results.push(r);
-  }
-
-  // 통계 계산
-  const agentsWithResults = Object.values(byAgent).filter(a => a.results.length > 0);
-  const allScores = agentsWithResults.map(a => a.results[0].score);
-  const avgScore = allScores.length > 0 ? Math.round(allScores.reduce((a, b) => a + b, 0) / allScores.length) : 0;
-  const failCount = allScores.filter(s => s < 60).length;
-
-  // 이번 주 응시자 (필터와 무관)
-  const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
-  const weeklyAgents = new Set(allResults.filter(r => r.created_at >= weekAgo).map(r => r.user_id));
+  for (const r of filteredResults) profilesWithActivity.add(r.user_id);
+  const latestScores = Object.values(groups)
+    .map(g => g.filteredResults[0])
+    .filter(Boolean)
+    .map(r => r.score);
+  const failCount = latestScores.filter(s => s < 60).length;
 
   document.getElementById('statTotal').textContent = allProfiles.length + '명';
-  document.getElementById('statWeekly').textContent = weeklyAgents.size + '명';
-  document.getElementById('statAvg').textContent = allScores.length > 0 ? avgScore + '점' : '-';
+  document.getElementById('statActive').textContent = activeProfiles.length + '명';
+  document.getElementById('statActivePeriod').textContent = profilesWithActivity.size + '명';
   document.getElementById('statFail').textContent = failCount + '명';
 
-  // 테이블 렌더링
-  const tbody = document.getElementById('agentTableBody');
-
+  const tbody = document.getElementById('accountTableBody');
   if (allProfiles.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--gray-500);padding:40px 20px">아직 가입한 설계사가 없습니다.<br>초대 링크를 보내보세요</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--gray-500);padding:40px 20px">등록된 계정이 없습니다.</td></tr>';
     return;
   }
 
-  tbody.innerHTML = Object.values(byAgent).map(({ profile: p, results: rs }) => {
-    const latest = rs[0];
-    const score = latest ? latest.score : '-';
-    const count = rs.length;
-    const scoreCls = latest ? (latest.score >= 60 ? 'stat-green' : 'stat-red') : '';
-    const badge = !latest
-      ? '<span class="badge badge-none">미응시</span>'
-      : latest.score >= 60
-        ? '<span class="badge badge-pass">합격권</span>'
-        : '<span class="badge badge-fail">미달</span>';
-    const toggleCls = p.is_active ? 'toggle-active' : 'toggle-inactive';
-    const toggleLabel = p.is_active ? '활성' : '비활성';
-    return `<tr>
-      <td class="td-name" onclick="toggleEmail(this, '${escapeHtml(p.email)}')" style="cursor:pointer">${escapeHtml(p.name)}</td>
-      <td class="${scoreCls}" style="font-weight:700">${score}${latest ? '점' : ''}</td>
-      <td>${count}회</td>
-      <td>${badge}</td>
-      <td><button class="toggle-btn ${toggleCls}" onclick="toggleActive('${p.id}', ${!p.is_active})">${toggleLabel}</button></td>
-    </tr>`;
-  }).join('');
+  tbody.innerHTML = Object.values(groups).map(group => renderAccountRows(group)).join('');
+}
+
+function renderAccountRows({ profile: p, allResults: rs, filteredResults }) {
+  const latest = rs[0];
+  const periodCount = filteredResults.length;
+  const latestScore = latest ? `${latest.score}점` : '-';
+  const latestExam = latest ? formatDateTime(latest.created_at) : '응시 없음';
+  const latestSeen = p.last_seen_at ? formatDateTime(p.last_seen_at) : '접속 기록 없음';
+  const roleLabel = p.role === 'admin' ? '관리자' : '설계사';
+  const orgLabel = p.organization_id ? '조직 소속' : '조직 없음';
+  const scoreCls = latest ? (latest.score >= 60 ? 'stat-green' : 'stat-red') : '';
+  const badge = !latest
+    ? '<span class="badge badge-none">미응시</span>'
+    : latest.score >= 60
+      ? '<span class="badge badge-pass">60점 이상</span>'
+      : '<span class="badge badge-fail">60점 미만</span>';
+  const toggleCls = p.is_active ? 'toggle-active' : 'toggle-inactive';
+  const toggleLabel = p.is_active ? '활성' : '비활성';
+  const isSelf = currentAdminProfile && currentAdminProfile.id === p.id;
+  const toggleCell = isSelf
+    ? '<span class="badge badge-none">현재 계정</span>'
+    : `<button class="toggle-btn ${toggleCls}" onclick="toggleActive('${p.id}', ${!p.is_active})">${toggleLabel}</button>`;
+  const expanded = expandedProfileId === p.id;
+
+  const mainRow = `<tr>
+    <td class="td-name" onclick="toggleDetails('${p.id}')" style="cursor:pointer">
+      ${escapeHtml(p.name)}
+      <div style="font-size:12px;color:var(--gray-700);font-weight:400;margin-top:2px">${escapeHtml(p.email)}</div>
+    </td>
+    <td>
+      ${roleLabel}
+      <div style="font-size:12px;color:var(--gray-700);margin-top:2px">${orgLabel}</div>
+    </td>
+    <td>${latestSeen}</td>
+    <td class="${scoreCls}" style="font-weight:700">
+      ${latestScore}
+      <div style="font-size:12px;color:var(--gray-700);font-weight:400;margin-top:2px">${latestExam}</div>
+    </td>
+    <td>${periodCount}회</td>
+    <td>${badge}</td>
+    <td>${toggleCell}</td>
+  </tr>`;
+
+  if (!expanded) return mainRow;
+
+  const detailRows = rs.slice(0, 5).map(r => `
+    <div style="display:flex;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid var(--gray-200)">
+      <div style="min-width:120px">${formatDateTime(r.created_at)}</div>
+      <div style="font-weight:700;color:${r.score >= 60 ? 'var(--green)' : 'var(--red)'}">${r.score}점</div>
+      <div>${r.correct}/${r.total} 정답</div>
+      <div>${formatElapsed(r.elapsed_seconds)}</div>
+    </div>
+  `).join('');
+
+  return mainRow + `<tr>
+    <td colspan="7" style="background:var(--gray-100);white-space:normal">
+      <div style="font-size:13px;line-height:1.6">
+        <div style="font-weight:700;margin-bottom:6px">최근 활동</div>
+        <div>계정 생성: ${formatDateTime(p.created_at)}</div>
+        <div>최근 접속: ${latestSeen}</div>
+        <div style="margin-top:8px">${detailRows || '시험 응시 기록이 없습니다.'}</div>
+      </div>
+    </td>
+  </tr>`;
 }
 
 function setFilter(filter, btn) {
   currentFilter = filter;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  renderDashboard();
+}
+
+function toggleDetails(profileId) {
+  expandedProfileId = expandedProfileId === profileId ? null : profileId;
   renderDashboard();
 }
 
@@ -206,26 +266,14 @@ async function toggleActive(profileId, newActive) {
     .eq('id', profileId);
 
   if (error) {
-    showToast('변경 실패');
+    showToast('변경 실패: ' + error.message);
     return;
   }
 
-  // 로컬 데이터 업데이트
   const p = allProfiles.find(p => p.id === profileId);
   if (p) p.is_active = newActive;
   renderDashboard();
   showToast(newActive ? '활성화되었습니다' : '비활성화되었습니다');
-}
-
-function toggleEmail(td, email) {
-  if (td.dataset.expanded === 'true') {
-    td.innerHTML = td.dataset.originalName;
-    td.dataset.expanded = '';
-  } else {
-    td.dataset.originalName = td.innerHTML;
-    td.dataset.expanded = 'true';
-    td.innerHTML = td.dataset.originalName + '<div style="font-size:12px;color:var(--gray-500);font-weight:400;margin-top:2px">' + escapeHtml(email) + '</div>';
-  }
 }
 
 async function createAgent() {
@@ -269,9 +317,7 @@ async function createAgent() {
     document.getElementById('newPassword').value = '';
     document.getElementById('newName').value = '';
 
-    // 대시보드 새로고침
-    const profile = getCurrentUser();
-    await loadDashboard(profile.organization_id);
+    await loadDashboard();
   } catch (err) {
     msgEl.textContent = err.message;
     msgEl.style.display = '';
@@ -281,6 +327,27 @@ async function createAgent() {
     btn.disabled = false;
     btn.textContent = '추가';
   }
+}
+
+function formatDateTime(value) {
+  if (!value) return '-';
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return '-';
+  return d.toLocaleString('ko-KR', {
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+}
+
+function formatElapsed(seconds) {
+  const n = Number(seconds || 0);
+  if (!n) return '0초';
+  const m = Math.floor(n / 60);
+  const s = n % 60;
+  if (m <= 0) return `${s}초`;
+  return `${m}분 ${s}초`;
 }
 </script>
 </body>
